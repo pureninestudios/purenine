@@ -271,36 +271,7 @@
 					</div>	
 				
 				</li><!--/.item-wrap-->
-				
-				<li class="item-wrap">
 						
-					<div class="grid-item" style="background-color:#E94C89">
-						<a href="https://dribbble.com/purenine"><figure class="work7">
-							<img src="portfolio/hp-dribbble.jpg">
-							<figcaption style="background-color:#E94C89">
-								<h3>Dribbble</h3>
-								<p class="name">Go to our Dribbble page</p>
-							</figcaption>
-						</figure>
-						</a>
-					</div>
-				
-				</li><!--/.item-wrap-->
-				
-				<li class="item-wrap">
-				
-					<div class="grid-item" style="background-color:#144EB9">
-						<a href="https://www.behance.net/tklinger"><figure class="work7">
-							<img src="portfolio/hp-behance.jpg">
-							<figcaption style="background-color:#144EB9">
-								<h3>Behance</h3>
-								<p class="name">Go to our Behance page</p>
-							</figcaption>
-						</figure>
-						</a>
-					</div>
-				
-				</li><!--/.item-wrap-->			
 				
 			</ul>
 
