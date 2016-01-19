@@ -28,7 +28,7 @@
   <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600' rel='stylesheet' type='text/css'>
 
-  
+  <script src="js/jquery-1.11.1.min.js"></script>
   <script src="js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
   
 </head>

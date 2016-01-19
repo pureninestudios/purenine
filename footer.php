@@ -110,8 +110,9 @@
 
 
 
-  <script src="js/jquery-1.11.1.min.js"></script>											<!-- jQuery -->
-  <script src="js/main.js" type="text/javascript"></script> 								<!-- Main Javascript File -->
+  											<!-- jQuery -->
+  <script src="js/main.js" type="text/javascript"></script> 	
+  <script src="js/atvlmg.js" type="text/javascript"></script> 							<!-- Main Javascript File -->
   <script src="js/classie.js" type="text/javascript"></script> 								<!-- Navigation & Works Grid -->
   <script src="js/jquery.parallax-1.1.3.js" type="text/javascript"></script> 				<!-- Parallax -->
   <script src="js/jquery.scrollto.js" type="text/javascript"></script> 						<!-- ScrollTo -->
@@ -125,6 +126,9 @@
   <script src="js/twitterFetcher_min.js" type="text/javascript"></script>					<!-- Twitter -->
   <script src="js/retina.min.js"></script>
 
+<script>
+	atvImg();
+</script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
