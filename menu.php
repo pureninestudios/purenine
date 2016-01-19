@@ -1,6 +1,10 @@
 <div class="navigation">
   
- 	 <div class="navToggle fade-in"><div class="icon"></div></div>
+  	<div class="burger-wrap">
+  	
+ 		<div class="navToggle fade-in"><div class="icon"></div></div>
+ 		
+  	</div><!--/.burger-wrap-->
   
       <div class="bgblack"> </div>
   

@@ -10,6 +10,7 @@
 	05. SMOOTH SCROLLING
 	06. FLEXSLIDER
 	07. TWITTER FEED
+	08. SHOW / HIDE BURGER DEPENDING ON SCROLL DIRECTION
 
 */
 
@@ -26,49 +27,6 @@ jQuery(document).ready(function($){
 
         },
         exit: function () { /* If not do the exit function */
-
-
-
-/*-----------------------------------------------------------------------------------*/
-/*	01. STICKY HEADER TEXT
-/*-----------------------------------------------------------------------------------*/
-	        
-
-		
-			YUI().use('node', function (Y) {
-			  Y.on('domready', function () {
-			    
-			    var scrolling = false,
-			        lastScroll,
-			        i = 0;
-			    
-			    Y.on('scroll', function () {
-			      if (scrolling === false) {
-			        fade();
-			      }
-			      scrolling = true;
-			      setTimeout(function () {
-			        scrolling = false;
-			        fade();
-			      }, 0);
-			    });
-			    
-			    function fade() {
-			      
-			      lastScroll = window.scrollY;
-			      
-			      Y.one('#header').setStyles({
-			        'transform' : 'translate3d(0,' + Math.round(lastScroll/1) + 'px,0)',
-			        'opacity' : (100 - lastScroll/20)/0
-			      });
-			      
-			      if (scrolling === true) {
-			        window.requestAnimationFrame(fade);
-			      }
-			    }
-			    
-			  });
-			});
 
 
 /*-----------------------------------------------------------------------------------*/
@@ -274,5 +232,77 @@ twitterFetcher.fetch(config1);
         
     });
 })(jQuery);
+
+/* ----------------------------------------------------------------------------------------------------------
+	/* 08. SHOW / HIDE BURGER BASED ON SCROLL DIRECTION 
+---------------------------------------------------------------------------------------------------------- */
+
+$(function () {
+
+	var $win = $(window),
+		$doc = $(document),
+		$nav = $('.burger-wrap'),
+		isTouch = Modernizr.touch,
+		scrolled = 200,
+		upTop = 0;
+		
+		
+	// Only run function if window is bigger than 640px and NOT touch enabled
+	if ( $(window).width() > 640 && !isTouch ){
+		
+		$win.scroll(function(event){
+			
+			var newTop = $(this).scrollTop(),
+				scrollDir;
+				
+			// Scroll down
+			if ( newTop > upTop ){
+			
+				$nav.removeClass('going-up').addClass('going-down');
+				scrollDir = 'down';
+				
+			// Scroll up
+			} else {
+			
+				$nav.removeClass('going-down').addClass('going-up');
+				scrollDir = 'up'
+				
+			}
+			
+			// Define new upTop value
+			upTop = newTop;
+			
+			// Add "hide" class to burger wrap
+			
+			if ( $win.scrollTop() > 140 && $win.scrollTop() < 199 && scrollDir == 'down' ){
+				
+				$nav.addClass('hide');
+				
+			}
+			
+			// Add "scroll" class to burger wrap
+			
+			if ( $win.scrollTop() >= scrolled ) {
+				
+				$nav.removeClass('hide').addClass('scrolled');
+				
+			}
+			
+			// Remove all classes, add "up-top" class to burger wrap
+			if ($win.scrollTop() == 0 ){
+				
+				$nav.removeClass('scrolled going-up going-down hide').addClass('up-top');
+				
+			} else {
+				
+				$nav.removeClass('up-top');
+				
+			}
+			
+		});
+		
+	}// conditional
+
+}); // entire function
 
 
