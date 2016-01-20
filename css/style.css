@@ -348,18 +348,35 @@ path {
 
 .social-links.active {
   display: block; }
+  
+.top-social-links{
+	position:absolute;
+	top:96px;right:165px
+}
 
+@media screen and ( max-width:727px ){
+	
+	.top-social-links{ display:none }
+	
+}
+
+.top-social-links li,
 .social-links li {
   display: inline-block;
   margin: 0 20px; }
+  
+.top-social-links li{ margin:0 8px }
 
+.top-social-links li a,
 .social-links li a {
   font-size: 22px;
   color: #bcd325; }
 
+.top-social-links li a:hover,
 .social-links li a:hover {
   color: #222; }
 
+.top-social-links i,
 .social-links i {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -1862,7 +1879,7 @@ div.project-assets img{
 
 .hero img{
 	display:block;
-	margin:0 auto
+	margin:0 auto;
 }
 
 .hero-inner h1{
