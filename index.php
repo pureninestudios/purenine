@@ -34,10 +34,10 @@
 
 			<ul class="grid cs-style-3 clearfix row">
 				<!-- Work -->
-				<?php /*
-				<li style="background-color:#422673">
+				<li class="item-wrap">
+					<div class="grid-item" style="background-color:#422673">
 					<a href="madden.php"><figure class="work1">
-						<img src="http://purenine.s3-us-west-2.amazonaws.com/wp-content/uploads/2016/01/04011228/hp-madden.jpg">
+						<img src="http://purenine.s3-us-west-2.amazonaws.com/wp-content/uploads/2016/01/04014532/hp-madden.jpg">
 						<figcaption style="background-color:#422673">
 							<h3>Madden Challenge</h3>
 							<p class="name">EA Sports</p>
@@ -45,7 +45,7 @@
 					</figure>
 					</a>
 				</li>
-				*/?>
+				
 				
 				<li class="item-wrap">
 				
