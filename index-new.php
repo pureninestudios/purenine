@@ -50,14 +50,15 @@
 				<li class="item-wrap">
 				
 					<div class="grid-item" style="background-color:#6B254C">
-						<img src="portfolio/hp-brenmar.jpg" style="visibility:hidden;display:block">
-						<a href="brenmar.php">
-						<div class="atvImg">
-						   <img src="portfolio/hp-brenmar.jpg">
-						
-						   <div class="atvImg-layer" data-img="portfolio/hp-brenmar.jpg"></div>
-						   <div class="atvImg-layer" data-img="portfolio/hp-brenmar.jpg"></div>
-						</div>
+						<a href="brenmar.php"><figure class="work1">
+							<img src="portfolio/hp-brenmar.jpg">
+							<figcaption style="background-color:#6B254C">
+							
+								<p class="name">Audiomack</p>
+								<h3>Brenmar Remix Contest</h3>
+								
+							</figcaption>
+						</figure>
 						</a>
 					</div>
 				
@@ -66,17 +67,16 @@
 				<li class="item-wrap">
 				
 					<div class="grid-item"  style="background-color:#021E36;">
-						
-						<img src="portfolio/hp-pga.jpg" style="visibility:hidden;display:block">
-						<a href="http://www.pgatour.com">
-						<div class="atvImg">
-						   <img src="portfolio/hp-brenmar.jpg">
-						
-						   <div class="atvImg-layer" data-img="portfolio/hp-pga.jpg"></div>
-						   <div class="atvImg-layer" data-img="portfolio/hp-pga.jpg"></div>
-						</div>
+						<a href="http://www.pgatour.com"><figure class="work2">
+							<img src="portfolio/hp-pga.jpg">
+							<figcaption style="background-color:#021E36;">
+							
+								<p class="name">Omnigon</p>
+								<h3>PGA Tour</h3>
+								
+							</figcaption>
+						</figure>
 						</a>
-						
 					</div>
 				
 				</li><!--/.item-wrap-->
@@ -84,22 +84,19 @@
 				<li class="item-wrap">
 				
 					<div class="grid-item"  style="background-color:#54A1A9">
-						
-						<img src="portfolio/hp-proactiv.jpg" style="visibility:hidden;display:block">
-						<a href="http://www.proactiv.com/how-does-proactiv-work.html">
-						<div class="atvImg">
-						   <img src="portfolio/hp-proactiv.jpg">
-						
-						   <div class="atvImg-layer" data-img="portfolio/hp-proactiv.jpg"></div>
-						   <div class="atvImg-layer" data-img="portfolio/hp-proactiv.jpg"></div>
-						</div>
+						<a href="http://www.proactiv.com/how-does-proactiv-work.html"><figure class="work3">
+							<img src="portfolio/hp-proactiv.jpg">
+							<figcaption style="background-color:#54A1A9">
+							
+								<p class="name">Haven Agency</p>
+								<h3>Proactiv+</h3>
+								
+							</figcaption>
+						</figure>
 						</a>
-						
 					</div>
 				
 				</li><!--/.item-wrap-->
-				
-				<?php /*
 				
 				<li class="item-wrap">
 				
@@ -107,8 +104,10 @@
 						<a href="http://www.guardianlife.com"><figure class="work4">
 							<img src="portfolio/hp-guardian.jpg">
 							<figcaption style="background-color:#124074">
-								<h3>Guardian Life</h3>
+							
 								<p class="name">Guardianlife.com</p>
+								<h3>Guardian Life</h3>
+								
 							</figcaption>
 						</figure>
 						</a>
@@ -122,8 +121,10 @@
 						<a href="http://www.audiomack.com"><figure class="work5">
 							<img src="portfolio/hp-am.jpg">
 							<figcaption style="background-color:#323232">
-								<h3>Audiomack</h3>
+							
 								<p class="name">Audiomack.com</p>
+								<h3>Audiomack</h3>
+								
 							</figcaption>
 						</figure>
 						</a>
@@ -137,8 +138,10 @@
 						<a href="activision.php"><figure class="work6">
 							<img src="portfolio/hp-activision.jpg">
 							<figcaption style="background-color:#353B4B">
-								<h3>Activision</h3>
+							
 								<p class="name">Haven Agency</p>
+								<h3>Activision</h3>
+								
 							</figcaption>
 						</figure>
 						</a>
@@ -152,8 +155,10 @@
 						<a href="pennzoil.php"><figure class="work7">
 							<img src="portfolio/hp-pennzoil.jpg">
 							<figcaption style="background-color:#303030">
-								<h3>Pennzoil</h3>
+							
 								<p class="name">Haven Agency</p>
+								<h3>Pennzoil</h3>
+								
 							</figcaption>
 						</figure>
 						</a>
@@ -167,8 +172,10 @@
 						<a href="1d.php"><figure class="work7">
 							<img src="portfolio/hp-1d.jpg">
 							<figcaption style="background-color:#8F5EA0">
-								<h3>One Direction</h3>
+							
 								<p class="name">Livenation</p>
+								<h3>One Direction</h3>
+								
 							</figcaption>
 						</figure>
 						</a>
@@ -182,8 +189,10 @@
 						<a href="highlights.php"><figure class="work7">
 							<img src="portfolio/hp-highlights.jpg">
 							<figcaption style="background-color:#415266">
-								<h3>Highlights</h3>
+							
 								<p class="name">Highlights.com</p>
+								<h3>Highlights</h3>
+								
 							</figcaption>
 						</figure>
 						</a>
@@ -197,8 +206,10 @@
 						<a href="bio.php"><figure class="work7">
 							<img src="portfolio/hp-bio.jpg">
 							<figcaption style="background-color:#024D77">
-								<h3>Biography.com</h3>
+							
 								<p class="name">A+E Networks</p>
+								<h3>Biography.com</h3>
+								
 							</figcaption>
 						</figure>
 						</a>
@@ -212,8 +223,10 @@
 						<a href="indycar.php"><figure class="work7">
 							<img src="portfolio/hp-indy.jpg">
 							<figcaption style="background-color:#C91A18">
-								<h3>Indy Car</h3>
+							
 								<p class="name">Omnigon</p>
+								<h3>Indy Car</h3>
+								
 							</figcaption>
 						</figure>
 						</a>
@@ -227,8 +240,10 @@
 						<a href="toyota.php"><figure class="work7">
 							<img src="portfolio/hp-toyota.jpg">
 							<figcaption style="background-color:#666666">
-								<h3>Toyota</h3>
+							
 								<p class="name">People.com</p>
+								<h3>Toyota</h3>
+								
 							</figcaption>
 						</figure>
 						</a>
@@ -242,8 +257,10 @@
 						<a href="jt.php"><figure class="work7">
 							<img src="portfolio/hp-jt.jpg">
 							<figcaption style="background-color:#232323">
-								<h3>Legends of Summer Tour </h3>
+							
 								<p class="name">Livenation</p>
+								<h3>Legends of Summer Tour </h3>
+								
 							</figcaption>
 						</figure>
 						</a>
@@ -257,8 +274,10 @@
 						<a href="mortalkombat.php"><figure class="work7">
 							<img src="portfolio/hp-mk.jpg">
 							<figcaption style="background-color:#301011">
-								<h3>Mortal Kombat</h3>
+							
 								<p class="name">Haven Agency</p>
+								<h3>Mortal Kombat</h3>
+								
 							</figcaption>
 						</figure>
 						</a>
@@ -272,16 +291,16 @@
 						<a href="thq.php"><figure class="work7">
 							<img src="portfolio/hp-thq.jpg">
 							<figcaption style="background-color:#442956">
-								<h3>THQ.com</h3>
+							
 								<p class="name">Haven Agency</p>
+								<h3>THQ.com</h3>
+								
 							</figcaption>
 						</figure>
 						</a>
 					</div>	
 				
 				</li><!--/.item-wrap-->
-				
-				*/ ?>
 								
 			</ul>
 
