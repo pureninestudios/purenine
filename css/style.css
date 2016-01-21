@@ -861,7 +861,7 @@ body{
   transform: translateY(1px);
   -webkit-transition: -webkit-transform 0.2;
   -moz-transition: -moz-transform 0.2s;
-  transition: transform 0.4s; }
+  transition: transform 0.2s; }
 
 /*  Shadow Effect  */
 .shadow {
