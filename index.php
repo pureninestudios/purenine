@@ -295,7 +295,7 @@
 			<div class="four columns whatwedo" data-when="enter" data-from="1" data-to="0.2" data-opacity="0" data-translatey="0" data-rotatez="0">
 				
 				<div class="img-ico">
-					<img src="img/basic_lightbulb.svg" alt="ico1" style="border-bottom:1px solid #bcd325; padding-bottom:30px;" width="60" >
+					<img src="https://s3-us-west-2.amazonaws.com/purenine/basic_lightbulb.svg" alt="ico1" style="border-bottom:1px solid #bcd325; padding-bottom:30px;" width="60" >
 				</div>
 				
 				<h4>Strategy</h4>
@@ -307,7 +307,7 @@
 			<!-- Method -->
 			<div class=" four columns whatwedo" data-when="enter" data-from="1" data-to="0.3" data-opacity="0" data-translatey="0" data-rotatez="0">
 				<div class="img-ico">
-					<img src="img/basic_laptop.svg" alt="ico1" style="border-bottom:1px solid #bcd325; padding-bottom:30px;" width="60">
+					<img src="https://s3-us-west-2.amazonaws.com/purenine/basic_laptop.svg" alt="ico1" style="border-bottom:1px solid #bcd325; padding-bottom:30px;" width="60">
 				</div>
 				
 				<h4>Design</h4>
@@ -320,7 +320,7 @@
 			<div class=" four columns whatwedo" data-when="enter" data-from="1" data-to="0.4" data-opacity="0" data-translatey="0" data-rotatez="0">
 				
 				<div class="img-ico">
-					<img src="img/basic_settings.svg" alt="ico1" style="border-bottom:1px solid #bcd325; padding-bottom:30px;" width="60">
+					<img src="https://s3-us-west-2.amazonaws.com/purenine/basic_settings.svg" alt="ico1" style="border-bottom:1px solid #bcd325; padding-bottom:30px;" width="60">
 				</div>
 				
 				<h4>Build</h4>
