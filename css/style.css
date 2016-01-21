@@ -1081,7 +1081,7 @@ body{
   margin: auto;
   position: relative;
   display: block;
-  background: url('../img/footer-image.jpg') 50% repeat fixed;
+  background: url('https://s3-us-west-2.amazonaws.com/purenine/footer-image.jpg') 50% repeat fixed;
   /* BG OF INTERSECTION */
   background-size: auto;
   background-color: #000; }
