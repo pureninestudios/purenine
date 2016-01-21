@@ -6,7 +6,7 @@
 	
 		<div class="logo-main home fade-in faded"><a href="index.php"><img class="logo" src="img/logo@2x.png" width="110" height="24" data-pin-nopin="true"></a></div>
 	
-		<div class="hero-inner">
+		<div class="hero-inner fade-in faded">
 		
 			<h1>We are a digital studio that offer a variety <br/>of solutions in <span>product development, <br/>mobile</span> and <span>visual design.</span></h1>
 			
@@ -360,13 +360,12 @@
 	
 	<div class="studio-content">
 	
-		<h1 data-when="enter" data-from="1" data-to="0.2" data-opacity="0" data-translatey="0" data-rotatez="0">The Studio.</h1>
+		<h1>The Studio.</h1>
 		<p style="border-bottom:2px solid #bcd325; width:100px; height:2px; margin:0 auto;" data-when="enter" data-from="1" data-to="0.3" data-opacity="0" data-translatey="0" data-rotatez="0"></p>
-		<p style="padding-top:20px;"data-when="enter" data-from="1" data-to="0.4" data-opacity="0" data-translatey="0" data-rotatez="0">We are a digital agency comprised of a talented team of professionals, founded by <a href="https://www.linkedin.com/in/thomasklinger" target="_blank">Thomas Klinger</a>.</p>
-		<p data-when="enter" data-from="1" data-to="0.5" data-opacity="0" data-translatey="0" data-rotatez="0">We take pride in any task assigned and have estblished a reputation for our work to include, but not limited to - a variety of solutions in visual design. web development and mobile applications.</p>
-		<p data-when="enter" data-from="1" data-to="0.6" data-opacity="0" data-translatey="0" data-rotatez="0">In an effort to drive measurable results and exceed client expectations, we will provide direction from concept to completion - and custom-assemble a dynamic team that is tailored to meet your needs.</p>
-	
-		<a class="button" href="mailto:hello@purenine.com" data-when="enter" data-from="1" data-to="0.7" data-opacity="0" data-translatey="0" data-rotatez="0">Contact us today!</a>
+		<p style="padding-top:20px;">We take pride in any task assigned and have estblished a reputation for our work to include, but not limited to - a variety of solutions in visual design. web development and mobile applications.</p>
+		<p>In an effort to drive measurable results and exceed client expectations, we will provide direction from concept to completion - and custom-assemble a dynamic team that is tailored to meet your needs.</p>
+		<p>We are a digital agency comprised of a talented team of professionals, founded by <a href="https://www.linkedin.com/in/thomasklinger" target="_blank">Thomas Klinger</a>.</p>
+		<a class="button" href="mailto:hello@purenine.com">Contact us today!</a>
 	
 	</div><!--/.studio-content-->
 	
