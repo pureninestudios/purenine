@@ -9,7 +9,7 @@
 		<div class="hero-inner">
 		
 			<h1>We are a digital studio that offer a variety <br/>of solutions in <span>product development, <br/>mobile</span> and <span>visual design.</span></h1>
-			
+	
 			<?php
 				$heroes = array(
 					'twitch',
@@ -49,256 +49,421 @@
 				
 				<li class="item-wrap">
 				
-					<div class="grid-item" style="background-color:#6B254C">
-						<a href="brenmar.php"><figure class="work1">
+					<div class="grid-item">
+					
+						<a href="brenmar.php">
+						
 							<img src="portfolio/hp-brenmar.jpg">
-							<figcaption style="background-color:#6B254C">
 							
-								<p class="name">Audiomack</p>
-								<h3>Brenmar Remix Contest</h3>
+							<div class="overlay">
+							
+								<div class="faux-bg" style="background-color:#6B254C"></div>
 								
-							</figcaption>
-						</figure>
+								<div class="overlay-content">
+							
+									<p class="name">Audiomack</p>
+									
+									<h3>Brenmar Remix Contest</h3>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
 						</a>
-					</div>
+						
+					</div><!--/.grid-item-->
 				
 				</li><!--/.item-wrap-->
 				
 				<li class="item-wrap">
 				
-					<div class="grid-item"  style="background-color:#021E36;">
-						<a href="http://www.pgatour.com"><figure class="work2">
+					<div class="grid-item">
+					
+						<a href="http://www.pgatour.com">
+						
 							<img src="portfolio/hp-pga.jpg">
-							<figcaption style="background-color:#021E36;">
 							
-								<p class="name">Omnigon</p>
-								<h3>PGA Tour</h3>
+							<div class="overlay">
+							
+								<div class="faux-bg" style="background-color:#021E36;"></div>
 								
-							</figcaption>
-						</figure>
+								<div class="overlay-content">
+							
+									<p class="name">Omnigon</p>
+									
+									<h3>PGA Tour</h3>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
 						</a>
-					</div>
+						
+					</div><!--/.grid-item-->
 				
 				</li><!--/.item-wrap-->
 				
 				<li class="item-wrap">
 				
-					<div class="grid-item"  style="background-color:#54A1A9">
-						<a href="http://www.proactiv.com/how-does-proactiv-work.html"><figure class="work3">
+					<div class="grid-item">
+					
+						<a href="http://www.proactiv.com/how-does-proactiv-work.html">
+						
 							<img src="portfolio/hp-proactiv.jpg">
-							<figcaption style="background-color:#54A1A9">
 							
-								<p class="name">Haven Agency</p>
-								<h3>Proactiv+</h3>
+							<div class="overlay">
+							
+								<div class="faux-bg" style="background-color:#54A1A9"></div>
 								
-							</figcaption>
-						</figure>
+								<div class="overlay-content">
+							
+									<p class="name">Haven Agency</p>
+									
+									<h3>Proactiv+</h3>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
 						</a>
-					</div>
+						
+					</div><!--/.grid-item-->
 				
 				</li><!--/.item-wrap-->
 				
 				<li class="item-wrap">
 				
-					<div class="grid-item" style="background-color:#124074">
-						<a href="http://www.guardianlife.com"><figure class="work4">
+					<div class="grid-item">
+					
+						<a href="http://www.guardianlife.com">
+						
 							<img src="portfolio/hp-guardian.jpg">
-							<figcaption style="background-color:#124074">
 							
-								<p class="name">Guardianlife.com</p>
-								<h3>Guardian Life</h3>
+							<div class="overlay">
+							
+								<div class="faux-bg" style="background-color:#124074"></div>
 								
-							</figcaption>
-						</figure>
+								<div class="overlay-content">
+							
+									<p class="name">Guardianlife.com</p>
+									
+									<h3>Guardian Life</h3>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
 						</a>
-					</div>
+						
+					</div><!--/.grid-item-->
 				
 				</li><!--/.item-wrap-->
 				
 				<li class="item-wrap">
 				
-					<div class="grid-item" style="background-color:#323232">
-						<a href="http://www.audiomack.com"><figure class="work5">
+					<div class="grid-item">
+					
+						<a href="http://www.audiomack.com">
+						
 							<img src="portfolio/hp-am.jpg">
-							<figcaption style="background-color:#323232">
 							
-								<p class="name">Audiomack.com</p>
-								<h3>Audiomack</h3>
+							<div class="overlay">
+							
+								<div class="faux-bg" style="background-color:#323232"></div>
 								
-							</figcaption>
-						</figure>
+								<div class="overlay-content">
+							
+									<p class="name">Audiomack.com</p>
+									
+									<h3>Audiomack</h3>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
 						</a>
-					</div>
+						
+					</div><!--/.grid-item-->
 				
 				</li><!--/.item-wrap-->
 				
 				<li class="item-wrap">
 				
-					<div class="grid-item" style="background-color:#353B4B">
-						<a href="activision.php"><figure class="work6">
+					<div class="grid-item">
+					
+						<a href="activision.php">
+						
 							<img src="portfolio/hp-activision.jpg">
-							<figcaption style="background-color:#353B4B">
 							
-								<p class="name">Haven Agency</p>
-								<h3>Activision</h3>
+							<div class="overlay">
+							
+								<div class="faux-bg" style="background-color:#353B4B"></div>
 								
-							</figcaption>
-						</figure>
+								<div class="overlay-content">
+							
+									<p class="name">Haven Agency</p>
+									
+									<h3>Activision</h3>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
 						</a>
-					</div>
+						
+					</div><!--/.grid-item-->
 				
 				</li><!--/.item-wrap-->
 				
 				<li class="item-wrap">
 				
-					<div class="grid-item" style="background-color:#303030">
-						<a href="pennzoil.php"><figure class="work7">
+					<div class="grid-item">
+					
+						<a href="pennzoil.php">
+						
 							<img src="portfolio/hp-pennzoil.jpg">
-							<figcaption style="background-color:#303030">
 							
-								<p class="name">Haven Agency</p>
-								<h3>Pennzoil</h3>
+							<div class="overlay">
+							
+								<div class="faux-bg" style="background-color:#303030"></div>
 								
-							</figcaption>
-						</figure>
+								<div class="overlay-content">
+							
+									<p class="name">Haven Agency</p>
+									
+									<h3>Pennzoil</h3>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
 						</a>
-					</div>
+						
+					</div><!--/.grid-item-->
 				
 				</li><!--/.item-wrap-->
 				
 				<li class="item-wrap">
 				
-					<div class="grid-item" style="background-color:#8F5EA0">
-						<a href="1d.php"><figure class="work7">
+					<div class="grid-item">
+					
+						<a href="1d.php">
+						
 							<img src="portfolio/hp-1d.jpg">
-							<figcaption style="background-color:#8F5EA0">
 							
-								<p class="name">Livenation</p>
-								<h3>One Direction</h3>
+							<div class="overlay">
+							
+								<div class="faux-bg" style="background-color:#8F5EA0"></div>
 								
-							</figcaption>
-						</figure>
+								<div class="overlay-content">
+							
+									<p class="name">Livenation</p>
+									
+									<h3>One Direction</h3>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
 						</a>
-					</div>
-
+						
+					</div><!--/.grid-item-->
+				
 				</li><!--/.item-wrap-->
 				
 				<li class="item-wrap">
+				
+					<div class="grid-item">
 					
-					<div class="grid-item" style="background-color:#415266">
-						<a href="highlights.php"><figure class="work7">
+						<a href="highlights.php">
+						
 							<img src="portfolio/hp-highlights.jpg">
-							<figcaption style="background-color:#415266">
 							
-								<p class="name">Highlights.com</p>
-								<h3>Highlights</h3>
+							<div class="overlay">
+							
+								<div class="faux-bg" style="background-color:#415266"></div>
 								
-							</figcaption>
-						</figure>
+								<div class="overlay-content">
+							
+									<p class="name">Highlights.com</p>
+									
+									<h3>Highlights</h3>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
 						</a>
-					</div>
+						
+					</div><!--/.grid-item-->
 				
 				</li><!--/.item-wrap-->
-				
+						
 				<li class="item-wrap">
 				
-					<div class="grid-item" style="background-color:#024D77">
-						<a href="bio.php"><figure class="work7">
+					<div class="grid-item">
+					
+						<a href="bio.php">
+						
 							<img src="portfolio/hp-bio.jpg">
-							<figcaption style="background-color:#024D77">
 							
-								<p class="name">A+E Networks</p>
-								<h3>Biography.com</h3>
+							<div class="overlay">
+							
+								<div class="faux-bg" style="background-color:#024D77"></div>
 								
-							</figcaption>
-						</figure>
+								<div class="overlay-content">
+							
+									<p class="name">A+E Networks</p>
+									
+									<h3>Biography.com</h3>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
 						</a>
-					</div>	
-					
-				</li><!--/.item-wrap-->
+						
+					</div><!--/.grid-item-->
 				
+				</li><!--/.item-wrap-->
+
 				<li class="item-wrap">
+				
+					<div class="grid-item">
 					
-					<div class="grid-item" style="background-color:#C91A18">
-						<a href="indycar.php"><figure class="work7">
+						<a href="indycar.php">
+						
 							<img src="portfolio/hp-indy.jpg">
-							<figcaption style="background-color:#C91A18">
 							
-								<p class="name">Omnigon</p>
-								<h3>Indy Car</h3>
+							<div class="overlay">
+							
+								<div class="faux-bg" style="background-color:#C91A18"></div>
 								
-							</figcaption>
-						</figure>
+								<div class="overlay-content">
+							
+									<p class="name">Omnigon</p>
+									
+									<h3>Indy Car</h3>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
 						</a>
-					</div>
+						
+					</div><!--/.grid-item-->
 				
 				</li><!--/.item-wrap-->
 				
 				<li class="item-wrap">
 				
-					<div class="grid-item" style="background-color:#666666">
-						<a href="toyota.php"><figure class="work7">
+					<div class="grid-item">
+					
+						<a href="toyota.php">
+						
 							<img src="portfolio/hp-toyota.jpg">
-							<figcaption style="background-color:#666666">
 							
-								<p class="name">People.com</p>
-								<h3>Toyota</h3>
+							<div class="overlay">
+							
+								<div class="faux-bg" style="background-color:#666666"></div>
 								
-							</figcaption>
-						</figure>
+								<div class="overlay-content">
+							
+									<p class="name">People.com</p>
+									
+									<h3>Toyota</h3>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
 						</a>
-					</div>
+						
+					</div><!--/.grid-item-->
 				
 				</li><!--/.item-wrap-->
 				
 				<li class="item-wrap">
 				
-					<div class="grid-item" style="background-color:#232323">
-						<a href="jt.php"><figure class="work7">
+					<div class="grid-item">
+					
+						<a href="jt.php">
+						
 							<img src="portfolio/hp-jt.jpg">
-							<figcaption style="background-color:#232323">
 							
-								<p class="name">Livenation</p>
-								<h3>Legends of Summer Tour </h3>
+							<div class="overlay">
+							
+								<div class="faux-bg" style="background-color:#232323"></div>
 								
-							</figcaption>
-						</figure>
+								<div class="overlay-content">
+							
+									<p class="name">Livenation</p>
+									
+									<h3>Legends of Summer Tour </h3>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
 						</a>
-					</div>
+						
+					</div><!--/.grid-item-->
 				
 				</li><!--/.item-wrap-->
-				
+
 				<li class="item-wrap">
 				
-					<div class="grid-item" style="background-color:#301011">
-						<a href="mortalkombat.php"><figure class="work7">
+					<div class="grid-item">
+					
+						<a href="mortalkombat.php">
+						
 							<img src="portfolio/hp-mk.jpg">
-							<figcaption style="background-color:#301011">
 							
-								<p class="name">Haven Agency</p>
-								<h3>Mortal Kombat</h3>
+							<div class="overlay">
+							
+								<div class="faux-bg" style="background-color:#301011"></div>
 								
-							</figcaption>
-						</figure>
+								<div class="overlay-content">
+							
+									<p class="name">Haven Agency</p>
+									
+									<h3>Mortal Kombat</h3>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
 						</a>
-					</div>
+						
+					</div><!--/.grid-item-->
 				
 				</li><!--/.item-wrap-->
-				
+
 				<li class="item-wrap">
 				
-					<div class="grid-item" style="background-color:#442956">
-						<a href="thq.php"><figure class="work7">
+					<div class="grid-item">
+					
+						<a href="thq.php">
+						
 							<img src="portfolio/hp-thq.jpg">
-							<figcaption style="background-color:#442956">
 							
-								<p class="name">Haven Agency</p>
-								<h3>THQ.com</h3>
+							<div class="overlay">
+							
+								<div class="faux-bg" style="background-color:#442956"></div>
 								
-							</figcaption>
-						</figure>
+								<div class="overlay-content">
+							
+									<p class="name">Haven Agency</p>
+									
+									<h3>THQ.com</h3>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
 						</a>
-					</div>	
+						
+					</div><!--/.grid-item-->
 				
 				</li><!--/.item-wrap-->
 								
