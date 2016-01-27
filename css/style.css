@@ -1906,10 +1906,9 @@ div.project-assets img{
 
 .bx-controls.bx-has-pager{
 	position: absolute;
-    top: 0;
+    top: 5px;
     right: -22px;
     z-index:500;
-    height: 100%;
     display:-webkit-flex;
     display: flex;
     -webkit-align-items:center;
