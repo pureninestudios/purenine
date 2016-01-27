@@ -1885,7 +1885,8 @@ div.project-assets img{
 .bxslider li img{
 	display:block;
 	width:auto;height:auto;
-	margin:0 auto
+	margin:0 auto;
+	max-width:100%
 }
 
 .bxslider li img:not(.houdini) {
