@@ -314,7 +314,7 @@ $(function () {
 	
 		$('.bxslider li:first-child').addClass('current');
 	
-		$('.bxslider').bxSlider({
+		var slider = $('.bxslider').bxSlider({
 		  mode : 'fade',
 		  speed : 1000,
 		  auto : true,
@@ -331,6 +331,12 @@ $(function () {
 			  $index.addClass('current');
 		    
 		  }
+		});
+		
+		$('.bx-controls a').click(function(){
+		
+			slider.stopAuto();
+			
 		});
 	
 	});
