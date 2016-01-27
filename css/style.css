@@ -1908,7 +1908,7 @@ div.project-assets img{
 	position: absolute;
     top: 0;
     right: -22px;
-    z-index: 99999;
+    z-index:500;
     height: 100%;
     display:-webkit-flex;
     display: flex;
