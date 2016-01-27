@@ -11,6 +11,7 @@
 	06. FLEXSLIDER
 	07. TWITTER FEED
 	08. SHOW / HIDE BURGER DEPENDING ON SCROLL DIRECTION
+	09. BX SLIDER
 
 */
 
@@ -305,3 +306,31 @@ $(function () {
 
 }); // entire function
 
+/* ----------------------------------------------------------------------------------------------------------
+	/* 09. BX SLIDER
+---------------------------------------------------------------------------------------------------------- */
+
+	$(function () {
+	
+		$('.bxslider li:first-child').addClass('current');
+	
+		$('.bxslider').bxSlider({
+		  mode : 'fade',
+		  speed : 1000,
+		  auto : true,
+		  autoHover : true,
+		  controls : false,
+		  onSlideBefore: function(){
+		  
+		  	$('li').removeClass('current');
+		  	  
+		  },
+		  onSlideAfter: function(){
+		    
+			  var $index = $(this).find('li[aria-hidden="false"]');
+			  $index.addClass('current');
+		    
+		  }
+		});
+	
+	});

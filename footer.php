@@ -111,6 +111,7 @@
 
 
   											<!-- jQuery -->
+  <script src="js/bx-slider.min.js" type="text/javascript"></script>
   <script src="js/main.js" type="text/javascript"></script>
   <script src="js/classie.js" type="text/javascript"></script> 								<!-- Navigation & Works Grid -->
   <script src="js/jquery.parallax-1.1.3.js" type="text/javascript"></script> 				<!-- Parallax -->

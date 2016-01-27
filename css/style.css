@@ -1867,11 +1867,6 @@ div.project-assets img{
 
 }
 
-.hero img{
-	display:block;
-	margin:0 auto;
-}
-
 .hero-inner h1{
 	color: #3a3a3a;
 	font-family: 'Playfair Display', serif;
@@ -1885,4 +1880,67 @@ div.project-assets img{
 
 	.hero-inner h1{ font-size:32px }
 
+}
+
+.bxslider li img{
+	display:block;
+	height:100%
+}
+
+.bxslider li img:not(.houdini) {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  -webkit-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -o-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -ms-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+.bxslider li.current img:not(.houdini) {
+  top: 0; }
+.bxslider li img.houdini {
+  position: relative;
+  visibility: hidden; }
+  
+.bx-wrapper{ position:relative }
+
+.bx-controls.bx-has-pager{
+	position: absolute;
+    top: 0;
+    right: -22px;
+    z-index: 99999;
+    height: 100%;
+    display:-webkit-flex;
+    display: flex;
+    -webkit-align-items:center;
+    align-items: center;
+}
+
+.no-flexbox .bx-controls.bx-has-pager{ display:none }
+
+.bx-controls.bx-has-pager a{
+	display:block;
+	text-indent:-9999px;
+	width:15px;height:15px;
+	position:relative;
+	border:transparent 2px solid;
+	margin:5px 0;
+	border-radius:50%
+}
+
+.bx-controls.bx-has-pager a:before{
+	content:"";
+	background:#e1e1e1;
+	width:7px;height:7px;
+	border-radius:50%;
+	position:absolute;
+	top:2px;left:2px
+}
+
+.bx-controls.bx-has-pager a.active{
+	border-color:#bdd326
+}
+
+.bx-controls.bx-has-pager a.active:before{
+	background-color:#bdd326
 }

@@ -9,19 +9,35 @@
 		<div class="hero-inner">
 		
 			<h1>We are a digital studio that offer a variety <br/>of solutions in <span>product development, <br/>mobile</span> and <span>visual design.</span></h1>
-	
-			<?php
-				$heroes = array(
-					'twitch',
-					'madden',
-					'proactiv',
-					'penzoil',
-					'audiomack'
-				);
-			?>
 			
-			<img src="img/<?php echo $heroes[array_rand($heroes)]; ?>-image.jpg" alt="#"/>
-		
+			<ul class="bxslider">
+			
+				<?php
+					$heroes = array(
+						'twitch',
+						'madden',
+						'proactiv',
+						'penzoil',
+						'audiomack'
+					);
+					shuffle($heroes);
+					foreach ($heroes as $h) :
+				?>
+				
+					<li>
+					
+						<img class="houdini" src="img/<?php echo $h; ?>-image.jpg" alt="#"/>
+						<img src="img/<?php echo $h; ?>-image.jpg" alt="#"/>
+						
+					</li>
+				
+				<?php
+					endforeach;
+				?>
+				
+			
+			</ul><!--/.bx-slider-->
+			
 		</div><!--/.hero-inner-->
 	
 	</div><!--/.hero-->
