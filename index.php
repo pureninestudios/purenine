@@ -4,7 +4,7 @@
 
 	<div class="hero">
 	
-		<div class="logo-main home fade-in faded"><a href="index.php"><img class="logo" src="img/logo@2x.png" width="110" height="24" data-pin-nopin="true"></a></div>
+		<div class="logo-main home fade-in faded"><a href="index.php"><img class="logo" src="https://s3-us-west-2.amazonaws.com/purenine/logo%402x.png" width="110" height="24" data-pin-nopin="true"></a></div>
 	
 		<div class="hero-inner">
 		
@@ -17,7 +17,6 @@
 						'twitch',
 						'madden',
 						'proactiv',
-						'penzoil',
 						'audiomack'
 					);
 					shuffle($heroes);
@@ -53,19 +52,35 @@
 
 
 			<ul class="grid cs-style-3 clearfix row">
-				<!-- Work -->
-				<?php /*
-				<li style="background-color:#422673">
-					<a href="madden.php"><figure class="work1">
-						<img src="http://purenine.s3-us-west-2.amazonaws.com/wp-content/uploads/2016/01/04011228/hp-madden.jpg">
-						<figcaption style="background-color:#422673">
-							<h3>Madden Challenge</h3>
-							<p class="name">EA Sports</p>
-						</figcaption>
-					</figure>
-					</a>
-				</li>
-				*/?>
+
+
+				<li class="item-wrap">
+				
+					<div class="grid-item">
+					
+						<a href="madden.php">
+						
+							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-madden.jpg">
+							
+							<div class="overlay">
+							
+								<div class="faux-bg" style="background-color:#422673"></div>
+								
+								<div class="overlay-content">
+							
+									<p class="name">GoodGame Agency</p>
+									
+									<h3>Madden Live Challenge</h3>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
+						</a>
+						
+					</div><!--/.grid-item-->
+				
+				</li><!--/.item-wrap-->
 				
 				<li class="item-wrap">
 				
@@ -73,7 +88,7 @@
 					
 						<a href="brenmar.php">
 						
-							<img src="portfolio/hp-brenmar.jpg">
+							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-brenmar.jpg">
 							
 							<div class="overlay">
 							
@@ -101,7 +116,7 @@
 					
 						<a href="http://www.pgatour.com">
 						
-							<img src="portfolio/hp-pga.jpg">
+							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-pga.jpg">
 							
 							<div class="overlay">
 							
@@ -129,7 +144,7 @@
 					
 						<a href="http://www.proactiv.com/how-does-proactiv-work.html">
 						
-							<img src="portfolio/hp-proactiv.jpg">
+							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-proactiv.jpg">
 							
 							<div class="overlay">
 							
@@ -157,7 +172,7 @@
 					
 						<a href="http://www.guardianlife.com">
 						
-							<img src="portfolio/hp-guardian.jpg">
+							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-guardian.jpg">
 							
 							<div class="overlay">
 							
@@ -185,7 +200,7 @@
 					
 						<a href="http://www.audiomack.com">
 						
-							<img src="portfolio/hp-am.jpg">
+							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-am.jpg">
 							
 							<div class="overlay">
 							
@@ -213,7 +228,7 @@
 					
 						<a href="activision.php">
 						
-							<img src="portfolio/hp-activision.jpg">
+							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-activision.jpg">
 							
 							<div class="overlay">
 							
@@ -241,7 +256,7 @@
 					
 						<a href="pennzoil.php">
 						
-							<img src="portfolio/hp-pennzoil.jpg">
+							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-pennzoil.jpg">
 							
 							<div class="overlay">
 							
@@ -269,7 +284,7 @@
 					
 						<a href="1d.php">
 						
-							<img src="portfolio/hp-1d.jpg">
+							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-1d.jpg">
 							
 							<div class="overlay">
 							
@@ -297,7 +312,7 @@
 					
 						<a href="highlights.php">
 						
-							<img src="portfolio/hp-highlights.jpg">
+							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-highlights.jpg">
 							
 							<div class="overlay">
 							
@@ -325,7 +340,7 @@
 					
 						<a href="bio.php">
 						
-							<img src="portfolio/hp-bio.jpg">
+							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-bio.jpg">
 							
 							<div class="overlay">
 							
@@ -353,7 +368,7 @@
 					
 						<a href="indycar.php">
 						
-							<img src="portfolio/hp-indy.jpg">
+							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-indy.jpg">
 							
 							<div class="overlay">
 							
@@ -381,7 +396,7 @@
 					
 						<a href="toyota.php">
 						
-							<img src="portfolio/hp-toyota.jpg">
+							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-toyota.jpg">
 							
 							<div class="overlay">
 							
@@ -409,7 +424,7 @@
 					
 						<a href="jt.php">
 						
-							<img src="portfolio/hp-jt.jpg">
+							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-jt.jpg">
 							
 							<div class="overlay">
 							
@@ -437,7 +452,7 @@
 					
 						<a href="mortalkombat.php">
 						
-							<img src="portfolio/hp-mk.jpg">
+							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-mk.jpg">
 							
 							<div class="overlay">
 							
@@ -465,7 +480,7 @@
 					
 						<a href="thq.php">
 						
-							<img src="portfolio/hp-thq.jpg">
+							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-thq.jpg">
 							
 							<div class="overlay">
 							
@@ -514,7 +529,7 @@
 			<div class="four columns whatwedo" data-when="enter" data-from="1" data-to="0.2" data-opacity="0" data-translatey="0" data-rotatez="0">
 				
 				<div class="img-ico">
-					<img src="img/basic_lightbulb.svg" alt="ico1" style="border-bottom:1px solid #bcd325; padding-bottom:30px;" width="60" >
+					<img src="https://s3-us-west-2.amazonaws.com/purenine/basic_lightbulb.svg" alt="ico1" style="border-bottom:1px solid #bcd325; padding-bottom:30px;" width="60" >
 				</div>
 				
 				<h4>Strategy</h4>
@@ -526,7 +541,7 @@
 			<!-- Method -->
 			<div class=" four columns whatwedo" data-when="enter" data-from="1" data-to="0.3" data-opacity="0" data-translatey="0" data-rotatez="0">
 				<div class="img-ico">
-					<img src="img/basic_laptop.svg" alt="ico1" style="border-bottom:1px solid #bcd325; padding-bottom:30px;" width="60">
+					<img src="https://s3-us-west-2.amazonaws.com/purenine/basic_laptop.svg" alt="ico1" style="border-bottom:1px solid #bcd325; padding-bottom:30px;" width="60">
 				</div>
 				
 				<h4>Design</h4>
@@ -539,7 +554,7 @@
 			<div class=" four columns whatwedo" data-when="enter" data-from="1" data-to="0.4" data-opacity="0" data-translatey="0" data-rotatez="0">
 				
 				<div class="img-ico">
-					<img src="img/basic_settings.svg" alt="ico1" style="border-bottom:1px solid #bcd325; padding-bottom:30px;" width="60">
+					<img src="https://s3-us-west-2.amazonaws.com/purenine/basic_settings.svg" alt="ico1" style="border-bottom:1px solid #bcd325; padding-bottom:30px;" width="60">
 				</div>
 				
 				<h4>Build</h4>
@@ -563,24 +578,23 @@
 
 	<div class="instagram-links clearfix">
 	
-		<div class="ig-link"><a href="#"><img src="img/ig-image-1.jpg" alt=""/></a></div>
+		<div class="ig-link"><a href="#"><img src="https://s3-us-west-2.amazonaws.com/purenine/ig-image-1.jpg" alt=""/></a></div>
 		
-		<div class="ig-link"><a href="#"><img src="img/ig-image-2.jpg" alt=""/></a></div>
+		<div class="ig-link"><a href="#"><img src="https://s3-us-west-2.amazonaws.com/purenine/ig-image-2.jpg" alt=""/></a></div>
 		
-		<div class="ig-link"><a href="#"><img src="img/ig-image-3.jpg" alt=""/></a></div>
+		<div class="ig-link"><a href="#"><img src="https://s3-us-west-2.amazonaws.com/purenine/ig-image-3.jpg" alt=""/></a></div>
 		
-		<div class="ig-link"><a href="#"><img src="img/ig-image-4.jpg" alt=""/></a></div>
+		<div class="ig-link"><a href="#"><img src="https://s3-us-west-2.amazonaws.com/purenine/ig-image-4.jpg" alt=""/></a></div>
 	
 	</div><!--/.instagram-links-->
 	
 	<div class="studio-content">
 	
-		<h1 data-when="enter" data-from="1" data-to="0.2" data-opacity="0" data-translatey="0" data-rotatez="0">The Studio.</h1>
-		<p style="border-bottom:2px solid #bcd325; width:100px; height:2px; margin:0 auto;" data-when="enter" data-from="1" data-to="0.3" data-opacity="0" data-translatey="0" data-rotatez="0"></p>
-		<p style="padding-top:20px;"data-when="enter" data-from="1" data-to="0.4" data-opacity="0" data-translatey="0" data-rotatez="0">We are a digital agency comprised of a talented team of professionals, founded by <a href="https://www.linkedin.com/in/thomasklinger" target="_blank">Thomas Klinger</a>.</p>
-		<p data-when="enter" data-from="1" data-to="0.5" data-opacity="0" data-translatey="0" data-rotatez="0">We take pride in any task assigned and have estblished a reputation for our work to include, but not limited to - a variety of solutions in visual design. web development and mobile applications.</p>
-		<p data-when="enter" data-from="1" data-to="0.6" data-opacity="0" data-translatey="0" data-rotatez="0">In an effort to drive measurable results and exceed client expectations, we will provide direction from concept to completion - and custom-assemble a dynamic team that is tailored to meet your needs.</p>
-	
+		<h1>The Studio.</h1>
+		<p style="border-bottom:2px solid #bcd325; width:100px; height:2px; margin:0 auto;" ></p>
+		<p>We take pride in any task assigned and have estblished a reputation for our work to include, but not limited to - a variety of solutions in visual design. web development and mobile applications.</p>
+		<p>In an effort to drive measurable results and exceed client expectations, we will provide direction from concept to completion - and custom-assemble a dynamic team that is tailored to meet your needs.</p>
+		<p>We are a digital agency comprised of a talented team of professionals, founded by <a href="https://www.linkedin.com/in/thomasklinger" target="_blank">Thomas Klinger</a>.</p>
 		<a class="button" href="mailto:hello@purenine.com" data-when="enter" data-from="1" data-to="0.7" data-opacity="0" data-translatey="0" data-rotatez="0">Contact us today!</a>
 	
 	</div><!--/.studio-content-->

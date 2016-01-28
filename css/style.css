@@ -192,12 +192,12 @@ path {
   cursor: pointer; }
   
 .navToggle.home{
-	top:85px
+	top:56px
 }
 
 @media screen and ( max-width:768px ){
 	
-	.navToggle.home{ right:75px }
+	.navToggle.home{ right:30px;top:0px; }
 	
 }
 
@@ -206,7 +206,7 @@ path {
   -moz-transition: all 0.25s;
   transition: all 0.25s;
   position: absolute;
-  top: 24px;
+  top: 47px;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -351,7 +351,7 @@ path {
   
 .top-social-links{
 	position:absolute;
-	top:96px;right:165px
+	top:90px;right:165px
 }
 
 @media screen and ( max-width:727px ){
@@ -369,7 +369,7 @@ path {
 
 .top-social-links li a,
 .social-links li a {
-  font-size: 22px;
+  font-size: 18px;
   color: #bcd325; }
 
 .top-social-links li a:hover,
@@ -460,16 +460,16 @@ path {
 .logo-main.home{
 	padding:0;
 	position:absolute;
-	top:100px;
+	top:90px;
 	left:100px
 }
 
 .logo-main-inner {
   position: absolute;
-  top: 9%;
+  top: 80px;
   right: 0;
   bottom: 0;
-  left: 4%; }
+  left: 70px; }
 
 .huge-title h2 {
   color: #3a3a3a;
@@ -639,7 +639,7 @@ section.studio{
 }
 
 .studio .studio-content{
-	max-width:700px;
+	max-width:720px;
 	margin:0 auto
 }
 
@@ -878,7 +878,7 @@ body{
   cursor: pointer; }
 
 .closex .inner-closex {
-  background: url("../img/closex.png");
+  background: url("https://s3-us-west-2.amazonaws.com/purenine/closex.png");
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -1065,7 +1065,7 @@ body{
   margin: auto;
   position: relative;
   display: block;
-  background: url('../img/footer-image.jpg') 50% repeat fixed;
+  background: url('https://s3-us-west-2.amazonaws.com/purenine/footer-image.jpg') 50% repeat fixed;
   /* BG OF INTERSECTION */
   background-size: auto;
   background-color: #000; }
@@ -1608,7 +1608,7 @@ input[type=submit] {
     width:100%;
     text-align: left;
     max-width: 100%;
-    margin:0 }
+    margin:10px 0; }
   #clients .row {
     padding: 0; }
   #clients #clients_text, #agency #agency_text {
@@ -1851,7 +1851,7 @@ div.project-assets img{
 
 .hero{
 	background:#f7f7f7;
-	padding:40px 40px 0;
+	padding:20px 20px 0;
 }
 
 .hero-inner{
@@ -1863,22 +1863,24 @@ div.project-assets img{
 
 @media screen and ( max-width:768px ){
 
-	.hero-inner{ padding-top:125px }
+	.hero-inner{ padding-top:105px }
 
 }
 
 .hero-inner h1{
 	color: #3a3a3a;
 	font-family: 'Playfair Display', serif;
-	font-size: 36px;
+	font-size: 45px;
 	letter-spacing: -1.5px;
-	line-height: 46px;
+	line-height: 50px;
 	margin-bottom:25px
 }
 
 @media screen and ( max-width:768px ){
 
-	.hero-inner h1{ font-size:32px }
+	.hero-inner h1{ font-size:19px; line-height: 24px; }
+  .hero {padding:0;}
+  .logo-main.home{ top:40px; left:30px;}
 
 }
 
@@ -1900,11 +1902,11 @@ div.project-assets img{
   position: absolute;
   top: 100%;
   left:0;
-  -webkit-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  -moz-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  -o-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  -ms-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+  /*-webkit-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -o-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -ms-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955); }*/
 .bxslider li.current img:not(.houdini) {
   top: 0; }
 .bxslider li img.houdini {
@@ -1922,6 +1924,7 @@ div.project-assets img{
     display: flex;
     -webkit-align-items:center;
     align-items: center;
+    display: none;
 }
 
 .no-flexbox .bx-controls.bx-has-pager{ display:none }
