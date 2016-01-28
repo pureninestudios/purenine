@@ -2,7 +2,7 @@
 
 <?php include('menu.php'); ?>
 
-<section id="inner-header" class="inner" style="background-color:#000">
+<section id="inner-header" class="inner" style="background-color:#303030">
 
 	<div class="logo-main-inner"><a href="index.php"><img class="logo" src="img/logo-light@2x.png" width="110" height="24" data-pin-nopin="true"></a></div>
 	
