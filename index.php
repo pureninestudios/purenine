@@ -8,7 +8,7 @@
 	
 		<div class="hero-inner">
 		
-			<h1>We are a digital studio that offer a variety <br/>of solutions in <span>product development, <br/>mobile</span> and <span>visual design.</span></h1>
+			<h1>We are a digital studio offering a variety <br/>of solutions in <span>product development, <br/>mobile</span> and <span>visual design.</span></h1>
 			
 			<ul class="bxslider">
 			
@@ -17,7 +17,8 @@
 						'twitch',
 						'madden',
 						'proactiv',
-						'audiomack'
+						'audiomack',
+						'history'
 					);
 					shuffle($heroes);
 					foreach ($heroes as $h) :
@@ -82,6 +83,34 @@
 				
 				</li><!--/.item-wrap-->
 				
+				<li class="item-wrap">
+				
+					<div class="grid-item">
+					
+						<a href="brenmar.php">
+						
+							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-history.jpg">
+							
+							<div class="overlay">
+							
+								<div class="faux-bg" style="background-color:#821506"></div>
+								
+								<div class="overlay-content">
+							
+									<p class="name">History.com</p>
+									
+									<h3>History Now</h3>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
+						</a>
+						
+					</div><!--/.grid-item-->
+				
+				</li><!--/.item-wrap-->
+
 				<li class="item-wrap">
 				
 					<div class="grid-item">
