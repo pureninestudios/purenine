@@ -6,7 +6,7 @@
 
 	<div class="logo-main-inner"><a href="index.php"><img class="logo" src="img/logo-light@2x.png" width="110" height="24" data-pin-nopin="true"></a></div>
 	
-	<img class="top-image" src="portfolio/work-toyota-lg-2.jpg">
+	<img class="top-image" src="portfolio/work-toyota.jpg">
 
 </section><!--/#inner-header-->
 
