@@ -320,7 +320,7 @@ $(function () {
 		  auto : true,
 		  autoHover : true,
 		  controls : false,
-		  pager : true,
+		  pager : false,
 		  
 		  // Remove "current" class from all slides
 		  onSlideBefore: function(){
