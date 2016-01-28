@@ -26,8 +26,12 @@
 				
 					<li>
 					
-						<img class="houdini" src="img/<?php echo $h; ?>-image.jpg" alt="#"/>
-						<img src="img/<?php echo $h; ?>-image.jpg" alt="#"/>
+						<div class="slide-inner">
+					
+							<img class="houdini" src="img/<?php echo $h; ?>-image.jpg" alt="#"/>
+							<img src="img/<?php echo $h; ?>-image.jpg" alt="#"/>
+						
+						</div><!--/.slide-inner-->
 						
 					</li>
 				

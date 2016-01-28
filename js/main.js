@@ -320,11 +320,15 @@ $(function () {
 		  auto : true,
 		  autoHover : true,
 		  controls : false,
+		  
+		  // Remove "current" class from all slides
 		  onSlideBefore: function(){
 		  
 		  	$('li').removeClass('current');
 		  	  
 		  },
+		  
+		  // Add "current" class to current slide
 		  onSlideAfter: function(){
 		    
 			  var $index = $(this).find('li[aria-hidden="false"]');
@@ -332,6 +336,8 @@ $(function () {
 		    
 		  }
 		});
+		
+		// Stop slider once pager is triggered
 		
 		$('.bx-controls a').click(function(){
 		

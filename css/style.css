@@ -761,17 +761,17 @@ body{
   text-align: center; }
 
 .item-wrap{
-	width:33.3333%;
+	width:calc(33.3333% - 40px);
 	float:left;
-	padding:20px;
+	margin:20px;
+	overflow:hidden
 }
 
 .grid-item {
-	background:none!important;
+  background:none!important;
   display:block;
   margin: 0;
   text-align: left;
-  overflow:hidden;
   box-shadow:0 0 10px rgba(0, 0, 0, .3);
   position: relative;}
   
@@ -782,7 +782,6 @@ body{
 	transform:scale(1);
 	-webkit-transition:0.2s ease-in-out;
 	transition:0.2s ease-in-out;
-	-webkit-backface-visibility:hidden
 }
 
 .grid-item:hover img{
@@ -1608,7 +1607,8 @@ input[type=submit] {
   .grid li {
     width:100%;
     text-align: left;
-    max-width: 100%; }
+    max-width: 100%;
+    margin:0 }
   #clients .row {
     padding: 0; }
   #clients #clients_text, #agency #agency_text {
@@ -1684,7 +1684,7 @@ input[type=submit] {
   .huge-title {
     padding: 0; }
   .grid li {
-	width:50%;
+	width:calc(50% - 40px);
     text-align: left;
     position: relative; }
   #agency .row, #clients .row {
@@ -1882,6 +1882,13 @@ div.project-assets img{
 
 }
 
+.bxslider .slide-inner{
+	position:relative;
+	display:inline-block;
+	overflow:hidden;
+	bottom:-8px
+}
+
 .bxslider li img{
 	display:block;
 	width:auto;height:auto;
@@ -1892,7 +1899,7 @@ div.project-assets img{
 .bxslider li img:not(.houdini) {
   position: absolute;
   top: 100%;
-  left: 0;
+  left:0;
   -webkit-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   -moz-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   -o-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
