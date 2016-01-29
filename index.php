@@ -17,6 +17,7 @@
 						'twitch',
 						'madden',
 						'proactiv',
+						'lol',
 						'audiomack',
 						'history'
 					);
