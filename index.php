@@ -8,7 +8,7 @@
 	
 		<div class="hero-inner">
 		
-			<h1>We are a digital studio offering a variety <br/>of solutions in <span>product development, <br/>mobile</span> and <span>visual design.</span></h1>
+			<h1><i class="animate-hero">We are a digital studio</i> <i class="animate-hero">offering a variety <br/>of solutions in</i> <i class="animate-hero"><span>product development, <br/>mobile</span> and <span>visual design.</span></i></h1>
 			
 			<ul class="bxslider">
 			

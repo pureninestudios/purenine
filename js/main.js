@@ -197,7 +197,7 @@ twitterFetcher.fetch(config1);
         
         // Pre-loader
         $('.ss-preloader').delay(250).fadeOut(350);
-        $('body').removeClass('no-scroll');
+        $('body').removeClass('no-scroll').addClass('loaded');
         
         // ==========================================================================
         // Fade in
@@ -230,6 +230,8 @@ twitterFetcher.fetch(config1);
         	next();
         	
         });
+        
+        
         
     });
 })(jQuery);

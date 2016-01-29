@@ -1861,6 +1861,60 @@ div.project-assets img{
 	padding:200px 40px 0;
 }
 
+.hero-inner h1 i{
+	opacity:0;
+	-webkit-transform:translateY(50px);
+	transform:translateY(50px)
+}
+
+@-webkit-keyframes heroSlideInUp{
+	
+	0%{
+		opacity:0;
+		-webkit-transform:translateY(50px);
+		transform:translateY(50px)
+	}
+	
+	100%{
+		opacity:1;
+		-webkit-transform:translateY(0);
+		transform:translateY(0)
+	}
+	
+}
+
+@keyframes heroSlideInUp{
+	
+	0%{
+		opacity:0;
+		-webkit-transform:translateY(50px);
+		transform:translateY(50px)
+	}
+	
+	100%{
+		opacity:1;
+		-webkit-transform:translateY(0);
+		transform:translateY(0)
+	}
+	
+}
+
+.loaded .hero-inner h1 i{
+	-webkit-animation:heroSlideInUp 0.5s forwards ease-in-out;
+	-webkit-animation-delay:1s;
+	animation-delay:1s
+}
+
+.loaded .hero-inner h1 i:nth-child(2){
+	-webkit-animation-delay:1.3s;
+	animation-delay:1.3s
+}
+
+.loaded .hero-inner h1 i:nth-child(3){
+	-webkit-animation-delay:1.6s;
+	animation-delay:1.6s
+}
+
 @media screen and ( max-width:768px ){
 
 	.hero-inner{ padding-top:105px }
