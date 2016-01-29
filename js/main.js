@@ -210,6 +210,13 @@ twitterFetcher.fetch(config1);
         	
         });
         
+        $('.top-social-links').delay(750).queue(function(next){
+        
+        	$(this).addClass('faded');
+        	next();
+        	
+        });
+        
         $('.navToggle').delay(750).queue(function(next){
         
         	$(this).addClass('faded');
