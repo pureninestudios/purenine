@@ -186,13 +186,13 @@ path {
   position: absolute;
   width: 50px;
   height: 50px;
-  right: 90px;
+  right: 70px;
   margin: 0 auto;
   top: 35px;
   cursor: pointer; }
   
 .navToggle.home{
-	top:56px
+	top:32px
 }
 
 @media screen and ( max-width:768px ){
@@ -351,7 +351,7 @@ path {
   
 .top-social-links{
 	position:absolute;
-	top:90px;right:165px
+	top:67px;right:145px
 }
 
 @media screen and ( max-width:727px ){
@@ -460,8 +460,8 @@ path {
 .logo-main.home{
 	padding:0;
 	position:absolute;
-	top:90px;
-	left:100px
+	top:70px;
+	left:75px
 }
 
 .logo-main-inner {
@@ -1851,7 +1851,6 @@ div.project-assets img{
 
 .hero{
 	background:#f7f7f7;
-	padding:20px 20px 0;
 }
 
 .hero-inner{

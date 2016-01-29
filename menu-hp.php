@@ -2,7 +2,7 @@
 
 <div class="navigation">
 
-	<div class="top-social-links">
+	<div class="top-social-links fade-in faded">
 	  
 	  	<ul>
 		    <li><a href="https://twitter.com/PURENINE"><i class="fa fa-twitter"></i></a></li>
