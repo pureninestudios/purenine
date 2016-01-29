@@ -1887,8 +1887,8 @@ div.project-assets img{
 	
 	0%{
 		opacity:0;
-		-webkit-transform:translateY(50px);
-		transform:translateY(50px)
+		-webkit-transform:translateY(30px);
+		transform:translateY(30px)
 	}
 	
 	100%{
@@ -1900,19 +1900,19 @@ div.project-assets img{
 }
 
 .loaded .hero-inner h1 i{
-	-webkit-animation:heroSlideInUp 0.5s forwards ease-in-out;
-	-webkit-animation-delay:1s;
-	animation-delay:1s
+	-webkit-animation:heroSlideInUp 0.5s forwards ease;
+	-webkit-animation-delay:0.8s;
+	animation-delay:0.8s
 }
 
 .loaded .hero-inner h1 i:nth-child(2){
-	-webkit-animation-delay:1.3s;
-	animation-delay:1.3s
+	-webkit-animation-delay:0.95s;
+	animation-delay:0.95s
 }
 
 .loaded .hero-inner h1 i:nth-child(3){
-	-webkit-animation-delay:1.6s;
-	animation-delay:1.6s
+	-webkit-animation-delay:1.1s;
+	animation-delay:1.1s
 }
 
 @media screen and ( max-width:768px ){
