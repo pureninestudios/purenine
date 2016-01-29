@@ -239,7 +239,6 @@ twitterFetcher.fetch(config1);
         });
         
         
-        
     });
 })(jQuery);
 

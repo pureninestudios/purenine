@@ -1849,29 +1849,12 @@ div.project-assets img{
 ::Hero -----------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 
-.hero{
-	background:#f7f7f7;
-}
-
-.hero-inner{
-	background:#fff;
-	text-align:center;
-	margin:0 auto;
-	padding:200px 40px 0;
-}
-
-.hero-inner h1 i{
-	opacity:0;
-	-webkit-transform:translateY(50px);
-	transform:translateY(50px)
-}
-
 @-webkit-keyframes heroSlideInUp{
 	
 	0%{
 		opacity:0;
-		-webkit-transform:translateY(50px);
-		transform:translateY(50px)
+		-webkit-transform:translateY(30px);
+		transform:translateY(30px)
 	}
 	
 	100%{
@@ -1898,8 +1881,37 @@ div.project-assets img{
 	
 }
 
+.hero{
+	background:#f7f7f7;
+	opacity:0;
+	-webkit-transform:translateY(30px);
+	transform:translateY(30px)
+}
+
+.loaded .hero{
+	-webkit-animation:heroSlideInUp 0.5s forwards ease;
+	animation:heroSlideInUp 0.5s forwards ease;
+	-webkit-animation-delay:0.5s;
+	animation-delay:0.5s
+}
+
+.hero-inner{
+	background:#fff;
+	text-align:center;
+	margin:0 auto;
+	padding:200px 40px 0;
+}
+
+.hero-inner h1 i{
+	opacity:0;
+	-webkit-transform:translateY(50px);
+	transform:translateY(50px)
+}
+
+
 .loaded .hero-inner h1 i{
 	-webkit-animation:heroSlideInUp 0.5s forwards ease;
+	animation:heroSlideInUp 0.5s forwards ease;
 	-webkit-animation-delay:0.8s;
 	animation-delay:0.8s
 }
