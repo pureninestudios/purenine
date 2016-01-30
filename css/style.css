@@ -802,7 +802,7 @@ body{
 	opacity:0
 }
 
-.faux-bg{ opacity:0.9 }
+.faux-bg{ opacity:0.98 }
 
 .flexbox .grid-item .overlay{
 	display:-webkit-flex;
