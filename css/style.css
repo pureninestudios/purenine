@@ -1911,10 +1911,10 @@ div.project-assets img{
 
 
 .loaded .hero-inner h1 i{
-	-webkit-animation:heroSlideInUp 0.5s forwards ease;
-	animation:heroSlideInUp 0.5s forwards ease;
-	-webkit-animation-delay:0.8s;
-	animation-delay:0.8s
+	-webkit-animation:heroSlideInUp 3s forwards ease;
+	animation:heroSlideInUp 3s forwards ease;
+	-webkit-animation-delay:3s;
+	animation-delay:3s
 }
 
 .loaded .hero-inner h1 i:nth-child(2){
