@@ -198,6 +198,7 @@ path {
 @media screen and ( max-width:768px ){
 	
 	.navToggle.home{ right:30px;top:0px; }
+  .navToggle .icon { top: 30px;}
 	
 }
 
@@ -1569,7 +1570,7 @@ input[type=submit] {
     padding-top: 80px;
     padding-bottom: 80px; }
   .navToggle, .closex {
-    top: 9px;
+        top: -8px;
     right: 30px; }
   .logo-main {
         padding: 30px 0 0 30px; }
