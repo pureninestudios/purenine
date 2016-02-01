@@ -1882,6 +1882,36 @@ div.project-assets img{
 	
 }
 
+/* Text slideinup */
+
+@-webkit-keyframes textSlideInUp{
+	
+	0%{
+		opacity:0;
+		top:30px
+	}
+	
+	100%{
+		opacity:1;
+		top:0
+	}
+	
+}
+
+@keyframes textSlideInUp{
+	
+	0%{
+		opacity:0;
+		top:30px
+	}
+	
+	100%{
+		opacity:1;
+		top:0
+	}
+	
+}
+
 .hero{
 	background:#f7f7f7;
 	opacity:0;
@@ -1905,16 +1935,16 @@ div.project-assets img{
 
 .hero-inner h1 i{
 	opacity:0;
-	-webkit-transform:translateY(50px);
-	transform:translateY(50px)
+	position:relative;
+	top:30px;
 }
 
 
 .loaded .hero-inner h1 i{
-	-webkit-animation:heroSlideInUp 3s forwards ease;
-	animation:heroSlideInUp 3s forwards ease;
-	-webkit-animation-delay:3s;
-	animation-delay:3s
+	-webkit-animation:textSlideInUp .5s forwards ease;
+	animation:textSlideInUp .5s forwards ease;
+	-webkit-animation-delay:0.75s;
+	animation-delay:0.75s
 }
 
 .loaded .hero-inner h1 i:nth-child(2){
