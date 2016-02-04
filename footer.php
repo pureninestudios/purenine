@@ -108,7 +108,10 @@
 <!-- END WORKS CONTENT ############################################### -->
 
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+<script type="text/javascript">
+    var s = skrollr.init();
+    </script>
 
   											<!-- jQuery -->
   <script src="js/bx-slider.min.js" type="text/javascript"></script>
