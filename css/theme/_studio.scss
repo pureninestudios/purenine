@@ -31,7 +31,7 @@
 		}
 		
 		.image{
-			width:50%;
+			width:55%;
 			float:left;
 			margin:0;
 			padding:0 0 0 50px;
@@ -67,8 +67,8 @@
 		
 		.inner{
 			background:#fff;
-			padding:60px;
-			box-shadow:0 0 10px rgba(0, 0, 0, .1)
+			padding:65px;
+			box-shadow:0 0 30px rgba(0, 0, 0, .1)
 		}
 		
 	}//.block-content
@@ -87,8 +87,9 @@
 	
 	h3{
 		font-family:"Playfair Display", serif;
-		font-size:30px;
-		margin:0
+		font-size:37px;
+		margin:0;
+		letter-spacing: -1.5px;
 	}//h3
 	
 	.line{
@@ -97,7 +98,11 @@
 		margin:30px auto;
 	}//.line
 	
-	p{ font-weight:600 }
+	p{ font-weight:500; color: #666; line-height: 22px; font-size: 15px; 
+		
+		a{ color:#bcd325 }
+		a:hover{ text-decoration:underline }
+	}
 	
 	p:not(:last-child){ margin-bottom:25px }
 	

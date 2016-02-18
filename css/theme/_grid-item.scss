@@ -13,6 +13,7 @@
 	margin:0;
 	text-align:left;
 	position:relative;
+	box-shadow:0 0 30px rgba(223, 223, 223, 0.6);
 	
 	img{ display:block }
 	
@@ -29,27 +30,29 @@
 		-webkit-transition:0.25s ease-in-out;
 		transition:0.25s ease-in-out;
 		
+		
 		&:hover{
-			box-shadow:0 0 10px rgba(0, 0, 0, .3)
+			box-shadow:0 0 50px rgba(0, 0, 0, .3)
 		}
 		
 	}//a
 	
 	.name{
 		font-family:"Montserrat",sans-serif;
-		font-weight:800;
+		font-weight:700;
 		text-transform:uppercase;
 		color:#bcd325;
 		font-size:12px;
 		line-height:1;
-		margin-bottom:4px
+		margin-bottom:5px
 	}//.name
 	
 	h3{
 		font-family:"Playfair Display",serif;
-		font-size:22px;
+		font-size:28px;
 		line-height:1;
-		margin-bottom:10px
+		margin-bottom:10px;
+	    letter-spacing: -1px;
 	}//h3
 	
 	.tags{

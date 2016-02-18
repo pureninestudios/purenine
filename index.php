@@ -82,63 +82,7 @@
 					</div><!--/.grid-item-->
 				
 				</li><!--/.item-wrap-->
-				
-				<li class="item-wrap">
-				
-					<div class="grid-item">
-					
-						<a href="brenmar.php">
-						
-							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-history.jpg">
-							
-							<div class="overlay">
 								
-								<div class="overlay-content">
-							
-									<p class="name">History.com</p>
-									
-									<h3>History Now</h3>
-									
-									<p class="tags">Design, UX, UI</p>
-								
-								</div><!--/.overlay-content-->
-								
-							</div><!--/.overlay-->
-	
-						</a>
-						
-					</div><!--/.grid-item-->
-				
-				</li><!--/.item-wrap-->
-
-				<li class="item-wrap">
-				
-					<div class="grid-item">
-					
-						<a href="brenmar.php">
-						
-							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-brenmar.jpg">
-							
-							<div class="overlay">
-								
-								<div class="overlay-content">
-							
-									<p class="name">Audiomack</p>
-									
-									<h3>Brenmar Remix Contest</h3>
-									
-									<p class="tags">Design, UX, UI</p>
-								
-								</div><!--/.overlay-content-->
-								
-							</div><!--/.overlay-->
-	
-						</a>
-						
-					</div><!--/.grid-item-->
-				
-				</li><!--/.item-wrap-->
-				
 				<li class="item-wrap">
 				
 					<div class="grid-item">
@@ -623,7 +567,7 @@
 					
 					<span class="line"></span>
 					
-					<p>PURE<span>NINE</span> is owned and operated by <span>Thomas Klinger</span>, designer & creative director with over a decade of experience.</p>
+					<p>PURE<span>NINE</span> is owned and operated by <span><a href="https://www.linkedin.com/in/thomasklinger" target="_blank">Thomas Klinger</a></span><a href="#">,</a> designer & creative director with over a decade of experience.</p>
 					
 					<p>We assemble a dynamic team, tailored to meet your needs, in an effort to drive measurable results and exceed expectations.</p>
 				
