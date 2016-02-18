@@ -1741,6 +1741,8 @@ div.project-assets img {
   position: relative;
   opacity: 0;
   top: 30px; }
+  .hero-image img {
+    display: block; }
   .loaded .hero-image {
     -webkit-animation: textSlideInUp 0.5s forwards ease;
     animation: textSlideInUp 0.5s forwards ease;

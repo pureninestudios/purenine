@@ -1164,6 +1164,8 @@ div.project-assets img{
 	opacity:0;
 	top:30px;
 	
+	img{ display:block }
+	
 	.loaded &{
 		-webkit-animation:textSlideInUp .5s forwards ease;
 		animation:textSlideInUp .5s forwards ease;
