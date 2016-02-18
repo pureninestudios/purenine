@@ -16,7 +16,11 @@
 			
 				<?php
 					$heroes = array(
-						'twitch-hero-image-dark',
+						'am-image',
+						'djbooth-image',
+						'history-image',
+						'madden-image',
+						'twitch-image',
 					);
 					shuffle($heroes);
 					echo '<img src="img/'.$heroes[0].'.jpg" alt=""/>';
