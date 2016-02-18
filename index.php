@@ -12,36 +12,18 @@
 		
 			<h1><i class="animate-hero">We are a digital studio</i> <i class="animate-hero">offering a variety <br/>of solutions in</i> <i class="animate-hero"><span>product development, <br/>mobile</span> and <span>visual design.</span></i></h1>
 			
-			<ul class="bxslider">
+			<div class="hero-image">
 			
 				<?php
 					$heroes = array(
 						'twitch-hero-image-dark',
-						'twitch-hero-image-dark',
-						'twitch-hero-image-dark'
 					);
 					shuffle($heroes);
-					foreach ($heroes as $h) :
+					echo '<img src="img/'.$heroes[0].'.jpg" alt=""/>';
 				?>
-				
-					<li>
-					
-						<div class="slide-inner">
-					
-							<img class="houdini" src="img/<?php echo $h; ?>.jpg" alt="#"/>
-							<img src="img/<?php echo $h; ?>.jpg" alt="#"/>
-						
-						</div><!--/.slide-inner-->
-						
-					</li>
-				
-				<?php
-					endforeach;
-				?>
-				
 			
-			</ul><!--/.bx-slider-->
-			
+			</div><!--/.hero-image-->
+					
 		</div><!--/.hero-inner-->
 		
 		<div class="flare"></div>

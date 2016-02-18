@@ -1159,6 +1159,20 @@ div.project-assets img{
 
 }
 
+.hero-image{
+	position:relative;
+	opacity:0;
+	top:30px;
+	
+	.loaded &{
+		-webkit-animation:textSlideInUp .5s forwards ease;
+		animation:textSlideInUp .5s forwards ease;
+		-webkit-animation-delay:1.5s;
+		animation-delay:1.5s
+	}
+		
+}
+
 .bxslider{ z-index:5 }
 
 .bxslider .slide-inner{
