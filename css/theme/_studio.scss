@@ -1,0 +1,106 @@
+// ==========================================================================
+// Studio
+// ==========================================================================
+
+.studio{
+	padding:100px 0;
+	
+	@media screen and ( max-width:1200px ){
+		padding-left:0;
+		padding-right:0
+	}
+	
+	.studio-block{
+		position:relative;
+		display:-webkit-flex;
+		display:flex;
+		-webkit-align-items:center;
+		align-items:center;
+		
+		@media screen and ( max-width:980px ){
+			display:block;
+		}
+		
+		&:first-child{
+			margin-bottom:90px;
+			
+			@media screen and ( max-width:980px ){
+				margin-bottom:50px
+			}
+			
+		}
+		
+		.image{
+			width:50%;
+			float:left;
+			margin:0;
+			padding:0 0 0 50px;
+			
+			@media screen and ( max-width:980px ){
+				width:100%;
+				padding:0!important;
+				
+				img{ width:100% }
+				
+			}
+			
+		}//.image
+		
+		&.right-image .image{ padding:0 50px 0 0 }
+		
+	}//.studio-block
+	
+	.block-content{
+		width:50%;
+		z-index:1;
+		text-align:center;
+		height:100%;
+		float:right;
+		-webkit-transform:translateX(-50px);
+		transform:translateX(-50px);
+		
+		@media screen and ( max-width:980px ){
+			width:100%;
+			-webkit-transform:none;
+			transform:none
+		}
+		
+		.inner{
+			background:#fff;
+			padding:60px;
+			box-shadow:0 0 10px rgba(0, 0, 0, .1)
+		}
+		
+	}//.block-content
+	
+	.right-image .block-content{
+		-webkit-transform:translateX(50px);
+		transform:translateX(50px);
+		
+		@media screen and ( max-width:980px ){
+			width:100%;
+			-webkit-transform:none;
+			transform:none
+		}
+		
+	}
+	
+	h3{
+		font-family:"Playfair Display", serif;
+		font-size:30px;
+		margin:0
+	}//h3
+	
+	.line{
+		background:#bcd325;
+		width:80px;height:2px;
+		margin:30px auto;
+	}//.line
+	
+	p{ font-weight:600 }
+	
+	p:not(:last-child){ margin-bottom:25px }
+	
+	p span{ color:#bcd325 }
+	
+}//.studio

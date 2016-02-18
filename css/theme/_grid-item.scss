@@ -1,0 +1,65 @@
+// ==========================================================================
+// Grid Item
+// ==========================================================================
+.item-wrap {
+	width:calc(33.3333% - 40px);
+	float:left;
+	margin:20px;
+}
+
+.grid-item {
+	background:none!important;
+	display:block;
+	margin:0;
+	text-align:left;
+	position:relative;
+	
+	img{ display:block }
+	
+	.overlay{
+		background:#fff;
+		padding:25px;
+	}//.overlay
+	
+	a{
+		display:block;
+		color:#343434;
+		cursor:pointer;
+		-moz-transition:0.25s ease-in-out;
+		-webkit-transition:0.25s ease-in-out;
+		transition:0.25s ease-in-out;
+		
+		&:hover{
+			box-shadow:0 0 10px rgba(0, 0, 0, .3)
+		}
+		
+	}//a
+	
+	.name{
+		font-family:"Montserrat",sans-serif;
+		font-weight:800;
+		text-transform:uppercase;
+		color:#bcd325;
+		font-size:12px;
+		line-height:1;
+		margin-bottom:4px
+	}//.name
+	
+	h3{
+		font-family:"Playfair Display",serif;
+		font-size:22px;
+		line-height:1;
+		margin-bottom:10px
+	}//h3
+	
+	.tags{
+		font-family:"Montserrat",sans-serif;
+		font-weight:800;
+		font-size:10px;
+		color:#cacaca;
+		text-transform:uppercase;
+		margin:0;
+		line-height:1
+	}//.tags
+	
+}//.grid-item

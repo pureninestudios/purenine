@@ -4,7 +4,7 @@
 
 	<div class="hero">
 	
-		<div class="logo-main home fade-in faded"><a href="index.php"><img class="logo" src="https://s3-us-west-2.amazonaws.com/purenine/logo%402x.png" width="110" height="24" data-pin-nopin="true"></a></div>
+		<div class="logo-main home fade-in faded"><a href="index.php"><img class="logo" src="https://s3-us-west-2.amazonaws.com/purenine/logo-light%402x.png" width="110" height="24" data-pin-nopin="true"></a></div>
 	
 		<div class="hero-inner">
 		
@@ -14,12 +14,9 @@
 			
 				<?php
 					$heroes = array(
-						'twitch',
-						'madden',
-						'proactiv',
-						'lol',
-						'audiomack',
-						'history'
+						'twitch-hero-image-drak',
+						'twitch-hero-image-drak',
+						'twitch-hero-image-drak'
 					);
 					shuffle($heroes);
 					foreach ($heroes as $h) :
@@ -29,8 +26,8 @@
 					
 						<div class="slide-inner">
 					
-							<img class="houdini" src="img/<?php echo $h; ?>-image.jpg" alt="#"/>
-							<img src="img/<?php echo $h; ?>-image.jpg" alt="#"/>
+							<img class="houdini" src="img/<?php echo $h; ?>.png" alt="#"/>
+							<img src="img/<?php echo $h; ?>.png" alt="#"/>
 						
 						</div><!--/.slide-inner-->
 						
@@ -44,6 +41,8 @@
 			</ul><!--/.bx-slider-->
 			
 		</div><!--/.hero-inner-->
+		
+		<div class="flare"></div>
 	
 	</div><!--/.hero-->
 
@@ -65,14 +64,14 @@
 							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-madden.jpg">
 							
 							<div class="overlay">
-							
-								<div class="faux-bg" style="background-color:#422673"></div>
 								
 								<div class="overlay-content">
 							
 									<p class="name">GoodGame Agency</p>
 									
 									<h3>Madden Live Challenge</h3>
+									
+									<p class="tags">Design, UX, UI</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -93,14 +92,14 @@
 							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-history.jpg">
 							
 							<div class="overlay">
-							
-								<div class="faux-bg" style="background-color:#821506"></div>
 								
 								<div class="overlay-content">
 							
 									<p class="name">History.com</p>
 									
 									<h3>History Now</h3>
+									
+									<p class="tags">Design, UX, UI</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -121,14 +120,14 @@
 							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-brenmar.jpg">
 							
 							<div class="overlay">
-							
-								<div class="faux-bg" style="background-color:#6B254C"></div>
 								
 								<div class="overlay-content">
 							
 									<p class="name">Audiomack</p>
 									
 									<h3>Brenmar Remix Contest</h3>
+									
+									<p class="tags">Design, UX, UI</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -149,14 +148,14 @@
 							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-pga.jpg">
 							
 							<div class="overlay">
-							
-								<div class="faux-bg" style="background-color:#021E36;"></div>
 								
 								<div class="overlay-content">
 							
 									<p class="name">Omnigon</p>
 									
 									<h3>PGA Tour</h3>
+									
+									<p class="tags">Design, UX, UI</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -177,14 +176,14 @@
 							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-proactiv.jpg">
 							
 							<div class="overlay">
-							
-								<div class="faux-bg" style="background-color:#54A1A9"></div>
 								
 								<div class="overlay-content">
 							
 									<p class="name">Haven Agency</p>
 									
 									<h3>Proactiv+</h3>
+									
+									<p class="tags">Design, UX, UI</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -205,14 +204,14 @@
 							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-guardian.jpg">
 							
 							<div class="overlay">
-							
-								<div class="faux-bg" style="background-color:#124074"></div>
 								
 								<div class="overlay-content">
 							
 									<p class="name">Guardianlife.com</p>
 									
 									<h3>Guardian Life</h3>
+									
+									<p class="tags">Design, UX, UI</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -233,14 +232,14 @@
 							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-am.jpg">
 							
 							<div class="overlay">
-							
-								<div class="faux-bg" style="background-color:#323232"></div>
 								
 								<div class="overlay-content">
 							
 									<p class="name">Audiomack.com</p>
 									
 									<h3>Audiomack</h3>
+									
+									<p class="tags">Design, UX, UI</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -261,14 +260,14 @@
 							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-activision.jpg">
 							
 							<div class="overlay">
-							
-								<div class="faux-bg" style="background-color:#353B4B"></div>
 								
 								<div class="overlay-content">
 							
 									<p class="name">Haven Agency</p>
 									
 									<h3>Activision</h3>
+									
+									<p class="tags">Design, UX, UI</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -289,14 +288,14 @@
 							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-pennzoil.jpg">
 							
 							<div class="overlay">
-							
-								<div class="faux-bg" style="background-color:#303030"></div>
 								
 								<div class="overlay-content">
 							
 									<p class="name">Haven Agency</p>
 									
 									<h3>Pennzoil</h3>
+									
+									<p class="tags">Design, UX, UI</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -317,14 +316,14 @@
 							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-1d.jpg">
 							
 							<div class="overlay">
-							
-								<div class="faux-bg" style="background-color:#8F5EA0"></div>
 								
 								<div class="overlay-content">
 							
 									<p class="name">Livenation</p>
 									
 									<h3>One Direction</h3>
+									
+									<p class="tags">Design, UX, UI</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -345,14 +344,14 @@
 							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-highlights.jpg">
 							
 							<div class="overlay">
-							
-								<div class="faux-bg" style="background-color:#415266"></div>
 								
 								<div class="overlay-content">
 							
 									<p class="name">Highlights.com</p>
 									
 									<h3>Highlights</h3>
+									
+									<p class="tags">Design, UX, UI</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -373,14 +372,14 @@
 							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-bio.jpg">
 							
 							<div class="overlay">
-							
-								<div class="faux-bg" style="background-color:#024D77"></div>
 								
 								<div class="overlay-content">
 							
 									<p class="name">A+E Networks</p>
 									
 									<h3>Biography.com</h3>
+									
+									<p class="tags">Design, UX, UI</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -401,14 +400,14 @@
 							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-indy.jpg">
 							
 							<div class="overlay">
-							
-								<div class="faux-bg" style="background-color:#C91A18"></div>
 								
 								<div class="overlay-content">
 							
 									<p class="name">Omnigon</p>
 									
 									<h3>Indy Car</h3>
+									
+									<p class="tags">Design, UX, UI</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -429,14 +428,14 @@
 							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-toyota.jpg">
 							
 							<div class="overlay">
-							
-								<div class="faux-bg" style="background-color:#666666"></div>
 								
 								<div class="overlay-content">
 							
 									<p class="name">People.com</p>
 									
 									<h3>Toyota</h3>
+									
+									<p class="tags">Design, UX, UI</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -457,14 +456,14 @@
 							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-jt.jpg">
 							
 							<div class="overlay">
-							
-								<div class="faux-bg" style="background-color:#232323"></div>
 								
 								<div class="overlay-content">
 							
 									<p class="name">Livenation</p>
 									
 									<h3>Legends of Summer Tour </h3>
+									
+									<p class="tags">Design, UX, UI</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -485,14 +484,14 @@
 							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-mk.jpg">
 							
 							<div class="overlay">
-							
-								<div class="faux-bg" style="background-color:#301011"></div>
 								
 								<div class="overlay-content">
 							
 									<p class="name">Haven Agency</p>
 									
 									<h3>Mortal Kombat</h3>
+									
+									<p class="tags">Design, UX, UI</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -513,14 +512,14 @@
 							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-thq.jpg">
 							
 							<div class="overlay">
-							
-								<div class="faux-bg" style="background-color:#442956"></div>
 								
 								<div class="overlay-content">
 							
 									<p class="name">Haven Agency</p>
 									
 									<h3>THQ.com</h3>
+									
+									<p class="tags">Design, UX, UI</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -604,30 +603,61 @@
 
 <!--  Start of Studio Section -->
 
-<section class="studio scrollme " id="studio" >
+<section class="studio scrollme" id="studio" >
 
-	<div class="instagram-links clearfix">
+	<div class="row">
 	
-		<div class="ig-link"><a href="#"><img src="https://s3-us-west-2.amazonaws.com/purenine/ig-image-1.jpg" alt=""/></a></div>
+		<div class="studio-block left-image clearfix">
 		
-		<div class="ig-link"><a href="#"><img src="https://s3-us-west-2.amazonaws.com/purenine/ig-image-2.jpg" alt=""/></a></div>
+			<div class="image">
 		
-		<div class="ig-link"><a href="#"><img src="https://s3-us-west-2.amazonaws.com/purenine/ig-image-3.jpg" alt=""/></a></div>
+				<img src="img/studio-image-1.jpg" alt="studio"/>
+				
+			</div><!--/.image-->
+			
+			<div class="block-content">
+			
+				<div class="inner">
+				
+					<h3>The Studio.</h3>
+					
+					<span class="line"></span>
+					
+					<p>PURE<span>NINE</span> is owned and operated by <span>Thomas Klinger</span>, designer & creative director with over a decade of experience.</p>
+					
+					<p>We assemble a dynamic team, tailored to meet your needs, in an effort to drive measurable results and exceed expectations.</p>
+				
+				</div><!--/.inner-->
+			
+			</div><!--/.block-content-->
+	
+		</div><!--/.studio-block-->
 		
-		<div class="ig-link"><a href="#"><img src="https://s3-us-west-2.amazonaws.com/purenine/ig-image-4.jpg" alt=""/></a></div>
+		<div class="studio-block right-image clearfix">
+		
+			<div class="block-content">
+			
+				<div class="inner">
+				
+					<h3>Our Capabilities.</h3>
+					
+					<span class="line"></span>
+					
+					<p>We take pride in any task assigned and have estblished a reputation for our work to include, but not limited to - a variety of solutions in <span>visual design</span>, <span>web development</span>, <span>product execution</span> & <span>mobile applications</span>.</p>
+				
+				</div><!--/.inner-->
+			
+			</div><!--/.block-content-->
+			
+			<div class="image">
+			
+				<img src="img/studio-image-2.jpg" alt="studio"/>
+				
+			</div><!--/.image-->
 	
-	</div><!--/.instagram-links-->
+		</div><!--/.studio-block-->
 	
-	<div class="studio-content">
-	
-		<h1>The Studio.</h1>
-		<p style="border-bottom:2px solid #bcd325; width:100px; height:2px; margin:0 auto;" ></p>
-		<p>We take pride in any task assigned and have estblished a reputation for our work to include, but not limited to - a variety of solutions in visual design. web development and mobile applications.</p>
-		<p>In an effort to drive measurable results and exceed client expectations, we will provide direction from concept to completion - and custom-assemble a dynamic team that is tailored to meet your needs.</p>
-		<p>We are a digital agency comprised of a talented team of professionals, founded by <a href="https://www.linkedin.com/in/thomasklinger" target="_blank">Thomas Klinger</a>.</p>
-		<a class="button" href="mailto:hello@purenine.com" data-when="enter" data-from="1" data-to="0.7" data-opacity="0" data-translatey="0" data-rotatez="0">Contact us today!</a>
-	
-	</div><!--/.studio-content-->
+	</div><!--/.row-->
 	
 </section>
 
