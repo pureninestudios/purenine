@@ -4,6 +4,8 @@
 
 	<div class="hero">
 	
+		<div class="light-spot"></div><!--/.light-spot-->
+	
 		<div class="logo-main home fade-in faded"><a href="index.php"><img class="logo" src="https://s3-us-west-2.amazonaws.com/purenine/logo-light%402x.png" width="110" height="24" data-pin-nopin="true"></a></div>
 	
 		<div class="hero-inner">
@@ -14,9 +16,9 @@
 			
 				<?php
 					$heroes = array(
-						'twitch-hero-image-drak',
-						'twitch-hero-image-drak',
-						'twitch-hero-image-drak'
+						'twitch-hero-image-dark',
+						'twitch-hero-image-dark',
+						'twitch-hero-image-dark'
 					);
 					shuffle($heroes);
 					foreach ($heroes as $h) :
@@ -26,8 +28,8 @@
 					
 						<div class="slide-inner">
 					
-							<img class="houdini" src="img/<?php echo $h; ?>.png" alt="#"/>
-							<img src="img/<?php echo $h; ?>.png" alt="#"/>
+							<img class="houdini" src="img/<?php echo $h; ?>.jpg" alt="#"/>
+							<img src="img/<?php echo $h; ?>.jpg" alt="#"/>
 						
 						</div><!--/.slide-inner-->
 						
