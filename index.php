@@ -49,7 +49,13 @@
 					
 						<a href="madden.php">
 						
-							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-madden.jpg">
+							<div class="work-image">
+						
+								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-madden.jpg">
+								
+								<div class="faux-bg" style="background-color:#422673"></div>
+								
+							</div><!--/.work-image-->
 							
 							<div class="overlay">
 								
@@ -77,7 +83,13 @@
 					
 						<a href="http://www.pgatour.com">
 						
-							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-pga.jpg">
+							<div class="work-image">
+						
+								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-pga.jpg">
+								
+								<div class="faux-bg" style="background-color:#422673"></div>
+								
+							</div><!--/.work-image-->
 							
 							<div class="overlay">
 								
@@ -105,7 +117,13 @@
 					
 						<a href="http://www.proactiv.com/how-does-proactiv-work.html">
 						
-							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-proactiv.jpg">
+							<div class="work-image">
+						
+								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-proactiv.jpg">
+								
+								<div class="faux-bg" style="background-color:#422673"></div>
+								
+							</div><!--/.work-image-->
 							
 							<div class="overlay">
 								
@@ -133,7 +151,13 @@
 					
 						<a href="http://www.guardianlife.com">
 						
-							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-guardian.jpg">
+							<div class="work-image">
+						
+								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-guardian.jpg">
+								
+								<div class="faux-bg" style="background-color:#422673"></div>
+								
+							</div><!--/.work-image-->
 							
 							<div class="overlay">
 								
@@ -160,8 +184,14 @@
 					<div class="grid-item">
 					
 						<a href="http://www.audiomack.com">
+							
+							<div class="work-image">
 						
-							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-am.jpg">
+								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-am.jpg">
+								
+								<div class="faux-bg" style="background-color:#422673"></div>
+								
+							</div><!--/.work-image-->
 							
 							<div class="overlay">
 								
@@ -189,7 +219,13 @@
 					
 						<a href="activision.php">
 						
-							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-activision.jpg">
+							<div class="work-image">
+						
+								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-activision.jpg">
+								
+								<div class="faux-bg" style="background-color:#422673"></div>
+							
+							</div><!--/.work-image-->
 							
 							<div class="overlay">
 								
@@ -217,7 +253,13 @@
 					
 						<a href="pennzoil.php">
 						
-							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-pennzoil.jpg">
+							<div class="work-image">
+						
+								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-pennzoil.jpg">
+								
+								<div class="faux-bg" style="background-color:#422673"></div>
+								
+							</div><!--/.work-image-->
 							
 							<div class="overlay">
 								
@@ -245,7 +287,13 @@
 					
 						<a href="1d.php">
 						
-							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-1d.jpg">
+							<div class="work-image">
+						
+								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-1d.jpg">
+								
+								<div class="faux-bg" style="background-color:#422673"></div>
+								
+							</div><!--/.work-image-->
 							
 							<div class="overlay">
 								
@@ -273,7 +321,13 @@
 					
 						<a href="highlights.php">
 						
-							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-highlights.jpg">
+							<div class="work-image">
+						
+								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-highlights.jpg">
+								
+								<div class="faux-bg" style="background-color:#422673"></div>
+								
+							</div><!--/.work-image-->
 							
 							<div class="overlay">
 								
@@ -301,7 +355,13 @@
 					
 						<a href="bio.php">
 						
-							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-bio.jpg">
+							<div class="work-image">
+						
+								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-bio.jpg">
+								
+								<div class="faux-bg" style="background-color:#422673"></div>
+								
+							</div><!--/.work-image-->
 							
 							<div class="overlay">
 								
@@ -329,7 +389,13 @@
 					
 						<a href="indycar.php">
 						
-							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-indy.jpg">
+							<div class="work-image">
+						
+								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-indy.jpg">
+								
+								<div class="faux-bg" style="background-color:#422673"></div>
+								
+							</div><!--/.work-image-->
 							
 							<div class="overlay">
 								
@@ -357,7 +423,13 @@
 					
 						<a href="toyota.php">
 						
-							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-toyota.jpg">
+							<div class="work-image">
+						
+								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-toyota.jpg">
+								
+								<div class="faux-bg" style="background-color:#422673"></div>
+								
+							</div><!--/.work-image-->
 							
 							<div class="overlay">
 								
@@ -385,7 +457,13 @@
 					
 						<a href="jt.php">
 						
-							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-jt.jpg">
+							<div class="work-image">
+						
+								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-jt.jpg">
+								
+								<div class="faux-bg" style="background-color:#422673"></div>
+								
+							</div><!--/.work-image-->
 							
 							<div class="overlay">
 								
@@ -413,7 +491,13 @@
 					
 						<a href="mortalkombat.php">
 						
-							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-mk.jpg">
+							<div class="work-image">
+						
+								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-mk.jpg">
+								
+								<div class="faux-bg" style="background-color:#422673"></div>
+								
+							</div><!--/.work-image-->
 							
 							<div class="overlay">
 								
@@ -441,7 +525,13 @@
 					
 						<a href="thq.php">
 						
-							<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-thq.jpg">
+							<div class="work-image">
+						
+								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-thq.jpg">
+								
+								<div class="faux-bg" style="background-color:#422673"></div>
+								
+							</div><!--/.work-image-->
 							
 							<div class="overlay">
 								
