@@ -87,7 +87,7 @@
 						
 								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-pga.jpg">
 								
-								<div class="faux-bg" style="background-color:#422673"></div>
+								<div class="faux-bg" style="background-color:#021E36"></div>
 								
 							</div><!--/.work-image-->
 							
@@ -121,7 +121,7 @@
 						
 								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-proactiv.jpg">
 								
-								<div class="faux-bg" style="background-color:#422673"></div>
+								<div class="faux-bg" style="background-color:#54A1A9"></div>
 								
 							</div><!--/.work-image-->
 							
@@ -155,7 +155,7 @@
 						
 								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-guardian.jpg">
 								
-								<div class="faux-bg" style="background-color:#422673"></div>
+								<div class="faux-bg" style="background-color:#124074"></div>
 								
 							</div><!--/.work-image-->
 							
@@ -189,7 +189,7 @@
 						
 								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-am.jpg">
 								
-								<div class="faux-bg" style="background-color:#422673"></div>
+								<div class="faux-bg" style="background-color:#323232"></div>
 								
 							</div><!--/.work-image-->
 							
@@ -223,7 +223,7 @@
 						
 								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-activision.jpg">
 								
-								<div class="faux-bg" style="background-color:#422673"></div>
+								<div class="faux-bg" style="background-color:#353B4B"></div>
 							
 							</div><!--/.work-image-->
 							
@@ -257,7 +257,7 @@
 						
 								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-pennzoil.jpg">
 								
-								<div class="faux-bg" style="background-color:#422673"></div>
+								<div class="faux-bg" style="background-color:#303030"></div>
 								
 							</div><!--/.work-image-->
 							
@@ -291,7 +291,7 @@
 						
 								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-1d.jpg">
 								
-								<div class="faux-bg" style="background-color:#422673"></div>
+								<div class="faux-bg" style="background-color:#8F5EA0"></div>
 								
 							</div><!--/.work-image-->
 							
@@ -325,7 +325,7 @@
 						
 								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-highlights.jpg">
 								
-								<div class="faux-bg" style="background-color:#422673"></div>
+								<div class="faux-bg" style="background-color:#415266"></div>
 								
 							</div><!--/.work-image-->
 							
@@ -359,7 +359,7 @@
 						
 								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-bio.jpg">
 								
-								<div class="faux-bg" style="background-color:#422673"></div>
+								<div class="faux-bg" style="background-color:#024D77"></div>
 								
 							</div><!--/.work-image-->
 							
@@ -393,7 +393,7 @@
 						
 								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-indy.jpg">
 								
-								<div class="faux-bg" style="background-color:#422673"></div>
+								<div class="faux-bg" style="background-color:#CA1B18"></div>
 								
 							</div><!--/.work-image-->
 							
@@ -427,7 +427,7 @@
 						
 								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-toyota.jpg">
 								
-								<div class="faux-bg" style="background-color:#422673"></div>
+								<div class="faux-bg" style="background-color:#666666"></div>
 								
 							</div><!--/.work-image-->
 							
@@ -461,7 +461,7 @@
 						
 								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-jt.jpg">
 								
-								<div class="faux-bg" style="background-color:#422673"></div>
+								<div class="faux-bg" style="background-color:#232323"></div>
 								
 							</div><!--/.work-image-->
 							
@@ -495,7 +495,7 @@
 						
 								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-mk.jpg">
 								
-								<div class="faux-bg" style="background-color:#422673"></div>
+								<div class="faux-bg" style="background-color:#301011"></div>
 								
 							</div><!--/.work-image-->
 							
@@ -529,7 +529,7 @@
 						
 								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-thq.jpg">
 								
-								<div class="faux-bg" style="background-color:#422673"></div>
+								<div class="faux-bg" style="background-color:#442956"></div>
 								
 							</div><!--/.work-image-->
 							
