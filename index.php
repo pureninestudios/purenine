@@ -59,7 +59,7 @@
 									
 									<h3>Madden Live Challenge</h3>
 									
-									<p class="tags">Design, UX, UI</p>
+									<p class="tags">Art Direction, UX, UI, Visual Design</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -85,9 +85,9 @@
 							
 									<p class="name">Omnigon</p>
 									
-									<h3>PGA Tour</h3>
+									<h3>PGATour.com</h3>
 									
-									<p class="tags">Design, UX, UI</p>
+									<p class="tags">UX, Visual Design, Mobile</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -113,9 +113,9 @@
 							
 									<p class="name">Haven Agency</p>
 									
-									<h3>Proactiv+</h3>
+									<h3>Proactiv.com</h3>
 									
-									<p class="tags">Design, UX, UI</p>
+									<p class="tags">Art Direction, UX, Visual Design</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -139,11 +139,11 @@
 								
 								<div class="overlay-content">
 							
-									<p class="name">Guardianlife.com</p>
+									<p class="name">Guardianlife</p>
 									
-									<h3>Guardian Life</h3>
+									<h3>GuardianLife.com</h3>
 									
-									<p class="tags">Design, UX, UI</p>
+									<p class="tags">Art Direction, Visual Design, Styleguide</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -167,11 +167,11 @@
 								
 								<div class="overlay-content">
 							
-									<p class="name">Audiomack.com</p>
+									<p class="name">Audiomack</p>
 									
-									<h3>Audiomack</h3>
+									<h3>Audiomack.com</h3>
 									
-									<p class="tags">Design, UX, UI</p>
+									<p class="tags">Creative Direction, UX, UI, Visual Design, Mobile</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -197,9 +197,9 @@
 							
 									<p class="name">Haven Agency</p>
 									
-									<h3>Activision</h3>
+									<h3>Shop Activision.com</h3>
 									
-									<p class="tags">Design, UX, UI</p>
+									<p class="tags">Visual Design, UX, E-commerce</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -225,9 +225,9 @@
 							
 									<p class="name">Haven Agency</p>
 									
-									<h3>Pennzoil</h3>
+									<h3>Pennzoil Sweepstakes</h3>
 									
-									<p class="tags">Design, UX, UI</p>
+									<p class="tags">Concept, UX, Visual Design, Social</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -253,9 +253,9 @@
 							
 									<p class="name">Livenation</p>
 									
-									<h3>One Direction</h3>
+									<h3>One Direction Tour</h3>
 									
-									<p class="tags">Design, UX, UI</p>
+									<p class="tags">UX, UI, Visual Design</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -279,11 +279,11 @@
 								
 								<div class="overlay-content">
 							
-									<p class="name">Highlights.com</p>
+									<p class="name">Highlights</p>
 									
-									<h3>Highlights</h3>
+									<h3>Highlights.com</h3>
 									
-									<p class="tags">Design, UX, UI</p>
+									<p class="tags">Pitch, Visual Design, UX, UI, Mobile</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -311,7 +311,7 @@
 									
 									<h3>Biography.com</h3>
 									
-									<p class="tags">Design, UX, UI</p>
+									<p class="tags">Creative Direction, UX, UI, Visual Design</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -337,9 +337,9 @@
 							
 									<p class="name">Omnigon</p>
 									
-									<h3>Indy Car</h3>
+									<h3>Verizon IndyCar</h3>
 									
-									<p class="tags">Design, UX, UI</p>
+									<p class="tags">Visual Design, Mobile, Tablet</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -365,9 +365,9 @@
 							
 									<p class="name">People.com</p>
 									
-									<h3>Toyota</h3>
+									<h3>Toyota Avalon</h3>
 									
-									<p class="tags">Design, UX, UI</p>
+									<p class="tags">Advertising, UX, UI, Visual Design, Tablet</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -395,7 +395,7 @@
 									
 									<h3>Legends of Summer Tour </h3>
 									
-									<p class="tags">Design, UX, UI</p>
+									<p class="tags">Creative Direction, UX, UI, Visual Design</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -423,7 +423,7 @@
 									
 									<h3>Mortal Kombat</h3>
 									
-									<p class="tags">Design, UX, UI</p>
+									<p class="tags">Pitch, Concept, UX, UI, Visual Design</p>
 								
 								</div><!--/.overlay-content-->
 								
@@ -451,7 +451,7 @@
 									
 									<h3>THQ.com</h3>
 									
-									<p class="tags">Design, UX, UI</p>
+									<p class="tags">Pitch, Concept, Visual Design</p>
 								
 								</div><!--/.overlay-content-->
 								
