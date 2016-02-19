@@ -282,7 +282,8 @@ p a:hover {
   
 .top-social-links{
 	position:absolute;
-	top:67px;right:145px
+	top:67px;right:145px;
+	display: none;
 }
 
 @media screen and ( max-width:727px ){
