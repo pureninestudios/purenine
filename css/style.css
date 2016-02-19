@@ -1677,10 +1677,7 @@ div.project-assets img {
     top: 0; } }
 
 .hero {
-  background: #1b1b1b;
-  opacity: 0;
-  -webkit-transform: translateY(30px);
-  transform: translateY(30px); }
+  background: #1b1b1b; }
 
 .light-spot {
   position: absolute;
@@ -1694,12 +1691,6 @@ div.project-assets img {
   @media screen and (max-width: 640px) {
     .light-spot {
       display: none; } }
-
-.loaded .hero {
-  -webkit-animation: heroSlideInUp 0.5s forwards ease;
-  animation: heroSlideInUp 0.5s forwards ease;
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s; }
 
 .hero-inner {
   background: #1b1b1b;

@@ -1076,9 +1076,7 @@ div.project-assets img{
 
 .hero{
 	background:#1b1b1b;
-	opacity:0;
-	-webkit-transform:translateY(30px);
-	transform:translateY(30px);
+	//opacity:0;
 }
 
 .light-spot{
@@ -1095,12 +1093,6 @@ div.project-assets img{
 	
 }
 
-.loaded .hero{
-	-webkit-animation:heroSlideInUp 0.5s forwards ease;
-	animation:heroSlideInUp 0.5s forwards ease;
-	-webkit-animation-delay:0.5s;
-	animation-delay:0.5s
-}
 
 .hero-inner{
 	background:#1b1b1b;
