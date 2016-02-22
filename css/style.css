@@ -156,7 +156,7 @@ path {
 .burger-wrap,
 .burger-wrap.up-top {
   position: absolute;
-  top: 0;
+  top: 7px;
   right: 0;
   z-index: 1001; }
 
@@ -190,7 +190,7 @@ path {
 @media screen and (max-width: 768px) {
   .navToggle.home {
     right: 30px;
-    top: 0px; }
+    top: 24px; }
   .navToggle .icon {
     top: 30px; } }
 
