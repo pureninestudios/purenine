@@ -6,11 +6,13 @@
 	
 		<div class="light-spot"></div><!--/.light-spot-->
 	
-		<div class="logo-main home fade-in faded"><a href="index.php"><img class="logo" src="https://s3-us-west-2.amazonaws.com/purenine/logo-light%402x.png" width="110" height="24" data-pin-nopin="true"></a></div>
+		<div class="logo-main home fade-in faded"><a href="index.php"><img class="logo" src="https://s3-us-west-2.amazonaws.com/purenine/logo%402x.png" width="110" height="24" data-pin-nopin="true"></a></div>
 	
 		<div class="hero-inner">
 		
-			<h1><i class="animate-hero">We are a digital studio</i> <i class="animate-hero">offering a variety <br/>of solutions in</i> <i class="animate-hero"><span>product development, <br/>mobile</span> and <span>visual design.</span></i></h1>
+			<h1>
+			<i class="animate-hero">We are a digital studio offering a variety <br/>of solutions in <span>product development, <br/>mobile</span> and <span>visual design.</span></i> 
+			</h1>
 			
 			<div class="hero-image">
 			
@@ -30,7 +32,7 @@
 					
 		</div><!--/.hero-inner-->
 		
-		<div class="flare"></div>
+
 	
 	</div><!--/.hero-->
 
