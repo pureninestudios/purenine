@@ -1,0 +1,34 @@
+//
+// Theme Name: Skeletal Dance
+// Description: Custom, minimal, CSS framework
+// Author: Dean Elliott
+// Version: 1.0
+//
+
+// ==========================================================================
+// Skeletal Dance 
+// ==========================================================================
+
+// Variables & Mixins
+@import 'assets/css/skeletaldance/variables';
+@import 'assets/css/skeletaldance/mixins';
+
+// Skeletal Dance framework
+@import 'assets/css/skeletaldance/sd';
+
+// ==========================================================================
+// P9 Theme
+// ==========================================================================
+
+@import 'assets/css/global/variables';
+
+@import 'assets/css/theme/misc';
+@import 'assets/css/theme/buttons';
+@import 'assets/css/theme/header';
+@import 'assets/css/theme/hero';
+
+@import 'assets/css/theme/hp-section';
+@import 'assets/css/theme/hp-features';
+@import 'assets/css/theme/hp-work';
+
+@import 'assets/css/theme/contact';

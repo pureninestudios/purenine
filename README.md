@@ -1,2 +1,0 @@
-# purenine
-purenine.com
