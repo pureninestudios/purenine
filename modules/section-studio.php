@@ -19,9 +19,11 @@
 			
 				<div class="feature col sm-12 md-4">
 				
-					<div class="feature-image">
+					<div class="feature-image lazy" data-real-image="assets/img/feature-strategy.jpg">
 					
-						<img src="assets/img/feature-strategy.jpg" alt=""/>						
+						<img class="placeholder" src="http://www.placehold.it/300/300" alt=""/>
+						
+						<img src="" class="lazy-load-me" alt=""/>					
 					
 					</div><!--/.feature-image-->
 					
@@ -37,10 +39,12 @@
 				
 				<div class="feature col sm-12 md-4">
 				
-					<div class="feature-image">
+					<div class="feature-image lazy" data-real-image="assets/img/feature-design.jpg">
 					
-						<img src="assets/img/feature-design.jpg" alt=""/>						
-					
+						<img class="placeholder" src="http://www.placehold.it/300/300" alt=""/>
+						
+						<img src="" class="lazy-load-me" alt=""/>
+											
 					</div><!--/.feature-image-->
 					
 					<div class="feature-content">
@@ -55,10 +59,12 @@
 				
 				<div class="feature col sm-12 md-4">
 				
-					<div class="feature-image">
+					<div class="feature-image lazy" data-real-image="assets/img/feature-build.jpg" >
 					
-						<img src="assets/img/feature-build.jpg" alt=""/>						
-					
+						<img class="placeholder" src="http://www.placehold.it/300/300" alt=""/>
+						
+						<img src="" class="lazy-load-me" alt=""/>					
+						
 					</div><!--/.feature-image-->
 					
 					<div class="feature-content">

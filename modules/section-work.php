@@ -21,7 +21,13 @@
 				
 				</div><!--/.work-top-->
 				
-				<img class="work-image" src="assets/img/work/madden-man.png" alt="Madden Live Challenge"/>
+				<div class="lazy" data-real-image="assets/img/work/madden-man.png">
+				
+					<img class="placeholder" src="assets/img/madden-placeholder.png" alt=""/>
+					
+					<img src="" class="lazy-load-me" alt=""/>
+					
+				</div><!--/.lazy-->
 				
 				<div class="work-copy">
 				
@@ -50,7 +56,13 @@ The top 4 players from the qualifier will compete against former champions of Ma
 				
 				</div><!--/.work-top-->
 				
-				<img class="work-image" src="assets/img/work/pga-screenshot.png" alt="PGATour.com"/>
+				<div class="lazy" data-real-image="assets/img/work/pga-screenshot.png">
+				
+					<img class="placeholder" src="assets/img/pga-placeholder.png" alt=""/>
+					
+					<img src="" class="lazy-load-me" alt=""/>
+					
+				</div><!--/.lazy-->
 				
 				<div class="work-copy">
 				

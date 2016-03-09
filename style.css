@@ -525,6 +525,31 @@ a {
   margin: 0 auto;
   padding: 0 20px; }
 
+.lazy {
+  position: relative;
+  display: inline-block; }
+
+.lazy-load-me {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -khtml-opacity: 0;
+  opacity: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-transition: all 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -o-transition: all 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -ms-transition: all 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: all 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+  .lazy-load-me.fade {
+    -moz-opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    -khtml-opacity: 100;
+    opacity: 1; }
+
 .button {
   background: #bcd325;
   display: inline-block;

@@ -25,3 +25,18 @@ a{
 	margin:0 auto;
 	padding:0 20px
 }//.row.not-full
+
+.lazy{
+	position:relative;
+	display:inline-block;
+}
+
+.lazy-load-me{
+	position:absolute;
+	top:0;left:0;
+	@include sd-opacity(0);
+	@include sd-transition(0.25s);
+	
+	&.fade{ @include sd-opacity(1) }
+	
+}

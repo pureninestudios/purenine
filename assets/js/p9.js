@@ -26,6 +26,20 @@
 			}
 		});
 	});
+	
+	// ==========================================================================
+	// jQuery InView
+	// ==========================================================================
+	
+	$('.lazy').on('inview', function(event, isInView) {
+		if (isInView) {
+			var newSrc = $(this).data('real-image');
+			$(this).find('.lazy-load-me').attr('src', newSrc).delay(250).queue(function(next){
+				$(this).addClass('fade');
+				next();
+			});
+		}
+	});
 
 })(jQuery);
 
