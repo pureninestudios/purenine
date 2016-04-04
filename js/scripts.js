@@ -1063,7 +1063,7 @@ Add class to portfolio items when they come into view --------------------------
 
 $('#portfolio .item').appear(function(){
 	$(this).find('.img-wrap').addClass('inview');
-});
+});  
 
 /*--------------------------------------------------
 Contact Form Init start
