@@ -10,11 +10,18 @@
 		position:relative;
 		max-width:1600px;
 		margin:0 auto;
+		display:-webkit-flex;
+		display:flex;
+		-webkit-align-items:flex-end;
+		align-items:flex-end;
+		-webkit-justify-content:center;
+		justify-content:center;
 		
 		img{
-			position:absolute;
-			bottom:-1px;left:0
-		}
+			margin:0 auto;
+			max-height:calc(100% - 200px);
+			width:auto
+		}//img
 		
 	}//.hero-inner
 	

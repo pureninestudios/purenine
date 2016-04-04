@@ -7,78 +7,154 @@
 
 	<section id="work" class="section work">
 	
-		<div class="row text-center">
+		<div class="row work-items all-left">
 		
-			<div id="madden" class="work-item" style="background-color:#412671">
+			<div class="work-item col sm-12 md-4">
 			
-				<div class="work-top">
-					
-					<p class="agency">Goodgame Agency</p>
-					
-					<h3 class="work-title">Madden Live Challenge</h3>
-					
-					<span class="line"></span>
+				<div class="inner">
 				
-				</div><!--/.work-top-->
+					<a href="#">
 				
-				<div class="lazy" data-real-image="assets/img/work/madden-man.png">
-				
-					<img class="placeholder" src="assets/img/madden-placeholder.png" alt=""/>
+						<div class="work-image">
+						
+							<img src="assets/img/work-placeholder.jpg" alt=""/>
+						
+						</div><!--/.work-image-->
+						
+						<div class="work-details">
+						
+							<p class="client">Goodgame</p>
+							
+							<h3>Madden Challenge</h3>
+							
+							<ul class="inline-list tags">
+							
+								<li>Design</li>
+								
+								<li>UX</li>
+								
+								<li>UI</li>
+							
+							</ul><!--/.tags-->
+						
+						</div><!--/.work-details-->
 					
-					<img src="" class="lazy-load-me" alt=""/>
-					
-				</div><!--/.lazy-->
+					</a>
 				
-				<div class="work-copy">
-				
-					<div class="row not-full">
-					
-						<p>We worked with GoodGame.gg and EA Sports to come with the look and feel for the Madden Challenge website. 
-The top 4 players from the qualifier will compete against former champions of Madden in San Francisco for their share of $50,000. The website would showcase rankings, news, live video streams and game brackets.</p>
-
-						<a class="button" href="#">View Project</a>
-					
-					</div><!--/.row-->
-				
-				</div><!--/.work-copy-->
-
+				</div><!--/.inner-->
+			
 			</div><!--/.work-item-->
 			
-			<div id="pga" class="work-item" style="background-color:#0c3b6a">
+			<div class="work-item col sm-12 md-4">
 			
-				<div class="work-top">
-					
-					<p class="agency">Omnigon</p>
-					
-					<h3 class="work-title">PGATour.com</h3>
-					
-					<span class="line"></span>
+				<div class="inner">
 				
-				</div><!--/.work-top-->
+					<a href="#">
 				
-				<div class="lazy" data-real-image="assets/img/work/pga-screenshot.png">
-				
-					<img class="placeholder" src="assets/img/pga-placeholder.png" alt=""/>
+						<div class="work-image">
+						
+							<img src="assets/img/work-placeholder.jpg" alt=""/>
+						
+						</div><!--/.work-image-->
+						
+						<div class="work-details">
+						
+							<p class="client">Goodgame</p>
+							
+							<h3>Madden Challenge</h3>
+							
+							<ul class="inline-list tags">
+							
+								<li>Design</li>
+								
+								<li>UX</li>
+								
+								<li>UI</li>
+							
+							</ul><!--/.tags-->
+						
+						</div><!--/.work-details-->
 					
-					<img src="" class="lazy-load-me" alt=""/>
-					
-				</div><!--/.lazy-->
+					</a>
 				
-				<div class="work-copy">
+				</div><!--/.inner-->
+			
+			</div><!--/.work-item-->
+			
+			<div class="work-item col sm-12 md-4">
+			
+				<div class="inner">
 				
-					<div class="row not-full">
-					
-						<p>We worked with GoodGame.gg and EA Sports to come with the look and feel for the Madden Challenge website. 
-The top 4 players from the qualifier will compete against former champions of Madden in San Francisco for their share of $50,000. The website would showcase rankings, news, live video streams and game brackets.</p>
-
-						<a class="button" href="#">View Project</a>
-					
-					</div><!--/.row-->
+					<a href="#">
 				
-				</div><!--/.work-copy-->
-
+						<div class="work-image">
+						
+							<img src="assets/img/work-placeholder.jpg" alt=""/>
+						
+						</div><!--/.work-image-->
+						
+						<div class="work-details">
+						
+							<p class="client">Goodgame</p>
+							
+							<h3>Madden Challenge</h3>
+							
+							<ul class="inline-list tags">
+							
+								<li>Design</li>
+								
+								<li>UX</li>
+								
+								<li>UI</li>
+							
+							</ul><!--/.tags-->
+						
+						</div><!--/.work-details-->
+					
+					</a>
+				
+				</div><!--/.inner-->
+			
+			</div><!--/.work-item-->
+			
+			<div class="work-item col sm-12 md-4">
+			
+				<div class="inner">
+				
+					<a href="#">
+				
+						<div class="work-image">
+						
+							<img src="assets/img/work-placeholder.jpg" alt=""/>
+						
+						</div><!--/.work-image-->
+						
+						<div class="work-details">
+						
+							<p class="client">Goodgame</p>
+							
+							<h3>Madden Challenge</h3>
+							
+							<ul class="inline-list tags">
+							
+								<li>Design</li>
+								
+								<li>UX</li>
+								
+								<li>UI</li>
+							
+							</ul><!--/.tags-->
+						
+						</div><!--/.work-details-->
+					
+					</a>
+				
+				</div><!--/.inner-->
+			
 			</div><!--/.work-item-->
 		
 		</div><!--/.row-->
+		
+		<span class="line"></span>
 	
 	</section><!--/#work-->

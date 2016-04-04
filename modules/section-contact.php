@@ -11,7 +11,7 @@
 		
 			<div class="footer-logo">
 			
-				<img src="assets/img/footer-logo.png" alt="Purenine Studios"/>
+				<img src="assets/img/logo-light.png" alt="Purenine Studios"/>
 			
 			</div><!--/.footer-logo-->
 			

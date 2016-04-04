@@ -6,7 +6,18 @@
 		
 			<div class="hero-inner full-height">
 			
-				<img src="assets/img/heroes/history-hero.png" alt="History Channel"/>
+				<?php
+					// Define local file path
+					$local = 'assets/img/heroes/';
+					// Define heros
+					$heroes = array(
+						$local . 'history-hero.png',
+						$local . 'history-hero.png',
+					);
+					shuffle($heroes);
+				?>
+			
+				<img src="<?php echo $heroes[0];?>" alt=""/>
 			
 			</div><!--/.hero-inner-->
 		

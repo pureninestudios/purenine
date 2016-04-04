@@ -20,7 +20,7 @@
 		
 			<header id="header" class="header text-center">
 			
-				<h1 class="logo"><a href="/"><img src="assets/img/logo.png" alt="Purenine Studios"/></a></h1>
+				<h1 class="logo"><a href="/"><img src="assets/img/logo-light.png" alt="Purenine Studios"/></a></h1>
 				
 				<ul class="site-nav inline-list">
 				

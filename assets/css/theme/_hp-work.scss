@@ -2,41 +2,54 @@
 // Homepage - Work
 // ==========================================================================
 
+.row.work-items{ max-width:1200px }
+
 .work-item{
-	color:#fff;
-	position:relative;
+	padding:25px;
 	
-	.work-top{
-		position:absolute;
-		width:100%;
-		top:0;left:0;
-		padding:80px 0 0
-	}//.work-top
+	.inner{
+		box-shadow:0 0 10px rgba(0, 0, 0, 0.05);
+		@include sd-transition(0.25s);
+		
+		&:hover{ box-shadow:0 0 10px rgba(0, 0, 0, 0.3) }
+		
+	}//.inner
 	
-	.agency{
-		color:#fff;
-		font-size:1.3rem;
-		font-weight:700;
-		text-transform:uppercase;
-		@include sd-opacity(0.4)
-	}//.agency
-	
-	.work-title{
-		font-size:6.5rem;
-		font-family:$alt_font;
-		margin-bottom:30px
-	}//.work-title
-	
-	.work-copy{
+	.work-details{
 		background:#fff;
-		margin-top:-100px;
-		padding:140px 0 90px;
-		color:#6a6a6a;
+		padding:20px 25px
+	}//.work-details
+	
+	a{
+		color:#343434
+	}//a
+	
+	.client{
+		font-size:1.2rem;
+		text-transform:uppercase;
+		color:$brand_col;
+		font-weight:700;
+		line-height:1;
+		margin:0 0 7px
+	}//.client
+	
+	h3{
+		font-family:$alt_font;
+		font-size:3rem;
+		line-height:1;
+		margin:0 0 10px
+	}//h3
+	
+	.tags{
+		font-size:1rem;
+		color:#cacaca;
+		font-weight:600;
+		text-transform:uppercase;
 		
-		.row{ padding:0 100px }
+		li:not(:last-child):after{
+			content:", "
+		}
 		
-		p{ margin-bottom:40px }
-		
-	}//.work-copy
+	}//.tags
 	
 }//.work-item
