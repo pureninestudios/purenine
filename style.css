@@ -476,7 +476,7 @@ p.lead {
   padding-right: 0; }
 
 .padding-sec-top-xl {
-  padding-top: 200px; }
+  padding-top: 130px; }
 
 .padding-sec-top-220 {
   padding-top: 220px; }
@@ -492,7 +492,7 @@ p.lead {
   padding-bottom: 130px; }
 
 .padding-sec-sm {
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 60px; }
 
 .padding-sec-top-sm {
@@ -2538,9 +2538,10 @@ footer.footer-type-2 .copyright span {
   color: #2a5d6d; }
 
 /********About-me-page***********/
-.image-bg-wrap {
-  background: url("images/aboutimg.jpg");
-  background-position: center; }
+
+/*.image-bg-wrap {
+  background: url("imgs/random1.jpg");
+  background-position: center; }*/
 
 #message {
   color: #fff; }
@@ -3149,7 +3150,7 @@ a.reply {
 
 @media screen and (max-width: 1440px) {
   .padding-sec-top-xl {
-    padding-top: 200px; }
+    padding-top: 130px; }
   .padding-sec-top-lg {
     padding-top: 80px; }
   .padding-sec-lg {

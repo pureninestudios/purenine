@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>PURENINE | The design studio of Thomas Klinger</title>
-	
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
-	<link rel="icon" href="imgs/favicon.png" type="image/x-icon">
-	
-	<!-- Google Font -->
-	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700italic,700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,700,300,400italic,700italic,300italic' rel='stylesheet' type='text/css'>
-	
-     <!-- Animation -->
-    <link rel="stylesheet" type="text/css" href="css/animation.css">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-
-    <!-- Style -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+<?php include ('header.php'); ?>
 
 <body class="home-1">
 
@@ -54,54 +30,8 @@
 	
 	<!--Main Content -->
 	<div id="work" class="main-content">
-		
-		<!-- Header Sec -->
-		<header>
-			<!--logo
-	<a href="index.html"><img class="logo" src="imgs/dark-logo@2x.png" alt="logo" height="24" /></a>-->
-	<!--/logo-->
-							
-	<div class="header-nav show-header">
-		<nav class="navbar navbar-default" role="navigation">
-			<div class="navbar-header">
-				<div class="btn-wrap">
-					<button type="button" class="navbar-toggle trigger-overlay" data-toggle="collapse" data-target="#example-navbar-collapse">
-						<span class="trigger-overlay-w">
-							<span class="trigger-overlay">
-								<span class="span-line"></span>
-								<span class="span-line"></span>
-								<span class="span-line"></span>
-								<span class="span-line"></span>
-								<span class="span-line"></span>
-								<span class="span-line"></span>
-							</span>
-						</span>
-					</button>
-				</div>
-			</div>
-			<div class="collapse navbar-collapse" id="example-navbar-collapse">
-				<ul>
-					<li class="submenu-wrap">
-						<a href="index.html">Home</a>
-					</li>
-					<li class="submenu-wrap">
-						<a href="studio.html">Studio</a>
-					</li>
-					<li class="submenu-wrap">
-						<a href="#">Portfolio</a>
-					</li>
-					<li class="submenu-wrap">
-						<a href="#">Journal</a>
-					</li>
-					<li class="submenu-wrap">
-						<a href="mailto:hello@purenine.com">Contact</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</div>
-</header>
-<!-- /Header Sec -->
+
+<?php include ('nav.php'); ?>
 			
 <!--Main Content -->	
 <div class="wrapper ">
@@ -536,47 +466,4 @@
 			</div>
 		</div>
 		
-		<!-- footer Sec -->
-		<footer class="footer-type-1">
-			<div class="container">
-				<ul>
-					<li><a href="https://www.linkedin.com/in/thomasklinger">LinkedIn</a></li>
-					<li><a href="https://twitter.com/PURENINE">Twitter</a></li>
-					<li class="goto-top">
-						<a href="">
-							<span class="arrow-animation">
-								<span class="arrow-up"></span>
-								<span class="arrow-up-line"></span>
-							</span>
-						</a>
-					</li>
-					<li><a href="https://www.instagram.com/purenine/">Instagram</a></li>
-					<li><a href="mailto:hello@purenine.com">Email</a></li>
-				</ul>
-				
-				<div class="copyright">
-					<P>&copy; 2016 PURENINE STUDIOS INC.</p>
-				</div>
-			</div> 
-		</footer>
-		<!-- /footer Sec -->
-	
-	</div>
-</div>
-<!--/Main Content -->
-
-<!-- JQuery -->
-<script type='text/javascript' src="js/jquery-1.11.2.js"></script>
-<script type='text/javascript' src="js/plugins.js"></script>
-<script type='text/javascript' src="js/jquery.panzoom.js"></script>
-<script type="text/javascript" src="js/zoomslider.js"></script>
-<script type='text/javascript' src="js/jquery-ui-1.10.3.custom.min.js"></script>
-<script type='text/javascript' src="js/modernizr.custom.js"></script>
-<script type='text/javascript' src="js/bootstrap.min.js"></script>
-<script type='text/javascript' src="js/jquery.primarycolor.js"></script>
-<script type='text/javascript' src="js/jquery.nicescroll.js"></script>
-<script type='text/javascript' src="js/jquery.appear.js"></script>
-<script type='text/javascript' src="js/scripts.js"></script>
-
-</body>
-</html>
+<?php include ('footer.php'); ?>
