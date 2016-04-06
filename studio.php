@@ -20,7 +20,7 @@
 			<div class="row">
 				<div class="col-sm-8">
 					<div class="about-text">
-					<h1>PURENINE is owned and operated by Thomas Klinger, designer & creative director with over a decade of experience. </h1>
+					<h1>PURE<span style="color:#bcd325">NINE</span> is owned and operated by <a href="https://www.linkedin.com/in/thomasklinger">Thomas Klinger</a>, designer & creative director with over a decade of experience. </h1>
 					<p class="padding-sec-sm">We assemble a dynamic team, tailored to meet your needs, in an effort to drive measurable results and exceed expectations. We take pride in any task assigned and have estblished a reputation for our work.</p>
 					<ul class="social-links">
 						<li><a href="#">facebook</a><span>~</span></li>
@@ -37,12 +37,11 @@
 					<div class="row">
 						<div class="col-sm-4 margin-bottom-45">
 							<h6>Capabilities</h6>
-							<p>Product thinking, User experience, Visual design, Web development, Mobile applications, Advertising</p>
+							<p>Product thinking, UX, UI, Visual design, Development, Mobile, Advertising</p>
 						</div>
 						<div class="col-sm-4 margin-bottom-45">
 							<h6>Recent Clients</h6>
-							<p>A+E Networks, Audiomack, Djbooth, EA Sports, FOX, People.com, Livenation, PGA Tour, PWC, Twitch, Time Warner</p>
-						</div>
+							<p>Audiomack, Djbooth, EA Sports, People.com, Livenation, PGA Tour, PWC, Twitch, Time Warner</p> </div>
 						<div class="col-sm-4">
 							<h6>Agency Clients</h6>
 							<p>GoodGame, Haven Agency, Omnigon, Troika, Creative Circle</p>

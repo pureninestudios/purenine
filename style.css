@@ -486,14 +486,14 @@ p.lead {
   padding-bottom: 130px; }
 
 .padding-sec-top-lg {
-  padding-top: 130px; }
+  padding-top: 600px; }
 
 .padding-sec-bottom-lg {
   padding-bottom: 130px; }
 
 .padding-sec-sm {
   padding-top: 30px;
-  padding-bottom: 60px; }
+  padding-bottom: 30px; }
 
 .padding-sec-top-sm {
   padding-top: 60px; }
@@ -2444,7 +2444,7 @@ footer.footer-type-2 .copyright span {
   float: left; }
 
 .subscribe {
-  padding-top: 67px;
+  padding-top: 40px;
   cursor: pointer; }
 
 #instafeed {
@@ -3152,7 +3152,7 @@ a.reply {
   .padding-sec-top-xl {
     padding-top: 130px; }
   .padding-sec-top-lg {
-    padding-top: 80px; }
+    padding-top: 60px; }
   .padding-sec-lg {
     padding-top: 50px;
     padding-bottom: 80px; }
