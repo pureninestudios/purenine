@@ -24,16 +24,16 @@
 			<div class="collapse navbar-collapse" id="example-navbar-collapse">
 				<ul>
 					<li class="submenu-wrap">
-						<a href="index.php">Home</a>
+						<a href="/index.php">Home</a>
 					</li>
 					<li class="submenu-wrap">
-						<a href="studio.php">Studio</a>
+						<a href="/studio.php">Studio</a>
 					</li>
 					<li class="submenu-wrap">
-						<a href="index.php#work">Portfolio</a>
+						<a href="/index.php#work">Portfolio</a>
 					</li>
 					<li class="submenu-wrap">
-						<a href="news.php">News</a>
+						<a href="/news.php">News</a>
 					</li>
 					<li class="submenu-wrap">
 						<a href="mailto:hello@purenine.com">Contact</a>

@@ -28,17 +28,17 @@
 <!--/Main Content -->
 
 <!-- JQuery -->
-<script type='text/javascript' src="js/jquery-1.11.2.js"></script>
-<script type='text/javascript' src="js/plugins.js"></script>
-<script type='text/javascript' src="js/jquery.panzoom.js"></script>
-<script type="text/javascript" src="js/zoomslider.js"></script>
-<script type='text/javascript' src="js/jquery-ui-1.10.3.custom.min.js"></script>
-<script type='text/javascript' src="js/modernizr.custom.js"></script>
-<script type='text/javascript' src="js/bootstrap.min.js"></script>
-<script type='text/javascript' src="js/jquery.primarycolor.js"></script>
-<script type='text/javascript' src="js/jquery.nicescroll.js"></script>
-<script type='text/javascript' src="js/jquery.appear.js"></script>
-<script type='text/javascript' src="js/scripts.js"></script>
+<script type='text/javascript' src="/js/jquery-1.11.2.js"></script>
+<script type='text/javascript' src="/js/plugins.js"></script>
+<script type='text/javascript' src="/js/jquery.panzoom.js"></script>
+<script type="text/javascript" src="/js/zoomslider.js"></script>
+<script type='text/javascript' src="/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script type='text/javascript' src="/js/modernizr.custom.js"></script>
+<script type='text/javascript' src="/js/bootstrap.min.js"></script>
+<script type='text/javascript' src="/js/jquery.primarycolor.js"></script>
+<script type='text/javascript' src="/js/jquery.nicescroll.js"></script>
+<script type='text/javascript' src="/js/jquery.appear.js"></script>
+<script type='text/javascript' src="/js/scripts.js"></script>
 
 </body>
 </html>
