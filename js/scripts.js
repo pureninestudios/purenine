@@ -473,6 +473,14 @@ var scrollToProjects = function(){
 Scroll To Function end
 ---------------------------------------------------*/	
 
+if(window.location.hash) {
+ 	setTimeout(function () {
+	 	$('.goto-work').trigger('click');
+   }, 100);
+} else {
+  // Fragment doesn't exist
+}
+
 
 /*--------------------------------------------------
 Function Masonry Portfolio start
