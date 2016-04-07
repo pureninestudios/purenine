@@ -17,7 +17,7 @@
 			<div class="img-onload-wrap"></div>
 			<div class="text-wrap">
 				<div class="text-wrap-content">
-					<span class="head-text">We are a digital studio offering solutions <br>  in product development, mobile<br>and visual design.</span>
+					<span class="head-text">We are a digital studio offering solutions <br> in product development, mobile <br> and visual design.</span>
 					<span class="sep"></span>
 					<div class="head-detail">
 						<span>See our Work</span>

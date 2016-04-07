@@ -3470,13 +3470,19 @@ a.reply {
   .social-icons.only-touch-device {
     top: 28px; }
   .text-wrap .head-text, .home-4 .caption-slider .head-text, .project-detail-page-type-1 .caption-slider .head-text, .blog-page .caption-slider .head-text {
-    font-size: 50px;
-    line-height: 55px; }
+    font-size: 24px;
+    line-height: 30px;
+    padding:0 15px;
+    letter-spacing: -1px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+
+  .text-wrap .head-text br {display: none;}
+    
   .text-wrap .line-left, .text-wrap .line-right {
     width: 85px; }
   .text-wrap .head-detail {
-    width: 350px;
-    margin: 10px auto 0; }
+    width: 200px;
+    margin: 20px auto 0; }
   .home-4 .nav-counter, .project-detail-page-type-1 .nav-counter, .project-detail-page-type-1 .nav-counter {
     display: none; }
   .home-4 .nav-arrow-wrap, .project-detail-page-type-1 .nav-arrow-wrap, .project-detail-page-type-1 .nav-arrow-wrap {
