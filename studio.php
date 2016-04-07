@@ -23,9 +23,13 @@
 					<h1>PURE<span style="color:#bcd325">NINE</span> is owned and operated by <a href="https://www.linkedin.com/in/thomasklinger">Thomas Klinger</a>, designer & creative director with over a decade of experience. </h1>
 					<p class="padding-sec-sm">We assemble a dynamic team, tailored to meet your needs, in an effort to drive measurable results and exceed expectations. We take pride in any task assigned and have estblished a reputation for our work.</p>
 					<ul class="social-links">
-						<li><a href="#">facebook</a><span>~</span></li>
-						<li><a href="#">twitter</a><span>~</span></li>
-						<li><a href="#">flickr</a></li>
+						<li><a href="https://www.facebook.com/pureninestudios/"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://twitter.com/PURENINE"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.instagram.com/purenine/"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/thomasklinger"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://www.behance.net/tklinger"><i class="fa fa-behance"></i></a></li>
+						<li><a href="https://dribbble.com/purenine"><i class="fa fa-dribbble"></i></a></li>
+						<li><a href="https://vimeo.com/purenine"><i class="fa fa-vimeo"></i></a></li>
 					</ul>
 				</div>
 				</div>
@@ -54,7 +58,7 @@
 			<div class="row">
 				<div class="col-sm-6 get-touch">
 					<p>Do you have a project or idea you would like to talk about? We would love to help. <a class="" href="mailto:hello@purenine.com"><b>Get in touch.</b></a></p>
-					<p class="subscribe"><b data-target="box2" data-type="text" class="sm-button">Subscribe to our newsletter</b> and keep up to date with agency news, project launches and blog posts.</p>
+					
 				</div>
 			</div>
 		</section>

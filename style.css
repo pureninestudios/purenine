@@ -2551,16 +2551,17 @@ footer.footer-type-2 .copyright span {
 
 .social-links li {
   display: inline-block;
-  float: left; }
+  float: left;
+  padding-right: 20px; }
 
 .social-links li a {
-  -moz-transition: all 0.3s ease-in-out 0s;
-  -o-transition: all 0.3s ease-in-out 0s;
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s; }
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s; }
 
 .social-links li a:hover {
-  color: #2a5d6d; }
+  color: #bcd325; }
 
 .social-links span {
   padding: 0 20px; }
