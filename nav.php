@@ -30,10 +30,10 @@
 						<a href="studio.php">Studio</a>
 					</li>
 					<li class="submenu-wrap">
-						<a href="#">Portfolio</a>
+						<a href="index.php#work">Portfolio</a>
 					</li>
 					<li class="submenu-wrap">
-						<a href="#">Journal</a>
+						<a href="news.php">News</a>
 					</li>
 					<li class="submenu-wrap">
 						<a href="mailto:hello@purenine.com">Contact</a>
