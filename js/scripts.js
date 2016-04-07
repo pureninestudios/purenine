@@ -463,7 +463,7 @@ Scroll To Function start
 var scrollToProjects = function(){
 	$('html, body').animate({
 		scrollTop: $('.main-content').offset().top+1
-	}, 5000, function(){
+	}, 400, function(){
 		$('#hero').remove();
 		$('header').css({position: "fixed"});
 		$(window).scrollTop(0);
