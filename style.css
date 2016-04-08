@@ -1510,7 +1510,7 @@ footer.footer-type-1 .copyright span {
   font-size: 11px; }
 
 footer.footer-type-1 .arrow-up {
-  border-bottom: 6px solid black;
+  border-bottom: 6px solid #fff;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
   display: block;
@@ -1519,7 +1519,7 @@ footer.footer-type-1 .arrow-up {
   width: 0; }
 
 footer.footer-type-1 .arrow-up-line {
-  background: #000 none repeat scroll 0 0;
+  background: #fff none repeat scroll 0 0;
   top: 6px;
   height: 15px;
   left: 0;

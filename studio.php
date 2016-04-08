@@ -48,7 +48,7 @@
 							<p>Audiomack, Djbooth, EA Sports, People.com, Livenation, PGA Tour, PWC, Twitch, Time Warner</p> </div>
 						<div class="col-sm-4">
 							<h6>Agency Clients</h6>
-							<p>GoodGame, Haven Agency, Omnigon, Troika, Creative Circle</p>
+							<p>GoodGame, Haven Agency, Omnigon, Troika, Creative<br> Circle</p>
 						</div>
 					</div>
 				</div>
