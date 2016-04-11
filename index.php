@@ -18,7 +18,6 @@
 			<div class="text-wrap">
 				<div class="text-wrap-content">
 					<span class="head-text">We are a digital studio offering solutions <br> in product development, mobile <br> and visual design.</span>
-					<span class="sep"></span>
 					<div class="head-detail">
 						<a class="goto-work" href="#work"><span>See our Work</span></a>
 					</div>
