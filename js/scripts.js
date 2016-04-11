@@ -43,7 +43,7 @@ Windows Ready Function Start
 
 $(document).ready(function(){
 	elementHeight();
-	heroParallax();
+	//heroParallax();
 	/*Random bg Image Start*/
 	var images = ['random1.jpg'];
 	$('.img-onload-wrap').css({'background': 'url(imgs/' + images[Math.floor(Math.random() * images.length)] + ') no-repeat scroll center center / cover'});
@@ -274,6 +274,9 @@ $(window).load(function(){
 		masonryPortfolio();
 	}
 	
+	masonryPortfolio();
+	imgLoading();
+	
 });	
 /*--------------------------------------------------
 Windows Load Function Function end
@@ -379,29 +382,11 @@ Windows Resize Function end
 ---------------------------------------------------*/
 
 /*--------------------------------------------------
-HeroParallax Function start
+Run imgLoading when portfolio section comes into view
 ---------------------------------------------------*/
-var heroParallax = function() {
-	var page_title = $('body');
-		var block_intro = page_title.find('#hero');
-		if( block_intro.length > 0 ) var block_intro_top = block_intro.offset().top;	
-	$( window ).scroll(function() {
-		var current_top = $(document).scrollTop(); 
-		var hero_height = $('#hero').height();
-		if( $('#hero').hasClass('parallax-hero')){			  
-			block_intro.css('top', (current_top*0.5));			
-		}
-		if( $('#hero').hasClass('static-hero')){			  
-			block_intro.css('top', (current_top*1));			
-		}
-		if( $('#hero').hasClass('opacity-hero')){				 
-			block_intro.css('opacity', (1 - current_top/hero_height*1));
-		}
-	});
-};
-/*--------------------------------------------------
-HeroParallax Function end
----------------------------------------------------*/
+
+ 
+
 
 /*--------------------------------------------------
 Landing Page Click Events Start
@@ -464,9 +449,9 @@ var scrollToProjects = function(){
 	$('html, body').animate({
 		scrollTop: $('.main-content').offset().top+1
 	}, 400, function(){
-		$('#hero').remove();
+		//$('#hero').remove();
 		$('header').css({position: "fixed"});
-		$(window).scrollTop(0);
+		$(window).scrollTop( $(window).height() );
 	});
 };
 /*--------------------------------------------------
