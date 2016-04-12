@@ -345,7 +345,6 @@ p.lead {
   background-color: #fff;
   position: relative;
   width: 100%;
-  z-index: 3;
   overflow: hidden; }
 
 .text-wrap {

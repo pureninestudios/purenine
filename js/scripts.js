@@ -454,6 +454,19 @@ var scrollToProjects = function(){
 		$(window).scrollTop( $(window).height() );
 	});
 };
+
+
+var winHeight = $(window).height(),
+	$head = $('header');
+	
+	$(window).scroll(function(){
+		
+		if ( $(window).scrollTop() >= winHeight ){
+			$head.css({position: 'fixed'});
+		}
+		
+	});
+
 /*--------------------------------------------------
 Scroll To Function end
 ---------------------------------------------------*/	
