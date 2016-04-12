@@ -457,12 +457,14 @@ var scrollToProjects = function(){
 
 
 var winHeight = $(window).height(),
-	$head = $('header');
+	$head = $('.home-1 header');
 	
 	$(window).scroll(function(){
 		
 		if ( $(window).scrollTop() >= winHeight ){
 			$head.css({position: 'fixed'});
+		} else if ( $(window).scrollTop() < winHeight ) {
+			$head.css({ position: 'absolute' });
 		}
 		
 	});
