@@ -9,7 +9,7 @@ $(document).ready(function(){
 	elementHeight();
 	//heroParallax();
 	/*Random bg Image Start*/
-	var images = ['random1.jpg'];
+	var images = ['hero-p9.jpg', 'hero-twitch.jpg', 'hero-pga.jpg','hero-guardian.jpg'];
 	$('.img-onload-wrap').css({'background': 'url(imgs/' + images[Math.floor(Math.random() * images.length)] + ') no-repeat scroll center center / cover'});
 	/*Random bg Image End*/
 	

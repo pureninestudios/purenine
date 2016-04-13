@@ -339,7 +339,8 @@ p.lead {
   z-index: 9999 !important; }
 
 #hero {
-  position: relative; }
+  position: relative;
+  height:90vh!important; }
 
 .main-content {
   background-color: #f9f9f9;
