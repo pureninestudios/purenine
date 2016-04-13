@@ -1,39 +1,3 @@
-/*
-Theme Name: Nuuk
-Author: Multia
-Main Script
-*/
-
-/*Index*/
-/*********************/
-/*1) Windows Ready Function*/
-	/*a)Random bg Image*/
-	/*b)Home3 Init*/
-	/*c)Home4, blog-page, project-detail-page-1 Init*/
-	/*d)Home6 Init*/
-	/*e)project-detail-page-type-1 Init*/
-	/*f)singleblog-page, owl-carousel, project-detail-page-type-2 Init*/
-	/*g)square-menu Init*/
-	/*h)Taking Prominent Color*/
-/*2) Windows Load Function Function*/
-	/*a)Call for loads img*/
-	/*b)Home5 and Gallery-style-page Init*/	
-/*3) Home2 & Horizontal Gallery Init*/
-/*4) Windows Height Function*/
-/*5) Windows Resize Function*/
-/*6) HeroParallax Function*/
-/*7) Landing Page Click Events*/
-/*8) ImgLoading Function*/
-/*9) Scroll To Function*/
-/*10) Function Masonry Portfolio*/
-/*11) Click Events*/
-/*12) some-structural*/
-/*14) Instafeed*/
-/*15) Subscribe JS*/
-/*16) Contact Form Init*/
-
-
-
 var $ = jQuery.noConflict();
 
 /*--------------------------------------------------

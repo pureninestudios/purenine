@@ -72,7 +72,7 @@
 					</div><!--/.grid-item-->
 				
 				</li><!--/.item-wrap-->
-								
+
 				<li class="item-wrap">
 				
 					<div class="grid-item">
@@ -107,6 +107,108 @@
 				
 				</li><!--/.item-wrap-->
 				
+				<li class="item-wrap">
+				
+					<div class="grid-item">
+					
+						<a href="#">
+						
+							<div class="work-image">
+						
+								<img src="imgs/hp-djbooth-app.jpg">
+								
+								<div class="faux-bg" style="background-color:#1B2E4F"></div>
+								
+							</div><!--/.work-image-->
+							
+							<div class="overlay-block">
+								
+								<div class="overlay-content">
+							
+									<p class="name">DJBooth.net</p>
+									
+									<h3>DJBooth App</h3>
+									
+									<p class="tags">Visual Design, Mobile App, UX, UI</p>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
+						</a>
+						
+					</div><!--/.grid-item-->
+				
+				</li><!--/.item-wrap-->
+
+				<li class="item-wrap">
+				
+					<div class="grid-item">
+					
+						<a href="#">
+						
+							<div class="work-image">
+						
+								<img src="imgs/hp-history.jpg">
+								
+								<div class="faux-bg" style="background-color:#4D2C27"></div>
+								
+							</div><!--/.work-image-->
+							
+							<div class="overlay-block">
+								
+								<div class="overlay-content">
+							
+									<p class="name">A+E Networks</p>
+									
+									<h3>History Now</h3>
+									
+									<p class="tags">Visual Design, Asset Creation, Key Art</p>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
+						</a>
+						
+					</div><!--/.grid-item-->
+				
+				</li><!--/.item-wrap-->
+
+				<li class="item-wrap">
+				
+					<div class="grid-item">
+					
+						<a href="#">
+						
+							<div class="work-image">
+						
+								<img src="imgs/hp-mlb.jpg">
+								
+								<div class="faux-bg" style="background-color:#03518F"></div>
+								
+							</div><!--/.work-image-->
+							
+							<div class="overlay-block">
+								
+								<div class="overlay-content">
+							
+									<p class="name">Troika</p>
+									
+									<h3>Time Warner Cable</h3>
+									
+									<p class="tags">Advertising, UX, Visual Design</p>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
+						</a>
+						
+					</div><!--/.grid-item-->
+				
+				</li><!--/.item-wrap-->
+
 				<li class="item-wrap">
 				
 					<div class="grid-item">
@@ -213,6 +315,40 @@
 				
 					<div class="grid-item">
 					
+						<a href="#">
+						
+							<div class="work-image">
+						
+								<img src="imgs/hp-djb-quote.jpg">
+								
+								<div class="faux-bg" style="background-color:#204772"></div>
+								
+							</div><!--/.work-image-->
+							
+							<div class="overlay-block">
+								
+								<div class="overlay-content">
+							
+									<p class="name">DJBooth.net</p>
+									
+									<h3>DJBooth Re-Up App</h3>
+									
+									<p class="tags">Visual Design, Mobile App, UX, UI</p>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
+						</a>
+						
+					</div><!--/.grid-item-->
+				
+				</li><!--/.item-wrap-->
+
+				<li class="item-wrap">
+				
+					<div class="grid-item">
+					
 						<a href="activision.php">
 						
 							<div class="work-image">
@@ -315,6 +451,40 @@
 				
 					<div class="grid-item">
 					
+						<a href="#">
+						
+							<div class="work-image">
+						
+								<img src="imgs/hp-idol.jpg">
+								
+								<div class="faux-bg" style="background-color:#04121E"></div>
+								
+							</div><!--/.work-image-->
+							
+							<div class="overlay-block">
+								
+								<div class="overlay-content">
+							
+									<p class="name">People.com</p>
+									
+									<h3>American Idol Sweeps</h3>
+									
+									<p class="tags">Visual Design, UX, Advertising</p>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
+						</a>
+						
+					</div><!--/.grid-item-->
+				
+				</li><!--/.item-wrap-->
+
+				<li class="item-wrap">
+				
+					<div class="grid-item">
+					
 						<a href="highlights.php">
 						
 							<div class="work-image">
@@ -344,7 +514,41 @@
 					</div><!--/.grid-item-->
 				
 				</li><!--/.item-wrap-->
+				
+				<li class="item-wrap">
+				
+					<div class="grid-item">
+					
+						<a href="#">
 						
+							<div class="work-image">
+						
+								<img src="imgs/hp-toyota.jpg">
+								
+								<div class="faux-bg" style="background-color:#460922"></div>
+								
+							</div><!--/.work-image-->
+							
+							<div class="overlay-block">
+								
+								<div class="overlay-content">
+							
+									<p class="name">People.com</p>
+									
+									<h3>Toyota Camry</h3>
+									
+									<p class="tags">Visual Design, Advertsing, HTML5</p>
+								
+								</div><!--/.overlay-content-->
+								
+							</div><!--/.overlay-->
+	
+						</a>
+						
+					</div><!--/.grid-item-->
+				
+				</li><!--/.item-wrap-->
+
 				<li class="item-wrap">
 				
 					<div class="grid-item">
@@ -421,9 +625,9 @@
 						
 							<div class="work-image">
 						
-								<img src="https://s3-us-west-2.amazonaws.com/purenine/hp-toyota.jpg">
+								<img src="imgs/hp-avalon.jpg">
 								
-								<div class="faux-bg" style="background-color:#666666"></div>
+								<div class="faux-bg" style="background-color:#322B4A"></div>
 								
 							</div><!--/.work-image-->
 							

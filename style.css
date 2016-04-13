@@ -342,7 +342,7 @@ p.lead {
   position: relative; }
 
 .main-content {
-  background-color: #fff;
+  background-color: #f9f9f9;
   position: relative;
   width: 100%;
   overflow: hidden; }
@@ -479,7 +479,7 @@ p.lead {
 
 .padding-sec-lg {
   padding-top: 80px;
-  padding-bottom: 130px; }
+  padding-bottom: 80px; }
 
 .padding-sec-top-lg {
   padding-top: 60px; }
@@ -3155,7 +3155,7 @@ a.reply {
   .padding-sec-top-lg {
     padding-top: 60px; }
   .padding-sec-lg {
-    padding-top: 50px;
+    padding-top: 80px;
     padding-bottom: 80px; }
   h2 {
     font-size: 45px; }
