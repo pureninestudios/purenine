@@ -340,7 +340,7 @@ p.lead {
 
 #hero {
   position: relative;
-  height:90vh!important; }
+  height:calc(100vh - 72px)!important; }
 
 .main-content {
   background-color: #f9f9f9;
