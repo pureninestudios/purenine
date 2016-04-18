@@ -39,6 +39,7 @@
 <script type='text/javascript' src="/js/jquery.nicescroll.js"></script>
 <script type='text/javascript' src="/js/jquery.appear.js"></script>
 <script type='text/javascript' src="/js/scripts.js"></script>
+<script  type='text/javascript' src="js/owl.carousel.js"></script>
 
 </body>
 </html>

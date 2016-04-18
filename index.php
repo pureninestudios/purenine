@@ -2,12 +2,8 @@
 
 <body class="home-1">
 
-<!-- Pre Loader -->
-<div class="pre-loader"></div>
-<div class="pre-loader-anim">
-	<span>P&nbsp;&nbsp;9</span>
-</div>
-<!-- /Pre Loader -->	
+<?php include ('loader.php'); ?>
+
 	 
 <div class="wrapper">
 	
