@@ -390,11 +390,12 @@ p.lead {
   top: calc(50% - 40px); }
 
 .big-sep {
-  display: block;
-  font-size: 40px;
-  line-height: 0;
-  margin-top: 30px;
-  margin-bottom: 50px; }
+    display: block;
+    font-size: 40px;
+    line-height: 0;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    color: #bcd325; }
 
 .border .border-left, .border .border-right, .border .border-bottom, .border .border-top {
   background: none repeat scroll 0 0 #fff;
@@ -711,8 +712,8 @@ blockquote span {
   font-weight: 800;
   text-transform: uppercase;
   color: #bcd325;
-  font-size: 12px;
-  letter-spacing: 1px;
+  font-size: 11px;
+  letter-spacing: -0.3px;
   line-height: 1;
   margin-bottom: 3px; }
 
@@ -3434,9 +3435,10 @@ a.reply {
     font-weight: 700;
     text-transform: uppercase;
     color: #bcd325;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 1;
-    margin-bottom: 5px; }
+    margin-bottom: 5px;
+    letter-spacing: -0.3px; }
   .grid-item h3 {
     font-family: "Playfair Display", serif;
     font-size: 28px;
