@@ -18,7 +18,7 @@
 				</div>
 			</div>
 			
-			<img class="col-sm-12" src="images/blog/image1.jpg" alt="blog" />
+			<img class="col-sm-12" src="imgs/port-sm-thq-1.jpg" alt="" />
 			
 			<div class="col-sm-8 align-center text-left clearfix padding-sec-top-sm">
 				<p class="lead padding-sec-bottom-sm">An adventurous life does not necessarily mean climbing mountains, swimming with sharks, or jumping off cliffs. It means risking yourself by leaving a little piece of you behind in all those you meet along the way.</p>
@@ -26,9 +26,8 @@
 				
 				<div class="blogger-img zoomslider padding-sec-bottom-sm">
 					<div class="zoomslider-item single-image">
-						<a  href="images/blog/image2.jpg">
-							<img src="images/blog/image2.jpg" alt="" />
-							<img class="magf" src="images/icon4.png"  alt="icon"/>
+						<a  href="imgs/port-sm-thq-2.jpg">
+							<img src="imgs/port-sm-thq-2.jpg" alt="" />
 						</a>
 					</div>	
 				</div>
