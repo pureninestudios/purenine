@@ -13,7 +13,8 @@
 				<h1>THQ.com Redesign</h1>
 				<div class="blog-dtails">
 					<ul>
-						<li>Haven Agency</li>
+						<li>Client: <span>THQ Games</span></li>
+						<li>Agency: <span>Haven Agency</span></li>
 					</ul>
 				</div>
 			</div>
@@ -21,8 +22,9 @@
 			<img class="col-sm-12" src="imgs/port-sm-thq-1.jpg" alt="" />
 			
 			<div class="col-sm-8 align-center text-left clearfix padding-sec-top-sm">
-				<p class="lead padding-sec-bottom-sm">An adventurous life does not necessarily mean climbing mountains, swimming with sharks, or jumping off cliffs. It means risking yourself by leaving a little piece of you behind in all those you meet along the way.</p>
-				<p class="padding-sec-bottom-sm">New fine art prints, <b>Darkness, available in the Shop.</b> Order one or few prints to make diptych or triptych compositions. Tiny women carry amazingly large bags, twice their eighty-pound weight. Some of the women carry babies in <u><i>slings</i></u> around front. </p>
+				<p class="lead padding-sec-bottom-sm">We were asked to help pitch some designs for an all new THQ.com. We wanted the experience to showcase not only the most popular games but enhance some of the smaller titles.</p>
+				<p class="padding-sec-bottom-sm">We fit the layout into a responsive layout to allow for all platforms. A custom search feature allowed users to see multiple games for a quick and easy experience.</p>
+				<p class="padding-sec-bottom-sm">Deliverables included a homepage and interior shop page with responsive breakpoints.</p>
 				
 				<div class="blogger-img zoomslider padding-sec-bottom-sm">
 					<div class="zoomslider-item single-image">

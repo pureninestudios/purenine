@@ -143,11 +143,13 @@ p.p-18 {
   font-weight: 400; }
 
 p.lead {
-  font-size: 24px;
+  font-size: 30px;
   margin-bottom: 0;
   line-height: 40px;
   font-weight: 400;
-  color: #000; }
+  color: #000;
+  font-family: "Playfair Display", sans-serif;
+  letter-spacing: -1px; }
 
 .clear {
   clear: both;
@@ -497,7 +499,7 @@ p.lead {
   padding-top: 60px; }
 
 .padding-sec-bottom-sm {
-  padding-bottom: 60px; }
+  padding-bottom: 30px; }
 
 .padding-sec-xs {
   padding-top: 30px;
@@ -2880,6 +2882,10 @@ footer.footer-type-2 .copyright span {
   text-align: center;
   text-transform: capitalize;
   cursor: pointer; }
+
+.blog-dtails span {
+  color:#bcd325;
+}
 
 .blog-page .blog-blocks ul, .project-detail-page-type-2 .blog-blocks ul {
   float: none; }
