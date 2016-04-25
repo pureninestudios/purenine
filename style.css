@@ -372,6 +372,11 @@ p.lead {
   background-color: #bcd325;
   padding: 20px; }
 
+.head-detail a:hover {
+	 background-color: #fff;
+	 color: #000;
+}
+
 .text-wrap .sep {
   font-size: 30px;
   color: #fff; }
@@ -395,19 +400,19 @@ p.lead {
 }
 
 .wrapper-in .text-wrap .head-text span{
-	-webkit-animation:heroText 0.25s forwards cubic-bezier(0.455, 0.03, 0.515, 0.955);
-	animation:heroText 0.25s forwards cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-webkit-animation:heroText 0.5s forwards cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	animation:heroText 0.5s forwards cubic-bezier(0.455, 0.03, 0.515, 0.955);
 	-webkit-animation-delay:1s;
 	animation-delay:1s
 }
 
 .wrapper-in .text-wrap .head-text span:nth-child(2){
-	-webkit-animation-delay:1.2s;
+	-webkit-animation-delay:1.5s;
 	animation-delay:1.2s
 }
 
 .wrapper-in .text-wrap .head-text span:nth-child(3){
-	-webkit-animation-delay:1.4s;
+	-webkit-animation-delay:1.2s;
 	animation-delay:1.4s
 }
 
