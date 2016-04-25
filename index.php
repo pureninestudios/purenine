@@ -13,7 +13,7 @@
 			<div class="img-onload-wrap"></div>
 			<div class="text-wrap">
 				<div class="text-wrap-content">
-					<span class="head-text">We are a digital studio offering solutions <br> in product development, mobile <br> and visual design.</span>
+					<span class="head-text"><span>We are a digital studio offering solutions</span> <span>in product development, mobile</span> <span> and visual design.</span></span>
 					<div class="head-detail">
 						<a class="goto-work" href="#work"><span>See our Work</span></a>
 					</div>
