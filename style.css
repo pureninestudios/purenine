@@ -3702,7 +3702,7 @@ a.reply {
 	color:#888
 }
 
-.project-inner .client-info{ padding-top:15px }
+.project-inner .client-info{ padding-top:30px }
 
 .project-inner .client-info li{
 	margin-bottom:40px;
@@ -3713,7 +3713,8 @@ a.reply {
 
 .project-inner .client-info li span{
 	display:block;
-	color:#111
+	color:#111;
+	line-height:1
 }
 
 @media screen and ( max-width:991px ){
