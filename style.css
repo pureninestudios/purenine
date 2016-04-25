@@ -3675,3 +3675,57 @@ a.reply {
     display: none; }
   .text-wrap .head-detail {
     width: 100%; } }
+
+/*================= New stuff
+*/
+
+.project-inner{
+	min-height:calc(100vh - 350px);
+	padding-bottom:120px
+}
+
+.project-inner .project-title{
+	margin-bottom:55px
+}
+
+.project-inner .project-copy{ padding-right:75px }
+
+@media screen and ( max-width:991px ){
+
+	.project-inner .project-copy{ padding-right:0 }
+
+}
+
+.project-inner .project-copy p{
+	font-size:18px;
+	line-height:2;
+	color:#888
+}
+
+.project-inner .client-info{ padding-top:15px }
+
+.project-inner .client-info li{
+	margin-bottom:40px;
+	color:#888;
+	font-size:18px;
+	line-height:2
+}
+
+.project-inner .client-info li span{
+	display:block;
+	color:#111
+}
+
+@media screen and ( max-width:991px ){
+
+	.project-inner .client-info ul{
+		margin-top:30px;
+		padding-top:30px;
+		border-top:#e9e9e9 1px solid
+	}
+	
+	.project-inner .client-info li{
+		margin-bottom:20px
+	}
+	
+}
