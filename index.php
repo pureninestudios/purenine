@@ -14,9 +14,7 @@
 			<div class="text-wrap">
 				<div class="text-wrap-content">
 					<span class="head-text"><span>We are a digital studio offering solutions</span> <span>in product development, mobile</span> <span> and visual design.</span></span>
-					<div class="head-detail">
-						<a class="goto-work" href="#work"><span>See our Work</span></a>
-					</div>
+					<a class="head-detail goto-work" href="#work"><span>See our work</span></a>
 				</div>
 			</div>
 		</div>
