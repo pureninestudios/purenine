@@ -425,7 +425,7 @@ var winHeight = $(window).height(),
 	
 	$(window).scroll(function(){
 		
-		if ( $(window).scrollTop() >= winHeight ){
+		if ( $(window).scrollTop() >= winHeight - $head.find('.header-nav').height() ){
 			$head.css({position: 'fixed'});
 		} else if ( $(window).scrollTop() < winHeight ) {
 			$head.css({ position: 'absolute' });

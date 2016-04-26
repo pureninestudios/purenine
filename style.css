@@ -370,9 +370,22 @@ p.lead {
   text-transform: uppercase;
   width: 200px;
   background-color: #bcd325;
-  padding: 20px; }
+  padding: 20px;
+  -webkit-transition:0.25s ease-in-out;
+  transition:0.25s ease-in-out;
+  opacity:0;
+  -webkit-transform:translateY(30px);
+  transform:translateY(30px)
+}
 
-.head-detail a:hover {
+.wrapper-in .head-detail{
+	webkit-animation:heroText 0.5s forwards cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	animation:heroText 0.5s forwards cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-webkit-animation-delay:1.6s;
+	animation-delay:1.6s
+}
+
+.head-detail:hover {
 	 background-color: #fff;
 	 color: #000;
 }
