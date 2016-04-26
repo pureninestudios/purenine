@@ -479,7 +479,7 @@ p.lead {
 
 .text-wrap .text-wrap-content {
   position: relative;
-  top: calc(50% - 40px); }
+  top: calc(50% - 100px); }
 
 .big-sep {
     display: block;
@@ -1433,9 +1433,9 @@ header.header-anim {
   z-index: 6; }
 
 .logo {
-  left: 35px;
+  left: 20px;
   position: absolute;
-  top: 20px;
+  top: 25px;
   z-index: 6; }
 
 .layout-change {
