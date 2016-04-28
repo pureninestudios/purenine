@@ -1,6 +1,6 @@
 <header>
 			
-	<a href="http://www.purenine.com"><img class="logo" src="imgs/logo@2x.png" alt="logo" height="22" /></a>
+	<a href="http://www.purenine.com"><img class="logo" src="/imgs/p9-logo.svg" alt="logo" height="26" /></a>
 							
 	<div class="header-nav show-header">
 		<nav class="navbar navbar-default" role="navigation">
