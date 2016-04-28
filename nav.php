@@ -1,4 +1,4 @@
-<header>
+<header class="up-top">
 			
 	<a href="http://www.purenine.com"><img class="logo" src="/imgs/p9-logo.svg" alt="logo" height="26" /></a>
 							

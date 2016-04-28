@@ -426,9 +426,9 @@ var winHeight = $(window).height(),
 	$(window).scroll(function(){
 		
 		if ( $(window).scrollTop() >= winHeight - $head.find('.header-nav').height() ){
-			$head.css({position: 'fixed'});
+			$head.removeClass('up-top').addClass('is-fixed').css({position: 'fixed'});
 		} else if ( $(window).scrollTop() < winHeight ) {
-			$head.css({ position: 'absolute' });
+			$head.addClass('up-top').removeClass('is-fixed').css({ position: 'absolute' });
 		}
 		
 	});

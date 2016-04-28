@@ -1298,7 +1298,8 @@ header.header-anim {
   background-color: #fff;
  }
 
-.home-1 .header-nav .navbar{ background:transparent }
+.home-1 .up-top .navbar{ background:transparent }
+.home-1 .is-fixed .navbar{ background:#fff }
 
 .header-nav nav {
   display: block;
@@ -1347,9 +1348,15 @@ header.header-anim {
   font-weight: 700;
   letter-spacing: 1.5px;
   font-size: 12px;
-  color: #fff; }
+  color: #121212; }
+  
+.home-1 .up-top .header-nav li a{
+	color:#fff	
+}
 
-.header-nav .home-1 {color:#fff;}
+.home-1 .up-top .header-nav li a:hover{
+	color:#bcd325
+}
 
 .header-nav nav ul li > ul.submenu {
   position: absolute;
