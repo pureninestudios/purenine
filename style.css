@@ -342,7 +342,7 @@ p.lead {
 
 #hero {
   position: relative;
-  height:calc(100vh - 72px)!important; }
+  height:calc(100vh - 0px)!important; }
 
 .main-content {
   background-color: #f9f9f9;
@@ -572,7 +572,7 @@ p.lead {
   padding-top: 220px; }
 
 .padding-sec-lg {
-  padding-top: 80px;
+  padding-top: 20px;
   padding-bottom: 80px; }
 
 .padding-sec-top-lg {
@@ -1293,7 +1293,10 @@ header.header-anim {
   z-index: 5; }
 
 .header-nav .navbar-default {
-  background: #fff; }
+  background-color: #fff;
+ }
+
+.home-1 .header-nav .navbar{ background:transparent }
 
 .header-nav nav {
   display: block;
@@ -2135,7 +2138,7 @@ footer.footer-type-2 .copyright span {
 
 /********Home6***********/
 .home-6 .main-content, .home-6 .header-nav .navbar-default {
-  background: #080808; }
+}
 
 .home-6 footer.footer-type-1 {
   background: #101010; }
@@ -3253,7 +3256,7 @@ a.reply {
   .padding-sec-top-lg {
     padding-top: 60px; }
   .padding-sec-lg {
-    padding-top: 80px;
+    padding-top: 20px;
     padding-bottom: 80px; }
   h2 {
     font-size: 45px; }

@@ -8,7 +8,7 @@
 <div class="wrapper">
 	
 	<!-- Landing Content -->
-		<?php include ('nav.php'); ?>
+	
 		<div id="hero" class="parallax-hero img-wraper full-height">
 			<div class="img-onload-wrap"></div>
 			<div class="text-wrap">
@@ -24,7 +24,7 @@
 	<!--Main Content -->
 	<div id="work" class="main-content">
 
-
+<?php include ('nav.php'); ?>
 			
 <!--Main Content -->	
 <div class="wrapper ">
