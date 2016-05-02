@@ -101,9 +101,10 @@ h6 a {
 
 h1 {
 	margin-bottom: 0.15em;
-	font-size: 6.5em;
 	letter-spacing: -0.09em;
 	line-height: 0.8em;
+	font-size: 120px;
+    text-transform: uppercase;
 }
 
 h1 span {color:#bcd325;}
@@ -2524,7 +2525,7 @@ img.round {
 	}
 
 	h1 {
-		font-size: 10em;
+		font-size: 120px;
 	}
 
 	h2 {
