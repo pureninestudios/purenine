@@ -1,36 +1,3 @@
-/*
-
-Peter - Portfolio HTML Template
-http://themeforest.net/user/liviu_cerchez
-
-Table of contents:
-
- 1. Reset
- 2. Typography
- 3. Separators
- 4. Grid
- 5. Form elements
- 6. Table
- 7. Mouse selected text
- 8. Site elements
- 9. Owl Carousel
-10. Thumbnails with hover
-11. Header section
-12. Content
-13. Project Filters
-14. Single Post
-15. Comments
-16. Sidebar widgets
-17. Footer
-18. Media queries
-19. Large mobile query (480px)
-20. Small tablet query (768px)
-21. Large tablet query (992px)
-22. Desktop query (1200px)
-23. Print query
-
-*/
-
 /* 1. Reset */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
@@ -74,7 +41,7 @@ body {
 body {
 	font-size: 87.52%;
 	line-height: 1.6875;
-	font-family: 'Lora', sans-serif;
+	font-family: 'Lato', sans-serif;
 	color: #000;
 	overflow-x: hidden;
 	-webkit-text-size-adjust: 100%;
@@ -104,14 +71,17 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 h1,
-h2,
 h3,
 h4 {
 	font-weight: 700;
+}
+
+h2 {
+	font-weight: 500;
 }
 
 h5,
@@ -135,6 +105,8 @@ h1 {
 	letter-spacing: -0.09em;
 	line-height: 0.8em;
 }
+
+h1 span {color:#bcd325;}
 
 h2 {
 	margin-bottom: 0.75em;
@@ -183,7 +155,7 @@ ol,
 ul,
 pre,
 form {
-	margin-bottom: 1.5em;
+	margin-bottom: 20px;
 	font-size: 1em;
 	line-height: 2em;
 }
@@ -998,6 +970,15 @@ input[type=button].red,
 	border-color: #ff3c1f;
 }
 
+button.green,
+input[type=submit].green,
+input[type=reset].green,
+input[type=button].green,
+.button.green {
+	color: #bcd325;
+	border-color: #bcd325;
+}
+
 button.yellow,
 input[type=submit].yellow,
 input[type=reset].yellow,
@@ -1097,15 +1078,15 @@ table tbody + tbody {
 
 /* 7. Mouse selected text */
 ::-moz-selection {
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 ::-ms-selection {
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 ::selection {
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* 8. Site elements */
@@ -1207,6 +1188,10 @@ img.round {
 
 .text-red {
 	color: #ff3c1f;
+}
+
+.text-green {
+	color:#bcd325;
 }
 
 .text-yellow {
@@ -1840,6 +1825,10 @@ img.round {
 	color: #fff;
 }
 
+.light-colors #site-menu a:hover {
+	color: #bcd325;
+}
+
 #site-menu li.current-menu-item > a {
 	font-weight: 600;
 	background-color: rgba(0, 0, 0, 0.1);
@@ -1978,7 +1967,7 @@ img.round {
 }
 
 .featured-info h2 {
-	margin-bottom: 1.25em;
+	margin-bottom: 30px;
 }
 
 .featured-info h2.small-margin-bottom {
@@ -2826,14 +2815,14 @@ img.round {
 		right: 0.75em;
 		height: 1px;
 		background-color: #000;
-		-moz-animation: underlineExpand 0.25s ease-in-out;
-		-webkit-animation: underlineExpand 0.25s ease-in-out;
-		animation: underlineExpand 0.25s ease-in-out;
+		-moz-animation: underlineExpand 0.5s ease-in-out;
+		-webkit-animation: underlineExpand 0.5s ease-in-out;
+		animation: underlineExpand 0.5s ease-in-out;
 	}
 
 	.light-colors #site-menu nav > ul > li.current-menu-item > a:after,
 	.light-colors #site-menu nav > ul > li.current-menu-parent > a:after {
-		background-color: #fff;
+		background-color: #bcd325;
 	}
 
 	#site-menu nav ul ul li.current-menu-item > a {
