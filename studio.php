@@ -2,12 +2,7 @@
 
 <body class="aboutme-page">
 
-<!-- Pre Loader -->
-<div class="pre-loader"></div>
-<div class="pre-loader-anim">
-	<span>P&nbsp;&nbsp;9</span>
-</div>
-<!-- /Pre Loader -->
+<?php include ('loader.php'); ?>
 
 <!-- Header Sec -->
 
@@ -20,8 +15,8 @@
 			<div class="row">
 				<div class="col-sm-8">
 					<div class="about-text">
-					<h1>PURE<span style="color:#bcd325">NINE</span> is owned and operated by <a href="https://www.linkedin.com/in/thomasklinger">Thomas Klinger</a>, designer & creative director with over a decade of experience. </h1>
-					<p class="padding-sec-sm">We assemble a dynamic team, tailored to meet your needs, in an effort to drive measurable results and exceed expectations. We take pride in any task assigned and have estblished a reputation for our work.</p>
+					<h1>PURE<span style="color:#bcd325">NINE</span> is founded by <a href="https://www.linkedin.com/in/thomasklinger">Thomas Klinger</a>, designer & creative director with over a decade of experience. </h1>
+					<p class="padding-sec-sm">We take pride in any task assigned and have estblished a reputation for our work to include, but not limited to - a variety of solutions in visual design, web development, product execution & mobile applications.</p>
 					<ul class="social-links">
 						<li><a href="https://www.facebook.com/pureninestudios/"><i class="fa fa-facebook"></i></a></li>
 						<li><a href="https://twitter.com/PURENINE"><i class="fa fa-twitter"></i></a></li>
@@ -41,7 +36,7 @@
 					<div class="row">
 						<div class="col-sm-4 margin-bottom-45">
 							<h6>Capabilities</h6>
-							<p>Product thinking, UX, UI, Visual design, Development, Mobile, Advertising</p>
+							<p>Visual Design, UX, UI, Front-end Development, Wordpress & Mobile Applications</p>
 						</div>
 						<div class="col-sm-4 margin-bottom-45">
 							<h6>Recent Clients</h6>

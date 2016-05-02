@@ -16,8 +16,16 @@
      <!-- Animation -->
     <link rel="stylesheet" type="text/css" href="/css/animation.css">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" type="text/css" href="/css/font-awesome.css">
+     <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+	<!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.maximage.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+	<link rel="Stylesheet" type="text/css" href="css/owl.theme.css">
 
     <!-- Style -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">

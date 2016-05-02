@@ -9,7 +9,7 @@ $(document).ready(function(){
 	elementHeight();
 	//heroParallax();
 	/*Random bg Image Start*/
-	var images = ['hero-p9.jpg', 'hero-twitch.jpg', 'hero-pga.jpg','hero-guardian.jpg'];
+	var images = ['hero-p9.jpg'];
 	$('.img-onload-wrap').css({'background': 'url(imgs/' + images[Math.floor(Math.random() * images.length)] + ') no-repeat scroll center center / cover'});
 	/*Random bg Image End*/
 	
@@ -425,10 +425,10 @@ var winHeight = $(window).height(),
 	
 	$(window).scroll(function(){
 		
-		if ( $(window).scrollTop() >= winHeight ){
-			$head.css({position: 'fixed'});
+		if ( $(window).scrollTop() >= winHeight - $head.find('.header-nav').height() ){
+			$head.removeClass('up-top').addClass('is-fixed').css({position: 'fixed'});
 		} else if ( $(window).scrollTop() < winHeight ) {
-			$head.css({ position: 'absolute' });
+			$head.addClass('up-top').removeClass('is-fixed').css({ position: 'absolute' });
 		}
 		
 	});
