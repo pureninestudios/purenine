@@ -53,7 +53,7 @@
 							
 									<p class="name">GoodGame Agency</p>
 									
-									<h3>Madden Live Challenge</h3>
+									<h3>Madden Live</h3>
 									
 									<p class="tags">Art Direction, UX, UI, Visual Design</p>
 								
@@ -325,7 +325,7 @@
 							
 									<p class="name">DJBooth.net</p>
 									
-									<h3>DJBooth Re-Up App</h3>
+									<h3>The Plug</h3>
 									
 									<p class="tags">Visual Design, Mobile App, UX, UI</p>
 								
