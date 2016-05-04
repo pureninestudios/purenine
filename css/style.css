@@ -107,6 +107,20 @@ h1 {
     text-transform: uppercase;
 }
 
+.hp-text h1{
+	font-family: 'Playfair Display', sans-serif;
+    font-size: 90px;
+    letter-spacing: -5px;
+    line-height: 85px;
+    font-weight: 300;
+    text-transform: none;
+    border-left: 3px solid #bcd325;
+    padding-left: 30px;
+}
+
+
+}
+
 h1 span {color:#bcd325;}
 h2 span {color:#bcd325;}
 
@@ -115,6 +129,7 @@ h2 {
     font-size: 28px;
     letter-spacing: -0.05em;
     line-height: 36px;
+    padding-left: 40px;
 }
 
 h3 {
@@ -979,6 +994,10 @@ input[type=button].green,
 .button.green {
 	color: #bcd325;
 	border-color: #bcd325;
+	font-family: 'playfair display';
+	letter-spacing: -0.3px;
+    text-transform: none;
+    font-size: 20px;
 }
 
 button.yellow,
@@ -1000,10 +1019,10 @@ input[type=button].underline,
 	border-top: 0;
 	border-right: 0;
 	padding: 0.3em 0;
-	margin-right: 0.75em;
-	letter-spacing: 0.15em;
-	font-size: 0.85em;
+	margin-left: 40px;
+	font-size: 20px;
 	border-radius: 0;
+	margin-top: -10px;
 }
 
 button {
@@ -1189,7 +1208,12 @@ img.round {
 }
 
 .text-white {
-	color: #fff;
+	font-family: 'Playfair display';
+	font-size: 20px;
+	color: #b1b1b1;
+	letter-spacing: -0.3px;
+	line-height: 140%;
+	padding-top: 0px;
 }
 
 .text-red {
@@ -1965,7 +1989,6 @@ img.round {
 
 .featured-info h1 {
 	margin-top: 0.85em;
-	margin-left: -0.04em;
 }
 
 .featured-info h1.small-margin-bottom {
