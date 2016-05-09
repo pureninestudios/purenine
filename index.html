@@ -18,11 +18,16 @@
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 
 	<style type="text/css" id="peter-custom-css">
-		header#top { background-color: #c1c6c0; background-image: url(img/hero-p9.jpg); }
+		header#top { background-color: #c1c6c0; overflow:hidden;background-image: url(img/hero-p9.jpg); }
 	</style>
 </head>
 <body>
-
+	
+	<div class="green-loader"></div>
+	<div class="page-loader">
+		<span>P&nbsp;9</span>
+	</div>
+	
 	<header id="top" class="full-height light-colors" role="banner">
 		<div class="container">
 			<div class="inner">
@@ -52,11 +57,13 @@
 							</li>
 							<li><a href="contact.html">Contact</a></li>
 							<li class="menu-item-search">
-								<a href="search.html"><i class="fa fa-search"></i><i class="fa fa-times"></i></a>
-								<form method="get" id="site-searchform" class="searchform" action="search.html">
-									<input type="search" name="s" autocomplete="off" placeholder="Search&hellip;">
-									<input type="submit" value="&#xf002;">
-								</form>
+								<a href="" class="s-menu-icon"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							</li>
+							<li class="menu-item-search">
+								<a href="" class="s-menu-icon"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							</li>
+							<li class="menu-item-search">
+								<a href="" class="s-menu-icon"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 							</li>
 						</ul>
 					</nav>
@@ -68,8 +75,8 @@
 				<div class="row">
 					<div class="col-sm-9 col-md-7 col-lg-6">
 						<div class="hp-text">
-						<h1>A digital<br>creative studio.</h1>
-						<h2 class="text-white">We assemble a dynamic team, tailored to meet your needs,<br> in an effort to drive measurable results and exceed<br>expectations.</h2>
+							<h1>A digital<br>creative studio.</h1>
+							<h2 class="text-white">We assemble a dynamic team, tailored to meet your needs,<br> in an effort to drive measurable results and exceed<br>expectations.</h2>
 						</div>
 					</div>
 					<div class="clear"></div>
@@ -81,7 +88,7 @@
 
 		</div>
 	</header>
-
+	
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/site.js"></script>
 </body>
