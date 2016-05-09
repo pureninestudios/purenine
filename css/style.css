@@ -113,7 +113,7 @@ h1 {
 	font-family: 'Playfair Display', sans-serif;
     font-size: 74px;
     letter-spacing: -5px;
-    line-height: 85px;
+    line-height: 75px;
     font-weight: 300;
     text-transform: none;
     border-left: 3px solid #bcd325;
@@ -2045,7 +2045,7 @@ img.round {
 .featured-info {
 	margin-bottom: 1em;
 	position: absolute;
-    bottom: -30px;
+    bottom: 20px;
     top: auto;
     width: 106%;
     opacity: 1;
@@ -2105,7 +2105,10 @@ img.round {
 #content {
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
+
 }
+
+.work-backgrd {background-color: #f7f7f7;}
 
 .pagination {
 	margin-bottom: 1.5em;
