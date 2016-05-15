@@ -1,6 +1,6 @@
 /* enable CSS features that have JavaScript */
 jQuery('html').removeClass('no-js');
-
+ 
 /* determine if screen can handle touch events */
 if ( ! (('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0))) {
 	jQuery('html').addClass('no-touch');
