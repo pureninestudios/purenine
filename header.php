@@ -131,7 +131,7 @@
 						<div class="clear"></div>
 						
 						<div class="col-sm-7 col-md-6 col-lg-5">
-							<p class="fade-me-in"><a href="work.html" class="button underline green">View our work</a></p>
+							<p class="fade-me-in"><a href="work.php" class="button underline green">View our work</a></p>
 						</div>
 						
 					</div><!--/.row-->
