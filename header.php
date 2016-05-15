@@ -122,8 +122,8 @@
 						<div class="col-sm-9 col-md-7 col-lg-6">
 						
 							<div class="hp-text">
-								<h1>A digital<br>creative studio.</h1>
-								<h2 class="text-white">We assemble a dynamic team, tailored to meet your needs,<br> in an effort to drive measurable results and exceed<br>expectations.</h2>
+								<h1><span class="animate-me">A digital<br>creative studio.</span></h1>
+								<h2 class="text-white"><span class="animate-me">We assemble a dynamic team, tailored to meet your needs,<br> in an effort to drive measurable results and exceed<br>expectations.</span></h2>
 							</div>
 							
 						</div><!--/.col-sm-9-->
@@ -131,7 +131,7 @@
 						<div class="clear"></div>
 						
 						<div class="col-sm-7 col-md-6 col-lg-5">
-							<p><a href="work.html" class="button underline green">View our work</a></p>
+							<p class="fade-me-in"><a href="work.html" class="button underline green">View our work</a></p>
 						</div>
 						
 					</div><!--/.row-->
