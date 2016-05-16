@@ -13,12 +13,12 @@
 				<a href="#top" id="go-to-top-link" title="Scroll to the top"><i class="fa fa-angle-up"></i></a>
 				<p>&copy; 2016 PURENINE Studios Inc.</p>
 				<ul>
-					<li><a href="#">Behance</a></li>
 					<li><a href="#">Twitter</a></li>
-					<li><a href="#">Dribbble</a></li>
-					<li><a href="#">Instagram</a></li>
-					<li><a href="#">Github</a></li>
 					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Instagram</a></li>
+					<li><a href="#">Working Not Working</a></li>
+					<li><a href="#">Dribbble</a></li>
+					<li><a href="#">Email Us</a></li>
 				</ul>
 			</div>
 		</footer>
