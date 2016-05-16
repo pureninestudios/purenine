@@ -140,7 +140,7 @@ $(window).load(function(){
     
     var h1Height = $('.hp-text h1 span').height();
 	$('.hp-text h1').delay(2000).queue(function(next){
-		$(this).css({'height' : h1Height});
+		$(this).css({'height' : h1Height + 20});
 	});
 	
 });	
