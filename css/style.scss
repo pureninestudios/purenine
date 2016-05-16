@@ -57,7 +57,6 @@ html {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	-webkit-font-smoothing: antialiased;
 }
 
 /* 2. Typography */
@@ -133,7 +132,6 @@ h6 a {
 }
 
 h1 {
-	margin-bottom: 15px;
     letter-spacing: -10px;
     line-height: 100px;
     font-size: 120px;
@@ -151,7 +149,8 @@ h1 {
     padding-left: 30px;
     height:0;
     -webkit-transition:0.25s $ease-in-out-quad;
-    transition:0.25s $ease-in-out-quad
+    transition:0.25s $ease-in-out-quad;
+    -webkit-font-smoothing: antialiased;
 }
 
 @-moz-keyframes animateText{
@@ -1037,7 +1036,7 @@ input[type=button],
 	line-height: normal;
 	margin: 0 0.5em 1em 0;
 	border: 1px solid #000;
-	font-family: "Poppins", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1em;
 	font-weight: inherit;
 	vertical-align: middle;
@@ -1141,7 +1140,7 @@ input[type=button].green,
 .button.green {
 	color: #bcd325;
 	border-color: #bcd325;
-	font-family: 'playfair display';
+	font-family: 'Raleway';
 	letter-spacing: -0.3px;
     text-transform: none;
     font-size: 20px;
@@ -1355,12 +1354,13 @@ img.round {
 }
 
 .text-white {
-	font-family: 'Playfair display';
+	font-family: 'Raleway';
 	font-size: 20px;
 	color: #b1b1b1;
-	letter-spacing: -0.3px;
+	letter-spacing: 0px;
 	line-height: 140%;
 	padding-top: 0px;
+	font-weight: 300;
 }
 
 .text-red {
@@ -2196,7 +2196,7 @@ img.round {
 .featured-info {
 	margin-bottom: 1em;
 	position: absolute;
-    bottom: 20px;
+    bottom: 40px;
     top: auto;
     width: 106%;
     opacity: 1;
