@@ -16,7 +16,7 @@
 					<li><a href="#">Twitter</a></li>
 					<li><a href="#">Facebook</a></li>
 					<li><a href="#">Instagram</a></li>
-					<li><a href="#">Dribbble</a></li>
+					<li><a href="#">LinkedIn</a></li>
 					<li><a href="#">Contact Us</a></li>
 				</ul>
 			</div>
