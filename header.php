@@ -67,7 +67,7 @@
 		$header_class = '';
 		if ($basename == $hp_basename){
 			$header_class = ' full-height';
-			echo '<div class="faux-bg" style="background-image: url(img/hero-p9.jpg)";></div>';
+			echo '<div class="hp-faux-bg" style="background-image: url(img/hero-p9.jpg)";></div>';
 		}
 	?>
 

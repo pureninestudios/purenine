@@ -32,6 +32,7 @@ html, body {
   height: 100%; }
 
 body {
+  background-color: #000;
   font-size: 87.52%;
   line-height: 1.6875;
   font-family: 'Lato', sans-serif;
@@ -1341,7 +1342,12 @@ img.round {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  opacity: 0;
+  -webkit-transition: 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+  .all-loaded #top {
+    opacity: 1; }
 
 #top.full-height {
   min-height: 100%; }
@@ -1633,8 +1639,14 @@ img.round {
 
 /* 12. Content */
 #content {
+  background: #fff;
   padding-top: 1.5em;
-  padding-bottom: 1.5em; }
+  padding-bottom: 1.5em;
+  opacity: 0;
+  -webkit-transition: 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+  .all-loaded #content {
+    opacity: 1; }
 
 .work-backgrd {
   background-color: #f7f7f7; }
@@ -3015,7 +3027,7 @@ div.page-loader span {
 body.home, body.index {
   background: #000; }
 
-.faux-bg {
+.hp-faux-bg {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -3023,7 +3035,7 @@ body.home, body.index {
   left: 0;
   background-size: cover;
   opacity: 0; }
-  .all-loaded .faux-bg {
+  .all-loaded .hp-faux-bg {
     -webkit-animation: fadeIn 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
     animation: fadeIn 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards; }
 
