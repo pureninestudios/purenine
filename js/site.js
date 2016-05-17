@@ -1,6 +1,6 @@
 /* enable CSS features that have JavaScript */
 jQuery('html').removeClass('no-js');
- 
+
 /* determine if screen can handle touch events */
 if ( ! (('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0))) {
 	jQuery('html').addClass('no-touch');
@@ -26,12 +26,6 @@ if ( ! /(iPad|iPhone|iPod)/g.test(window.navigator.userAgent) ) {
 }
 
 jQuery(document).ready(function () { "use strict";
-
-	/* handle both mouse hover and touch events for traditional menu + mobile hamburger */
-	jQuery('#top .site-menu-toggle').on('click.peter',function(e) {
-		jQuery('#top').toggleClass('open-mobile-menu');
-		e.preventDefault();
-	});
 
 	jQuery(document).on({
 		mouseenter: function () {
@@ -112,35 +106,63 @@ jQuery(document).ready(function () { "use strict";
 
 /***** fadein and up for titles ******/
 $(document).ready(function () {
-    
+
+	// ==========================================================================
+	// Mobile menu
+	// ==========================================================================
+
+	var $menuTrigger = $('.site-menu-toggle'),
+		$menu = $('.site-menu'),
+		$head = $('#top');
+
+	$menuTrigger.on('click', function(){
+
+		$(this).toggleClass('active');
+		$head.toggleClass('open-mobile-menu');
+		$menu.toggleClass('active');
+
+		setTimeout(
+
+			function(){
+
+				$menu.find('li').each(function(i){
+					var t = $(this);
+					setTimeout(function(){ t.toggleClass('active'); }, (i+1) * 100)
+
+				});
+
+			}, 200);
+
+		});
+
 });
 /*--------------------------------------------------
 Windows Load Function Function start
 ---------------------------------------------------*/
 $(window).load(function(){
-	
+
     /*Preloader*/
     $(".green-loader").addClass("slide-loaded");
-    setTimeout(function() { 
+    setTimeout(function() {
     	$(".green-loader").addClass("loaded");
     }, 900);
     $(".page-loader").delay(900).fadeOut("slow");
-  	setTimeout(function() { 
+  	setTimeout(function() {
 		/*$( ".featured-info" ).animate({
 	    	opacity: 1,
 	    	bottom: "0"
 	  	}, 1000)*/
 	  	//$(".green-loader").fadeOut();
 	}, 2000);
-   
-    $("body").css("overflow-y","auto").delay(2500).queue(function(next){
+
+    $("body").css("overflow-y","auto").delay(1700).queue(function(next){
 	    $(this).addClass('all-loaded');
 	    next();
     });
-    
+
     var h1Height = $('.hp-text h1 span').height();
-	$('.hp-text h1').delay(2000).queue(function(next){
+	$('.hp-text h1').delay(2400).queue(function(next){
 		$(this).css({'height' : h1Height + 20});
 	});
-	
-});	
+
+});

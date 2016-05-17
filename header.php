@@ -1,7 +1,7 @@
 <?php
 	// Get filename
 	$basename = substr(strtolower(basename($_SERVER['PHP_SELF'])),0,strlen(basename($_SERVER['PHP_SELF']))-4);
-	
+
 	$hp_basename = 'index';
 	/*
 	useage:
@@ -10,7 +10,7 @@
 	} elseif ($basename == 'studio'){
 		echo 'You are on the studio page';
 	}
-	
+
 	Possible basenames:
 		index
 		studio
@@ -40,36 +40,37 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
-	
+
 	<style type="text/css" id="peter-custom-css">
 
 		<?php if ($basename == $hp_basename) : ?>
-			
-			header#top { background-color: #c1c6c0; overflow:hidden;background-image: url(img/hero-p9.jpg); }
-			
+
+			header#top { overflow:hidden; }
+
 		<?php else : ?>
-		
+
 			header#top { background-color: #000; background-image: url(img/sample-header.png); }
-		
+
 		<?php endif; ?>
-	
+
 	</style>
-	
+
 </head>
-<body>
+<body class="<?php echo $basename; ?>">
 
 	<div class="green-loader"></div>
 	<div class="page-loader">
 		<span>P&nbsp;9</span>
 	</div>
-	
+
 	<?php
 		$header_class = '';
 		if ($basename == $hp_basename){
 			$header_class = ' full-height';
+			echo '<div class="faux-bg" style="background-image: url(img/hero-p9.jpg)";></div>';
 		}
 	?>
-	
+
 	<header id="top" class="light-colors<?php echo $header_class; ?>" role="banner">
 		<div class="container">
 			<div class="inner">
@@ -82,7 +83,7 @@
 					</a>
 				</div>
 
-				<div id="site-menu">
+				<div id="site-menu" class="site-menu">
 					<nav>
 						<ul>
 							<li class="<?php if ($basename == $hp_basename){ echo 'current-menu-item'; } ?>">
@@ -112,34 +113,34 @@
 				</div><!--/#site-menu-->
 
 			</div><!--/.inner-->
-			
+
 			<?php if ($basename == $hp_basename) : ?>
-			
+
 				<div class="featured-info">
-		
+
 					<div class="row">
-					
+
 						<div class="col-sm-9 col-md-7 col-lg-6">
-						
+
 							<div class="hp-text">
 								<h1><span class="animate-me">A digital<br>creative studio.</span></h1>
 								<h2 class="text-white"><span class="animate-me">We assemble a dynamic team, tailored to meet your needs,<br> in an effort to drive measurable results and exceed<br>expectations.</span></h2>
 							</div>
-							
+
 						</div><!--/.col-sm-9-->
-						
+
 						<div class="clear"></div>
-						
+
 						<div class="col-sm-7 col-md-6 col-lg-5">
 							<p class="fade-me-in"><a href="work.php" class="button underline green">View our work</a></p>
 						</div>
-						
+
 					</div><!--/.row-->
-					
+
 				</div><!--/.featured-info-->
-			
+
 			<?php elseif ($basename == 'blog') : ?>
-			
+
 				<div class="featured-info">
 				<div class="row">
 					<div class="col-sm-10 col-md-9 col-lg-7">
@@ -156,15 +157,15 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<?php else : ?>
-			
+
 				<div class="work-featured-info">
 					<h1><?php echo $basename;?></h1>
 				</div>
-			
+
 			<?php endif; ?>
-			
+
 		</div><!--/.container-->
-		
+
 	</header><!--/header-->
