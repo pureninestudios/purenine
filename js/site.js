@@ -146,7 +146,7 @@ $(window).load(function(){
     setTimeout(function() {
     	$(".green-loader").addClass("loaded");
     }, 900);
-    $(".page-loader").delay(900).fadeOut("slow");
+    $(".page-loader").delay(200).fadeOut("slow");
   	setTimeout(function() {
 		/*$( ".featured-info" ).animate({
 	    	opacity: 1,
