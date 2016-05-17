@@ -155,13 +155,13 @@ $(window).load(function(){
 	  	//$(".green-loader").fadeOut();
 	}, 2000);
 
-    $("body").css("overflow-y","auto").delay(1700).queue(function(next){
+    $("body").css("overflow-y","auto").delay(1750).queue(function(next){
 	    $(this).addClass('all-loaded');
 	    next();
     });
 
     var h1Height = $('.hp-text h1 span').height();
-	$('.hp-text h1').delay(2400).queue(function(next){
+	$('.hp-text h1').delay(2500).queue(function(next){
 		$(this).css({'height' : h1Height + 20});
 	});
 
