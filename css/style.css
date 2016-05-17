@@ -1502,26 +1502,6 @@ img.round {
 #site-menu ul ul ul a {
   padding-left: 2.5em; }
 
-@media screen and (max-width: 767px) {
-  .site-menu {
-    opacity: 0;
-    z-index: -1;
-    -webkit-transition: 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-    transition: 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-    .site-menu.active {
-      opacity: 1;
-      z-index: 4; }
-    .site-menu li {
-      opacity: 0;
-      -webkit-transform: translateY(-20px);
-      transform: translateY(-20px);
-      -webkit-transition: 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-      transition: 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-      .site-menu li.active {
-        opacity: 1;
-        -webkit-transform: translateY(0);
-        transform: translateY(0); } }
-
 @-moz-keyframes underlineExpand {
   0% {
     opacity: 0;
@@ -3055,10 +3035,16 @@ body.home, body.index {
     height: 100%;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: -1;
     text-align: center;
     display: flex;
-    align-items: center; }
+    align-items: center;
+    opacity: 0;
+    -webkit-transition: 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    transition: 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+    .site-menu.active {
+      opacity: 1;
+      z-index: 4; }
     .site-menu nav {
       width: 100%; }
     .site-menu li, .site-menu li a {
@@ -3074,4 +3060,14 @@ body.home, body.index {
       margin: 20px 0 !important; }
     .site-menu ul {
       font-family: "Playfair Display", serif !important;
-      margin: 0 !important; } }
+      margin: 0 !important; }
+    .site-menu li {
+      opacity: 0;
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);
+      -webkit-transition: 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+      transition: 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+      .site-menu li.active {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0); } }
