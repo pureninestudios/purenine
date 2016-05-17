@@ -2209,6 +2209,15 @@ img.round {
 
 .featured-info h2 {
 	margin-bottom: 30px;
+
+	@media screen and ( max-width:700px ){
+		font-size:15px;
+		padding-right:75px;
+
+		br{ display:none }
+
+	}
+
 }
 
 .featured-info h2.small-margin-bottom {
