@@ -98,15 +98,15 @@
 							<li class="<?php if ($basename == 'blog'){ echo 'current-menu-item'; } ?>">
 								<a href="blog.php">News</a>
 							</li>
-							<li class="<?php if ($basename == 'contact'){ echo 'current-menu-item'; } ?>"><a href="contact.php">Contact</a></li>
+							<li class="<?php if ($basename == 'contact'){ echo 'current-menu-item'; } ?>"><a href="mailto:hello@purenine.com">Contact</a></li>
 							<li class="menu-item-search">
-								<a href="" class="s-menu-icon"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								<a href="#" class="s-menu-icon" style="color:#BCD325"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 							</li>
 							<li class="menu-item-search">
-								<a href="" class="s-menu-icon"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href="#" class="s-menu-icon" style="color:#BCD325"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 							</li>
 							<li class="menu-item-search">
-								<a href="" class="s-menu-icon"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+								<a href="#" class="s-menu-icon" style="color:#BCD325"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 							</li>
 						</ul>
 					</nav>

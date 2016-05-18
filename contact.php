@@ -10,10 +10,10 @@
 							<p class="no-bottom">1 Peter's Block, <br>Brooklyn, NY 11201, <br>United States</p>
 							<hr class="small-margin">
 							<h6 class="small-margin-bottom">Phone</h6>
-							<p class="no-bottom">+1 718 9876 543</p>
+							<p class="no-bottom">914.290.4161</p>
 							<hr class="small-margin">
 							<h6 class="small-margin-bottom">Email</h6>
-							<p class="no-bottom">hi@pete.io</p>
+							<p class="no-bottom">hello@</p>
 							<hr class="small-margin">
 							<p class="social-links double-margin-bottom"><a href="#" class="fa fa-lg fa-facebook"></a> <a href="#" class="fa fa-lg fa-twitter"></a> <a href="#" class="fa fa-lg fa-pinterest"></a></p>
 						</div>
@@ -34,11 +34,6 @@
 								<textarea class="double-margin-bottom" name="message" id="message" cols="30" rows="10" placeholder="Here goes the message..." required></textarea>
 								<input type="submit" class="underline" value="Send Message">
 							</form>
-						</div>
-					</div>
-					<div class="responsive-container no-bottom">
-						<div class="responsive-wrapper">
-							<div id="gmap" class="map"></div>
 						</div>
 					</div>
 				</div>
