@@ -1224,7 +1224,7 @@ img.round {
       width: calc(50% - 40px) !important; } }
   @media screen and (max-width: 640px) {
     .filter-item {
-      width: calc(50% - 40px) !important; } }
+      width: calc(100% - 40px) !important; } }
 
 .filter-item:hover {
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.3); }
