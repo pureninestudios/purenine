@@ -196,9 +196,10 @@ h1 {
 
 }
 
-.hp-text h1,
+.hp-text h1 {overflow:hidden;}
 .hp-text h2{
-	overflow:hidden;
+	overflow:hidden;    
+	padding-left: 40px;
 
 	span{
 		display:inline-block;
@@ -278,7 +279,6 @@ h2 {
     font-size: 28px;
     letter-spacing: -0.05em;
     line-height: 36px;
-    padding-left: 40px;
 }
 
 h3 {
