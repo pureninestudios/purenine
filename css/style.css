@@ -1219,6 +1219,12 @@ img.round {
   -moz-transition: 0.25s ease-in-out;
   -webkit-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out; }
+  @media screen and (max-width: 850px) {
+    .filter-item {
+      width: calc(50% - 40px) !important; } }
+  @media screen and (max-width: 640px) {
+    .filter-item {
+      width: calc(50% - 40px) !important; } }
 
 .filter-item:hover {
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.3); }
@@ -2834,7 +2840,13 @@ div.page-loader span {
   .visible-xs-inline-block {
     display: inline-block !important; }
   .hidden-xs {
-    display: none !important; } }
+    display: none !important; }
+  .hp-text h1 {
+    font-size: 65px;
+    line-height: 70px;
+    padding-left: 22px; }
+  .hp-text h2 {
+    padding-left: 22px; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm {
