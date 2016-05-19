@@ -10,6 +10,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   padding: 0;
   vertical-align: baseline; }
 
+a {
+  outline: none !important; }
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, main, nav, section {
   display: block; }
 
@@ -1218,7 +1221,8 @@ img.round {
   margin: 20px;
   -moz-transition: 0.25s ease-in-out;
   -webkit-transition: 0.25s ease-in-out;
-  transition: 0.25s ease-in-out; }
+  transition: 0.25s ease-in-out;
+  -webkit-font-smoothing: antialiased; }
   @media screen and (max-width: 850px) {
     .filter-item {
       width: calc(50% - 40px) !important; } }
@@ -1354,6 +1358,11 @@ img.round {
   transition: 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
   .all-loaded #top {
     opacity: 1; }
+
+.light-colors #site-menu .social-icon a {
+  color: #BCD325; }
+.light-colors #site-menu .social-icon:hover a {
+  color: #fff; }
 
 #top.full-height {
   min-height: 100%; }
@@ -1601,7 +1610,7 @@ img.round {
   margin: 0 auto;
   padding: 0 20px; }
 
-.featured-info {
+body:not(.news) .featured-info {
   margin-bottom: 1em;
   position: absolute;
   bottom: 40px;

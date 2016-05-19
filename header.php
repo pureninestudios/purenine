@@ -16,7 +16,7 @@
 		studio
 		work
 		project
-		blog
+		news
 		contact
 	*/
 ?>
@@ -95,18 +95,18 @@
 							<li class="<?php if ($basename == 'work'){ echo 'current-menu-item'; } ?>">
 								<a href="work.php">Projects</a>
 							</li>
-							<li class="<?php if ($basename == 'blog'){ echo 'current-menu-item'; } ?>">
-								<a href="blog.php">News</a>
+							<li class="<?php if ($basename == 'news'){ echo 'current-menu-item'; } ?>">
+								<a href="news.php">News</a>
 							</li>
 							<li class="<?php if ($basename == 'contact'){ echo 'current-menu-item'; } ?>"><a href="mailto:hello@purenine.com">Contact</a></li>
-							<li class="menu-item-search">
-								<a href="#" class="s-menu-icon" style="color:#BCD325"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							<li class="social-icon">
+								<a target="_blank" href="http://www.twitter.com/purenine" class="s-menu-icon"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 							</li>
-							<li class="menu-item-search">
-								<a href="#" class="s-menu-icon" style="color:#BCD325"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<li class="social-icon">
+								<a target="_blank" href="https://www.facebook.com/pureninestudios" class="s-menu-icon"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 							</li>
-							<li class="menu-item-search">
-								<a href="#" class="s-menu-icon" style="color:#BCD325"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+							<li class="social-icon">
+								<a target="_blank" href="https://www.instagram.com/purenine/" class="s-menu-icon"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 							</li>
 						</ul>
 					</nav>
@@ -139,12 +139,12 @@
 
 				</div><!--/.featured-info-->
 
-			<?php elseif ($basename == 'blog') : ?>
+			<?php elseif ($basename == 'news') : ?>
 
 				<div class="featured-info">
 				<div class="row">
 					<div class="col-sm-10 col-md-9 col-lg-7">
-						<h1 class="small-margin-bottom">Blog</h1>
+						<h1 class="small-margin-bottom">news</h1>
 						<h3><a href="post.html">1. Product Design Unification Study: Mobile Web Framework</a></h3>
 						<h3><a href="post.html">2. Getting Good at Storytelling &amp; Other Superhuman Social Skills</a></h3>
 						<h3><a href="post.html">3. Conducting User Research in Other Countries</a></h3>
