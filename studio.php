@@ -15,37 +15,34 @@
 				<div class="col-sm-10 col-sm-offset-1">
 					<div class="clients-grid">
 						<div class="client">
-							<a href="#"><img src="img/sample-client.png" width="320" height="220" alt=""></a>
+							<a href="#"><img src="img/audiomack-logo.png" width="320" height="220" alt=""></a>
 						</div>
 						<div class="client">
-							<a href="#"><img src="img/sample-client.png" width="320" height="220" alt=""></a>
+							<a href="#"><img src="img/djb-logo.png" width="320" height="220" alt=""></a>
 						</div>
 						<div class="client">
-							<a href="#"><img src="img/sample-client.png" width="320" height="220" alt=""></a>
+							<a href="#"><img src="img/twitch-logo.png" width="320" height="220" alt=""></a>
 						</div>
 						<div class="client">
-							<a href="#"><img src="img/sample-client.png" width="320" height="220" alt=""></a>
+							<a href="#"><img src="img/livenation-logo.png" width="320" height="220" alt=""></a>
 						</div>
 						<div class="client">
-							<a href="#"><img src="img/sample-client.png" width="320" height="220" alt=""></a>
+							<a href="#"><img src="img/rsr-logo.png" width="320" height="220" alt=""></a>
 						</div>
 						<div class="client">
-							<a href="#"><img src="img/sample-client.png" width="320" height="220" alt=""></a>
+							<a href="#"><img src="img/haven-logo.png" width="320" height="220" alt=""></a>
 						</div>
 						<div class="client">
-							<a href="#"><img src="img/sample-client.png" width="320" height="220" alt=""></a>
+							<a href="#"><img src="img/goodgame-logo.png" width="320" height="220" alt=""></a>
 						</div>
 						<div class="client">
-							<a href="#"><img src="img/sample-client.png" width="320" height="220" alt=""></a>
+							<a href="#"><img src="img/history-logo.png" width="320" height="220" alt=""></a>
 						</div>
 						<div class="clear"></div>
 					</div>
-					<p class="text-right text-red double-margin-bottom">*Clientele as of 2016</p>
+					
 				</div>
 				<div class="clear"></div>
-				<div class="col-sm-12 text-center">
-					<a href="contact.html" class="button underline double-margin-top">Got a project for me? Let's chat.</a>
-				</div>
 			</div>
 		</div>
 	</main>
