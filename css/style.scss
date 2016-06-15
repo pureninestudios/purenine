@@ -43,6 +43,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 	vertical-align: baseline;
 }
 
+a{ outline:none!important }
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, main, nav, section {
 	display: block;
 }
@@ -1743,6 +1745,8 @@ img.round {
     -moz-transition: 0.25s ease-in-out;
     -webkit-transition: 0.25s ease-in-out;
     transition: 0.25s ease-in-out;
+    -webkit-font-smoothing: antialiased;
+
 
     @media screen and ( max-width:850px ){
 	    width:calc(50% - 40px) !important
@@ -1892,6 +1896,15 @@ img.round {
 	.all-loaded &{
 		opacity:1
 	}
+
+}
+
+.light-colors #site-menu .social-icon{
+
+
+	a{color:#BCD325;}
+
+	&:hover a{ color:#fff }
 
 }
 
@@ -2194,7 +2207,7 @@ img.round {
 	padding:0 20px
 }
 
-.featured-info {
+body:not(.news) .featured-info {
 	margin-bottom: 1em;
 	position: absolute;
     bottom: 40px;
