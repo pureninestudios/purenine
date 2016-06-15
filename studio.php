@@ -4,9 +4,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6">
-					<h2>The real me says Hello!</h2>
-					<p>Normally I'm one of those guys who would listen first before reacting but sometimes the designer inside me just inspires me to go brutal on the functionality, although this is not something my potential clients should be hearing, so just know that I also lie too much.</p>
-					<p>This summers I decided to take one of those learning challanges. I had to try some new non-art stuff as a change. I decided to travel across the state and see how the stuff I was curious about was atually being made. I started from Willy Wonka's&hellip;</p>
+					<p>With over a decade of experience, we assemble a dynamic team, tailored to meet your needs. We take pride in any task assigned and have established a reputation for our work to include, but not limited to - a variety of solutions in visual design, web development, product execution & mobile applications.</p>
+					<p>PURENINE is the creative studio of designer & creative director, Thomas Klinger.</p>
 				</div>
 				<div class="col-sm-6 col-md-5 col-md-offset-1">
 					<p><img src="img/sample-about1.png" width="800" height="560" alt=""></p>
