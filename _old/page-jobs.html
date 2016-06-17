@@ -22,11 +22,22 @@
     <link rel="shortcut icon" href="files/uploads/favicon.png"/>
     
     <!-- DOCUMENT TITLE -->
-    <title>404 - Page not found | Dani | A Storming Portfolio Template</title>
+    <title>Jobs Page | Dani | A Storming Portfolio Template</title>
 
 </head>
 
 <body>
+
+<!-- PAGE LOADER -->
+<div id="page-loader" class="pulsing">
+	<div class="loader-name"><img src="files/uploads/logo-dani-dark.png" srcset="files/uploads/logo-dani-dark.png 1x, files/uploads/logo-dani-dark@2x.png 2x" alt="Loader Logo"></div>
+    <div class="loader-circle">
+    	<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 253.4 253.4" style="enable-background:new 0 0 253.4 253.4;" xml:space="preserve"><circle cx="126.7" cy="126.7" r="124.2"/>
+		</svg>
+   	</div>
+</div>
+<!-- PAGE LOADER -->
+
 
 <!-- PAGE CONTENT -->
 <div id="page-content">
@@ -145,18 +156,54 @@
 		</div> <!-- END .header-inner -->
 	</header>
 	<!-- HEADER end -->
-	
+    
     <!-- HERO  -->
-	<section id="hero" class="hero-full">
-        <div id="page-title" class="wrapper align-center">
-            <h2>We couldn't find the page <br>you were looking for</h2>
+	<section id="hero" class="hero-auto">
+        <div id="page-title" class="wrapper">
+            <h1>We Never Stop Looking<br> for <strong><em>Great Talents</em></strong>.</h1>
             <div class="spacer-medium"></div>
-            <h1 class="notfound"><strong>404</strong></h1>
-            <div class="spacer-medium"></div>
-            <a href="index.html" class="sr-button">Back to homepage</a>
-        </div>
+            <h5 class="title-alt">We pride ourselves on hiring the best-in-class expertise<br> to ensure we continue to drive innovation alongside delivering<br> the highest quality solutions for our clients.</h5>
+        </div> <!-- END #page-title -->
     </section>
     <!-- HERO -->
+	
+	<!-- PAGEBODY -->
+	<section id="page-body">
+    	                
+        <div class="wrapper">
+        	
+            <div id="blog-grid" class="isotope-grid minimal-grid-blog blog-container style-column-2 fitrows">
+                            
+                <div class="isotope-item blog-item">
+                    <a class="full-link" href="blog-single-job.html"></a>
+                    <div class="blog-bg"></div>
+                    <div class="blog-item-inner item-inner">
+                        <div class="blog-info">
+                    		<h3 class="post-name">Frontend developer with AngularJs experiences</h3>
+                        	<a class="read-more sr-button-with-arrow" href="blog-single-job.html"><strong>Read More</strong></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="isotope-item blog-item">
+                <a class="full-link" href="blog-single-job.html"></a>
+                    <div class="blog-bg"></div>
+                    <div class="blog-item-inner item-inner">
+                        <div class="blog-info">
+                    		<h3 class="post-name">Senior UX / UI Designer</h3>
+                        	<a class="read-more sr-button-with-arrow" href="blog-single-job.html"><strong>Read More</strong></a>
+                        </div>
+                    </div>
+                </div>
+               
+            </div> <!-- END .isotope-grid -->
+                       
+        </div> <!-- END .wrapper -->
+                 
+        <div class="spacer-big"></div>
+ 	</section>
+	<!-- PAGEBODY -->
+    
           
     <!-- FOOTER -->  
     <footer id="footer">
@@ -218,6 +265,8 @@
 <!-- SCRIPTS -->
 <script src="files/js/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="files/js/plugins.js"></script>
+<script type="text/javascript" src="files/js/jquery.imagesloaded.min.js"></script>
+<script type="text/javascript" src="files/js/jquery.isotope.min.js"></script>
 <script type="text/javascript" src="files/js/jribbble.min.js"></script>
 <script type="text/javascript" src="files/js/script.js"></script>
 <!-- SCRIPTS -->
