@@ -31,17 +31,17 @@
 		<!-- PAGE CONTENT -->
 
 		<!-- SCRIPTS -->
-		<script src="files/js/jquery-2.1.4.min.js"></script>
-		<script type="text/javascript" src="files/js/plugins.js"></script>
-		<script type="text/javascript" src="files/js/jquery.owl.carousel.min.js"></script>
-		<script type="text/javascript" src="files/js/tweenMax.js"></script>
+		<script src="assets/js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="assets/js/plugins.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.owl.carousel.min.js"></script>
+		<script type="text/javascript" src="assets/js/tweenMax.js"></script>
 
-		<script type="text/javascript" src="files/js/jquery.smartscroll.min.js"></script>
-		<script type="text/javascript" src="files/js/jquery.backgroundparallax.min.js"></script>
-		<script type="text/javascript" src="files/js/jquery.imagesloaded.min.js"></script>
-		<script type="text/javascript" src="files/js/jquery.isotope.min.js"></script>
-		<script type="text/javascript" src="files/js/jribbble.min.js"></script>
-		<script type="text/javascript" src="files/js/script.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.smartscroll.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.backgroundparallax.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.imagesloaded.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.isotope.min.js"></script>
+		<script type="text/javascript" src="assets/js/jribbble.min.js"></script>
+		<script type="text/javascript" src="assets/js/script.js"></script>
 		<!-- SCRIPTS -->
 
 	</body>

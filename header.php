@@ -12,11 +12,11 @@
 	    <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500" rel="stylesheet" type="text/css">
 
 	    <!-- CSS -->
-	    <link rel="stylesheet" id="default-style-css"  href="files/css/style.css" type="text/css" media="all" />
-	    <link rel="stylesheet" id="fontawesome-style-css" href="files/css/font-awesome.min.css" type="text/css" media="all" />
-	    <link rel="stylesheet" id="ionic-icons-style-css" href="files/css/ionicons.css" type="text/css" media="all" />
-	    <link rel="stylesheet" id="owlcarousel-css" href="files/css/owl.carousel.css" type="text/css" media="all" />
-		<link rel="stylesheet" id="responsive-css"  href="files/css/mqueries.css" type="text/css" media="all" />
+	    <link rel="stylesheet" id="default-style-css"  href="assets/css/style.css" type="text/css" media="all" />
+	    <link rel="stylesheet" id="fontawesome-style-css" href="assets/css/font-awesome.min.css" type="text/css" media="all" />
+	    <link rel="stylesheet" id="ionic-icons-style-css" href="assets/css/ionicons.css" type="text/css" media="all" />
+	    <link rel="stylesheet" id="owlcarousel-css" href="assets/css/owl.carousel.css" type="text/css" media="all" />
+		<link rel="stylesheet" id="responsive-css"  href="assets/css/mqueries.css" type="text/css" media="all" />
 
 	    <!-- FAVICON -->
 	    <link rel="shortcut icon" href="files/uploads/favicon.png"/>
