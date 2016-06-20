@@ -43,7 +43,7 @@
         <div id="single-pagination" class="portfolio-pagination">
             <ul class="pagination">
                 <li class="prev"><a href="portfolio-single-video.html">Previous Project<span class="icon"></span></a></li>
-                <li class="back"><a href="index.html"><span class="icon"></span></a></li>
+                <li class="back"><a href="index.php"><span class="icon"></span></a></li>
                 <li class="next"><a href="portfolio-single-left-fullwidth.html">Next Project<span class="icon"></span></a></li>
             </ul>
         </div>

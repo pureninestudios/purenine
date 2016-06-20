@@ -47,7 +47,7 @@
 
 		            <!-- LOGO -->
 		            <div id="logo">
-		                <a href="index.html">
+		                <a href="index.php">
 		                	<img src="files/uploads/logo-dani-dark.png" srcset="files/uploads/logo-dani-dark.png 1x, files/uploads/logo-dani-dark@2x.png 2x" alt="Logo Dark">
 		                </a>
 		            </div>

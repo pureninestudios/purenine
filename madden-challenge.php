@@ -87,7 +87,7 @@
         <div id="single-pagination">
             <ul class="pagination">
                 <li class="prev"><a href="portfolio-single-right-fullwidth.html">Previous Project<span class="icon"></span></a></li>
-                <li class="back"><a href="index.html"><span class="icon"></span></a></li>
+                <li class="back"><a href="index.php"><span class="icon"></span></a></li>
                 <li class="next"><a href="portfolio-single-left-spaced.html">Next Project<span class="icon"></span></a></li>
             </ul>
         </div>
