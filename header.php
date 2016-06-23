@@ -58,10 +58,10 @@
 		                <div id="menu-inner">
 		                    <nav id="main-nav">
 		                        <ul>
-		                            <li><a href="#"><span>Home</span></a></li>
-		                            <li><a href="#"><span>Studio</span></a></li>
-		                            <li><a href="#"><span>Projects</span></a></li>
-		                            <li><a href="#"><span>Services</span></a></li>
+		                            <li><a href="index.php"><span>Home</span></a></li>
+		                            <li><a href="studio.php"><span>Studio</span></a></li>
+		                            <li><a href="projects.php"><span>Projects</span></a></li>
+		                            <li><a href="services.php"><span>Services</span></a></li>
 		                            <li><a href="maito:hello@purenine.com"><span>Contact</span></a></li>
 		                        </ul>
 		                    </nav>

@@ -23,11 +23,11 @@
             <div class="isotope-item portfolio-item photography">
                 <div class="portfolio-item-inner item-inner">
                     <a href="portfolio-single-classic.html" class="thumb-hover overlay-effect text-dark">
-                        <img src="files/uploads/600x400-light.jpg" alt="SEO">
+                        <img src="portfolio/hp-madden.jpg">
                     </a>
                     <div class="portfolio-info">
-                    	<span class="portfolio-category">Photography</span>
-                    	<h4 class="portfolio-name"><a href="portfolio-single-classic.html"><strong>Sodamaker</strong></a></h4>
+                    	<span class="portfolio-category">Twitch</span>
+                    	<h4 class="portfolio-name"><a href="madden-challenge.php"><strong>Madden Challenge</strong></a></h4>
                     </div>
                 </div>
             </div>
