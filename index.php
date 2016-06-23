@@ -4,9 +4,9 @@
 
         <div class="smartscroll-item portfolio-item portfolio-smart-item">
            	<div class="portfolio-item-inner item-inner">
-                <a href="portfolio-single-classic.html" class="thumb-hover text-light">
+                <a href="#" class="thumb-hover text-light">
 
-                    <img src="files/imgs/hp-madden.jpg">
+                    <img src="portfolio/hp-madden.jpg">
                     <div class="overlay-caption bottom align-left">
                         <span class="caption-sub portfolio-category text-animation">Twitch</span>
                         <h2 class="caption-name portfolio-name text-animation"><strong>Madden<br>Challenge</strong></h2>
@@ -18,7 +18,7 @@
         <div class="smartscroll-item portfolio-item portfolio-smart-item">
            	<div class="portfolio-item-inner item-inner">
                 <a href="portfolio-single-classic.html" class="thumb-hover text-light">
-                    <img src="files/uploads/1100x950-dark.jpg" alt="SEO">
+                    <img src="portfolio/hp-pga.jpg" alt="">
                     <div class="overlay-caption bottom align-left">
                         <span class="caption-sub portfolio-category text-animation">Web Design</span>
                         <h2 class="caption-name portfolio-name text-animation"><strong>Sound for <br>the next Step</strong></h2>
