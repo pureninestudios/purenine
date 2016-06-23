@@ -6,7 +6,7 @@
            	<div class="portfolio-item-inner item-inner">
                 <a href="#" class="thumb-hover text-light">
 
-                    <img src="portfolio/hp-madden.jpg">
+                    <img src="imgs/hp-madden-650.jpg">
                     <div class="overlay-caption bottom align-left">
                         <span class="caption-sub portfolio-category text-animation">Twitch</span>
                         <h2 class="caption-name portfolio-name text-animation"><strong>Madden<br>Challenge</strong></h2>
@@ -18,10 +18,10 @@
         <div class="smartscroll-item portfolio-item portfolio-smart-item">
            	<div class="portfolio-item-inner item-inner">
                 <a href="portfolio-single-classic.html" class="thumb-hover text-light">
-                    <img src="portfolio/hp-pga.jpg" alt="">
+                    <img src="imgs/hp-pga-950.jpg" alt="">
                     <div class="overlay-caption bottom align-left">
-                        <span class="caption-sub portfolio-category text-animation">Web Design</span>
-                        <h2 class="caption-name portfolio-name text-animation"><strong>Sound for <br>the next Step</strong></h2>
+                        <span class="caption-sub portfolio-category text-animation">Omnigon</span>
+                        <h2 class="caption-name portfolio-name text-animation"><strong>PGATour.com</strong></h2>
                     </div>
                 </a>
             </div>
