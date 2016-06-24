@@ -1,44 +1,3 @@
-/*-----------------------------------------------------------------------------------
-
-
-
-		! ! !    R E A D   T H I S    ! ! !
-		-----------------
-
-		It's recomended to use/create a custom css file (ore place them at the end of this file)
-		to do you customizations in order to easily update the main css files without loosing your changes
-
-
-
-/* -----------------------------------------------------------------------------------
-
-	0.	RESET & CLEARFIX
-	1.	BASICS (body, headers, links, etc)
-	2. 	GENERAL ELEMENTS
-	3.	HEADER
-	4.	FOOTER
-	5. 	MENU
-	6. 	MENU TOGGLE (Hamburger)
-	7. 	HEADER / MENU OPTIONS
-	8. 	HERO / PAGETITLE
-	9. 	PORTFOLIO
-	10. BLOG
-	11. COMMENTS
-	12. PAGE LOADER
-	13. PAGINATION
-	14. EXTERN PLUGINS (smartscroll,masonry,revolution slider, owl)
-	15. COLUMNS SECTION
-	16. FULLWIDTH SECTION
-	17. THUMB OVERLAY EFFECT
-	18. ANIMATIONS (portfolio, hero, text, ...)
-	19. ELEMENTS / SHORTCODES
-	20. WIDGETS
-	21. CUSTOM STYLE
-
------------------------------------------------------------------------------------ */
-
-
-
 /*----------------------------------------------
 
 0. RESET & CLEARFIX
@@ -669,18 +628,18 @@ header #logo img {
 
 ------------------------------------------------*/
 #footer {
-	background: rgba(0,0,0,0.06);
+	background: #111;
 	width: calc(100% - 100px);
 	margin-left: 100px;
+	color: #fff;
 	}
 
 #footer .footer-inner {
-	padding: 50px 0;
+	padding: 30px 0;
 	}
 
 #footer .footer-bottom {
-	border-top: 1px solid rgba(0,0,0,0.12);
-	padding: 25px 0;
+	padding: 30px 0;
 	}
 
 #footer .footer-bottom .last-col {
@@ -3007,7 +2966,7 @@ div.alert-confirm { background: #a8ce77; }
 
 .socialmedia-widget li a {
 	line-height: 20px;
-	color: #000000;
+	color: #fff;
 	/*transition: all 0.2s ease;*/
 	display: block;
 	text-align: center;

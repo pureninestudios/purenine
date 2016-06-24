@@ -7,6 +7,9 @@
 
 		        <div class="footer-bottom wrapper">
 		        	<div class="column-section clearfix">
+		            	<div class="column one-half last-col align-right">
+		                 	<small>&copy; 2016 PURENINE Studios Inc.</small>
+		                </div>
 		            	<div class="column one-half">
 		                	<div class="widget widget_social">
 		                        <ul class="socialmedia-widget">
@@ -18,9 +21,7 @@
 		                    </div>
 		                </div>
 
-		                <div class="column one-half last-col align-right">
-		                 	<small>&copy; 2016 PURENINE Studios Inc.</small>
-		                </div>
+		                
 		            </div>
 		        </div>
 
