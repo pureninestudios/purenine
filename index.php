@@ -71,11 +71,11 @@
                     </div>
                 </a>
             </div>
-        </div>        
-        
+        </div>
+
 
    </div> <!-- END .smart-scroll -->
-    <div style="background-color:#191919;">
+    <div style="background-color:#fff;">
     <div class="spacer-big"></div>
 
     <div class="wrapper">
