@@ -3205,3 +3205,24 @@ header.header-top.menu-open nav#main-nav > ul > li > ul.submenu { top: calc(50px
 header.header-top.transparent + #hero.hero-auto #page-title,
 header.header-top.transparent + #hero #page-title.title-top { padding-top: calc(130px + 30px); }
 header.header-top.transparent.wrapped .menu-toggle { height: calc(100px + 30px); }
+
+.start-project{
+	background:#222;
+	color:#fff
+}
+
+.start-project h3{
+	color:#fff
+}
+
+.start-project .sr-button{
+	color:#fff!important;
+	border-color:#fff;
+	-webkit-transition:0.25s ease-in-out;
+	transition:0.25s ease-in-out
+}
+
+.start-project .sr-button:hover{
+	background:#fff;
+	color:#222!important
+}

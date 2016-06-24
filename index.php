@@ -75,7 +75,7 @@
 
 
    </div> <!-- END .smart-scroll -->
-    <div style="background-color:#fff;">
+    <div class="start-project">
     <div class="spacer-big"></div>
 
     <div class="wrapper">
