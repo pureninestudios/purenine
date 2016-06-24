@@ -19,7 +19,7 @@
 		                    </div>
 		                </div>
 		                <div class="column one-half last-col align-left" style="text-align:left">
-		                 	<small>&copy; 2016 PURENINE Studios Inc.</small>
+		                 	<small>&copy; 2016 PURENINE Studios Inc. </small>
 		                </div>
 
 		            </div>
