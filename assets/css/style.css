@@ -78,12 +78,12 @@ h1, h2, h3, h4, h5, h6 {
 	color: #000000;
 	}
 	h1 i, h2 i, h3 i, h4 i, h5 i, h6 i, h1 em, h2 em, h3 em, h4 em, h5 em, h6 em { font-style: italic; }
-	h1 b, h2 b, h3 b, h4 b, h5 b, h6 b, h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong { font-weight: 700; }
+	h1 b, h2 b, h3 b, h4 b, h5 b, h6 b, h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong { font-weight: 400; }
 	.text-light h1, .text-light h2, .text-light h3, .text-light h4, .text-light h5, .text-light h6,
 	h1.text-light, h2.text-light, h3.text-light, h4.text-light, h5.text-light, h6.text-light { color: #ffffff; }
 
 h1 { font-size: 66px; line-height: 80px; }
-h2 { font-size: 48px; line-height: 61px; }
+h2 { font-size: 48px; line-height: 60px; }
 h3 { font-size: 34px; line-height: 46px; }
 h4 { font-size: 24px; line-height: 35px; }
 h5 { font-size: 20px; line-height: 31px; }
@@ -1168,13 +1168,12 @@ header.header-top.transparent .wrapper .menu-toggle { height: 130px; }
 
 ------------------------------------------------*/
 .portfolio-category {
-	font-family: 'Hind';
-	font-weight: 300;
+	font-family: "Montserrat",sans-serif;
 	text-transform: uppercase;
-	letter-spacing: 0.18em;
-	font-size: 14px;
-	line-height: 20px;
-	color: #000000;
+	letter-spacing: 1px;
+	font-size: 12px;
+	line-height: 16px;
+	color: #fff;
 	}
 	.text-light .portfolio-category { color: #ffffff; }
 
@@ -2204,7 +2203,7 @@ div .column-section:first-child { margin-top: 0px; }
 	}
 
 .thumb-hover .overlay-caption .caption-sub + h1.caption-name, .thumb-hover .overlay-caption h1.caption-name + .caption-sub { margin-top: 8px; }
-.thumb-hover .overlay-caption .caption-sub + h2.caption-name, .thumb-hover .overlay-caption h2.caption-name + .caption-sub { margin-top: 7px; }
+.thumb-hover .overlay-caption .caption-sub + h2.caption-name, .thumb-hover .overlay-caption h2.caption-name + .caption-sub { margin-top: 0px; }
 .thumb-hover .overlay-caption .caption-sub + h3.caption-name, .thumb-hover .overlay-caption h3.caption-name + .caption-sub { margin-top: 4px; }
 
 .thumb-hover .overlay-caption.hidden {

@@ -10,6 +10,7 @@
 	    <!-- FONTS -->
 	    <link href="http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic" rel="stylesheet" type="text/css">
 	    <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500" rel="stylesheet" type="text/css">
+	    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 	    <!-- CSS -->
 	    <link rel="stylesheet" id="default-style-css"  href="assets/css/style.css" type="text/css" media="all" />

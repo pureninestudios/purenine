@@ -33,7 +33,8 @@
                 <a href="portfolio-single-classic.html" class="thumb-hover text-light">
                     <img src="imgs/hp-am-750.jpg" alt="">
                     <div class="overlay-caption bottom align-left">
-                        <h2 class="caption-name portfolio-name text-animation"><strong>Audiomack</strong></h2>
+                        <span class="caption-sub portfolio-category text-animation">Audiomack</span>
+                        <h2 class="caption-name portfolio-name text-animation"><strong>Audiomack.com</strong></h2>
                     </div>
                 </a>
             </div>
@@ -56,7 +57,8 @@
                 <a href="portfolio-single-classic.html" class="thumb-hover text-light">
                     <img src="imgs/hp-newleaf-750.jpg" alt="">
                     <div class="overlay-caption bottom align-left">
-                        <h2 class="caption-name portfolio-name text-animation"><strong>NewLeaf Literary</strong></h2>
+                        <span class="caption-sub portfolio-category text-animation">New Leaf Literary & Media, Inc.</span>
+                        <h2 class="caption-name portfolio-name text-animation"><strong>Newleafliterary.com</strong></h2>
                     </div>
                 </a>
             </div>
@@ -67,7 +69,8 @@
                 <a href="portfolio-single-classic.html" class="thumb-hover">
                     <img src="imgs/hp-djbooth-650.jpg" alt="">
                     <div class="overlay-caption bottom align-left">
-                        <h2 class="caption-name portfolio-name text-animation"><strong>DJBooth</strong></h2>
+                        <span class="caption-sub portfolio-category text-animation" style="color:#000;">DJBooth</span>
+                        <h2 class="caption-name portfolio-name text-animation"><strong>DJBooth.net</strong></h2>
                     </div>
                 </a>
             </div>
