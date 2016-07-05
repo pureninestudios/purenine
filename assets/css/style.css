@@ -881,7 +881,7 @@ header.menu-is-open #menu-widget, header.menu-open #menu-widget {
 	height: 83px;
 	display: block;
 	position: absolute;
-	bottom: 0;
+	/*bottom: 0; */
 	left: 0;
 	cursor: pointer;
 	overflow: hidden;

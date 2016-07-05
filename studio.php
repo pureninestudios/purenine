@@ -7,7 +7,7 @@
             	<div class="column one-half last-col align-center">
                     <div class="spacer-medium"></div>
                 	<!--<h6 class="title-alt uppercase">Experience Creativity</h6>-->
-                    <h2>We are a <em>digital design studio</em> started back in 2009.</h2>
+                    <h2>We are a <em>digital design studio</em> founded in 2007.</h2>
                 </div>
             </div>
            	<div class="spacer-medium"></div>

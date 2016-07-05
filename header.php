@@ -45,12 +45,12 @@
 			<header id="header">
 				<div class="header-inner clearfix">
 
-		            <!-- LOGO -->
+		            <!-- LOGO 
 		            <div id="logo">
 		                <a href="index.php">
 		                	<img src="files/uploads/logo-dani-dark.png" srcset="files/uploads/logo-dani-dark.png 1x, files/uploads/logo-dani-dark@2x.png 2x" alt="Logo Dark">
 		                </a>
-		            </div>
+		            </div>-->
 
 		            <!-- MAIN NAVIGATION -->
 		            <div id="menu" class="clearfix">
