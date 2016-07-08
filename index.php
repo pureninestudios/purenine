@@ -55,10 +55,10 @@
         <div class="smartscroll-item portfolio-item portfolio-smart-item">
             <div class="portfolio-item-inner item-inner">
                 <a href="portfolio-single-classic.html" class="thumb-hover text-light">
-                    <img src="imgs/hp-newleaf-750.jpg" alt="">
+                    <img src="imgs/hp-activision-950.jpg" alt="">
                     <div class="overlay-caption bottom align-left">
-                        <span class="caption-sub portfolio-category text-animation">New Leaf Literary & Media, Inc.</span>
-                        <h2 class="caption-name portfolio-name text-animation"><strong>Newleafliterary.com</strong></h2>
+                        <span class="caption-sub portfolio-category text-animation">Haven Agency</span>
+                        <h2 class="caption-name portfolio-name text-animation"><strong>Activision</strong></h2>
                     </div>
                 </a>
             </div>
@@ -66,15 +66,51 @@
 
         <div class="smartscroll-item portfolio-item portfolio-smart-item">
             <div class="portfolio-item-inner item-inner">
-                <a href="portfolio-single-classic.html" class="thumb-hover">
-                    <img src="imgs/hp-djbooth-650.jpg" alt="">
+                <a href="portfolio-single-classic.html" class="thumb-hover text-light">
+                    <img src="imgs/hp-proactiv-750.jpg" alt="">
                     <div class="overlay-caption bottom align-left">
-                        <span class="caption-sub portfolio-category text-animation" style="color:#000;">DJBooth</span>
-                        <h2 class="caption-name portfolio-name text-animation"><strong>DJBooth.net</strong></h2>
+                        <span class="caption-sub portfolio-category text-animation">Haven Agency</span>
+                        <h2 class="caption-name portfolio-name text-animation"><strong>Proactiv+</strong></h2>
                     </div>
                 </a>
             </div>
         </div>
+
+        <div class="smartscroll-item portfolio-item portfolio-smart-item">
+            <div class="portfolio-item-inner item-inner">
+                <a href="portfolio-single-classic.html" class="thumb-hover text-light">
+                    <img src="imgs/hp-guardian-750.jpg" alt="">
+                    <div class="overlay-caption bottom align-left">
+                        <span class="caption-sub portfolio-category text-animation">Creative Circle</span>
+                        <h2 class="caption-name portfolio-name text-animation"><strong>Guardianlife</strong></h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="smartscroll-item portfolio-item portfolio-smart-item">
+            <div class="portfolio-item-inner item-inner">
+                <a href="portfolio-single-classic.html" class="thumb-hover text-light">
+                    <img src="imgs/hp-history-650.jpg" alt="">
+                    <div class="overlay-caption bottom align-left">
+                        <span class="caption-sub portfolio-category text-animation">A+E Networks</span>
+                        <h2 class="caption-name portfolio-name text-animation"><strong>History Now</strong></h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="smartscroll-item portfolio-item portfolio-smart-item">
+            <div class="portfolio-item-inner item-inner">
+                <a href="portfolio-single-classic.html" class="thumb-hover text-light">
+                    <img src="imgs/hp-bio-750.jpg" alt="">
+                    <div class="overlay-caption bottom align-left">
+                        <span class="caption-sub portfolio-category text-animation">A+E Networks</span>
+                        <h2 class="caption-name portfolio-name text-animation"><strong>Biography.com</strong></h2>
+                    </div>
+                </a>
+            </div>
+        </div>        
 
 
    </div> <!-- END .smart-scroll -->

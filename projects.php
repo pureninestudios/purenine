@@ -3,7 +3,7 @@
 	<!-- HERO  -->
 	<section id="hero" class="hero-auto">
         <div id="page-title" class="wrapper">
-            <h1>We're a <strong><em>digital studio</em></strong> that believe<br> in the power of <strong><em>great ideas</em></strong>.</h1>
+            <h1>We're a <strong><em>digital studio</em></strong> that solves<br> problems and help <strong><em>businesses grow</em></strong>.</h1>
         </div> <!-- END #page-title -->
     </section>
     <!-- HERO -->

@@ -13,7 +13,7 @@
 	    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 	    <!-- CSS -->
-	    <link rel="stylesheet" id="default-style-css"  href="assets/css/style.css" type="text/css" media="all" />
+	    <link rel="stylesheet" id="default-style-css"  href="style.css" type="text/css" media="all" />
 	    <link rel="stylesheet" id="fontawesome-style-css" href="assets/css/font-awesome.min.css" type="text/css" media="all" />
 	    <link rel="stylesheet" id="ionic-icons-style-css" href="assets/css/ionicons.css" type="text/css" media="all" />
 	    <link rel="stylesheet" id="owlcarousel-css" href="assets/css/owl.carousel.css" type="text/css" media="all" />
@@ -30,7 +30,7 @@
 	<body>
 
 		<!-- PAGE LOADER -->
-		<div id="page-loader" class="pulsing">
+		<div id="page-loader" class="">
 			<div class="loader-name"></div>
 		    <div class="loader-circle">
 		    	<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 253.4 253.4" style="enable-background:new 0 0 253.4 253.4;" xml:space="preserve"><circle cx="126.7" cy="126.7" r="124.2"/>

@@ -30,29 +30,16 @@
 
 	<div class="spacer-big"></div>
 
+        <div class="start-project">
+    <div class="spacer-big"></div>
+
     <div class="wrapper">
-        <div class="column-section clearfix">
-            <div class="column one-third team-member">
-                <img src="imgs/box-600x600-1.jpg" alt="">  
-            </div>
-            <div class="column one-third team-member">
-                <img src="imgs/box-600x600-1.jpg" alt="">
-            </div>
-            <div class="column one-third last-col team-member">
-                <img src="imgs/box-600x600-1.jpg" alt="">
-            </div>
-        </div>
-    </div> <!-- END .wrapper -->
-
-	<div class="spacer-big"></div>
-
-    <div class="wrapper-small align-center">
-        <h6 class="title-alt uppercase">We enjoy meeting new people</h6>
-        <h2>Interested in working with us?</h2>
+        <h3 class="align-center">Want to start a project?</h3>
         <div class="spacer-medium"></div>
-        <p><a href="mailto:hello@purenine.com" class="sr-button button-big">Contact us</a></p>
-    </div> <!-- END .wrapper-small -->
+        <p class="align-center"><a href="mailto:hello@purenine.com" class="sr-button button-big">Contact us</a></p>
+        </div> <!-- END .wrapper -->
 
-	<div class="spacer-big"></div>
+    <div class="spacer-big"></div>
+    </div>
 
 <?php include('footer.php'); ?>
