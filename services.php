@@ -17,17 +17,17 @@
 			<div class="column-section clearfix">
 	    	<div class="column one-third align-center">
 	        	<i class="ion ion-ios-analytics ion-6x"></i>
-	        	<h3>Modern Layout</h3>
+	        	<h3>Freelance</h3>
 	            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided.</p>
 	        </div>
 	        <div class="column one-third align-center">
-	        	<i class="ion ion-ios-monitor-outline ion-6x"></i>
-	        	<h3>Digital Branding</h3>
+	        	<i class="ion ion-ios-lightbulb-outline ion-6x"></i>
+	        	<h3>Product Strategy</h3>
 	            <p>When, while the lovely valley teems with i throw myself down among the tall grass by the trickling stream as I lie close to the earth.</p>
 	        </div>
 	        <div class="column one-third last-col align-center">
 	        	<i class="ion ion-ios-settings ion-6x"></i>
-	        	<h3>Great Options</h3>
+	        	<h3>User Experience</h3>
 	            <p>Oh, would I could describe these conceptions, vapour around me, and meridian sun strikes the upper surface. Could impress upon paper all that is living so full.</p>
 	        </div>
 	    </div>  <!-- END .column-section -->
@@ -37,18 +37,17 @@
 	    <div class="column-section clearfix">
 	        <div class="column one-third align-center">
 	        	<i class="ion ion-ios-speedometer-outline ion-6x"></i>
-	        	<h3>Trouble Shoot</h3>
+	        	<h3>Creative Direction</h3>
 	            <p>When, while the lovely valley teems with i throw myself down among the tall grass by the trickling stream as I lie close to the earth.</p>
 	        </div>
 	        <div class="column one-third align-center">
 	        	<i class="ion ion-ios-pulse ion-6x"></i>
-	        	<h3>
-	Well Documented</h3>
+	        	<h3>Visual Design</h3>
 	            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided.</p>
 	        </div>
 	        <div class="column one-third last-col align-center">
 	        	<i class="ion ion-ios-videocam-outline ion-6x"></i>
-	        	<h3>Video / Audio</h3>
+	        	<h3>Mobile Apps</h3>
 	            <p>Oh, would I could describe these conceptions, vapour around me, and meridian sun strikes the upper surface. Could impress upon paper all that is living so full.</p>
 	        </div>
 	    </div>
