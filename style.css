@@ -1259,7 +1259,7 @@ header.header-top.transparent .wrapper .menu-toggle { height: 130px; }
 	}
 	.filter li.active a:after {
 	bottom: 0px;
-	background: rgba(0,0,0,0.12);
+	background-color:#bcd325;
 	}
 
 

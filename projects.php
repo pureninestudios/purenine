@@ -11,16 +11,16 @@
     <div class="wrapper">
 
         <ul id="portfolio-filter" class="filter" data-related-grid="portfolio-grid">
-            <li class="active" ><a href="#" data-filter="*">Show All</a></li>
-            <li><a data-filter=".branding" href="#" title="Branding">Branding</a></li>
-            <li><a data-filter=".print" href="#" title="Print">Print</a></li>
-            <li><a data-filter=".digital" href="#" title="Digital">Digital</a></li>
-            <li><a data-filter=".photography" href="#" title="Photography">Photography</a></li>
+            <li class="active" ><a href="#" data-filter="*">Show All Projects</a></li>
+            <li><a data-filter=".visualdesign" href="#" title="Visual Design">Visual Design</a></li>
+            <li><a data-filter=".dev" href="#" title="Development">Development</a></li>
+            <li><a data-filter=".mobile" href="#" title="Mobile">Mobile</a></li>
+            <li><a data-filter=".advertising" href="#" title="Advertising">Advertising</a></li>
         </ul>
 
         <div id="portfolio-grid" class="isotope-grid portfolio-container style-column-2 isotope-spaced clearfix">
 
-            <div class="isotope-item portfolio-item photography">
+            <div class="isotope-item portfolio-item visualdesign">
                 <div class="portfolio-item-inner item-inner">
                     <a href="portfolio-single-classic.html" class="thumb-hover overlay-effect text-dark">
                         <img src="portfolio/hp-madden.jpg">
@@ -32,7 +32,7 @@
                 </div>
             </div>
 
-            <div class="isotope-item portfolio-item digital">
+            <div class="isotope-item portfolio-item mobile visualdesign">
                 <div class="portfolio-item-inner item-inner">
                     <a href="portfolio-single-classic.html" class="thumb-hover overlay-effect text-dark">
                         <img src="portfolio/hp-pga.jpg" alt="">
@@ -44,7 +44,7 @@
                 </div>
             </div>
 
-            <div class="isotope-item portfolio-item branding">
+            <div class="isotope-item portfolio-item visualdesign advertising">
                 <div class="portfolio-item-inner item-inner">
                     <a href="portfolio-single-classic.html" class="thumb-hover overlay-effect text-dark">
                         <img src="portfolio/hp-proactiv.jpg" alt="">
@@ -56,7 +56,7 @@
                 </div>
             </div>
 
-            <div class="isotope-item portfolio-item photography">
+            <div class="isotope-item portfolio-item visualdesign">
                 <div class="portfolio-item-inner item-inner">
                     <a href="portfolio-single-classic.html" class="thumb-hover overlay-effect text-dark">
                         <img src="portfolio/hp-guardian.jpg" alt="">
@@ -68,7 +68,7 @@
                 </div>
             </div>
 
-            <div class="isotope-item portfolio-item branding">
+            <div class="isotope-item portfolio-item mobile">
                 <div class="portfolio-item-inner item-inner">
                     <a href="portfolio-single-classic.html" class="thumb-hover overlay-effect text-dark">
                         <img src="portfolio/hp-am.jpg" alt="">
@@ -80,7 +80,7 @@
                 </div>
             </div>
 
-            <div class="isotope-item portfolio-item print">
+            <div class="isotope-item portfolio-item visualdesign advertising">
                 <div class="portfolio-item-inner item-inner">
                     <a href="portfolio-single-classic.html" class="thumb-hover overlay-effect text-dark">
                         <img src="portfolio/hp-activision.jpg" alt="">
@@ -92,7 +92,7 @@
                 </div>
             </div>
 
-            <div class="isotope-item portfolio-item print">
+            <div class="isotope-item portfolio-item advertising visualdesign">
                 <div class="portfolio-item-inner item-inner">
                     <a href="portfolio-single-classic.html" class="thumb-hover overlay-effect text-dark">
                         <img src="portfolio/hp-pennzoil.jpg" alt="">
@@ -104,7 +104,7 @@
                 </div>
             </div>
 
-            <div class="isotope-item portfolio-item branding">
+            <div class="isotope-item portfolio-item advertising visualdesign">
                 <div class="portfolio-item-inner item-inner">
                     <a href="portfolio-single-classic.html" class="thumb-hover overlay-effect text-dark">
                         <img src="portfolio/hp-1d.jpg" alt="">
@@ -116,7 +116,7 @@
                 </div>
             </div>
 
-            <div class="isotope-item portfolio-item digital">
+            <div class="isotope-item portfolio-item visualdesign dev">
                 <div class="portfolio-item-inner item-inner">
                     <a href="portfolio-single-classic.html" class="thumb-hover overlay-effect text-dark">
                         <img src="portfolio/hp-highlights.jpg" alt="">
@@ -128,7 +128,7 @@
                 </div>
             </div>
 
-            <div class="isotope-item portfolio-item photography">
+            <div class="isotope-item portfolio-item visualdesign dev">
                 <div class="portfolio-item-inner item-inner">
                     <a href="portfolio-single-classic.html" class="thumb-hover overlay-effect text-dark">
                         <img src="portfolio/hp-bio.jpg" alt="">
@@ -140,7 +140,7 @@
                 </div>
             </div>
 
-            <div class="isotope-item portfolio-item digital">
+            <div class="isotope-item portfolio-item mobile">
                 <div class="portfolio-item-inner item-inner">
                     <a href="portfolio-single-classic.html" class="thumb-hover overlay-effect text-dark">
                         <img src="portfolio/hp-indy.jpg" alt="">
@@ -152,7 +152,7 @@
                 </div>
             </div>
 
-            <div class="isotope-item portfolio-item photography">
+            <div class="isotope-item portfolio-item advertising">
                 <div class="portfolio-item-inner item-inner">
                     <a href="portfolio-single-classic.html" class="thumb-hover overlay-effect text-dark">
                         <img src="portfolio/hp-toyota.jpg" alt="">
@@ -164,7 +164,7 @@
                 </div>
             </div>
 
-            <div class="isotope-item portfolio-item photography">
+            <div class="isotope-item portfolio-item advertising visualdesign">
                 <div class="portfolio-item-inner item-inner">
                     <a href="portfolio-single-classic.html" class="thumb-hover overlay-effect text-dark">
                         <img src="portfolio/hp-jt.jpg" alt="">
