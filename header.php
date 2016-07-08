@@ -69,10 +69,10 @@
 		                    <div id="menu-widget">
 		                    	<div class="widget widget_social">
 		                        	<ul class="socialmedia-widget">
-		                            	<li class="facebook"><a href="#"></a></li>
-		                            	<li class="twitter"><a href="#"></a></li>
-		                            	<li class="behance"><a href="#"></a></li>
-		                            	<li class="pinterest"><a href="#"></a></li>
+		                            	<li class="facebook"><a href="https://www.facebook.com/pureninestudios"></a></li>
+		                            	<li class="twitter"><a href="https://twitter.com/PURENINE"></a></li>
+		                            	<li class="instagram"><a href="https://www.instagram.com/purenine/"></a></li>
+		                            	<li class="linkedin"><a href="https://www.linkedin.com/in/thomasklinger"></a></li>
 		                            </ul>
 		                        </div>
 		                    </div>

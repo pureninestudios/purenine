@@ -2967,11 +2967,10 @@ div.alert-confirm { background: #a8ce77; }
 
 .socialmedia-widget li a {
 	line-height: 20px;
-	color: #fff;
 	/*transition: all 0.2s ease;*/
 	display: block;
 	text-align: center;
-	padding: 0 6px 0 6px;
+	padding: 0 10px 0 10px;
 	}
 	.socialmedia-widget li:first-child a { padding-left: 0px; }
 	.socialmedia-widget li:last-child a { padding-right: 0px; }
@@ -2981,7 +2980,7 @@ div.alert-confirm { background: #a8ce77; }
 	display:block;
 	transition: all 0.15s ease;
 	font-family: FontAwesome;
-	font-size: 16px;
+	font-size: 20px;
   	text-rendering: auto;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale; }
