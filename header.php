@@ -29,6 +29,7 @@
 
 	<body>
 
+		<?php /*
 		<!-- PAGE LOADER -->
 		<div id="page-loader" class="">
 			<div class="loader-name"></div>
@@ -38,6 +39,19 @@
 		   	</div>
 		</div>
 		<!-- PAGE LOADER -->
+		*/ ?>
+
+		<div class="ss-preloader">
+	        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 18 18" preserveAspectRatio="xMidYMin meet" style="matrix(0.9611, 0, 0, 0.9611, 0, 0)">
+	          <g>
+	            <circle cx="0" cy="0" r="50%" width="100%" height="100%" fill="#ffffff"></circle>
+	            <path d="M0,0 m-8,0
+	                a8,8 0 1,1 16,0
+	                a8,8 0 1,1 -16,0
+	                " fill="transparent" stroke="#bcd325" stroke-width="1px" stroke-dasharray="50.3 50.3" stroke-linecap="round"></path>
+	          </g>
+	        </svg>
+        </div>
 
 		<!-- PAGE CONTENT -->
 		<div id="page-content">
@@ -46,7 +60,7 @@
 			<header id="header">
 				<div class="header-inner clearfix">
 
-		            <!-- LOGO 
+		            <!-- LOGO
 		            <div id="logo">
 		                <a href="index.php">
 		                	<img src="files/uploads/logo-dani-dark.png" srcset="files/uploads/logo-dani-dark.png 1x, files/uploads/logo-dani-dark@2x.png 2x" alt="Logo Dark">
