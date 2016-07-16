@@ -77,6 +77,7 @@
 		                            <li><a href="studio.php"><span>Studio</span></a></li>
 		                            <li><a href="projects.php"><span>Projects</span></a></li>
 		                            <li><a href="services.php"><span>Services</span></a></li>
+		                            <li><a href="insights.php"><span>Insights</span></a></li>
 		                            <li><a href="maito:hello@purenine.com"><span>Contact</span></a></li>
 		                        </ul>
 		                    </nav>

@@ -4,7 +4,7 @@
 
         <div class="smartscroll-item portfolio-item portfolio-smart-item">
            	<div class="portfolio-item-inner item-inner">
-                <a href="#" class="thumb-hover text-light">
+                <a href="madden.php" class="thumb-hover text-light">
 
                     <img src="imgs/hp-madden-650.jpg">
                     <div class="overlay-caption bottom align-left">
@@ -82,7 +82,7 @@
                     <img src="imgs/hp-guardian-750.jpg" alt="">
                     <div class="overlay-caption bottom align-left">
                         <span class="caption-sub portfolio-category text-animation">Creative Circle</span>
-                        <h2 class="caption-name portfolio-name text-animation"><strong>Guardianlife</strong></h2>
+                        <h2 class="caption-name portfolio-name text-animation"><strong>Guardian</strong></h2>
                     </div>
                 </a>
             </div>
@@ -91,10 +91,10 @@
         <div class="smartscroll-item portfolio-item portfolio-smart-item">
             <div class="portfolio-item-inner item-inner">
                 <a href="portfolio-single-classic.html" class="thumb-hover text-light">
-                    <img src="imgs/hp-history-650.jpg" alt="">
+                    <img src="imgs/hp-djbooth-650.jpg" alt="">
                     <div class="overlay-caption bottom align-left">
-                        <span class="caption-sub portfolio-category text-animation">A+E Networks</span>
-                        <h2 class="caption-name portfolio-name text-animation"><strong>History Now</strong></h2>
+                        <span class="caption-sub portfolio-category text-animation">DJBooth</span>
+                        <h2 class="caption-name portfolio-name text-animation"><strong>DJBooth.net</strong></h2>
                     </div>
                 </a>
             </div>
