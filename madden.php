@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 
 	<!-- HERO -->
-    <section id="hero" class="hero-full hero-animation parallax-section text-light" data-parallax-image="imgs/madden-1600x1100.jpg">
+    <section id="hero" class="hero-big hero-animation parallax-section text-light" data-parallax-image="imgs/madden-1600x1100.jpg">
 
     </section>
     <!-- HERO end -->
