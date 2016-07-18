@@ -29,15 +29,19 @@
 
         <div class="spacer-big"></div>
 
-       	<div class="column-section boxed-sticky clearfix">
-       		<div class="column one-third">
-            	<img class="lazy" data-src="files/uploads/600x400-light.jpg" width="600" height="400" alt="" />
-            	<img class="lazy" data-src="files/uploads/600x400-light.jpg" width="600" height="400" alt="" />
-            </div>
-            <div class="column two-third last-col">
-            	<img class="lazy" data-src="files/uploads/1200x800-light.jpg" width="1200" height="800" alt="" />
-            </div>
-      	 </div>
+        <div class="image-wrapper">
+
+	       	<div class="column-section boxed-sticky clearfix">
+	       		<div class="column one-third">
+	            	<img class="lazy" src="#" data-src="files/uploads/600x400-light.jpg" width="600" height="400" alt="" />
+	            	<img class="lazy" src="#" data-src="files/uploads/600x400-light.jpg" width="600" height="400" alt="" />
+	            </div>
+	            <div class="column two-third last-col">
+	            	<img class="lazy" src="#" data-src="files/uploads/1200x800-light.jpg" width="1200" height="800" alt="" />
+	            </div>
+	      	 </div>
+
+        </div><!--/.image-wrapper-->
 
         <div class="spacer-big"></div>
 
@@ -50,7 +54,13 @@
         </div> <!-- END .wrapper -->
 
         <div class="spacer-big"></div>
-        <img class="lazy" data-src="files/uploads/1680x1100-light.jpg" width="1680" height="1100" alt="" />
+
+        <div class="image-wrapper">
+
+       		<img class="lazy" src="#" data-src="files/uploads/1680x1100-light.jpg" width="1680" height="1100" alt="" />
+
+        </div><!--/.image-wrapper-->
+
         <div class="spacer-big"></div>
 
         <div class="wrapper-small">
@@ -60,21 +70,25 @@
             <p>The design challenge was to blend assets from all parties. We focused on Madden & EA Games to set the storyline but used Twitch as the overall color scheme. Deliverables included strategy, wireframes, UI design and visual design.</p>
 
             <div class="spacer-medium"></div>
-            
+
     	</div> <!-- END .wrapper-small -->
 
-        <div class="spacer-big"></div>
-        <img class="lazy" data-src="imgs/work-madden.jpg" alt="" />
-        <div class="spacer-big"></div> 
-        <img class="lazy" data-src="imgs/work-madden-2.jpg" alt="" />
+    	<div class="image-wrapper">
+
+	        <div class="spacer-big"></div>
+	        <img class="lazy" src="#" data-src="imgs/work-madden.jpg" alt="" />
+	        <div class="spacer-big"></div>
+	        <img class="lazy" src="#" data-src="imgs/work-madden-2.jpg" alt="" />
+
+    	</div><!--/.image-wrapper-->
 
     </div> <!-- END #portfolio-single -->
-                <div class="spacer-big"></div> 
+                <div class="spacer-big"></div>
                 <div class="wrapper">
         <h3 class="align-center">Want to start a project?</h3>
         <div class="spacer-medium"></div>
         <p class="align-center"><a href="mailto:hello@purenine.com" class="sr-button button-big">Contact us</a></p>
         </div> <!-- END .wrapper -->
-        <div class="spacer-big"></div> 
+        <div class="spacer-big"></div>
 
 <?php include('footer.php');?>

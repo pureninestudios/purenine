@@ -1193,6 +1193,11 @@ header.header-top.transparent .wrapper .menu-toggle { height: 130px; }
 	overflow: hidden;
 	}
 
+.single-portfolio .image-wrapper{
+	max-width:1325px;
+	margin:0 auto
+}
+
 .single-portfolio .single-content {
 	width: calc(50% - 100px);
 	padding-left: 100px;
@@ -1899,7 +1904,6 @@ header.header-top.transparent .wrapper .menu-toggle { height: 130px; }
 .lazy-wrapper {
 	width: 100%;
 	display: block;
-	background: rgba(0,0,0,0.06);
 	transition: background 1s ease;
 	}
 	.lazy-wrapper.loaded {
@@ -1911,14 +1915,45 @@ header.header-top.transparent .wrapper .menu-toggle { height: 130px; }
 	background: transparent;
 	}
 
-.lazy-wrapper .lazy-img {
-	opacity: 0;
-	transition: opacity 0.6s ease;
+@-webkit-keyframes lazyImg{
+
+	0%{
+		opacity:0
 	}
 
-.lazy-wrapper.loaded .lazy-img {
-	opacity: 1;
+	100%{
+		opacity:1
 	}
+
+}
+
+@keyframes lazyImg{
+
+	0%{
+		opacity:0
+	}
+
+	100%{
+		opacity:1
+	}
+
+}
+
+.lazy-wrapper{
+	text-align:center
+}
+
+.lazy-wrapper .lazy-img {
+	opacity: 0;
+
+}
+
+.lazy-wrapper.loaded .lazy-img {
+	-webkit-animation:lazyImg 0.6s ease forwards;
+	animation:lazyImg 0.6s ease forwards;
+	-webkit-animation-delay:0.3s;
+	animation-delay:0.3s
+}
 
 
 /* mute video for phat background video */
