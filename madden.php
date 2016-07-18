@@ -1,12 +1,7 @@
 <?php include('header.php'); ?>
 
 	<!-- HERO -->
-    <section id="hero" class="hero-full hero-animation parallax-section text-light" data-parallax-image="files/uploads/1680x1100-dark.jpg">
-
-        <div id="page-title" class="wrapper title-bottom">
-        	<h5 class="title-alt text-animation">Twitch</h5>
-        	<h1 class="text-animation"><strong>Madden Live Challenge</strong></h1>
-        </div>
+    <section id="hero" class="hero-full hero-animation parallax-section text-light" data-parallax-image="imgs/madden-1600x1100.jpg">
 
     </section>
     <!-- HERO end -->
@@ -18,7 +13,8 @@
         <div class="wrapper">
             <div class="column-section clearfix">
                 <div class="column one-half">
-                	<h2>About the Project</h2>
+                	<h5>Twitch / EA Sports / GoodGame.gg</h5>
+                    <h2>2016 Madden NFL<br>Live Challenge</h2>
                 </div>
                 <div class="column one-half last-col">
                     <h5 class="title-alt">The EA SPORTS Madden NFL Live Challenge is back and players will compete in Madden’s newest mode Draft Champions Ranked. The tournament will have multiple phases as well as an invitational phase where the best Madden players on the planet will compete for a spot in the live finals in San Francisco, CA. </h5>
@@ -68,8 +64,6 @@
         	<h2 class="align-center">A fresh look & feel.</h2>
             <div class="spacer-medium"></div>
             <p>The design challenge was to blend assets from all parties. We focused on Madden & EA Games to set the storyline but used Twitch as the overall color scheme. Deliverables included strategy, wireframes, UI design and visual design.</p>
-
-            <div class="spacer-medium"></div>
 
     	</div> <!-- END .wrapper-small -->
 
