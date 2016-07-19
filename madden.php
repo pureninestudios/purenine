@@ -29,11 +29,11 @@
 
 	       	<div class="column-section boxed-sticky clearfix">
 	       		<div class="column one-third">
-	            	<img class="lazy" src="#" data-src="files/uploads/600x400-light.jpg" width="600" height="400" alt="" />
-	            	<img class="lazy" src="#" data-src="files/uploads/600x400-light.jpg" width="600" height="400" alt="" />
+	            	<img class="lazy" src="#" data-src="imgs/madden-box-1.jpg" width="600" height="400" alt="" />
+	            	<img class="lazy" src="#" data-src="imgs/madden-box-2.jpg" width="600" height="400" alt="" />
 	            </div>
 	            <div class="column two-third last-col">
-	            	<img class="lazy" src="#" data-src="files/uploads/1200x800-light.jpg" width="1200" height="800" alt="" />
+	            	<img class="lazy" src="#" data-src="imgs/madden-box-1200x800.jpg" width="1200" height="800" alt="" />
 	            </div>
 	      	 </div>
 
