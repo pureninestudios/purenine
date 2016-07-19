@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 
 	<!-- HERO -->
-    <section id="hero" class="hero-big hero-animation parallax-section text-light" data-parallax-image="imgs/madden-1600x1100.jpg">
+    <section id="hero" class="hero-big hero-animation parallax-section text-light" data-parallax-image="imgs/madden-1600x900.jpg">
 
     </section>
     <!-- HERO end -->
@@ -53,7 +53,7 @@
 
         <div class="image-wrapper">
 
-       		<img class="lazy" src="#" data-src="files/uploads/1680x1100-light.jpg" width="1680" height="1100" alt="" />
+       		<img class="lazy" src="#" data-src="imgs/madden-mid-1680x1100.jpg" width="1680" height="1100" alt="" />
 
         </div><!--/.image-wrapper-->
 
@@ -70,9 +70,9 @@
     	<div class="image-wrapper">
 
 	        <div class="spacer-big"></div>
-	        <img class="lazy" src="#" data-src="imgs/work-madden.jpg" alt="" />
+	        <img class="lazy" src="#" data-src="imgs/madden-work.jpg" alt="" />
 	        <div class="spacer-big"></div>
-	        <img class="lazy" src="#" data-src="imgs/work-madden-2.jpg" alt="" />
+	        <img class="lazy" src="#" data-src="imgs/madden-work-2.jpg" alt="" />
 
     	</div><!--/.image-wrapper-->
 
