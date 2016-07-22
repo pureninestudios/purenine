@@ -85,7 +85,6 @@ function resizeAdapt() {
 	}
 }
 
-
 jQuery(window).load(function() {
 
 

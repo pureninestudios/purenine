@@ -1103,6 +1103,36 @@ header.header-top.transparent .wrapper .menu-toggle { height: 130px; }
 
 #hero.hero-full { min-height: 100vh; }
 #hero.hero-big { min-height: 75vh; }
+#hero.hero-scale{
+	height:750px;
+}
+
+@media screen and ( max-height:750px ){
+
+	#hero.hero-scale{
+		height:85vh
+	}
+
+}
+
+#hero .scaler{
+	width:100%;
+	height:750px;
+	visibility:hidden;
+}
+
+@media screen and ( min-width:1600px ){
+
+	#hero.hero-scale{
+		height:auto;
+	}
+
+	#hero .scaler{
+		height:auto
+	}
+
+}
+
 
 /* hero pagetitle */
 #hero #page-title {
@@ -3240,6 +3270,10 @@ header.header-top.menu-open nav#main-nav > ul > li > ul.submenu { top: calc(50px
 header.header-top.transparent + #hero.hero-auto #page-title,
 header.header-top.transparent + #hero #page-title.title-top { padding-top: calc(130px + 30px); }
 header.header-top.transparent.wrapped .menu-toggle { height: calc(100px + 30px); }
+
+.hero-scale{
+	height:750px;
+}
 
 .start-project{
 	background:#222;
