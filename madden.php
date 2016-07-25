@@ -1,9 +1,9 @@
 <?php include('header.php'); ?>
 
 	<!-- HERO -->
-    <section id="hero" class="hero-scale hero-animation parallax-section text-light" data-parallax-image="imgs/madden-1600x1100.jpg">
+    <section id="hero" class="hero">
 
-      <img class="scaler" src="imgs/scaler.png" alt=""/>
+      <img src="imgs/madden-1600x800.jpg" alt=""/>
 
     </section>
     <!-- HERO end -->

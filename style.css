@@ -1103,34 +1103,10 @@ header.header-top.transparent .wrapper .menu-toggle { height: 130px; }
 
 #hero.hero-full { min-height: 100vh; }
 #hero.hero-big { min-height: 75vh; }
-#hero.hero-scale{
-	height:750px;
-}
 
-@media screen and ( max-height:750px ){
-
-	#hero.hero-scale{
-		height:85vh
-	}
-
-}
-
-#hero .scaler{
+#hero img{
 	width:100%;
-	height:750px;
-	visibility:hidden;
-}
-
-@media screen and ( min-width:1600px ){
-
-	#hero.hero-scale{
-		height:auto;
-	}
-
-	#hero .scaler{
-		height:auto
-	}
-
+	height:auto
 }
 
 
