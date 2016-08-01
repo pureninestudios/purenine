@@ -646,8 +646,6 @@ header #logo img {
 	text-align: right;
 	}
 
-
-
 /*----------------------------------------------
 
 5. 	MENU
@@ -2993,6 +2991,11 @@ div.alert-confirm { background: #a8ce77; }
 
 /* Social Media Widget
 -------------------------------- */
+.footer-bottom .socialmedia-widget a:link,
+.footer-bottom .socialmedia-widget a:visited{
+	color:#fff
+}
+
 .socialmedia-widget {
 	margin: 15px 0 0 0;
 	padding: 0;
