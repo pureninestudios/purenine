@@ -17,10 +17,11 @@
                 <div class="column one-half">
                 	<h5>Twitch / EA Sports / GoodGame.gg</h5>
                     <h2>2016 Madden NFL<br>Live Challenge</h2>
+                    <p>Art Direction, UX / UI, Visual Design</p>
                 </div>
                 <div class="column one-half last-col">
                     <h5 class="title-alt">The EA SPORTS Madden NFL Live Challenge is back and players will compete in Madden’s newest mode Draft Champions Ranked. The tournament will have multiple phases as well as an invitational phase where the best Madden players on the planet will compete for a spot in the live finals in San Francisco, CA. </h5>
-                    <p>Art Direction, UX / UI, Visual Design</p>
+                    
                 </div>
             </div>
         </div> <!-- END .wrapper -->

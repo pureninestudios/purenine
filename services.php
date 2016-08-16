@@ -61,8 +61,8 @@
 	        <div class="owl-slider content-slider">
 	            <div>
 	                <blockquote class="align-center">
-	                    <p>In any moment of decision, the best thing you can do is the right thing, the next best thing is the wrong thing, and the worst thing you can do is nothing.</p>
-	                    <cite>Theodore Roosevelt</cite>
+	                    <p>PURENINE has proven to be a consistent resource for all of our custom marketing & advertising initiatives at PEOPLE. We found their quick turnaround times, design expertise and development capabilities allow us to offer truly custom solutions for our partners and clients. </p>
+	                    <cite>Greg Cappello - People.com</cite>
 	                </blockquote>
 	            </div>
 	            <div>
