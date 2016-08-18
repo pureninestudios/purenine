@@ -62,7 +62,7 @@
 	            <div>
 	                <blockquote class="align-center">
 	                    <p>PURENINE has proven to be a consistent resource for all of our custom marketing & advertising initiatives at PEOPLE. We found their quick turnaround times, design expertise and development capabilities allow us to offer truly custom solutions for our partners and clients. </p>
-	                    <cite>Greg Cappello - People.com</cite>
+	                    <cite>Greg Cappello, People.com</cite>
 	                </blockquote>
 	            </div>
 	            <div>

@@ -66,7 +66,7 @@
             <h6 class="title-alt uppercase align-center">Final Result</h6>
         	<h2 class="align-center">A fresh look & feel.</h2>
             <div class="spacer-medium"></div>
-            <p>The design challenge was to blend assets from all parties. We focused on Madden & EA Games to set the storyline but used Twitch as the overall color scheme. Deliverables included strategy, wireframes, UI design and visual design.</p>
+            <h5>The design challenge was to blend assets from all parties. We focused on Madden & EA Games to set the storyline but used Twitch as the overall color scheme. Deliverables included strategy, wireframes, UI design and visual design.</h5>
 
     	</div> <!-- END .wrapper-small -->
 
@@ -80,8 +80,8 @@
     	</div><!--/.image-wrapper-->
 
     </div> <!-- END #portfolio-single -->
-                <div class="spacer-big"></div>
-                <div class="wrapper">
+         <div class="spacer-big"></div>
+         <div class="wrapper">
         <h3 class="align-center">Want to start a project?</h3>
         <div class="spacer-medium"></div>
         <p class="align-center"><a href="mailto:hello@purenine.com" class="sr-button button-big">Contact us</a></p>
