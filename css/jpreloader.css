@@ -38,11 +38,12 @@
 		transition-timing-function: cubic-bezier(0.550, 0.085, 0.000, 0.990)!important;
 }
 #jpreBar {
-	background-color:rgba(255, 255, 255, 1);
+	background-color:#bcd325;
 	bottom:0;
 	left:0;
 	position:absolute;
 	box-sizing:border-box;
+	height: 5px;
 }
 #jprePercentage {
 	display:none;
