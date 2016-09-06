@@ -3,7 +3,7 @@
 ---------------------------------------------------*/	
 	
 	html,body{
-		font-family: 'Roboto', sans-serif;
+		font-family: 'Raleway', sans-serif;
 		font-weight: 400;
 		font-size:15px;
 		height:100%;
@@ -1476,9 +1476,7 @@
 	
 	.section-info {
 		color:#fff;
-		position:absolute;
-		bottom:0;
-		left:0;
+		margin-top: 20px;
 		opacity:0;
 		-webkit-transition: all 0.3s ease-in-out;
 		-moz-transition: all 0.3s ease-in-out;
