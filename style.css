@@ -1094,7 +1094,7 @@
 	#fp-nav ul li, .fp-slidesNav ul li {
 		display: block;
 		width: 14px;
-		height: 13px;
+		height: 10px;
 		margin: 30px 0;
 		position:relative;
 	}
@@ -1445,7 +1445,6 @@
 		vertical-align:middle;
 		box-sizing:border-box;
 		border: 140px solid transparent;
-		border-top: 80px solid transparent;
 		position:relative;
 	}
 	
@@ -1478,6 +1477,7 @@
 		color:#fff;
 		margin-top: 20px;
 		opacity:0;
+		font-size: 18px;
 		-webkit-transition: all 0.3s ease-in-out;
 		-moz-transition: all 0.3s ease-in-out;
 		-o-transition: all 0.3s ease-in-out;
@@ -2192,7 +2192,6 @@
 	input[type="text"], textarea {
 		color: #777;
 		font-size: 15px;
-		font-family: 'Roboto', sans-serif;
 		font-weight: 400;
 		height: 50px;
 		padding: 12px 20px 12px 2px;
