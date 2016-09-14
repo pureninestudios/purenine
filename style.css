@@ -2784,8 +2784,8 @@ ul.progress-bar {
 }
 
 .all-loaded .p9-loader {
-    animation: p9-loader 0.5s ease-in-out forwards;
-    animation-delay: 2s;
+    animation: p9-loader .5s ease-in-out forwards;
+    animation-delay: 3s;
 }
 
 .p9-loader__inner {
@@ -2807,12 +2807,12 @@ ul.progress-bar {
 }
 
 .p9-loader__logo {
-    transform: translateY(100px);
+    transform: translateY(30px);
     opacity: 0;
 }
 
 .all-loaded .p9-loader__logo {
-    animation: p9-loader__logo 0.3s ease-in-out forwards;
+    animation: p9-loader__logo 0.4s ease-in-out forwards;
 }
 
 .p9-loader__text-wrap {
@@ -2860,7 +2860,7 @@ ul.progress-bar {
 
 @keyframes p9-loader__logo {
     from {
-        transform: translateY(100px);
+        transform: translateY(30px);
         opacity: 0;
     }
     to {
