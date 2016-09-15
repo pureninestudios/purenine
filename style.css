@@ -2776,6 +2776,7 @@ ul.progress-bar {
 .p9-loader {
     background: #222;
     position: fixed;
+    z-index: 1000;
     width: 100%;
     height: 100%;
     top: 0;
@@ -2784,7 +2785,7 @@ ul.progress-bar {
 }
 
 .all-loaded .p9-loader {
-    animation: p9-loader .5s ease-in-out forwards;
+    animation: p9-loader 0.5s ease-in-out forwards;
     animation-delay: 3s;
 }
 

@@ -692,5 +692,7 @@ Function Contact Formular
 				next();
 			});
 
+			$('.p9-loader').delay(3500).fadeOut(200);
+
 		});
 	})(jQuery);
