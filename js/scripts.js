@@ -5,7 +5,6 @@ $(document).ready(function() {
 
 	FirstLoad();
 	PageAnim();
-	PageShare();
 	HeroHeight();
 	OpenAbout();
 	ProjectExpander();
@@ -14,6 +13,7 @@ $(document).ready(function() {
 	MagnificPopup();
 	Shortcodes();
 	ContactForm();
+	retinajs();
 
 });
 
@@ -33,12 +33,11 @@ Function Firs tLoad
 
 	function FirstLoad() {
 
-		/*
 		$('body').jpreLoader({
 			loaderVPos: '0',
 			autoClose: false,
 		});
-		*/
+
 		$("header").removeClass("hidden");
 
 		$('body').waitForImages({

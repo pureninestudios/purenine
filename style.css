@@ -703,14 +703,14 @@ header.hidden {
 #logo a {
     display: block;
     position: relative;
+    padding: 60px 0;
 }
 
 #logo img {
-    height: 36px;
-    padding: 52px 0;
     width: auto;
     webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
 }
 
 header.black-header #logo img {
@@ -1383,14 +1383,26 @@ html.fp-enabled, .fp-enabled body {
 
 #showcase-nav {
     bottom: 80px;
-    left: 0;
+    right: 50px;
     margin: 0;
     padding: 0;
     position: fixed;
     z-index: 100;
-    width: 100%;
+    width: 100px;
     box-sizing: border-box;
     bottom: 110px;
+}
+
+@media screen and ( max-width: 1024px ){
+    #showcase-nav {
+        right: 80px;
+    }
+}
+
+@media screen and ( max-width: 767px ){
+    #showcase-nav {
+        right: 40px;
+    }
 }
 
 #showcase-nav li {
@@ -1404,7 +1416,7 @@ html.fp-enabled, .fp-enabled body {
 }
 
 .showcase-prev {
-    left: 144px;
+    left: -20px;
     transition: all 0.2s ease-in-out 0.4s;
 }
 
@@ -1415,7 +1427,6 @@ html.fp-enabled, .fp-enabled body {
 }
 
 .showcase-next {
-    left: 170px;
     transition: all 0.2s ease-in-out 0.4s;
 }
 
@@ -1475,6 +1486,40 @@ html.fp-enabled, .fp-enabled body {
 
 .showcase-next:hover .arrow-right-line {
     width: 35px;
+}
+
+#fixed-social-icons {
+    position: fixed;
+    bottom: 60px;
+    left: 80px;
+    z-index: 100;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and ( max-width: 767px ){
+    #fixed-social-icons {
+        left: 20px
+    }
+}
+
+@media screen and ( max-width: 479px ){
+    #fixed-social-icons {
+        bottom: 30px
+    }
+}
+
+#fixed-social-icons li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+#fixed-social-icons a {
+    color: #fff;
+    display: block;
+    padding: 0 8px;
+    cursor: pointer;
 }
 
 video#bgvid {
@@ -2572,12 +2617,6 @@ ul.progress-bar {
         font-size: 100px;
         line-height: 90px;
     }
-    .showcase-prev {
-        left: 104px;
-    }
-    .showcase-next {
-        left: 130px;
-    }
     #fp-nav.right {
         right: 97px;
     }
@@ -2738,8 +2777,8 @@ ul.progress-bar {
     header {
         height: 100px;
     }
-    #logo img {
-        padding: 32px 0;
+    #logo a{
+        padding: 42px 0;
     }
     #menu {
         margin: 30px -6px 30px 0;
