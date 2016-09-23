@@ -706,6 +706,14 @@ header.hidden {
     padding: 60px 0;
 }
 
+#logo svg {
+    width: 38px;
+}
+
+#logo path {
+    fill: #fff
+}
+
 #logo img {
     width: auto;
     webkit-transition: all 0.3s ease-in-out;
@@ -734,23 +742,6 @@ header.black-header #menu {
     margin: 30px -6px 30px 0;
 }
 
-#menu:hover:before, #menu.hover:before {
-    left: 0px;
-}
-
-#menu:before {
-    background-color: #fff;
-    content: "";
-    height: 1px;
-    left: -70px;
-    position: absolute;
-    top: 21px;
-    width: 50px;
-    z-index: 5;
-    webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-
 #menu li {
     height: 40px;
     list-style: none;
@@ -765,6 +756,10 @@ header.black-header #menu {
     position: relative;
     webkit-transition: all 0.3s ease-in-out 0.3s;
     transition: all 0.3s ease-in-out 0.3s;
+}
+
+#menu:hover li {
+    color: #bcd325
 }
 
 #menu.hidden li {
@@ -1383,7 +1378,7 @@ html.fp-enabled, .fp-enabled body {
 
 #showcase-nav {
     bottom: 80px;
-    right: 50px;
+    right: 90px;
     margin: 0;
     padding: 0;
     position: fixed;
@@ -1393,9 +1388,9 @@ html.fp-enabled, .fp-enabled body {
     bottom: 110px;
 }
 
-@media screen and ( max-width: 1024px ){
+@media screen and ( max-width: 1446px ){
     #showcase-nav {
-        right: 80px;
+        right: 100px;
     }
 }
 
@@ -1436,6 +1431,11 @@ html.fp-enabled, .fp-enabled body {
     transition: all 0.2s ease-in-out 0.4s;
 }
 
+.arrow-left,
+.arrow-right {
+    transition: 0.2s ease-in-out
+}
+
 .arrow-left {
     border-bottom: 3px solid #fff;
     border-left: 3px solid #fff;
@@ -1458,8 +1458,8 @@ html.fp-enabled, .fp-enabled body {
     transition: width 0.3s ease-in-out;
 }
 
-.showcase-prev:hover .arrow-left-line {
-    width: 35px;
+.showcase-prev:hover .arrow-left {
+    border-color: #bcd325
 }
 
 .arrow-right {
@@ -1484,18 +1484,30 @@ html.fp-enabled, .fp-enabled body {
     transition: width 0.3s ease-in-out;
 }
 
-.showcase-next:hover .arrow-right-line {
-    width: 35px;
+.showcase-next:hover .arrow-right {
+    border-color: #bcd325
 }
 
 #fixed-social-icons {
     position: fixed;
     bottom: 60px;
-    left: 80px;
+    left: 132px;
     z-index: 100;
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+@media screen and ( max-width: 1446px ){
+    #fixed-social-icons {
+        left: 92px
+    }
+}
+
+@media screen and ( max-width: 1024px ){
+    #fixed-social-icons {
+        left: 42px
+    }
 }
 
 @media screen and ( max-width: 767px ){
@@ -1520,6 +1532,10 @@ html.fp-enabled, .fp-enabled body {
     display: block;
     padding: 0 8px;
     cursor: pointer;
+}
+
+#fixed-social-icons a:hover {
+    color: #bcd325
 }
 
 video#bgvid {
