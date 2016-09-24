@@ -754,8 +754,8 @@ header.black-header #menu {
     z-index: 10;
     width: 50px;
     position: relative;
-    webkit-transition: all 0.3s ease-in-out 0.3s;
-    transition: all 0.3s ease-in-out 0.3s;
+    webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 #menu:hover li {
@@ -1413,23 +1413,23 @@ html.fp-enabled, .fp-enabled body {
 
 .showcase-prev {
     left: -20px;
-    transition: all 0.2s ease-in-out 0.4s;
+    transition: all 0.2s ease-in-out;
 }
 
 #showcase-nav.hidden .showcase-prev {
     opacity: 0;
     transform: translateX(-50px);
-    transition: all 0.2s ease-in-out 0.4s;
+    transition: all 0.2s ease-in-out;
 }
 
 .showcase-next {
-    transition: all 0.2s ease-in-out 0.4s;
+    transition: all 0.2s ease-in-out;
 }
 
 #showcase-nav.hidden .showcase-next {
     opacity: 0;
     transform: translateX(50px);
-    transition: all 0.2s ease-in-out 0.4s;
+    transition: all 0.2s ease-in-out;
 }
 
 .arrow-left,
