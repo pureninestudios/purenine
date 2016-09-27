@@ -316,7 +316,7 @@ Function Project Expander
 
 	function ProjectExpander() {
 
-		$('#showcase-slider .section .open-project-link').on('click', function() {
+		$('#showcase-slider .section .open-project-link:not(.external)').on('click', function() {
 
 			$('#menu').addClass('hidden');
 			$('#progressBar').addClass('active');
