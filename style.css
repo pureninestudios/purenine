@@ -1047,8 +1047,8 @@ html.fp-enabled, .fp-enabled body {
     position: absolute;
     top: 10px;
     width: 15px;
-    opacity: 0.7;
-    transition: all 0.1s ease-in-out;
+    opacity: 0.3;
+    transition: all 0.2s ease-in-out;
 }
 
 #fp-nav ul li a.active:before, #fp-nav ul li a:hover:before {
@@ -1304,6 +1304,7 @@ html.fp-enabled, .fp-enabled body {
     font-family: "Montserrat",sans-serif;
     font-weight: 700;
     color: #fff;
+    letter-spacing: -5px;
     display: inline;
 }
 
@@ -1317,7 +1318,7 @@ html.fp-enabled, .fp-enabled body {
 
 .section-info {
     color: #fff;
-    margin-top: 20px;
+    margin-top: 0px;
     opacity: 0;
     font-size: 18px;
     transition: all 0.3s ease-in-out;
@@ -2832,7 +2833,7 @@ ul.progress-bar {
 }
 
 .p9-loader {
-    background: #222;
+    background: #fff;
     position: fixed;
     z-index: 1000;
     width: 100%;
@@ -2843,8 +2844,8 @@ ul.progress-bar {
 }
 
 .all-loaded .p9-loader {
-    animation: p9-loader 0.5s ease-in-out forwards;
-    animation-delay: 3s;
+    animation: p9-loader 0.3s ease-in-out forwards;
+    animation-delay: 2s;
 }
 
 .p9-loader__inner {
@@ -2857,8 +2858,8 @@ ul.progress-bar {
 }
 
 .all-loaded .p9-loader__inner {
-    animation: p9-loader__inner 0.4s ease-in-out forwards;
-    animation-delay: 2.5s;
+    animation: p9-loader__inner 0.3s ease-in-out forwards;
+    animation-delay: 1s;
 }
 
 .p9-loader__inner > div {
@@ -2901,7 +2902,7 @@ ul.progress-bar {
 
 @keyframes p9-loader {
     from {
-        background: #222;
+        background: #fff;
     }
     to {
         background: #000;
@@ -2947,5 +2948,11 @@ ul.progress-bar {
 }
 
 /* ============
-// Parralax hero
+
 ============= */
+
+@media only screen and (max-width: 751px) {
+
+#showcase-nav ul li {display: none;}
+
+}
