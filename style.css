@@ -1235,10 +1235,10 @@ html.fp-enabled, .fp-enabled body {
 }
 
 .responsive-section-image {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: -2%;
+    left: -2%;
+    width: 104%;
+    height: 104%;
     margin: 0;
     padding: 0;
     position: absolute;
@@ -2945,3 +2945,7 @@ ul.progress-bar {
         transform: translateX(0);
     }
 }
+
+/* ============
+// Parralax hero
+============= */
