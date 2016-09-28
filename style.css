@@ -490,7 +490,7 @@ a {
 }
 
 a {
-    color: #000;
+    color: #a6bb1e;
     outline: 0;
 }
 
@@ -1877,7 +1877,7 @@ progress {
     appearance: none;
     border: none;
     background-color: transparent;
-    color: #000;
+    color: #bcd325;
 }
 
 progress::-webkit-progress-bar {
