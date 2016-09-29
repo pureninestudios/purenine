@@ -2983,6 +2983,18 @@ ul.progress-bar {
     transform: translateX(-150%);
 }
 
+.hamburger svg {
+    width: 30px; 
+}
+
+.hamburger path {
+    fill: #fff; 
+}
+
+.hamburger a:hover path  {
+    fill: #bcd325; 
+}
+
 .all-loaded .p9-loader__text {
     animation: p9-loader__text 0.6s ease-in-out forwards;
     animation-delay: 0.3s;
