@@ -2723,7 +2723,7 @@ ul.progress-bar {
     }
     .open-project {
         font-size: 100px;
-        line-height: normal;
+        line-height: 92px;
     }
     #fp-nav.right {
         right: 97px;
