@@ -1312,6 +1312,38 @@ html.fp-enabled, .fp-enabled body {
     color: #fff;
 }
 
+.nat-geo .open-project:hover {
+
+}
+
+.djbooth .open-project:hover {
+
+}
+
+.madden .open-project:hover {
+
+}
+
+.audiomack .open-project:hover {
+
+}
+
+.pga .open-project:hover {
+
+}
+
+.activision .open-project:hover {
+
+}
+
+.guardian .open-project:hover {
+
+}
+
+.purenine .open-project:hover {
+    
+}
+
 .project-link .open-project {
     padding-bottom: 20px;
 }
@@ -2635,7 +2667,7 @@ ul.progress-bar {
     }
     .open-project {
         font-size: 100px;
-        line-height: 90px;
+        line-height: normal;
     }
     #fp-nav.right {
         right: 97px;
@@ -2953,6 +2985,6 @@ ul.progress-bar {
 
 @media only screen and (max-width: 751px) {
 
-#showcase-nav ul li {display: none;}
+    #showcase-nav li {display: none;}
 
 }
