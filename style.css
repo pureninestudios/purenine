@@ -1313,35 +1313,43 @@ html.fp-enabled, .fp-enabled body {
 }
 
 .nat-geo .open-project:hover {
-
+    color: #ffd800;
+    cursor: pointer;
 }
 
 .djbooth .open-project:hover {
-
+    color: #ffc800;
+    cursor: pointer;
 }
 
 .madden .open-project:hover {
-
+    cursor: pointer;
+    color: #4c2e82;
 }
 
 .audiomack .open-project:hover {
-
+    cursor: pointer;
+    color: #ffa200;
 }
 
 .pga .open-project:hover {
-
+    cursor: pointer;
+    color: #d80a0a;
 }
 
 .activision .open-project:hover {
-
+    cursor: pointer;
+    color: #FFE600;
 }
 
 .guardian .open-project:hover {
-
+    cursor: pointer;
+    color: #328ABD;
 }
 
 .purenine .open-project:hover {
-    
+    cursor: pointer;
+    color: #bcd325;
 }
 
 .project-link .open-project {
