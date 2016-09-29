@@ -2991,7 +2991,7 @@ ul.progress-bar {
 
 ============= */
 
-@media only screen and (max-width: 751px) {
+@media only screen and (min-width: 751px) {
 
     #showcase-nav li {display: none;}
 
