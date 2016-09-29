@@ -1014,6 +1014,7 @@ html.fp-enabled, .fp-enabled body {
     display: block;
     width: 14px;
     height: 10px;
+    margin: 25px 0;
     position: relative;
 }
 
@@ -1027,7 +1028,6 @@ html.fp-enabled, .fp-enabled body {
     z-index: 1;
     width: 100%;
     height: 100%;
-    padding: 10px 0;
     cursor: pointer;
     text-decoration: none;
 }
@@ -1042,25 +1042,23 @@ html.fp-enabled, .fp-enabled body {
 #fp-nav ul li a::before {
     background-color: #fff;
     content: "";
-    height: 2px;
-    right: 0;
+    height: 1px;
+    right: 26px;
     position: absolute;
     top: 10px;
-    width: 15px;
-    opacity: 0.3;
+    width: 0;
     transition: all 0.2s ease-in-out;
 }
 
 #fp-nav ul li a.active:before, #fp-nav ul li a:hover:before {
-    width: 35px;
-    opacity: 1
+    width: 16px;
 }
 
 #fp-nav ul li a:after {
     font-family: "Montserrat",sans-serif;
     font-size: 11px;
     color: #fff;
-    opacity: 0!important;
+    opacity: 0.4;
     transition: all 0.1s ease-in-out;
 }
 
@@ -2984,15 +2982,15 @@ ul.progress-bar {
 }
 
 .hamburger svg {
-    width: 30px; 
+    width: 30px;
 }
 
 .hamburger path {
-    fill: #fff; 
+    stroke: #fff;
 }
 
-.hamburger a:hover path  {
-    fill: #bcd325; 
+.hamburger:hover path  {
+    stroke: #bcd325;
 }
 
 .all-loaded .p9-loader__text {
