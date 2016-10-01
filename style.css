@@ -685,6 +685,10 @@ header.black-header {
     color: #fff;
 }
 
+header.black-header.nav-down {
+    display: none;
+}
+
 .nav-up {
     top: -140px;
 }
@@ -1848,8 +1852,10 @@ video#bgvid {
     opacity: 1;
 }
 
-#project_close.nav-up {
-    top: -140px;
+#project_close svg {
+    background: #000;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 #project_close.nav-up-temp {
