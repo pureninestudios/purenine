@@ -314,9 +314,38 @@ Function Show Hide Header
 Function Project Expander
 ---------------------------------------------------*/
 
+	function closeSection() {
+		$('#showcase-slider').removeClass('expanded');
+		$.fn.fullpage.setAllowScrolling(true);
+		$('#menu').removeClass('hover');
+		$('.section-info').removeClass('hidden');
+		setTimeout(function(){
+			$("#project_close").addClass("hide");
+			$('#menu').removeClass('hidden');
+			$('#fp-nav').removeClass('hidden');
+			$('#showcase-nav').removeClass('hidden');
+			$('.share-button').removeClass('hidden');
+			$('#showcase-slider').addClass('delay');
+		},( 1000 ));
+		setTimeout(function(){$('.hamburger').removeClass('hidden');},( 500 ));
+		setTimeout(function(){$('.blog-left').removeClass('inactive'); $('.disable-section').removeClass('active');},( 1550 ));
+		setTimeout(function(){$('.blog-right').removeClass('active');},( 1300 ));
+		setTimeout(function(){$('#project-page-data').removeClass('is-open');},( 1100 ));
+		setTimeout(function(){$('#project-page-holder, #project-page-data').height('0');},( 1100 ));
+		setTimeout(function(){$(".project-page").remove();},( 1100 ));
+		return false;
+	}
+
 	function ProjectExpander() {
 
 		$('#showcase-slider .section .open-project-link:not(.external)').on('click', function() {
+
+			var sectionTitle, sectionSlug;
+
+			sectionTitle = $(this).data('section-title');
+			sectionSlug = $(this).data('section-slug');
+
+			history.pushState(null, sectionTitle, '/#!/' + sectionSlug + '');
 
 			$('#menu').addClass('hidden');
 			$('#progressBar').addClass('active');
@@ -404,26 +433,10 @@ Function Project Expander
 		});
 
 		$(document).on('click', '#project_close', function(event) {
-			$('#showcase-slider').removeClass('expanded');
+			event.preventDefault();
 			$('html, body').animate({scrollTop : 0},800);
-			$.fn.fullpage.setAllowScrolling(true);
-			$('#menu').removeClass('hover');
-			$('.section-info').removeClass('hidden');
-			setTimeout(function(){
-				$("#project_close").addClass("hide");
-				$('#menu').removeClass('hidden');
-				$('#fp-nav').removeClass('hidden');
-				$('#showcase-nav').removeClass('hidden');
-				$('.share-button').removeClass('hidden');
-				$('#showcase-slider').addClass('delay');
-			},( 1000 ));
-			setTimeout(function(){$('.hamburger').removeClass('hidden');},( 500 ));
-			setTimeout(function(){$('.blog-left').removeClass('inactive'); $('.disable-section').removeClass('active');},( 1550 ));
-			setTimeout(function(){$('.blog-right').removeClass('active');},( 1300 ));
-			setTimeout(function(){$('#project-page-data').removeClass('is-open');},( 1100 ));
-			setTimeout(function(){$('#project-page-holder, #project-page-data').height('0');},( 1100 ));
-			setTimeout(function(){$(".project-page").remove();},( 1100 ));
-			return false;
+			closeSection();
+			setTimeout(function(){history.back();}, 1000);
 		});
 
 		$(document).on('click', '.project-link', function(event) {
@@ -443,6 +456,19 @@ Function Project Expander
 
 	} //End Project Expander
 
+	$(window).on("popstate", function(e) {
+
+		// Stop unsightly "jump" when pressing back button
+		if ('scrollRestoration' in history) {
+	  		history.scrollRestoration = 'manual';
+		}
+		// Trigger "project close" when clicking back button
+    	if (e.originalEvent.state == null) {
+			$('html, body').animate({scrollTop : 0},800);
+
+			setTimeout(closeSection, 1000);
+    	}
+  	});
 
 
 /*--------------------------------------------------
