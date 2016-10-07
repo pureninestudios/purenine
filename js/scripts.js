@@ -345,7 +345,7 @@ Function Project Expander
 			sectionTitle = $(this).data('section-title');
 			sectionSlug = $(this).data('section-slug');
 
-			history.pushState(null, sectionTitle, '/#!/' + sectionSlug + '');
+			history.pushState(null, sectionTitle, '/#' + sectionSlug + '');
 
 			$('#menu').addClass('hidden');
 			$('#progressBar').addClass('active');
@@ -457,7 +457,6 @@ Function Project Expander
 	} //End Project Expander
 
 	$(window).on("popstate", function(e) {
-
 		// Stop unsightly "jump" when pressing back button
 		if ('scrollRestoration' in history) {
 	  		history.scrollRestoration = 'manual';
@@ -485,7 +484,10 @@ Function FullPage
 				loopBottom: true,
 				loopTop: true,
         		navigationPosition: 'right',
+				anchors :['nat-geo', 'djbooth', 'madden', 'audiomack', 'pga-tour', 'activision', 'guardian'],
 				onLeave: function(index, nextIndex, direction){
+
+					$('html').removeClass('initial-load');
 
 					$(window).scroll(function() {
 						var scroll = $(window).scrollTop();
@@ -718,6 +720,15 @@ Function Contact Formular
 			});
 
 			$('.p9-loader').delay(3500).fadeOut(200);
+
+			function onLoadNotFirst() {
+				if ( !$('html').hasClass('initial-load') ){
+
+					$('.fp-section.active').find('.open-project-link').click();
+
+				}
+			}
+			setTimeout(onLoadNotFirst, 4800);
 
 		});
 	})(jQuery);
