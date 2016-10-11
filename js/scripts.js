@@ -456,22 +456,6 @@ Function Project Expander
 
 	} //End Project Expander
 
-	// Stop unsightly "jump" when pressing back button
-	history.scrollRestoration = 'manual';
-	$(window).on("popstate", function(e) {
-		// Trigger "project close" when clicking back button
-    	if (e.originalEvent.state == null) {
-			$('html, body').animate({scrollTop : 0},800);
-
-			setTimeout(closeSection, 1000);
-    	}
-  	});
-
-	History.Adapter.bind(window,'statechange',function(){ // Note: We are using statechange instead of popstate
-	   var State = History.getState(); // Note: We are using History.getState() instead of event.state
-	   console.log(State);
-   });
-
 /*--------------------------------------------------
 Function FullPage
 ---------------------------------------------------*/
@@ -731,6 +715,17 @@ Function Contact Formular
 				}
 			}
 			setTimeout(onLoadNotFirst, 4800);
+
+			// Stop unsightly "jump" when pressing back button
+			history.scrollRestoration = 'manual';
+			$(window).on("popstate", function(e) {
+				// Trigger "project close" when clicking back button
+		    	if (e.originalEvent.state == null) {
+					$('html, body').animate({scrollTop : 0},800);
+
+					setTimeout(closeSection, 1000);
+		    	}
+		  	});
 
 		});
 	})(jQuery);
