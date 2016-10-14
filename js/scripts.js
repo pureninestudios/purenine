@@ -167,6 +167,8 @@ Function Open About
 
 	function OpenAbout() {
 
+		/*
+
 		$("li.about-open").on('click', function() {
 			$.fn.fullpage.setAllowScrolling(false);
 			$(".about-open").toggleClass("hidden");
@@ -180,6 +182,44 @@ Function Open About
 			$(".about-close").toggleClass("hidden");
 			$("#about-us").toggleClass("is-active");
 			$('#about-us').animate({scrollTop : 0},300);
+		});
+
+		*/
+
+		function aboutIn() {
+			$('#about-us').addClass('is-active');
+			$('#about-us .about-section--first').delay(600).queue(function(next){
+				$(this).addClass('animate-in');
+				next();
+			});
+			$('#about-us .about-section--second').delay(700).queue(function(next){
+				$(this).addClass('animate-in');
+				next();
+			});
+		}
+
+		function aboutOut() {
+			$('#about-us .about-section--second').removeClass('animate-in');
+			$('#about-us .about-section--first').delay(100).queue(function(next){
+				$(this).removeClass('animate-in');
+				next();
+			});
+			$('#about-us').delay(700).queue(function(next){
+				$(this).removeClass('is-active');
+				next();
+			})
+		}
+
+		$('.burger').on('click', function(){
+			$.fn.fullpage.setAllowScrolling(false);
+			$(this).toggleClass('burger--active burger--inactive').find('.burger__filling').toggleClass('burger__filling--inactive burger__filling--active');
+
+			if ( $(this).hasClass('burger--active') ) {
+				aboutIn();
+			} else if ( $(this).hasClass('burger--inactive') ) {
+				aboutOut();
+			}
+
 		});
 
 	}//End Open About
