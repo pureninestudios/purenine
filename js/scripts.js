@@ -211,12 +211,13 @@ Function Open About
 		}
 
 		$('.burger').on('click', function(){
-			$.fn.fullpage.setAllowScrolling(false);
 			$(this).toggleClass('burger--active burger--inactive').find('.burger__filling').toggleClass('burger__filling--inactive burger__filling--active');
 
 			if ( $(this).hasClass('burger--active') ) {
+				$.fn.fullpage.setAllowScrolling(false);
 				aboutIn();
 			} else if ( $(this).hasClass('burger--inactive') ) {
+				$.fn.fullpage.setAllowScrolling(true);
 				aboutOut();
 			}
 
