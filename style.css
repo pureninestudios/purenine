@@ -1340,8 +1340,12 @@ html.fp-enabled, .fp-enabled body {
     color: #ffc800;
 }
 
+.mars .open-project:hover {
+    color: #faa44d;
+}
+
 .madden .open-project:hover {
-    color: #4c2e82;
+    color: #f9f9f9;
 }
 
 .audiomack .open-project:hover {
