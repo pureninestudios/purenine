@@ -1240,8 +1240,7 @@ html.fp-enabled, .fp-enabled body {
 
 @media screen and ( max-width: 700px ) {
 
-    .madden.active .responsive-section-image,
-    .guardian.active .responsive-section-image  {
+    .section .responsive-section-image  {
         background-position: center right
     }
 
