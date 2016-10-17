@@ -2327,24 +2327,6 @@ input[type="submit"] {
     height: auto;
 }
 
-.gallery .tiny-image {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-
-.gallery-large-image {
-    background-size: cover;
-    opacity: 0;
-    position: relative;
-    z-index: 2;
-    -webkit-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
-}
-
 .zoom {
     width: 20px;
     height: 20px;
@@ -3022,6 +3004,70 @@ ul.progress-bar {
 .p9-loader__text {
     display: block;
     transform: translateX(-150%);
+}
+
+.p9-subloader {
+    background: #000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    transform: translateX(0);
+    z-index: 10
+}
+
+.p9-subloader--bg {
+    background: #bcd325;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    width: 100%;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+.p9-subloader.is-active {
+    animation: subLoader 0.8s cubic-bezier(0.86, 0.08, 0.14, 0.99) forwards;
+}
+
+.p9-subloader.is-active .p9-subloader--bg {
+    animation: subLoaderBg 0.8s cubic-bezier(0.86, 0.08, 0.14, 0.99) forwards;
+}
+
+@keyframes subLoader {
+
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        width: 100%;
+    }
+
+    100% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+        width: 100%
+    }
+
+}
+
+@keyframes subLoaderBg {
+
+    0% {
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+        width: 100%;
+    }
+
+    50% {
+        -webkit-transform: translateX(5%);
+        transform: translateX(5%);
+    }
+
+    100% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+        width: 100%;
+    }
+
 }
 
 .hamburger svg {

@@ -746,7 +746,11 @@ Function Contact Formular
 				next();
 			});
 
-			$('.p9-loader').delay(3500).fadeOut(200);
+			$('.p9-loader').delay(2900).fadeOut(200);
+			$('.p9-subloader').delay(2900).queue(function(next){
+				$(this).addClass('is-active');
+				next();
+			});
 
 			function onLoadNotFirst() {
 				if ( !$('html').hasClass('initial-load') ){
