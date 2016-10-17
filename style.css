@@ -1834,16 +1834,12 @@ video#bgvid {
 }
 
 #project_close {
-    color: #fff;
-    display: block;
-    height: 140px;
-    line-height: 140px;
+    color: #222;
     right: 133px;
     position: fixed;
-    top: 00px;
-    width: 100px;
-    text-align: center;
+    top: 0px;
     z-index: 300;
+    opacity: 0;
     webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -1863,8 +1859,8 @@ video#bgvid {
 }
 
 #project_close.black-header {
-    height: 100px;
-    line-height: 100px;
+    top: 50px;
+    opacity: 1
 }
 
 #project_close.hide {
