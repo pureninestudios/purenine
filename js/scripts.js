@@ -752,6 +752,11 @@ Function Contact Formular
 				next();
 			});
 
+			$('.open-project-link').delay(5100).queue(function(next){
+				$(this).addClass('animate-me');
+				next();
+			});
+
 			function onLoadNotFirst() {
 				if ( !$('html').hasClass('initial-load') ){
 
@@ -759,7 +764,7 @@ Function Contact Formular
 
 				}
 			}
-			setTimeout(onLoadNotFirst, 4800);
+			setTimeout(onLoadNotFirst, 5400);
 
 			// Stop unsightly "jump" when pressing back button
 			history.scrollRestoration = 'manual';

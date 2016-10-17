@@ -1297,6 +1297,15 @@ html.fp-enabled, .fp-enabled body {
 
 .open-project-link {
     display: inline-block;
+    opacity: 0;
+    transform: translateY(50px);
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+.open-project-link.animate-me {
+    opacity: 1;
+    transform: translateY(0)
 }
 
 .open-project {
