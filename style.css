@@ -3026,11 +3026,11 @@ ul.progress-bar {
 }
 
 .p9-subloader.is-active {
-    animation: subLoader 0.8s cubic-bezier(0.86, 0.08, 0.14, 0.99) forwards;
+    animation: subLoader 1s cubic-bezier(0.86, 0.08, 0.14, 0.99) forwards;
 }
 
 .p9-subloader.is-active .p9-subloader--bg {
-    animation: subLoaderBg 0.8s cubic-bezier(0.86, 0.08, 0.14, 0.99) forwards;
+    animation: subLoaderBg 1s cubic-bezier(0.86, 0.08, 0.14, 0.99) forwards;
 }
 
 @keyframes subLoader {
