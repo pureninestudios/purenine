@@ -2757,7 +2757,7 @@ ul.progress-bar {
 /*--------------------------------------------------
 09. Responsive
 ---------------------------------------------------*/
-@media only screen and (max-width: 1466px) {
+@media only screen and (max-width: 1366px) {
     header {
         padding: 0 100px;
     }
@@ -2964,7 +2964,7 @@ ul.progress-bar {
 }
 
 .p9-loader {
-    background: #fff;
+    background: #121212;
     position: fixed;
     z-index: 1000;
     width: 100%;
@@ -3180,7 +3180,7 @@ ul.progress-bar {
 
 @keyframes p9-loader {
     from {
-        background: #fff;
+        background: #121212;
     }
     to {
         background: #000;
