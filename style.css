@@ -989,7 +989,7 @@ html.fp-enabled, .fp-enabled body {
 }
 
 #fp-nav.right {
-    right: 150px;
+    right: 100px;
 }
 
 #fp-nav.left {
@@ -1584,7 +1584,7 @@ html.fp-enabled, .fp-enabled body {
     color: #bcd325
 }
 
-@media screen and ( max-width: 1446px ){
+@media screen and ( max-width: 1366px ){
     #fixed-social-icons {
         left: 92px
     }
@@ -3108,14 +3108,26 @@ ul.progress-bar {
     width: 30px;
     height: 30px;
     position: absolute;
-    top: 60px;
+    top: 50px;
     right: 100px;
     cursor: pointer;
 }
 
+@media screen and ( max-width: 1024px ) {
+    .burger {
+        right: 47px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .burger {
-        right: 30px;
+        right: 27px;
+    }
+}
+
+@media screen and ( max-width: 479px ) {
+    .burger {
+        top: 35px;
     }
 }
 
@@ -3233,4 +3245,29 @@ ul.progress-bar {
 
     #showcase-nav li {display: none;}
 
+}
+
+.button-wrap {
+    background: #000;
+    margin-top: -90px;
+    padding: 125px 0 60px;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+}
+
+.button {
+    background: #bcd500;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 40px;
+    padding: 0 20px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.button:hover {
+    background: #a3b901;
+    color: #fff;
 }
