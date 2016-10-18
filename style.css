@@ -1853,8 +1853,8 @@ video#bgvid {
 }
 
 #project_close {
-    color: #222;
-    right: 133px;
+    color: #666;
+    right: 50px;
     position: fixed;
     top: 0px;
     z-index: 300;
@@ -2066,6 +2066,8 @@ progress::-webkit-progress-bar {
     -webkit-transform: translateY(0);
     transform: translateY(0);
 }
+
+.about-section a:hover {text-decoration: underline; color: #bcd325;}
 
 /*--------------------------------------------------
 07. Contact Formular
@@ -3257,7 +3259,6 @@ ul.progress-bar {
 }
 
 .button {
-    background: #bcd500;
     display: inline-block;
     text-transform: uppercase;
     color: #fff;
@@ -3267,9 +3268,11 @@ ul.progress-bar {
     font-weight: 600;
     font-size: 12px;
     letter-spacing: 0px;
+    border: #fff 2px solid;
 }
 
+
 .button:hover {
-    background: #a3b901;
-    color: #fff;
+    background: #fff;
+    color: #000;
 }
