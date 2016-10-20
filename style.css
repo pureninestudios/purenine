@@ -1561,7 +1561,7 @@ html.fp-enabled, .fp-enabled body {
 #fixed-social-icons-right {
     position: fixed;
     bottom: 60px;
-    right: 132px;
+    right: 100px;
     z-index: 100;
     list-style: none;
     margin: 0;
