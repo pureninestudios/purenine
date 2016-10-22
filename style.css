@@ -2953,6 +2953,8 @@ ul.progress-bar {
     }
     h1 {
         word-wrap: break-word;
+        font-size: 36px;
+        line-height: 46px;
     }
     .section-info {
         display: none;
