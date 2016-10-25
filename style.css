@@ -3013,8 +3013,7 @@ ul.progress-bar {
     position: absolute;
     top: 50%;
     left: 0;
-    color: #fff;
-    opacity: 0.1;
+    color: #171717;
     text-transform: uppercase;
     font-size: 500px;
     transform: translateY(-50%);
