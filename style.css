@@ -2057,6 +2057,12 @@ progress::-webkit-progress-bar {
     font-size: 15vw;
 }
 
+@media screen and (max-width: 700px) {
+    .about-bg-text {
+        display: none;
+    }
+}
+
 .about-content {
     position: relative;
     padding: 200px 0;
@@ -3019,6 +3025,12 @@ ul.progress-bar {
     text-align: center;
     height: 500px;
     font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+    .loader-bg-text {
+        font-size: 200px;
+    }
 }
 
 .all-loaded .p9-loader__inner {
