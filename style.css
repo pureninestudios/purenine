@@ -2037,13 +2037,24 @@ progress::-webkit-progress-bar {
     transform: translateX(100%);
     -webkit-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
-    -webkit-overflow-scrolling: scroll
+    -webkit-overflow-scrolling: touch
 }
 
 #about-us.is-active {
     opacity: 1;
     -webkit-transform: translateX(100%);
     transform: translateX(0);
+}
+
+.about-bg-text {
+    opacity: 0.1;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    color: #fff;
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 15vw;
 }
 
 .about-content {
@@ -2990,6 +3001,24 @@ ul.progress-bar {
     top: 50%;
     transform: translateY(-50%);
     opacity: 1;
+}
+
+.loader-bg-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    color: #fff;
+    opacity: 0.1;
+    text-transform: uppercase;
+    font-size: 500px;
+    transform: translateY(-50%);
+    margin: 0;
+    line-height: 500px;
+    font-weight: 800;
+    width: 100%;
+    text-align: center;
+    height: 500px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .all-loaded .p9-loader__inner {

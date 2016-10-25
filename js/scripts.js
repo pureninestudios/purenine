@@ -746,6 +746,16 @@ Function Contact Formular
 				next();
 			});
 
+			var _start = {property: 0};
+			var _end = {property: 100};
+			$(_start).animate(_end, {
+			    duration: 2000,
+			    step: function() {
+			    $('.loader-bg-text').text(Math.round(this.property));
+
+			    }
+			});
+			
 			$('.p9-loader').delay(2900).fadeOut(200);
 			$('.p9-subloader').delay(2900).queue(function(next){
 				$(this).addClass('is-active');
