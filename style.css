@@ -2055,6 +2055,7 @@ progress::-webkit-progress-bar {
     line-height: 1;
     text-transform: uppercase;
     font-size: 15vw;
+    display: none;
 }
 
 @media screen and (max-width: 700px) {
