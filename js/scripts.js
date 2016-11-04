@@ -15,6 +15,9 @@ $(document).ready(function() {
 	ContactForm();
 	retinajs();
 
+	// Disable scrolling during loader
+	$.fn.fullpage.setAllowScrolling(false);
+
 });
 
 
@@ -755,7 +758,7 @@ Function Contact Formular
 
 			    }
 			});
-			
+
 			$('.p9-loader').delay(2900).fadeOut(200);
 			$('.p9-subloader').delay(2900).queue(function(next){
 				$(this).addClass('is-active');
@@ -786,6 +789,12 @@ Function Contact Formular
 					setTimeout(closeSection, 1000);
 		    	}
 		  	});
+
+			function reEnableScroll() {
+				// Disable scrolling during loader
+				$.fn.fullpage.setAllowScrolling(true);
+			}
+			setTimeout(reEnableScroll, 5400);
 
 		});
 	})(jQuery);
