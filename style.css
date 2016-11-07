@@ -1336,6 +1336,10 @@ html.fp-enabled, .fp-enabled body {
     color: #ffd800;
 }
 
+.theplug .open-project:hover {
+    color: #feb80f;
+}
+
 .dj-booth .open-project:hover {
     color: #ffc800;
 }

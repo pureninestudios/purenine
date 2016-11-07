@@ -514,7 +514,7 @@ Function FullPage
 				loopBottom: true,
 				loopTop: true,
         		navigationPosition: 'right',
-				anchors :['nat-geo', 'mars', 'djbooth', 'madden', 'audiomack', 'pga-tour', 'activision'],
+				anchors :['nat-geo', 'plug', 'mars', 'djbooth', 'madden', 'audiomack', 'pga-tour', 'activision'],
 				onLeave: function(index, nextIndex, direction){
 
 					$('html').removeClass('initial-load');
