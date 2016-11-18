@@ -753,11 +753,11 @@ Function Contact Formular
 				e.preventDefault();
 
 				$('.burger').click();
-
+				$('body').delay(1200).fadeOut();
 				var href = $(this).attr('href');
         		setTimeout(function() {
 					window.location = href
-				}, 1500);
+				}, 1700);
         		return false;
 			});
 
