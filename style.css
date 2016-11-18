@@ -2091,6 +2091,28 @@ progress::-webkit-progress-bar {
 
 .about-section a:hover {text-decoration: underline; color: #bcd325;}
 
+.about-section .thumb-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.about-section .thumb {
+    position: relative;
+}
+
+.about-section .thumb:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+.about-section .thumb a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
 /*--------------------------------------------------
 07. Contact Formular
 ---------------------------------------------------*/
@@ -3322,4 +3344,50 @@ ul.progress-bar {
 .button:hover {
     background: #fff;
     color: #000;
+}
+
+.atvImg {
+    height: 100%;
+	border-radius: 5px;
+	transform-style: preserve-3d;
+	-webkit-tap-highlight-color: rgba(#000,0);
+}
+
+.atvImg img {
+	border-radius: 5px;
+	box-shadow: 0 2px 8px rgba(14,21,47,0.25);
+}
+
+.atvImg-container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	transition: all 0.2s ease-out;
+}
+
+.atvImg-container.over .atvImg-shadow {
+	box-shadow: 0 45px 100px rgba(14,21,47,0.4), 0 16px 40px rgba(14,21,47,0.4);
+}
+
+.atvImg-layers {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	overflow: hidden;
+	transform-style: preserve-3d;
+}
+
+.atvImg-rendered-layer {
+	position: absolute;
+	width: 104%;
+	height: 104%;
+	top: -2%;
+	left: -2%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	background-size: cover;
+	transition: all 0.1s ease-out;
 }
