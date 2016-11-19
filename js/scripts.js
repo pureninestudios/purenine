@@ -740,25 +740,35 @@ Function Contact Formular
 
 	}//End ContactForm
 
+	// Menu thumbs
+	var $thumbListItem = $('.thumb-list li');
+
+	// Count thumbs
+	function countThumbs() {
+		$thumbListItem.each(function(i) {
+			var thisPos = ++i;
+			$(this).attr('data-post', '' + thisPos + '');
+		});
+	}
+
+
+
 	(function($){
 		"use strict";
 		$(window).load(function() {
 
+			countThumbs();
+			$('.thumb-list li').on('click', function(e) {
+				e.preventDefault();
+				$('.burger').click();
+				var thisTarget = $(this).data('post');
+				console.log(thisTarget);
+				$.fn.fullpage.moveTo(thisTarget);
+			});
+
 			$('body').delay(100).queue(function(next){
 				$(this).addClass('all-loaded');
 				next();
-			});
-
-			$('.thumb-list li a').on('click', function(e) {
-				e.preventDefault();
-
-				$('.burger').click();
-				$('body').delay(1200).fadeOut();
-				var href = $(this).attr('href');
-        		setTimeout(function() {
-					window.location = href
-				}, 1700);
-        		return false;
 			});
 
 			var _start = {property: 0};
