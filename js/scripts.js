@@ -763,7 +763,16 @@ Function Contact Formular
 				$('.burger').click();
 				var thisTarget = $(this).data('post');
 				console.log(thisTarget);
-				$.fn.fullpage.moveTo(thisTarget + 1);
+				$.fn.fullpage.moveTo(thisTarget);
+
+				function openDetailFromMenu() {
+					if ( !$('html').hasClass('initial-load') ){
+
+						$('.fp-section.active').find('.open-project-link').click();
+
+					}
+				}
+				setTimeout(openDetailFromMenu, 2200);
 			});
 
 			$('body').delay(100).queue(function(next){
