@@ -763,7 +763,7 @@ Function Contact Formular
 				$('.burger').click();
 				var thisTarget = $(this).data('post');
 				console.log(thisTarget);
-				$.fn.fullpage.moveTo(thisTarget);
+				$.fn.fullpage.moveTo(thisTarget + 1);
 			});
 
 			$('body').delay(100).queue(function(next){
