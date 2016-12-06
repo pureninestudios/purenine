@@ -1451,6 +1451,20 @@ html {
 		opacity:1;
 	}
 
+	.hero-info {
+		list-style: none;
+	}
+
+	.hero-info li {
+		display: inline-block;
+		padding: 0 15px;
+		color: #777
+	}
+
+	.hero-info li span {
+		font-weight: 600;
+	}
+
 	.overlay {
 		height:100%;
 		width:100%;
@@ -6694,4 +6708,13 @@ html {
     	margin: -20px 20px 0;
 	}
 
+}
+
+.single-project-inner {
+	padding: 30px;
+	text-align: center;
+}
+
+.single-project-image {
+	margin-bottom: 50px;
 }
