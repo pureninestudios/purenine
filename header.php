@@ -10,6 +10,7 @@
 
     <title>PURENINE | The design studio of Thomas Klinger</title>
 	<link rel='dns-prefetch' href='http://fonts.googleapis.com' />
+
 	<link rel='dns-prefetch' href='http://s.w.org' />
 	<link href="/wp-content/themes/soho/css/font-awesome.min.css" rel="stylesheet" />
 	<link rel='stylesheet' id='contact-form-7-css'  href='/wp-content/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
