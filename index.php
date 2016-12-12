@@ -44,7 +44,7 @@
 						<!-- Portfolio -->
 						<div id="portfolio-wrap" class="">
 							<div id="portfolio" class="mfp-gallery" data-col="2">
-												<div class="item photo light-content ">
+								<div class="item photo light-content ">
                         <a href="#">
 							<div class="item-content" style="background-image:url('imgs/thumb-natgeo.jpg')"></div>
 								<div class="item-overlay">
@@ -62,8 +62,8 @@
 					<div class="item branding light-content ">
                         <a href="twitch.php">
 							<div class="item-content" style="background-image:url('imgs/thumb-twitch.jpg')"></div>
-								<div class="item-overlay">
-                                    <div class="outer"><div class="inner">
+								<div class="item-overlay" >
+                                    <div class="outer"><div class="inner" style="background-color:#372265;">
                                         <h4>Twitch</h4>
                                         <h3>Madden Live Challenge</h3>
 
