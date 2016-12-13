@@ -13,9 +13,9 @@
                     <div class="clapat-caption animated ">
                         <div class="caption-content center-center">
                             <h1 class="big-title">Madden Live <br />Challenge</h1>
-							<p class="smaller">Conceptualized ideas and designed a website <br />for the Madden Challenge Tournament.</p>
+							<p style="padding-bottom: 10px;">Conceptualized ideas and designed a website<br />for the Madden Challenge Tournament.</p>
 
-							<ul class="smaller hero-info">
+							<ul class="hero-info">
 								<li>
 									Client: <span>EA Sports / Twitch</span>
 								</li>
