@@ -135,44 +135,19 @@
         <div class="outer">
             <div class="inner">
                 <div id="close-menu"></div>
-                <nav class="menu-main-menu-container"><ul id="menu-main-menu" class="main-menu"><li id="menu-item-11" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-11 has-sub"><a>Portfolio</a>
-<ul class="sub-menu">
-<li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="../../index.html" class="animation-link menu-link">Curtain Slides</a></li>
-<li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a href="../../landing/index.html" class="animation-link menu-link">Landing</a></li>
-<li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12"><a href="../../masonry-grid/index.html" class="animation-link menu-link">Masonry Grid</a></li>
-<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="../../showcase/index.html" class="animation-link menu-link">Showcase</a></li>
-<li id="menu-item-262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262"><a href="../../featured-thirds/index.html" class="animation-link menu-link">Featured Thirds</a></li>
-<li id="menu-item-162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-162"><a href="../../freelancer/index.html" class="animation-link menu-link">Freelancer</a></li>
-<li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"><a href="../../carousel-works/index.html" class="animation-link menu-link">Carousel Works</a></li>
-<li id="menu-item-109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a href="../../photography/index.html" class="animation-link menu-link">Photography</a></li>
-</ul>
-</li>
-<li id="menu-item-200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-200"><a href="../../about/index.html" class="animation-link menu-link">About</a></li>
-<li id="menu-item-256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-256"><a href="../../news/index.html" class="animation-link menu-link">News</a></li>
-<li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-266"><a href="../../elements/index.html" class="animation-link menu-link">Elements</a></li>
-<li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-171 has-sub"><a>Contact</a>
-<ul class="sub-menu">
-<li id="menu-item-184" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-184"><a href="../../contact/index.html" class="animation-link menu-link">Default</a></li>
-<li id="menu-item-182" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><a href="../../contact-alternate/index.html" class="animation-link menu-link">Alternate</a></li>
-</ul>
-</li>
-<li id="menu-item-410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-410"><a href="http://clapat.ro/themes/soho-wordpress/buy-now/" class="animation-link menu-link">Buy Now</a></li>
-</ul></nav>						<div class="menu-footer">
-    <p class="copyright">2016 © Soho Wordpres. All rights reserved.</p>
-    <ul class="socials"><li><a href="https://www.facebook.com/clapat.ro/" target="_blank"><i class="fa fa-facebook"></i></a></li><li><a href="https://twitter.com/clapatdesign" target="_blank"><i class="fa fa-twitter"></i></a></li><li><a href="https://www.behance.net/clapat" target="_blank"><i class="fa fa-behance"></i></a></li><li><a href="https://dribbble.com/ClaPat" target="_blank"><i class="fa fa-dribbble"></i></a></li></ul>	</div>				</div>
+                <nav class="menu-main-menu-container">
+                
+                <h1 style="color:#fff">PURENINE is a digital design studio comprised of a talented team of professionals, founded by Thomas Klinger.</h1>
+
+                </nav>
+                <div class="menu-footer">
+    <p class="copyright">2017 © PURENINE Studios Inc.</p>
+    <ul class="socials"><li><a href="https://twitter.com/PURENINE" target="_blank"><i class="fa fa-twitter"></i></a></li>
+		<li><a href="https://www.facebook.com/pureninestudios" target="_blank"><i class="fa fa-facebook"></i></a></li>
+		<li><a href="https://www.instagram.com/purenine/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+		<li><a href="https://www.linkedin.com/in/thomasklinger" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+		<li><a href="https://dribbble.com/purenine" target="_blank"><i class="fa fa-dribbble"></i></a></li></ul>	</div>				</div>
         </div>
     </div>
     <!-- Menu Overlay -->
-        <!-- Share -->
-<div id="share-overlay">
-    <div class="outer">
-        <div class="inner">
-            <div id="close-share"></div>
-            <h3>Share this project</h3>
-            <div class="list-share">
-                <a class="synved-social-button synved-social-button-share synved-social-size-48 synved-social-resolution-single synved-social-provider-facebook nolightbox" data-provider="facebook" target="_blank" rel="nofollow" title="Share on Facebook" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fclapat.ro%2Fthemes%2Fsoho-wordpress%2Fsoho_portfolio%2Fblack-book%2F&amp;t=Black%20Book&amp;s=100&amp;p%5Burl%5D=http%3A%2F%2Fclapat.ro%2Fthemes%2Fsoho-wordpress%2Fsoho_portfolio%2Fblack-book%2F&amp;p%5Bimages%5D%5B0%5D=http%3A%2F%2Fclapat.ro%2Fthemes%2Fsoho-wordpress%2Fwp-content%2Fuploads%2F2016%2F04%2F5_thumb.jpg&amp;p%5Btitle%5D=Black%20Book" style="font-size: 0px; width:48px;height:48px;margin:0;margin-bottom:5px;margin-right:5px;"><img alt="Facebook" title="Share on Facebook" class="synved-share-image synved-social-image synved-social-image-share" width="48" height="48" style="display: inline; width:48px;height:48px; margin: 0; padding: 0; border: none; box-shadow: none;" src="../../wp-content/plugins/social-media-feather/synved-social/image/social/regular/96x96/facebook.png" /></a><a class="synved-social-button synved-social-button-share synved-social-size-48 synved-social-resolution-single synved-social-provider-twitter nolightbox" data-provider="twitter" target="_blank" rel="nofollow" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fclapat.ro%2Fthemes%2Fsoho-wordpress%2Fsoho_portfolio%2Fblack-book%2F&amp;text=Hey%20check%20this%20out" style="font-size: 0px; width:48px;height:48px;margin:0;margin-bottom:5px;margin-right:5px;"><img alt="twitter" title="Share on Twitter" class="synved-share-image synved-social-image synved-social-image-share" width="48" height="48" style="display: inline; width:48px;height:48px; margin: 0; padding: 0; border: none; box-shadow: none;" src="../../wp-content/plugins/social-media-feather/synved-social/image/social/regular/96x96/twitter.png" /></a><a class="synved-social-button synved-social-button-share synved-social-size-48 synved-social-resolution-single synved-social-provider-google_plus nolightbox" data-provider="google_plus" target="_blank" rel="nofollow" title="Share on Google+" href="https://plus.google.com/share?url=http%3A%2F%2Fclapat.ro%2Fthemes%2Fsoho-wordpress%2Fsoho_portfolio%2Fblack-book%2F" style="font-size: 0px; width:48px;height:48px;margin:0;margin-bottom:5px;margin-right:5px;"><img alt="google_plus" title="Share on Google+" class="synved-share-image synved-social-image synved-social-image-share" width="48" height="48" style="display: inline; width:48px;height:48px; margin: 0; padding: 0; border: none; box-shadow: none;" src="../../wp-content/plugins/social-media-feather/synved-social/image/social/regular/96x96/google_plus.png" /></a><a class="synved-social-button synved-social-button-share synved-social-size-48 synved-social-resolution-single synved-social-provider-pinterest nolightbox" data-provider="pinterest" target="_blank" rel="nofollow" title="Pin it with Pinterest" href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fclapat.ro%2Fthemes%2Fsoho-wordpress%2Fsoho_portfolio%2Fblack-book%2F&amp;media=http%3A%2F%2Fclapat.ro%2Fthemes%2Fsoho-wordpress%2Fwp-content%2Fuploads%2F2016%2F04%2F5_thumb.jpg&amp;description=Black%20Book" style="font-size: 0px; width:48px;height:48px;margin:0;margin-bottom:5px;margin-right:5px;"><img alt="pinterest" title="Pin it with Pinterest" class="synved-share-image synved-social-image synved-social-image-share" width="48" height="48" style="display: inline; width:48px;height:48px; margin: 0; padding: 0; border: none; box-shadow: none;" src="../../wp-content/plugins/social-media-feather/synved-social/image/social/regular/96x96/pinterest.png" /></a><a class="synved-social-button synved-social-button-share synved-social-size-48 synved-social-resolution-single synved-social-provider-mail nolightbox" data-provider="mail" rel="nofollow" title="Share by email" href="mailto:?subject=Black%20Book&#038;body=Hey%20check%20this%20out:%20http%3A%2F%2Fclapat.ro%2Fthemes%2Fsoho-wordpress%2Fsoho_portfolio%2Fblack-book%2F" style="font-size: 0px; width:48px;height:48px;margin:0;margin-bottom:5px;"><img alt="mail" title="Share by email" class="synved-share-image synved-social-image synved-social-image-share" width="48" height="48" style="display: inline; width:48px;height:48px; margin: 0; padding: 0; border: none; box-shadow: none;" src="../../wp-content/plugins/social-media-feather/synved-social/image/social/regular/96x96/mail.png" /></a>                </div>
-            <p class="smaller">Thank You</p>
-        </div>
-    </div>
-</div>
-<!-- Share -->
+       
