@@ -48,11 +48,9 @@
                         <a href="#">
 							<div class="item-content" style="background-image:url('imgs/thumb-natgeo.jpg')"></div>
 								<div class="item-overlay">
-                                    <div class="outer"><div class="inner">
-                                        <div class="zoom-box">
-                                            <div class="zoom-in-left"></div>
-                                            <div class="zoom-in-right"></div>
-                                        </div>
+                                    <div class="outer"><div class="inner" style="background-color:#F0C624;">
+                                        <h4>Neo-Pangea</h4>
+                                        <h3>National Geographic</h3>
                                     </div>
 								</div>
                             </div>
@@ -77,11 +75,9 @@
                         <a href="#">
 							<div class="item-content" style="background-image:url('imgs/thumb-pgatour.jpg')"></div>
 								<div class="item-overlay">
-                                    <div class="outer"><div class="inner">
-                                        <div class="zoom-box">
-                                            <div class="zoom-in-left"></div>
-                                            <div class="zoom-in-right"></div>
-                                        </div>
+                                    <div class="outer"><div class="inner" style="background-color:#0C2E54;">
+                                        <h4>Omnigon</h4>
+                                        <h3>PGATour.com</h3>
                                     </div>
 								</div>
                             </div>
@@ -92,11 +88,9 @@
                         <a href="#">
 							<div class="item-content" style="background-image:url('imgs/thumb-plug.jpg')"></div>
 								<div class="item-overlay">
-                                    <div class="outer"><div class="inner">
-                                        <div class="zoom-box">
-                                            <div class="zoom-in-left"></div>
-                                            <div class="zoom-in-right"></div>
-                                        </div>
+                                    <div class="outer"><div class="inner" style="background-color:#262626;">
+                                        <h4>DJBooth.net</h4>
+                                        <h3>The Plug App</h3>
                                     </div>
 								</div>
                             </div>
@@ -107,11 +101,9 @@
                         <a href="#">
 							<div class="item-content" style="background-image:url('imgs/thumb-omnigon.jpg')"></div>
 								<div class="item-overlay">
-                                    <div class="outer"><div class="inner">
-                                        <div class="zoom-box">
-                                            <div class="zoom-in-left"></div>
-                                            <div class="zoom-in-right"></div>
-                                        </div>
+                                    <div class="outer"><div class="inner" style="background-color:#D61E26;">
+                                        
+                                        <h3>Omnigon.com</h3>
                                     </div>
 								</div>
                             </div>
@@ -122,11 +114,9 @@
                         <a href="#">
 							<div class="item-content" style="background-image:url('imgs/thumb-djbooth.jpg')"></div>
 								<div class="item-overlay">
-                                    <div class="outer"><div class="inner">
-                                        <div class="zoom-box">
-                                            <div class="zoom-in-left"></div>
-                                            <div class="zoom-in-right"></div>
-                                        </div>
+                                    <div class="outer"><div class="inner" style="background-color:#12233D;">
+                                        
+                                        <h3>DJBooth.net</h3>
                                     </div>
 								</div>
                             </div>
@@ -137,11 +127,9 @@
                         <a href="#">
 							<div class="item-content" style="background-image:url('imgs/thumb-audiomack.jpg')"></div>
 								<div class="item-overlay">
-                                    <div class="outer"><div class="inner">
-                                        <div class="zoom-box">
-                                            <div class="zoom-in-left"></div>
-                                            <div class="zoom-in-right"></div>
-                                        </div>
+                                    <div class="outer"><div class="inner" style="background-color:#FFA202;">
+                                        
+                                        <h3>Audiomack.com</h3>
                                     </div>
 								</div>
                             </div>
@@ -152,11 +140,9 @@
                         <a href="#">
 							<div class="item-content" style="background-image:url('imgs/thumb-activision.jpg')"></div>
 								<div class="item-overlay">
-                                    <div class="outer"><div class="inner">
-                                        <div class="zoom-box">
-                                            <div class="zoom-in-left"></div>
-                                            <div class="zoom-in-right"></div>
-                                        </div>
+                                    <div class="outer"><div class="inner" style="background-color:#2F3241;">
+                                        <h4>Haven Agency</h4>
+                                        <h3>Activision</h3>
                                     </div>
 								</div>
                             </div>
@@ -167,11 +153,9 @@
                         <a href="#">
 							<div class="item-content" style="background-image:url('imgs/thumb-proactiv.jpg')"></div>
 								<div class="item-overlay">
-                                    <div class="outer"><div class="inner">
-                                        <div class="zoom-box">
-                                            <div class="zoom-in-left"></div>
-                                            <div class="zoom-in-right"></div>
-                                        </div>
+                                    <div class="outer"><div class="inner" style="background-color:#4E959B;">
+                                        <h4>Haven Agency</h4>
+                                        <h3>Proactiv+</h3>
                                     </div>
 								</div>
                             </div>
@@ -182,11 +166,9 @@
                         <a href="#">
 							<div class="item-content" style="background-image:url('imgs/thumb-pennzoil.jpg')"></div>
 								<div class="item-overlay">
-                                    <div class="outer"><div class="inner">
-                                        <div class="zoom-box">
-                                            <div class="zoom-in-left"></div>
-                                            <div class="zoom-in-right"></div>
-                                        </div>
+                                    <div class="outer"><div class="inner" style="background-color:#383838;">
+                                        <h4>Haven Agency</h4>
+                                        <h3>Pennzoil Sweepstakes</h3>
                                     </div>
 								</div>
                             </div>
@@ -197,11 +179,9 @@
                         <a href="#">
 							<div class="item-content" style="background-image:url('imgs/thumb-onedirection.jpg')"></div>
 								<div class="item-overlay">
-                                    <div class="outer"><div class="inner">
-                                        <div class="zoom-box">
-                                            <div class="zoom-in-left"></div>
-                                            <div class="zoom-in-right"></div>
-                                        </div>
+                                    <div class="outer"><div class="inner" style="background-color:#AD5FC4;">
+                                        <h4>Livenation</h4>
+                                        <h3>One Direction Tour</h3>
                                     </div>
 								</div>
                             </div>
