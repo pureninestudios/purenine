@@ -76,8 +76,8 @@
 							<div class="item-content" style="background-image:url('imgs/thumb-pgatour.jpg')"></div>
 								<div class="item-overlay">
                                     <div class="outer"><div class="inner" style="background-color:#0C2E54;">
-                                        <h4>Omnigon</h4>
-                                        <h3>PGATour.com</h3>
+                                        <h4 style="color:#fff">Omnigon</h4>
+                                        <h3 style="color:#fff">PGATour.com</h3>
                                     </div>
 								</div>
                             </div>
@@ -89,8 +89,8 @@
 							<div class="item-content" style="background-image:url('imgs/thumb-plug.jpg')"></div>
 								<div class="item-overlay">
                                     <div class="outer"><div class="inner" style="background-color:#262626;">
-                                        <h4>DJBooth.net</h4>
-                                        <h3>The Plug App</h3>
+                                        <h4 style="color:#fff">DJBooth.net</h4>
+                                        <h3 style="color:#fff">The Plug App</h3>
                                     </div>
 								</div>
                             </div>
@@ -102,7 +102,6 @@
 							<div class="item-content" style="background-image:url('imgs/thumb-omnigon.jpg')"></div>
 								<div class="item-overlay">
                                     <div class="outer"><div class="inner" style="background-color:#D61E26;">
-                                        
                                         <h3>Omnigon.com</h3>
                                     </div>
 								</div>
@@ -115,8 +114,7 @@
 							<div class="item-content" style="background-image:url('imgs/thumb-djbooth.jpg')"></div>
 								<div class="item-overlay">
                                     <div class="outer"><div class="inner" style="background-color:#12233D;">
-                                        
-                                        <h3>DJBooth.net</h3>
+                                        <h3 style="color:#fff">DJBooth.net</h3>
                                     </div>
 								</div>
                             </div>
@@ -128,8 +126,7 @@
 							<div class="item-content" style="background-image:url('imgs/thumb-audiomack.jpg')"></div>
 								<div class="item-overlay">
                                     <div class="outer"><div class="inner" style="background-color:#FFA202;">
-                                        
-                                        <h3>Audiomack.com</h3>
+                                        <h3 style="color:#fff">Audiomack.com</h3>
                                     </div>
 								</div>
                             </div>
@@ -154,8 +151,8 @@
 							<div class="item-content" style="background-image:url('imgs/thumb-proactiv.jpg')"></div>
 								<div class="item-overlay">
                                     <div class="outer"><div class="inner" style="background-color:#4E959B;">
-                                        <h4>Haven Agency</h4>
-                                        <h3>Proactiv+</h3>
+                                        <h4 style="color:#fff">Haven Agency</h4>
+                                        <h3 style="color:#fff">Proactiv+</h3>
                                     </div>
 								</div>
                             </div>
@@ -167,8 +164,8 @@
 							<div class="item-content" style="background-image:url('imgs/thumb-pennzoil.jpg')"></div>
 								<div class="item-overlay">
                                     <div class="outer"><div class="inner" style="background-color:#383838;">
-                                        <h4>Haven Agency</h4>
-                                        <h3>Pennzoil Sweepstakes</h3>
+                                        <h4 style="color:#fff">Haven Agency</h4>
+                                        <h3 style="color:#fff">Pennzoil Sweepstakes</h3>
                                     </div>
 								</div>
                             </div>
@@ -180,8 +177,8 @@
 							<div class="item-content" style="background-image:url('imgs/thumb-onedirection.jpg')"></div>
 								<div class="item-overlay">
                                     <div class="outer"><div class="inner" style="background-color:#AD5FC4;">
-                                        <h4>Livenation</h4>
-                                        <h3>One Direction Tour</h3>
+                                        <h4 style="color:#fff">Livenation</h4>
+                                        <h3 style="color:#fff">One Direction Tour</h3>
                                     </div>
 								</div>
                             </div>

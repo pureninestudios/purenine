@@ -2849,11 +2849,11 @@ html {
 
 	#portfolio {
       	width: 100%;
-		-webkit-transition: height 0.3s ease-in-out;
-		-moz-transition: height 0.3s ease-in-out;
-		-o-transition: height 0.3s ease-in-out;
-		-ms-transition: height 0.3s ease-in-out;
-		transition: height 0.3s ease-in-out;
+		-webkit-transition: height 0.2s ease-in-out;
+		-moz-transition: height 0.2s ease-in-out;
+		-o-transition: height 0.2s ease-in-out;
+		-ms-transition: height 0.2s ease-in-out;
+		transition: height 0.2s ease-in-out;
     }
 
 	.item {
@@ -2971,7 +2971,7 @@ html {
 	}
 
 	.wide .item-overlay {
-		padding:60px;
+		padding:0px;
 	}
 
 	.item:hover .item-overlay {
