@@ -45,7 +45,7 @@
 						<div id="portfolio-wrap" class="">
 							<div id="portfolio" class="mfp-gallery" data-col="2">
 								<div class="item photo light-content ">
-                        <a href="#">
+                        <a href="explorer.php">
 							<div class="item-content" style="background-image:url('imgs/thumb-natgeo.jpg')"></div>
 								<div class="item-overlay">
                                     <div class="outer"><div class="inner" style="background-color:#F0C624;">
@@ -72,7 +72,7 @@
                     </div>
 
 					<div class="item web-design dark-content wide">
-                        <a href="#">
+                        <a href="pgatour.php">
 							<div class="item-content" style="background-image:url('imgs/thumb-pgatour.jpg')"></div>
 								<div class="item-overlay">
                                     <div class="outer"><div class="inner" style="background-color:#0C2E54;">
@@ -85,7 +85,7 @@
                     </div>
 
 					<div class="item photo dark-content tall">
-                        <a href="#">
+                        <a href="theplug.php">
 							<div class="item-content" style="background-image:url('imgs/thumb-plug.jpg')"></div>
 								<div class="item-overlay">
                                     <div class="outer"><div class="inner" style="background-color:#262626;">
@@ -98,7 +98,7 @@
                     </div>
 
 					<div class="item branding light-content ">
-                        <a href="#">
+                        <a href="omnigon.php">
 							<div class="item-content" style="background-image:url('imgs/thumb-omnigon.jpg')"></div>
 								<div class="item-overlay">
                                     <div class="outer"><div class="inner" style="background-color:#D61E26;">
@@ -110,7 +110,7 @@
                     </div>
 
 					<div class="item photo dark-content ">
-                        <a href="#">
+                        <a href="djbooth.php">
 							<div class="item-content" style="background-image:url('imgs/thumb-djbooth.jpg')"></div>
 								<div class="item-overlay">
                                     <div class="outer"><div class="inner" style="background-color:#12233D;">
@@ -122,7 +122,7 @@
                     </div>
 
 					<div class="item web-design light-content wide">
-                        <a href="#">
+                        <a href="audiomack.php">
 							<div class="item-content" style="background-image:url('imgs/thumb-audiomack.jpg')"></div>
 								<div class="item-overlay">
                                     <div class="outer"><div class="inner" style="background-color:#FFA202;">
@@ -134,7 +134,7 @@
                     </div>
 
 					<div class="item web-design light-content ">
-                        <a href="#">
+                        <a href="activision.php">
 							<div class="item-content" style="background-image:url('imgs/thumb-activision.jpg')"></div>
 								<div class="item-overlay">
                                     <div class="outer"><div class="inner" style="background-color:#2F3241;">
@@ -147,7 +147,7 @@
                     </div>
 
 					<div class="item branding dark-content ">
-                        <a href="#">
+                        <a href="proactiv.php">
 							<div class="item-content" style="background-image:url('imgs/thumb-proactiv.jpg')"></div>
 								<div class="item-overlay">
                                     <div class="outer"><div class="inner" style="background-color:#4E959B;">
@@ -160,7 +160,7 @@
                     </div>
 
                     <div class="item branding dark-content ">
-                        <a href="#">
+                        <a href="pennzoil.php">
 							<div class="item-content" style="background-image:url('imgs/thumb-pennzoil.jpg')"></div>
 								<div class="item-overlay">
                                     <div class="outer"><div class="inner" style="background-color:#383838;">
@@ -173,7 +173,7 @@
                     </div>
 
                     <div class="item branding dark-content ">
-                        <a href="#">
+                        <a href="onedirection.php">
 							<div class="item-content" style="background-image:url('imgs/thumb-onedirection.jpg')"></div>
 								<div class="item-overlay">
                                     <div class="outer"><div class="inner" style="background-color:#AD5FC4;">

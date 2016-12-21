@@ -12,20 +12,16 @@
                     <!-- Slide Caption -->
                     <div class="clapat-caption animated ">
                         <div class="caption-content center-center">
-                            <h1 class="big-title">Madden Live <br />Challenge</h1>
-							<p style="padding-bottom: 10px;">Conceptualized ideas and designed a website<br />for the Madden Challenge Tournament.</p>
+                            <h1 class="big-title">DJBooth.net</h1>
+							<p style="padding-bottom: 10px;">Re-branded DJBooth.net to include<br> a new website for desktop and mobile.</p>
 
 							<ul class="hero-info">
 								<li>
-									Client: <span>EA Sports / Twitch</span>
+									Client: <span>DJBooth</span>
 								</li>
 
 								<li>
-									Agency: <span>GoodGame</span>
-								</li>
-
-								<li>
-									Services: <span>Strategy, UX, UI, Visual Design</span>
+									Services: <span>Visual Design, UX, UI, Branding</span>
 								</li>
 							</ul>
 						</div>
@@ -47,11 +43,15 @@
 
 					<div class="single-project-inner">
 
-						<img class="single-project-image" src="imgs/portfolio-madden-full.jpg" alt="Madden Live" />
+						<img class="single-project-image" src="imgs/portfolio-djb-full-logo.jpg" alt="" />
 
-						<img class="single-project-image" src="imgs/portfolio-madden-1.jpg" alt="Madden Live" />
+						<img class="single-project-image" src="imgs/portfolio-djb-1.jpg" alt="" />
 
-						<img class="single-project-image" src="imgs/portfolio-madden-2.jpg" alt="Madden Live" />
+						<img class="single-project-image" src="imgs/portfolio-djb-2.jpg" alt="" />
+
+						<img class="single-project-image" src="imgs/portfolio-djb-3.jpg" alt="" />
+
+						<img class="single-project-image" src="imgs/portfolio-djb-4.jpg" alt="" />
 
 					</div>
 

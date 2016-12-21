@@ -12,20 +12,20 @@
                     <!-- Slide Caption -->
                     <div class="clapat-caption animated ">
                         <div class="caption-content center-center">
-                            <h1 class="big-title">Madden Live <br />Challenge</h1>
-							<p style="padding-bottom: 10px;">Conceptualized ideas and designed a website<br />for the Madden Challenge Tournament.</p>
+                            <h1 class="big-title">Shop Activision</h1>
+							<p style="padding-bottom: 10px;">Created a fully responsive eCommerce shop platform for Activision.com.</p>
 
 							<ul class="hero-info">
 								<li>
-									Client: <span>EA Sports / Twitch</span>
+									Client: <span>Activision</span>
 								</li>
 
 								<li>
-									Agency: <span>GoodGame</span>
+									Agency: <span>Haven Agency</span>
 								</li>
 
 								<li>
-									Services: <span>Strategy, UX, UI, Visual Design</span>
+									Services: <span>Art Direction, UX, UI, Visual Design</span>
 								</li>
 							</ul>
 						</div>
@@ -47,11 +47,10 @@
 
 					<div class="single-project-inner">
 
-						<img class="single-project-image" src="imgs/portfolio-madden-full.jpg" alt="Madden Live" />
+						<img class="single-project-image" src="imgs/portfolio-activision-full.jpg" alt="" />
 
-						<img class="single-project-image" src="imgs/portfolio-madden-1.jpg" alt="Madden Live" />
+						<img class="single-project-image" src="imgs/portfolio-activision-1.jpg" alt="" />
 
-						<img class="single-project-image" src="imgs/portfolio-madden-2.jpg" alt="Madden Live" />
 
 					</div>
 

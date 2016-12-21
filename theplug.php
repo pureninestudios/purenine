@@ -12,20 +12,20 @@
                     <!-- Slide Caption -->
                     <div class="clapat-caption animated ">
                         <div class="caption-content center-center">
-                            <h1 class="big-title">Madden Live <br />Challenge</h1>
-							<p style="padding-bottom: 10px;">Conceptualized ideas and designed a website<br />for the Madden Challenge Tournament.</p>
+                            <h1 class="big-title">The Plug<br>by DJBooth</h1>
+							<p style="padding-bottom: 10px;">Designed the iOS and Android apps for The Plug,<br>a daily news feed of all things hip-hop.</p>
 
 							<ul class="hero-info">
 								<li>
-									Client: <span>EA Sports / Twitch</span>
+									Client: <span>DJBooth.net</span>
 								</li>
 
 								<li>
-									Agency: <span>GoodGame</span>
+									App: <span>The Plug</span>
 								</li>
 
 								<li>
-									Services: <span>Strategy, UX, UI, Visual Design</span>
+									Services: <span>Visual Design, UX, UI, Apps</span>
 								</li>
 							</ul>
 						</div>
@@ -47,11 +47,9 @@
 
 					<div class="single-project-inner">
 
-						<img class="single-project-image" src="imgs/portfolio-madden-full.jpg" alt="Madden Live" />
+						<img class="single-project-image" src="imgs/portfolio-plug-mobile.jpg" alt="" />
 
-						<img class="single-project-image" src="imgs/portfolio-madden-1.jpg" alt="Madden Live" />
-
-						<img class="single-project-image" src="imgs/portfolio-madden-2.jpg" alt="Madden Live" />
+						<img class="single-project-image" src="imgs/portfolio-plug-full-mobile.jpg" alt="" />
 
 					</div>
 

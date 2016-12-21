@@ -12,20 +12,20 @@
                     <!-- Slide Caption -->
                     <div class="clapat-caption animated ">
                         <div class="caption-content center-center">
-                            <h1 class="big-title">Madden Live <br />Challenge</h1>
-							<p style="padding-bottom: 10px;">Conceptualized ideas and designed a website<br />for the Madden Challenge Tournament.</p>
+                            <h1 class="big-title">National Geographic <br />Explorer</h1>
+							<p style="padding-bottom: 10px;">Partnered with Neo-Pangea to design the minisite for Explorer,<br> the longest-running documentary series in television history.</p>
 
 							<ul class="hero-info">
 								<li>
-									Client: <span>EA Sports / Twitch</span>
+									Client: <span>National Geographic</span>
 								</li>
 
 								<li>
-									Agency: <span>GoodGame</span>
+									Agency: <span>Neo-Pangea</span>
 								</li>
 
 								<li>
-									Services: <span>Strategy, UX, UI, Visual Design</span>
+									Services: <span>Art Direction, UX, UI, Visual Design</span>
 								</li>
 							</ul>
 						</div>
@@ -47,11 +47,15 @@
 
 					<div class="single-project-inner">
 
-						<img class="single-project-image" src="imgs/portfolio-madden-full.jpg" alt="Madden Live" />
+						<img class="single-project-image" src="imgs/portfolio-explorer-full.jpg" alt="" />
 
-						<img class="single-project-image" src="imgs/portfolio-madden-1.jpg" alt="Madden Live" />
+						<img class="single-project-image" src="imgs/portfolio-explorer-1.jpg" alt="" />
 
-						<img class="single-project-image" src="imgs/portfolio-madden-2.jpg" alt="Madden Live" />
+						<img class="single-project-image" src="imgs/portfolio-explorer-2.jpg" alt="" />
+
+						<img class="single-project-image" src="imgs/portfolio-explorer-3.jpg" alt="" />
+
+						<img class="single-project-image" src="imgs/portfolio-explorer-full-mobile.jpg" alt="" />
 
 					</div>
 
