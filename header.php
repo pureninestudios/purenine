@@ -105,6 +105,20 @@
 
 <body class="page page-id-161 page-template page-template-portfolio-mixed-page page-template-portfolio-mixed-page-php animsition wpb-js-composer js-comp-ver-4.12 vc_responsive">
 
+    <div class="p9-loader">
+
+        <div class="p9-loader__inner">
+
+            <span class="loader-bg-text">99</span>
+
+            <div class="p9-loader__logo">
+                <img src="imgs/p9-logo-green.png" alt="purenine">
+            </div>
+
+        </div>
+
+    </div>
+
 	<div id="black-fade" class="display-hide"></div>
 			<!-- Header -->
     <header class="hidden header-light ">
@@ -150,4 +164,3 @@
         </div>
     </div>
     <!-- Menu Overlay -->
-       

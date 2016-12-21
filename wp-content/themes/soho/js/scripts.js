@@ -1,11 +1,10 @@
-
 jQuery(function($) {
 
 $(document).ready(function() {
 
 	"use strict";
 
-	FirstLoad();
+	setTimeout(FirstLoad, 2000);
 	PageAnim();
 	HeaderColor();
 	HeroParallax();
@@ -31,6 +30,23 @@ $(document).ready(function() {
 
 });
 
+$(window).load(function() {
+
+	$('body').delay(100).queue(function(next){
+		$(this).addClass('all-loaded');
+		next();
+	});
+
+	var _start = {property: 0};
+	var _end = {property: 100};
+	$(_start).animate(_end, {
+	    duration: 2000,
+	    step: function() {
+	    $('.loader-bg-text').text(Math.round(this.property));
+	    }
+	});
+
+});
 
 $(window).on( 'resize', function () {
 	CarouselTeamHeight();
@@ -39,11 +55,9 @@ $(window).on( 'resize', function () {
 });
 
 
-
 /*--------------------------------------------------
 Function Firs tLoad
 ---------------------------------------------------*/
-
 
 	function FirstLoad() {
 
