@@ -125,7 +125,7 @@
                         <a href="audiomack.php">
 							<div class="item-content" style="background-image:url('imgs/thumb-audiomack.jpg')"></div>
 								<div class="item-overlay">
-                                    <div class="outer"><div class="inner" style="background-color:#FFA202;">
+                                    <div class="outer"><div class="inner" style="background-color:#353535;">
                                         <h3 style="color:#fff">Audiomack.com</h3>
                                     </div>
 								</div>
