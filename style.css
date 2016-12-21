@@ -6741,6 +6741,16 @@ html {
 	text-align: left;
 }
 
+.inner-content h1 a {
+	color: #bcd325;
+
+}
+
+.inner-content h1 a:hover {
+	text-decoration: underline;
+
+}
+
 .inner-content h3 {
 	color: #888888;
 	font-size: 17px;
