@@ -6782,7 +6782,7 @@ html {
 }
 
 .p9-loader {
-    background: #121212;
+    background: #fff;
     position: fixed;
     z-index: 1000;
     width: 100%;
@@ -6811,7 +6811,7 @@ html {
     position: absolute;
     top: 50%;
     left: 0;
-    color: #171717;
+    color: #f0f0f0;
     text-transform: uppercase;
     font-size: 500px;
     transform: translateY(-50%);
@@ -6869,7 +6869,7 @@ html {
 }
 
 .p9-subloader {
-    background: #000;
+    background: #ffffff;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -6936,11 +6936,11 @@ html {
 
 @keyframes p9-loader {
     from {
-        background: #121212;
+        background: #fff;
 		opacity: 1;
     }
     to {
-        background: #000;
+        background: #fff;
 		opacity: 0;
 		z-index: -1
     }
