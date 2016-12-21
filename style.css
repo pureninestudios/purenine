@@ -947,7 +947,7 @@ html {
 
 	.secondary-menu {
 		position:absolute;
-		right:100px;
+		right:85px;
 		line-height:30px;
 		top:35px;
 		font-family: "Montserrat",sans-serif;
@@ -6726,3 +6726,48 @@ html {
 .single-project-image {
 	margin-bottom: 50px;
 }
+
+.inner-content {
+	max-width: 860px;
+}
+
+.inner-content h1 {
+	color: #fff;
+	font-size: 66px;
+	letter-spacing: -4px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	line-height: 68px;
+	text-align: left;
+}
+
+.inner-content h3 {
+	color: #888888;
+	font-size: 17px;
+	letter-spacing: -0.5px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: left;
+	line-height: 30px;
+}
+
+.inner-content h3 span {
+	color:#fff;
+	font-weight: 600;
+}
+
+.inner-content span {
+	color:#bcd325;
+}
+
+.inner-content h3 a {
+	color: #bcd325;
+	font-weight: 600;
+
+}
+
+.inner-content h3 a:hover {
+	text-decoration: underline;
+
+}
+

@@ -17,7 +17,7 @@
 	<link rel='stylesheet' id='soho_animsition-css'  href='/wp-content/themes/soho/css/animsition.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='soho_photoswipe-css'  href='/wp-content/themes/soho/css/photoswipe.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='soho_owlcarousel-css'  href='/wp-content/themes/soho/css/owl.carousel.css' type='text/css' media='all' />
-	<link rel='stylesheet' id='soho-theme-css'  href='/wp-content/themes/soho/style.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='soho-theme-css'  href='style.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='soho_fontawesome-css'  href='/wp-content/themes/soho/css/font-awesome.min.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='clapat-soho-font-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A700%2C400' type='text/css' media='all' />
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
@@ -134,9 +134,11 @@
             <div class="inner">
                 <div id="close-menu"></div>
                 <nav class="menu-main-menu-container">
-                
-                <h1 style="color:#fff">PURENINE is a digital design studio comprised of a talented team of professionals, founded by Thomas Klinger.</h1>
-
+                <div class="inner-content">
+                	<h1>PURENINE is a design studio comprised of a talented team of professionals, founded by <span>Thomas Klinger.</span></h1>
+                	<h3>We offer services in <span>design, development </span>&<span> mobile applications</span> for top companies like <span>A+E Networks, Audiomack, Time Inc., </span>&<span> Twitch.</span> Tom also freelances for some of the most talented agencies such as <span>@readysetrocket, @havenagency, @neopangea </span>&<span> @hyfn.</span></h3>
+                	<h3><span>Contact us today</span> <a href="mailto:hello@purenine.com">hello@purenine.com</a></h3>
+                </div>
                 </nav>
                 <div class="menu-footer">
     <p class="copyright">2017 © PURENINE Studios Inc.</p>
