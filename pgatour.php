@@ -13,7 +13,7 @@
                     <div class="clapat-caption animated ">
                         <div class="caption-content center-center">
                             <h1 class="big-title">PGATour.com</h1>
-							<p style="padding-bottom: 10px;">Designed the new PGAtour.com for <br>desktop, mobile, iPhone and iPad.</p>
+							<p style="padding-bottom: 10px;">Designed the new PGAtour.com for desktop, mobile, iPhone and iPad.</p>
 
 							<ul class="hero-info">
 								<li>
