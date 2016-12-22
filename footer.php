@@ -1,9 +1,12 @@
+    <div class="vc_row wpb_row vc_row-fluid text-align-center vc_custom_1460234445834"><div class="container"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><h2>Available for new projects<br> & freelance gigs.</h2><div class="vc_empty_space"  style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+    <a class="clapat-button animation-link" href="../contact/index.html" target="_self">Drop us a line</a></div></div></div></div></div>
+
 	<!-- Footer -->
     <footer class="alternate hidden">
 		<div id="footer-container">
-            <div class="outer">        
-				<div class="inner"> 
-					
+            <div class="outer">
+				<div class="inner">
+
 		<p class="copyright">2016 © PURENINE Studios Inc.</p>
 		<div class="scrolltotop hidden"><span class="holder"></span></div>
 		<div class="icon-scroll-line"></div>
@@ -14,12 +17,12 @@
 		<li><a href="https://www.facebook.com/pureninestudios" target="_blank"><i class="fa fa-facebook"></i></a></li>
 		<li><a href="https://www.instagram.com/purenine/" target="_blank"><i class="fa fa-instagram"></i></a></li>
 		<li><a href="https://www.linkedin.com/in/thomasklinger" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-		<li><a href="https://dribbble.com/purenine" target="_blank"><i class="fa fa-dribbble"></i></a></li></ul>	
+		<li><a href="https://dribbble.com/purenine" target="_blank"><i class="fa fa-dribbble"></i></a></li></ul>
 			</div></div>
-		</div>	
+		</div>
 	</footer>
 	<!--/Footer -->
-</div>    
+</div>
 <!--/Page Content -->
 
 <script type='text/javascript' src='../wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js'></script>

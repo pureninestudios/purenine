@@ -54,8 +54,7 @@
 
 					</div>
 
-					<div class="vc_row wpb_row vc_row-fluid text-align-center vc_custom_1460234445834"><div class="container"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><h2>Available for new projects<br> & freelance gigs.</h2><div class="vc_empty_space"  style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
-<a class="clapat-button animation-link" href="../contact/index.html" target="_self">Drop us a line</a></div></div></div></div></div>
+					
 				</div>
 			</div>
 			<!--/Main -->
