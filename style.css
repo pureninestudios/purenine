@@ -6798,6 +6798,25 @@ html {
 
 }
 
+.scroll-line-track {
+	background: #fff;
+	width: 100%;
+	height: 6px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+
+.scroll-line {
+	background: #bcd325;
+	height: 6px;
+	width: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
 .p9-loader {
     background: #fff;
     position: fixed;

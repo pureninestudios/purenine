@@ -1,4 +1,6 @@
 <?php include('header.php'); ?>
+
+	<div class="scroll-line-track"><span class="scroll-line"></span></div>
 		<!-- Page Content -->
 		<div id="page-content">
 

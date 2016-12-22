@@ -40,6 +40,19 @@ $(document).ready(function() {
         return false;
 	});
 
+	$(window).on('scroll', function() {
+		var scrollTop = $(window).scrollTop();
+		var docHeight = $(document).height();
+		var winHeight = $(window).height();
+		var scrollPercent = (scrollTop) / (docHeight - winHeight);
+		var scrollPercentFull = scrollPercent * 100;
+		var scrollPercentRounded = Math.round(scrollPercentFull);
+
+		$('.scroll-line').css({
+			'width': '' + scrollPercentFull + '%'
+		});
+	});
+
 });
 
 $(window).load(function() {
