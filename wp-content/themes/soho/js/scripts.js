@@ -28,6 +28,18 @@ $(document).ready(function() {
 	VideoHeader();
 	Shortcodes();
 
+	$('.item a').on('click', function(e) {
+		e.preventDefault();
+		$('body').css({
+			'opacity' : 0
+		});
+
+		var href = $(this).attr('href');
+		// Delay setting the location for one second
+        setTimeout(function() {window.location = href}, 500);
+        return false;
+	});
+
 });
 
 $(window).load(function() {

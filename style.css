@@ -20,6 +20,8 @@
 		overflow-x:hidden;
 		overflow-y:scroll;
 		box-sizing: border-box;
+		opacity: 1;
+		transition: 0.2s ease-in-out;
 	}
 
 	body.no-content {
@@ -651,6 +653,17 @@
 		text-transform: uppercase;
 		opacity: 0.6;
 		letter-spacing: 0;
+	}
+
+	.inner h3,
+	.inner h4 {
+		transition: 0.2s ease-in-out;
+		transform: translateY(20px);
+	}
+
+	.item:hover .inner h3,
+	.item:hover .inner h4 {
+		transform: translateY(0);
 	}
 
 	.vc_row {
@@ -2968,6 +2981,10 @@ html {
 		-ms-transition: all 0.4s ease-in-out;
 		transition: all 0.4s ease-in-out;
 
+	}
+
+	.item-overlay .inner {
+		opacity: 0.95;
 	}
 
 	.wide .item-overlay {
