@@ -14,7 +14,7 @@
                     <!-- Slide Caption -->
                     <div class="clapat-caption animated ">
                         <div class="caption-content center-center">
-                            <h1 class="big-title">DJBooth.net</h1>
+                            <h1 class="big-title">The New DJBooth</h1>
 							<p style="padding-bottom: 10px;">Re-branded DJBooth.net to include a new website for desktop and mobile.</p>
 
 							<ul class="hero-info">

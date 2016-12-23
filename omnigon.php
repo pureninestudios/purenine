@@ -15,7 +15,7 @@
                     <div class="clapat-caption animated ">
                         <div class="caption-content center-center">
                             <h1 class="big-title">Omnigon.com</h1>
-							<p style="padding-bottom: 10px;">Conceptualized ideas and designed some website prototypes Omnigon.</p>
+							<p style="padding-bottom: 10px;">Conceptualized ideas and designed some website prototypes for Omnigon.</p>
 
 							<ul class="hero-info">
 								<li>
