@@ -6536,6 +6536,11 @@ html {
 
 }
 
+.single-project-inner {
+	padding: 30px 125px 30px 125px;
+	text-align: center;
+}
+
 
 @media only screen and (max-width: 767px) {
 
@@ -6739,11 +6744,6 @@ html {
 	padding: 30px;
 	}
 
-}
-
-.single-project-inner {
-	/*padding: 30px 125px 30px 125px;*/
-	text-align: center;
 }
 
 .single-project-image {
