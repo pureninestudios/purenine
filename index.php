@@ -42,11 +42,25 @@
 													</ul>
 						<!--/Portfolio Filters -->
 						<!-- Portfolio -->
-						<div id="portfolio-wrap" class="">
-							<div id="portfolio" class="mfp-gallery" data-col="2">
-								<div class="item photo light-content ">
+				<div id="portfolio-wrap" class="">
+				<div id="portfolio" class="mfp-gallery" data-col="2">
+					
+                    <div class="item photo dark-content tall">
+                        <a href="theplayerstribune.php">
+                            <div class="item-content" style="background-image:url('imgs/thumb-pt.jpg')"></div>
+                                <div class="item-overlay">
+                                    <div class="outer"><div class="inner" style="background-color:#000000;">
+                                        <h4 style="color:#fff">HYFN</h4>
+                                        <h3 style="color:#fff">The Players Tribune</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="item photo light-content ">
                         <a href="explorer.php">
-							<div class="item-content" style="background-image:url('imgs/thumb-natgeo.jpg')"></div>
+							 <div class="item-content" style="background-image:url('imgs/thumb-natgeo.jpg')"></div>
 								<div class="item-overlay">
                                     <div class="outer"><div class="inner" style="background-color:#F0C624;">
                                         <h4>Neo-Pangea</h4>
