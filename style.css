@@ -220,7 +220,7 @@
 	ul,
 	ol {
 		list-style: none;
-		
+
 	}
 
 	ul {
@@ -6554,6 +6554,10 @@ html {
     	line-height: 1em;
     	margin-left: -7px;
     	letter-spacing: -2px;
+	}
+
+	h1.big-title br {
+		display: none;
 	}
 
 	#menu-overlay nav {

@@ -211,6 +211,9 @@ Function Hero Height
 			} else if ($('#hero').hasClass('hero-large')) {
 				var heights = window.innerHeight;
 				document.getElementById("hero").style.height = heights * 0.85 + "px";
+			} else if ($('#hero').hasClass('hero-650')) {
+				var heights = window.innerHeight;
+				document.getElementById("hero").style.height = "650px";
 			}  else  {
 				var heights = window.innerHeight;
 				document.getElementById("hero").style.height = heights + "px";

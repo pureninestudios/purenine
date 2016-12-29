@@ -4,7 +4,7 @@
 
 
 		<!-- Hero -->
-        <div id="hero" class="hidden hero-large">
+        <div id="hero" class="hidden hero-650">
 			<div id="hero-styles" class=" parallax-hero opacity-hero">
 
 			<div class="hero-image" style="">
@@ -44,7 +44,7 @@
 						<!-- Portfolio -->
 				<div id="portfolio-wrap" class="">
 				<div id="portfolio" class="mfp-gallery" data-col="2">
-					
+
                     <!--<div class="item photo dark-content tall">
                         <a href="theplayerstribune.php">
                             <div class="item-content" style="background-image:url('imgs/thumb-pt.jpg')"></div>
