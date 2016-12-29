@@ -15,7 +15,7 @@
                     <div class="clapat-caption animated ">
                         <div class="caption-content center-center">
                             <h1 class="big-title">The Plug<br>by DJBooth</h1>
-							<p style="padding-bottom: 10px;">Designed the iOS and Android apps for The Plug,<br>a daily news feed of all things hip-hop.</p>
+							<p style="padding-bottom: 10px;">Designed an app that highlights all things related to current hip-hop news.</p>
 
 							<ul class="hero-info">
 								<li>

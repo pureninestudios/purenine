@@ -15,7 +15,7 @@
                     <div class="clapat-caption animated ">
                         <div class="caption-content center-center">
                             <h1 class="big-title">The Players Tribune</h1>
-							<p style="padding-bottom: 10px;">Designed the app that provides athletes with a platform to connect directly with their fans.</p>
+							<p style="padding-bottom: 10px;">Designed an app that provides athletes with a platform to connect directly with their fans.</p>
 
 							<ul class="hero-info">
 								<li>
