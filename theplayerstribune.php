@@ -6,7 +6,7 @@
 
 
 		<!-- Hero -->
-        <div id="hero" class="hidden hero-large">
+        <div id="hero" class="hidden hero-650">
 			<div id="hero-styles" class=" parallax-hero opacity-hero">
 
 			<div class="hero-image" style="">
