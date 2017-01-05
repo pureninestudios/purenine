@@ -131,7 +131,7 @@
 
 			<!-- Logo-->
 			<div id="logo">
-				<a class="animation-link" href="../index.html">
+				<a class="animation-link" href="http://www.purenine.com">
 					<img class="logo-negative" src="../wp-content/themes/soho/images/logo-white.png" alt="Light logo">
 					<img class="logo-positive" src="../wp-content/themes/soho/images/logo-dark.png" alt="Dark logo">
 				</a>
