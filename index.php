@@ -45,7 +45,7 @@
 				<div id="portfolio-wrap" class="">
 				<div id="portfolio" class="mfp-gallery" data-col="2">
 
-                    <!--<div class="item photo dark-content tall">
+                    <div class="item photo dark-content tall">
                         <a href="theplayerstribune.php">
                             <div class="item-content" style="background-image:url('imgs/thumb-pt.jpg')"></div>
                                 <div class="item-overlay">
@@ -56,7 +56,7 @@
                                 </div>
                             </div>
                         </a>
-                    </div>-->
+                    </div>
 
                     <div class="item photo light-content ">
                         <a href="explorer.php">
