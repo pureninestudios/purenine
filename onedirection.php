@@ -15,6 +15,7 @@
                     <div class="clapat-caption animated ">
                         <div class="caption-content center-center">
                             <h1 class="big-title">One Direction<br> Sweepstakes</h1>
+							<p>Live Nation is an American live-events company based in Beverly Hills, California, focused on worldwide concert and entertainment-show promotions. Live Nation formed in 2005 as a spin-off from Clear Channel Communications, which then merged with Ticketmaster in 2010 to become Live Nation Entertainment.</p>
 							<p style="padding-bottom: 10px;">Conceptualized ideas and designed a website for One Direction Summer Tour.</p>
 
 							<ul class="hero-info">
