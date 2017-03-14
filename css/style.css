@@ -140,9 +140,9 @@ a:active {
    ========================================================================= */
 
 body {
-    font-family: 'Poppins', Arial, sans-serif;
-    font-size: 16px;
-    line-height: 24px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 13px;
+    line-height: 21px;
     color: #888;
     background-color: #fff;
     font-weight: 100;
@@ -9782,8 +9782,8 @@ ul#filters {
     list-style: none;
     color: #aaaaaa;
     text-transform: uppercase;
-    font-weight: 500;
-    font-size: 15px;
+    font-weight: 400;
+    font-size: 13px;
     -webkit-transition: all 0.2s ease 0s;
     -moz-transition: all 0.2s ease 0s;
     -o-transition: all 0.2s ease 0s;
@@ -9987,10 +9987,12 @@ ul#filters {
     vertical-align: middle;
 }
 .featured-post-intro h1{
-    font-size: 72px;
-    line-height: 75px;
-    margin-bottom: 50px;
+    font-size: 55px;
+    line-height: 55px;
+    margin-bottom: 30px;
     font-weight: 700;
+    letter-spacing: -4px;
+    text-align: center;
 }
 .featured-post-intro h5 {
     color: #666;
