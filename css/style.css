@@ -519,7 +519,7 @@ span {
     line-height: 24px;
 }
 p {
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 a {
     -webkit-transition: all 0.2s ease 0s;
@@ -9389,10 +9389,9 @@ div.parallax-container div.parallax {
 }
 
 .post-body .post-date span {
-    color: #aaaaaa;
-    font-family: 'Poppins', Arial, sans-serif;
-    font-size: 15px;
-    font-weight: 300;
+    color: #BCD328;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
 }
 .blog-post .post-author,
 .blog-post .post-share{
@@ -10338,16 +10337,17 @@ ul#filters {
 .post-body h4 {
     width: 100%;
     font-weight: 600;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #303136;
-    font-size: 21px;
-    line-height: 29px;
+    font-size: 22px;
+    line-height: 30px;
     margin-bottom: 15px;
     -webkit-transition: all 0.2s ease 0s;
     -moz-transition: all 0.2s ease 0s;
     -o-transition: all 0.2s ease 0s;
     -ms-transition: all 0.2s ease 0s;
     transition: all 0.2s ease 0s;
+    letter-spacing: -0.7px
 }
 .blog-details.standard-post .post-body h4 {
     margin-bottom: 25px;
