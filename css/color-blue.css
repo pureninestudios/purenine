@@ -149,10 +149,10 @@ strong a,
 .social-links.theme-hover li a:hover,
 .aside-widgets .tweets-list-container .tweet-list li span.hash,
 .aside-widgets .tweets-list-container .tweet-list li a{
-    color: #129fdd;
+    color: #BCD328;
 }
 .social-links.social-no-bg.theme-hover a:hover .fa{
-    color: #129fdd !important;
+    color: #BCD328 !important;
 }
 
 /* EMPHASIZED COLOR - FOCUS */
