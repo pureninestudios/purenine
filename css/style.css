@@ -9919,6 +9919,7 @@ ul#filters {
 }
 .video-button:hover {
     opacity: 0.8;
+    transform: scale(1.5);
 }
 
 .blog-posts .blog-post.quote-post .blockquote p {
