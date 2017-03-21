@@ -9347,8 +9347,8 @@ div.parallax-container div.parallax {
 }
 .post-media .post-meta {
     position: absolute;
-    bottom: 25px;
-    padding: 0 35px;
+    bottom: 20px;
+    padding: 0 20px;
     width: 100%;
     display: table;
     z-index: 10;
@@ -10147,6 +10147,7 @@ ul#filters {
 .video-button img, .video-button svg {
     width: 44px;
     height: 44px;
+    opacity: 0.8;
 }
 .blog-posts .blog-post .link-post-icon {
     width: 32px;
