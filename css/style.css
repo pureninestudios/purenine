@@ -13016,6 +13016,7 @@ table tbody {
     cursor: pointer;
     position: relative;
     z-index: 21;
+    top: 20px
 }
 
 .burger__text {
