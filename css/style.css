@@ -12995,3 +12995,247 @@ table tbody {
     background: #000;
     color: #fff;
 }
+
+.u-fade {
+    opacity: 0;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+
+.u-fade-in {
+    opacity: 1
+}
+
+/* ==========================================================================
+    19. Burger
+    ========================================================================= */
+
+.burger {
+    float: right;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+    z-index: 21;
+}
+
+.burger__text {
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 50px;
+    transition: 0.25s ease-in-out;
+}
+
+.burger__filling {
+    background: #000;
+    width: 30px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transition: 0.25s ease-in-out;
+}
+
+.burger__filling:before,
+.burger__filling:after {
+    content: "";
+    background: #000;
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: 0.25s ease-in-out;
+    transform-origin: center;
+    position: absolute;
+    left: 0;
+}
+
+.burger__filling:before {
+    top: -300%
+}
+
+.burger__filling:after {
+    top: 300%;
+}
+
+.burger--active .burger__text {
+    color: #fff;
+}
+
+.burger--active .burger__filling {
+    background-color: transparent;
+}
+
+.burger--active .burger__filling:before,
+.burger--active .burger__filling:after {
+    background-color: #fff;
+    width: 75%;
+}
+
+.burger--active .burger__filling:before {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+.burger--active .burger__filling:after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+/* ==========================================================================
+    20. Menu Overlay
+    ========================================================================= */
+
+@keyframes menuIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    1% {
+        opacity: 0;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes menuOut {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    99% {
+        opacity: 0;
+        transform: translateX(0);
+    }
+
+    100 {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+
+.menu-overlay {
+    background: #000;
+    background: rgba(0, 0, 0, 0.95);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.25s ease-in-out;
+}
+
+.menu-overlay.is-active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-overlay .inner-content {
+    width: 100%;
+    max-width: 860px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+@media screen and (max-width: 850px) {
+    .menu-overlay .inner-content {
+        padding: 0 30px;
+    }
+}
+
+.menu-overlay h1 {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 900px) {
+    .menu-overlay h1 {
+        font-size: 66px;
+        letter-spacing: -4px;
+        line-height: 68px;
+    }
+}
+
+.menu-overlay h3 {
+    color: #888;
+    font-size: 17px;
+    letter-spacing: -0.5px;
+    font-size: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.menu-overlay span,
+.menu-overlay a {
+    color: #bcd325;
+}
+
+.menu-overlay a:hover {
+    text-decoration: underline;
+}
+
+.menu-overlay h3 span {
+    color: #fff;
+    font-weight: 600;
+}
+
+.menu-footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 40px;
+}
+
+.menu-footer .copyright {
+    margin-left: 50px;
+    float: left;
+    font-size: 13px;
+    color: #777;
+    line-height: 25px;
+}
+
+.menu-footer .socials {
+    float: right;
+    margin: 0 50px 0 0;
+    display: block;
+    line-height: 25px;
+}
+
+.menu-footer .socials li {
+    margin-left: 3px;
+    list-style: none;
+    display: inline-block;
+    line-height: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.menu-footer .socials li a {
+    color: #999;
+    display: block;
+    font-size: 16px;
+    height: 16px;
+    line-height: 10px;
+    width: 45px;
+    text-align: center;
+    transform: scale(1);
+    transition: 0.1s ease-in-out;
+}
+
+.menu-footer .socials li a:hover {
+    color: #C2D325;
+    transform: scale(1.3);
+}

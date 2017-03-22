@@ -1,9 +1,9 @@
 "use strict";
 /*
  * PIXEL INDUSTRY INCLUDE FILE
- * 
+ *
  * Includes functions necessary for proper theme work and some helper functions.
- * 
+ *
  */
 
 
@@ -135,10 +135,10 @@ jQuery(window).on("load resize", function () {
         VolcannoInclude.fullscreen_section_vertical_center();
     // convertToSVG init
     convertToSVG();
-    
+
     // Trigger animation init
     VolcannoInclude.triggerAnimation();
-    
+
     /**
      * Search animation
      */
@@ -373,7 +373,7 @@ var VolcannoInclude = {
 
         window.addEventListener('scroll', headerNotResizedCheck);
 
-        // HAMBURGER MENU FIRST LEVEL DROPDOWN    
+        // HAMBURGER MENU FIRST LEVEL DROPDOWN
         jQuery(".hamburger-nav").on("click", ".dropdown", function (e) {
             e.preventDefault();
             jQuery(this).toggleClass("active").next().slideToggle(300);
@@ -381,7 +381,7 @@ var VolcannoInclude = {
             //   jQuery(this).closest(".hamburger-nav").find(".dropdown-multilevel.active").removeClass("active").next().slideUp(300);
         });
 
-        // HAMBURGER MENU MULTI LEVEL DROPDOWN    
+        // HAMBURGER MENU MULTI LEVEL DROPDOWN
         jQuery(".hamburger-nav-submenu").on("click", ".dropdown-multilevel", function (e) {
             e.preventDefault();
             jQuery(this).addClass("active").next().slideToggle(300);
@@ -718,7 +718,7 @@ var VolcannoInclude = {
     },
     /**
      * Slide down to the next section
-     * 
+     *
      * @returns void
      */
     slideDown: function () {
@@ -761,7 +761,7 @@ var VolcannoInclude = {
     },
     /**
      * Function for old browsers placeholder fix
-     * 
+     *
      * @returns void
      */
     placeholderFix: function () {
@@ -769,7 +769,7 @@ var VolcannoInclude = {
     },
     /**
      * Portfolio
-     * 
+     *
      * @returns void
      */
     portfolio: function () {
@@ -822,7 +822,7 @@ var VolcannoInclude = {
     },
     /**
      * Horizontal parallax moving images
-     * 
+     *
      * @returns {undefined}
      */
     parallaxElements: function () {
@@ -987,7 +987,7 @@ var VolcannoInclude = {
     },
     /**
      * Masterslider thumblist
-     * 
+     *
      * @returns {undefined}
      */
     masterSliderGeneral: function () {
@@ -1012,7 +1012,7 @@ var VolcannoInclude = {
     },
     /**
      * Isotope blog grid
-     * 
+     *
      * @returns void
      */
     isotopeBlogGrid: function () {
@@ -1026,7 +1026,7 @@ var VolcannoInclude = {
             remove: false
         });
 
-        // on load calculate image width / height ratio 
+        // on load calculate image width / height ratio
         // and store to element data attribute for later use
         var blogSliderHeight = jQuery('.blog-posts .post-media').height();
         var blogSliderWidth = jQuery('.blog-posts .post-media').width();
@@ -1091,7 +1091,7 @@ var VolcannoInclude = {
     },
     /**
      * Isotope blog grid
-     * 
+     *
      * @returns void
      */
     isotopeMasonry: function () {
@@ -1254,3 +1254,23 @@ var VolcannoInclude = {
         }
     }
 };
+
+$(document).ready(function() {
+    $('.burger').on('click', function() {
+        $(this).toggleClass('burger--active');
+        $('.menu-overlay').toggleClass('is-active');
+    });
+});
+
+/*
+ * Load random image on page load
+ */
+
+function randomHero() {
+    var images = ['top-image-twitch.jpg', 'top-image-twitch-reverse.jpg'];
+    $('.hero-image img').attr('src', 'hero/' + images[Math.floor(Math.random() * images.length)] + '').addClass('u-fade-in');
+}
+
+$( window ).load(function() {
+    randomHero();
+});
