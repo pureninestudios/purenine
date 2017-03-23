@@ -1273,4 +1273,6 @@ function randomHero() {
 
 $( window ).load(function() {
     randomHero();
+
+    $('.hero-wrap').addClass('active');
 });

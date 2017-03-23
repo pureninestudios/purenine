@@ -11097,12 +11097,10 @@ ul#filters {
 }
 
 #footer-wrapper{
-    padding-top: 65px;
     position: relative;
     background-color: #333;
 }
 #footer-wrapper.footer-light {
-    border-top: 1px solid #eee;
     background-color: #fff;
 }
 #footer-wrapper .logo{
@@ -12900,15 +12898,52 @@ table tbody {
     17. Hero
     ========================================================================= */
 
+@keyframes heroImageIn {
+    0% {
+        opacity: 0;
+        transform: translateX(60px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes heroContentIn {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .hero-wrap {
     position: relative;
     margin: 0 -15px;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.hero-wrap.active {
+    opacity: 1;
 }
 
 .hero-content {
     text-align: center;
     position: relative;
     z-index: 2;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.active .hero-content {
+    animation: heroContentIn 0.4s ease-in-out forwards;
+    animation-delay: 0.4s;
 }
 
 .hero__mega-title {
@@ -12939,6 +12974,13 @@ table tbody {
 .hero-image {
     position: relative;
     z-index: 2;
+    transform: translateX(60px);
+    opacity: 0;
+}
+
+.active .hero-image {
+    animation: heroImageIn 0.45s ease-in-out forwards;
+    animation-delay: 0.3s;
 }
 
 @media screen and (max-width: 899px) {
