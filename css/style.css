@@ -12927,6 +12927,7 @@ table tbody {
     margin: 0 -15px;
     opacity: 0;
     transition: 0.3s ease-in-out;
+    overflow: hidden;
 }
 
 .hero-wrap.active {
