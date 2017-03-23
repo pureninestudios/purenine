@@ -12898,6 +12898,18 @@ table tbody {
     17. Hero
     ========================================================================= */
 
+@-webkkt-keyframes heroImageIn {
+    0% {
+        opacity: 0;
+        transform: translateX(60px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 @keyframes heroImageIn {
     0% {
         opacity: 0;
@@ -12907,6 +12919,18 @@ table tbody {
     100% {
         opacity: 1;
         transform: translateX(0);
+    }
+}
+
+@-webkit-keyframes heroContentIn {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
@@ -12943,7 +12967,9 @@ table tbody {
 }
 
 .active .hero-content {
+    -webkit-animation: heroContentIn 0.4s ease-in-out forwards;
     animation: heroContentIn 0.4s ease-in-out forwards;
+    -webkit-animation-delay: 0.4s;
     animation-delay: 0.4s;
 }
 
@@ -12980,7 +13006,9 @@ table tbody {
 }
 
 .active .hero-image {
+    -webkit-animation: heroImageIn 0.45s ease-in-out forwards;
     animation: heroImageIn 0.45s ease-in-out forwards;
+    -webkit-animation-delay: 0.3s;
     animation-delay: 0.3s;
 }
 
