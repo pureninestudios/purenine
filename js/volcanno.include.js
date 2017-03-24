@@ -1263,8 +1263,15 @@ $(document).ready(function() {
 
     // Hero parallax
     var heroImage = $('.hero-image');
+
+    heroImage.on('mouseenter', function() {
+        $(this).find('img').delay(100).queue(function(next) {
+            $(this).removeClass('u-transition');
+            next();
+        });
+    });
+
     heroImage.on('mousemove', function(e) {
-        $(this).find('img').removeClass('u-transition');
         var parentOff = $(this).offset();
         var relX = e.pageX - parentOff.left;
         var relY = e.pageY - parentOff.top;
@@ -1279,9 +1286,9 @@ $(document).ready(function() {
 
     // Return to normal on mouseout
     heroImage.on('mouseout', function() {
-        $(this).find('img').addClass('u-transition').css({
+        $(this).find('img').css({
             'transform' : 'translateX(0) translateY(0)'
-        });
+        }).addClass('u-transition');
     });
 });
 
