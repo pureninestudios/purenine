@@ -12967,10 +12967,10 @@ table tbody {
 }
 
 .active .hero-content {
-    -webkit-animation: heroContentIn 0.4s ease-in-out forwards;
-    animation: heroContentIn 0.4s ease-in-out forwards;
-    -webkit-animation-delay: 0.4s;
-    animation-delay: 0.4s;
+    -webkit-animation: heroContentIn 0s ease-in-out forwards;
+    animation: heroContentIn 0s ease-in-out forwards;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
 }
 
 .hero__mega-title {
@@ -13010,8 +13010,8 @@ table tbody {
 }
 
 .active .hero-image {
-    -webkit-animation: heroImageIn 0.45s ease-in-out forwards;
-    animation: heroImageIn 0.45s ease-in-out forwards;
+    -webkit-animation: heroImageIn 0.7s ease-in-out forwards;
+    animation: heroImageIn 0.7s ease-in-out forwards;
     -webkit-animation-delay: 0.3s;
     animation-delay: 0.3s;
 }
@@ -13041,6 +13041,7 @@ table tbody {
     .hero-title {
         font-size: 55px;
         line-height: 54px;
+        padding: 0 40px; 
     }
 }
 
@@ -13048,6 +13049,20 @@ table tbody {
     .hero-image {
         flex: 0 0 900px;
     }
+}
+
+
+@media screen and (max-width: 1300px) {
+
+    .hero-title {
+        font-size: 45px;
+        line-height: 45px;
+        padding: 0 40px; 
+    }
+    .hero-image {
+        flex: 0 0 400px;
+    }
+
 }
 
 /* ==========================================================================
