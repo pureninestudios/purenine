@@ -146,6 +146,7 @@ body {
     color: #888;
     background-color: #fff;
     font-weight: 100;
+    overflow-x: hidden;
 }
 html, body {
     height: 100%;
@@ -12951,7 +12952,6 @@ table tbody {
     margin: 0 -15px;
     opacity: 0;
     transition: 0.3s ease-in-out;
-    overflow: hidden;
 }
 
 .hero-wrap.active {
@@ -13003,6 +13003,10 @@ table tbody {
     z-index: 2;
     transform: translateX(60px);
     opacity: 0;
+}
+
+.hero-image img.u-transition {
+    transition: 0.2s ease-in-out;
 }
 
 .active .hero-image {

@@ -844,7 +844,7 @@ var VolcannoInclude = {
                     var mouseXPercent = Math.round(xPos / jQuery(this).width() * 100);
                     var mouseYPercent = Math.round(yPos / jQuery(this).height() * 100);
 
-                    jQuery(this).find('#parallax-1').each(
+                    jQuery(this).find('.hero-image-1').each(
                             function () {
                                 var diffX = jQuery('.parallax-elements').width() + 400;
                                 var diffY = jQuery('.parallax-elements').height() - jQuery(this).height() / 3;
@@ -864,7 +864,7 @@ var VolcannoInclude = {
 
                             }
                     );
-                    jQuery(this).find('#parallax-2').each(
+                    jQuery(this).find('.hero-image-2').each(
                             function () {
                                 var diffX = jQuery('.parallax-elements').width() + 250;
                                 var diffY = jQuery('.parallax-elements').height() - jQuery(this).height() / 2;
@@ -884,7 +884,7 @@ var VolcannoInclude = {
 
                             }
                     );
-                    jQuery(this).find('#parallax-3').each(
+                    jQuery(this).find('.hero-image-3').each(
                             function () {
                                 var diffX = jQuery('.parallax-elements').width() + 100;
                                 var diffY = jQuery('.parallax-elements').height() - jQuery(this).height() / 1;
@@ -1259,6 +1259,29 @@ $(document).ready(function() {
     $('.burger').on('click', function() {
         $(this).toggleClass('burger--active');
         $('.menu-overlay').toggleClass('is-active');
+    });
+
+    // Hero parallax
+    var heroImage = $('.hero-image');
+    heroImage.on('mousemove', function(e) {
+        $(this).find('img').removeClass('u-transition');
+        var parentOff = $(this).offset();
+        var relX = e.pageX - parentOff.left;
+        var relY = e.pageY - parentOff.top;
+
+    	var imgX = relX / 100;
+    	var imgY = relY / 100;
+
+        $(this).find('img').css({
+    		'transform' : 'translateX(-' + imgX + 'px) translateY(-' + imgY + 'px)'
+    	});
+    });
+
+    // Return to normal on mouseout
+    heroImage.on('mouseout', function() {
+        $(this).find('img').addClass('u-transition').css({
+            'transform' : 'translateX(0) translateY(0)'
+        });
     });
 });
 
