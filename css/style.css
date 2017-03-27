@@ -9911,7 +9911,7 @@ ul#filters {
     margin-top: -22px;
     left: 50%;
     margin-left: -22px;
-    z-index: 100;
+    z-index: 9;
     -webkit-transition: all 0.2s ease 0s;
     -moz-transition: all 0.2s ease 0s;
     -o-transition: all 0.2s ease 0s;
@@ -9920,7 +9920,7 @@ ul#filters {
 }
 .video-button:hover {
     opacity: 0.8;
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .blog-posts .blog-post.quote-post .blockquote p {
@@ -13017,7 +13017,7 @@ table tbody {
     opacity: 0;
     -webkit-box-shadow: 0 20px 100px rgba(0, 0, 0, 0.3);
     box-shadow: 0 20px 100px rgba(0, 0, 0, 0.3);
-    margin-bottom: 100px !important;
+    margin-bottom: 10px !important;
 }
 
 .active .hero-image {
