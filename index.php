@@ -147,14 +147,14 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux dev">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="#"><img src="thumbs/thumbs-twitch.jpg"></a>
+                                    <a href="twitch.php"><img src="thumbs/thumbs-twitch.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
                                     <div class="post-date">
                                         <span>EA Sports</span>
                                     </div><!-- .post-meta end -->
-                                    <a href="#">
+                                    <a href="twitch.php">
                                         <h4>Madden Live Challenge</h4>
                                     </a>
                                     <p>

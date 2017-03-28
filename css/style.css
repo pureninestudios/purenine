@@ -512,15 +512,16 @@ iframe.video {
 
 p,
 a {
-    color: #888888;
+    color: #666;
 }
 p,
 a,
 span {
-    line-height: 24px;
+    line-height: 28px;
 }
 p {
     padding-bottom: 15px;
+    font-size: 15px;
 }
 a {
     -webkit-transition: all 0.2s ease 0s;
@@ -9926,7 +9927,7 @@ ul#filters {
     font-size: 27px;
     line-height: 40px;
     color: #303136;
-    font-weight: 700;
+    font-weight: 400;
     font-family: 'Playfair Display', serif;
     padding-bottom: 0;
 }
@@ -10449,7 +10450,7 @@ ul#filters {
 
 .blog-details .post-body h4{
     font-family: 'Playfair Display', serif;
-    color: #666666;
+    color: #333;
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
