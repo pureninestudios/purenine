@@ -72,7 +72,7 @@
 
                                     <!-- hamburger button holder start -->
                                     <div class="burger">
-                                        <span class="burger__text">Menu</span>
+                                        <span class="burger__text">About</span>
                                         <span class="burger__filling"></span>
                                     </div>
                                     <!-- hamburger button holder end -->

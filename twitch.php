@@ -38,7 +38,7 @@
                     <!-- .col-md-12 start -->
                     <div class="col-md-12 blog-details mb-0">
                         <div class="post-media">
-                            <img src="img/blog/blog-28.jpg" alt="Restless - Stunning & Flexible Multi-purpose HTML Template"/>
+                            <img src="portfolio/details-twitch.jpg" alt="Restless - Stunning & Flexible Multi-purpose HTML Template"/>
                         </div>
                     </div><!-- .col-md-12 end -->
                 </div>

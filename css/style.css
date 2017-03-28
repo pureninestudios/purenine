@@ -214,7 +214,7 @@ img {
 }
 .content-wrapper-off-canvas.container {
     background-color: #fff;
-    margin-top: -90px;
+    margin-top: -150px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -10349,8 +10349,8 @@ ul#filters {
 }
 .blog-details .post-body h1 {
     font-weight: 700;
-    font-size: 60px;
-    line-height: 80px;
+    font-size: 90px;
+    line-height: 90px;
     margin-bottom: 15px;
 }
 .blog-details .post-body h2 {
