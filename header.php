@@ -29,12 +29,22 @@
         <link rel="stylesheet" href="css/responsive.css"/><!-- responsive styles -->
     </head>
 
+<?php
+    $current = basename($_SERVER['REQUEST_URI']);
+    // If is empty assume it's homepage
+    if ($current == '' || $current == 'index.php') {
+        $klass = 'header-wrapper hamburger-menu hamburger-menu-dark';
+    } else {
+        $klass = 'header-wrapper hamburger-menu hamburger-menu-dark header-transparent';
+    }
+?>
+
     <body>
 
         <?php include('module-loader.php'); ?>
         <?php include('module-menu.php'); ?>
 
-        <div class="header-wrapper hamburger-menu hamburger-menu-dark">
+        <div class="<?php echo $klass; ?>">
             <!-- #header start -->
             <header id="header">
                 <!-- .container-fluid start -->
@@ -50,7 +60,11 @@
                                         <div class="logo">
                                             <a href="http://www.purenine.com">
                                                 <span class="icon-container logo-dark">
-                                                    <img class="svg-black" src="images/logo-dark.svg" alt=""/>
+                                                    <?php if ($current == '' || $current == 'index.php') : ?>
+                                                        <img class="svg-black" src="images/logo-dark.svg" alt=""/>
+                                                    <?php else : ?>
+                                                        <img class="svg-black" src="images/logo-white.svg" alt=""/>
+                                                    <?php endif; ?>
                                                 </span>
                                             </a>
                                         </div><!-- .logo end -->

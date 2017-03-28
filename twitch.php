@@ -1,4 +1,4 @@
-<?php include('header-inner.php'); ?>
+<?php include('header.php'); ?>
 
         <!-- .page-content start -->
         <div class="page-content custom-background color-background blog-title page-title page-title-centered dark h-serif-font mb-30" style="background-color: #523589">
