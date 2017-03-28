@@ -192,11 +192,11 @@
         border-bottom: 0;
     }
     #navbar-collapse .megamenu> li > ul {
-        border-right: none;  
+        border-right: none;
         padding-top: 15px;
     }
     #navbar-collapse .megamenu> li > ul > li{
-        border: none;  
+        border: none;
         padding: 0;
     }
     #navbar-collapse .megamenu> li > ul > li > a{
@@ -600,7 +600,7 @@
     .ms-layer.project-image {
         width: 90%;
     }
-    #landing-masterslider img, 
+    #landing-masterslider img,
     .master-slider .ms-thumb-list.ms-dir-v,
     .open-thumbs-bar-button,
     .ms-layer.pi-text,
@@ -751,7 +751,7 @@
         line-height: 47px;
     }
     .heading-subtitle-bottom p {
-        width: 100%;   
+        width: 100%;
     }
     .heading-h1.h-serif-font h1 {
         font-size: 45px;
@@ -788,7 +788,7 @@
     /*  SOCIAL LINKS
     --------------------------------------------------------------------- */
     .social-links.align-right {
-        margin: 0 auto 0 auto; 
+        margin: 0 auto 0 auto;
     }
 
     /*  BLOG
@@ -987,13 +987,13 @@
         margin-bottom: 80px;
     }
     /*  TABS
-    --------------------------------------------------------------------- */ 
+    --------------------------------------------------------------------- */
     .tab-content-wrap {
         width: auto;
     }
 
     /*  COMMENTS
-   --------------------------------------------------------------------- */ 
+   --------------------------------------------------------------------- */
     .media-heading.author {
         margin-bottom: 10px;
         width: 100%;
@@ -1003,7 +1003,7 @@
     }
 
     /*  QUOTES
-   --------------------------------------------------------------------- */      
+   --------------------------------------------------------------------- */
     .blog-post.blog-details .blockquote-wrapper .blockquote-boxed p, .blockquote-wrapper .blockquote-boxed p {
         padding: 50px 11%;
         font-size: 40px;
@@ -1023,7 +1023,7 @@
     }
 
     /*  PORTFOLIO
-    --------------------------------------------------------------------- */   
+    --------------------------------------------------------------------- */
     .portfolio-grid li,
     .portfolio-masonry li{
         margin-bottom: 0 !important;
@@ -1107,7 +1107,7 @@
         margin-right: 0;
     }
     .woocommerce.woocommerce-page .product .woocommerce-tabs #review_form_wrapper .comment-form .comment-form-author, .woocommerce.woocommerce-page .product .woocommerce-tabs #review_form_wrapper .comment-form .comment-form-email {
-        width: 100%;  
+        width: 100%;
     }
     .woocommerce.woocommerce-page .product .woocommerce-tabs #review_form_wrapper .comment-form .stars {
         margin: 0 0 20px!important;
@@ -1263,9 +1263,6 @@
     }
     #copyright-container .to-top {
         float: left;
-    }
-    #footer-wrapper {
-        padding-bottom: 65px;
     }
 }
 
@@ -1511,14 +1508,14 @@
         border-bottom: 0;
     }
     #navbar-collapse .megamenu> li > ul {
-        border-right: none;  
+        border-right: none;
         padding: 10px 10px 10px 0;
     }
     .navbar-nav .open .dropdown-menu {
         padding-left: 20px;
     }
     #navbar-collapse .megamenu> li > ul > li{
-        border: none;  
+        border: none;
         padding: 0;
     }
     #navbar-collapse .megamenu> li > ul > li > a{
@@ -1997,7 +1994,7 @@
     /*  SOCIAL LINKS
     --------------------------------------------------------------------- */
     .social-links.align-right {
-        margin: 0 auto 0 auto; 
+        margin: 0 auto 0 auto;
     }
 
 
@@ -2143,7 +2140,7 @@
     }
 
     /*  QUOTES
-    --------------------------------------------------------------------- */      
+    --------------------------------------------------------------------- */
     .blog-post.blog-details .blockquote-wrapper .blockquote-boxed p, .blockquote-wrapper .blockquote-boxed p {
         padding: 50px 11%;
         font-size: 40px;
@@ -2160,7 +2157,7 @@
 
 
     /*  PORTFOLIO
-    --------------------------------------------------------------------- */   
+    --------------------------------------------------------------------- */
     .portfolio-grid li,
     .portfolio-masonry li{
         margin-bottom: 0 !important;
@@ -2327,7 +2324,7 @@
         margin-right: 0;
     }
     .woocommerce.woocommerce-page .product .woocommerce-tabs #review_form_wrapper .comment-form .comment-form-author, .woocommerce.woocommerce-page .product .woocommerce-tabs #review_form_wrapper .comment-form .comment-form-email {
-        width: 100%;  
+        width: 100%;
     }
 
 
@@ -2721,7 +2718,7 @@
     }
 
     /*  PORTFOLIO
-    --------------------------------------------------------------------- */   
+    --------------------------------------------------------------------- */
     .portfolio-grid li,
     .portfolio-masonry li{
         margin-bottom: 0 !important;
@@ -3023,7 +3020,7 @@
     }
 
     /*  PORTFOLIO
-    --------------------------------------------------------------------- */   
+    --------------------------------------------------------------------- */
     .portfolio-grid li,
     .portfolio-masonry li{
         margin-bottom: 0 !important;
@@ -3036,7 +3033,7 @@
     }
 
     /*  MAINTENANCE PAGE
-    --------------------------------------------------------------------- */   
+    --------------------------------------------------------------------- */
     .maintenance-page .progress-bar {
         width: 90%;
     }

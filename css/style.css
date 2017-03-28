@@ -13560,3 +13560,22 @@ table tbody {
         transform: translateX(0);
     }
 }
+
+/* ==========================================================================
+    22. Footer
+    ========================================================================= */
+
+.site-footer {
+    padding: 30px;
+}
+
+.footer-logo {
+    width: 30px;
+    height: 35px;
+    margin: 0 auto 20px;
+}
+
+.site-footer .footer-socials {
+    float: none;
+    margin: 0;
+}
