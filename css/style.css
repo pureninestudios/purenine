@@ -1305,6 +1305,10 @@ body.no-scroll {
 .logo img{
     width: 48px;
 }
+.logo--footer svg,
+.logo--footer img {
+    height: 28px;
+}
 .main-nav .row{
     margin-bottom: 0;
 }
@@ -9611,12 +9615,7 @@ div.parallax-container div.parallax {
     margin-top: 30px;
     margin-bottom: 0;
 }
-.page-title.blog-title.h-serif-font .post-body h1 {
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 80px;
-    margin: 10px auto 40px auto;
-}
+
 .page-title.blog-title.h-serif-font .post-body h2 {
     margin: 10px auto 40px auto;
 }
@@ -10352,8 +10351,7 @@ ul#filters {
     font-weight: 700;
     font-size: 60px;
     line-height: 80px;
-    font-family: 'Playfair Display', serif;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
 }
 .blog-details .post-body h2 {
     font-size: 48px;
@@ -13163,6 +13161,16 @@ table tbody {
     color: #fff;
 }
 
+.header-transparent .burger__filling,
+.header-transparent .burger__filling:before,
+.header-transparent .burger__filling:after {
+    background: #fff;
+}
+
+.header-transparent .burger__text {
+    color: #fff;
+}
+
 .burger--active .burger__filling {
     background-color: transparent;
 }
@@ -13309,14 +13317,18 @@ table tbody {
     line-height: 25px;
 }
 
-.menu-footer .socials {
+.socials {
     float: right;
-    margin: 0 50px 0 0;
     display: block;
     line-height: 25px;
+    margin: 0;
 }
 
-.menu-footer .socials li {
+.menu-footer .socials {
+    margin: 0 50px 0 0;
+}
+
+.socials li {
     margin-left: 3px;
     list-style: none;
     display: inline-block;
@@ -13325,7 +13337,7 @@ table tbody {
     margin-bottom: 10px;
 }
 
-.menu-footer .socials li a {
+.socials li a {
     color: #999;
     display: block;
     font-size: 16px;
@@ -13337,7 +13349,7 @@ table tbody {
     transition: 0.1s ease-in-out;
 }
 
-.menu-footer .socials li a:hover {
+.socials li a:hover {
     color: #C2D325;
     transform: scale(1.3);
 }

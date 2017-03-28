@@ -1267,7 +1267,7 @@ $(document).ready(function() {
  */
 
 function randomHero() {
-    var images = ['top-image-twitch.jpg', 'top-image-twitch-reverse.jpg'];
+    var images = ['top-image-twitch.jpg', 'top-image-pga.jpg', 'top-image-natgeo.jpg', 'top-image-epicured.jpg'];
     $('.hero-image img').attr('src', 'hero/' + images[Math.floor(Math.random() * images.length)] + '').addClass('u-fade-in');
 }
 
