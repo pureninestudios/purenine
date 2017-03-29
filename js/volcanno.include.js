@@ -1259,7 +1259,36 @@ $(document).ready(function() {
     $('.burger').on('click', function() {
         $(this).toggleClass('burger--active');
         $('.menu-overlay').toggleClass('is-active');
+        $('html').toggleClass('lock-scroll');
     });
+
+    $('.scrolltotop').on('click', function() {
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
+
+    function changeHeader() {
+        var $header, $content, contentOffset, scrollPos, switchClass;
+
+        $header = $('.header-wrapper');
+        $content = $('.page-content--main');
+        contentOffset = $content.offset().top;
+        scrollPos = $(window).scrollTop();
+        switchClass = 'header-wrapper--switch';
+
+        if (scrollPos >= contentOffset + 100) {
+            $header.addClass(switchClass);
+        } else {
+            $header.removeClass(switchClass);
+        }
+
+        console.log(scrollPos);
+
+    }
+
+    $(window).on('scroll', function() {
+        changeHeader();
+    }).scroll();
 });
 
 /*

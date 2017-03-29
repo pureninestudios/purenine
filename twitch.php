@@ -16,12 +16,12 @@
 
                             <ul class="post-meta">
                                 <li>
-                                    
+
                                         <div class="post-tags">
 
                                             <span>USER EXPERIENCE, USER INTERFACE, VISUAL DESIGN</span>
                                         </div>
-                                    
+
                                 </li>
                             </ul>
                         </div>
@@ -31,7 +31,7 @@
         </div>
 
         <!-- .page-content start -->
-        <div class="page-content">
+        <div class="page-content page-content--main">
             <div class="container content-wrapper-off-canvas">
                 <!-- .row start -->
                 <div class="row mb-0">

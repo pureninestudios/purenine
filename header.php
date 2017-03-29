@@ -33,9 +33,9 @@
     $current = basename($_SERVER['REQUEST_URI']);
     // If is empty assume it's homepage
     if ($current == '' || $current == 'index.php') {
-        $klass = 'header-wrapper hamburger-menu hamburger-menu-dark';
+        $klass = 'header-wrapper header-wrapper--home hamburger-menu hamburger-menu-dark';
     } else {
-        $klass = 'header-wrapper hamburger-menu hamburger-menu-dark header-transparent';
+        $klass = 'header-wrapper header-wrapper--inner hamburger-menu hamburger-menu-dark header-transparent';
     }
 ?>
 
