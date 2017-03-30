@@ -19,7 +19,7 @@
 
                                         <div class="post-tags">
 
-                                            <span>USER EXPERIENCE, USER INTERFACE, VISUAL DESIGN</span>
+                                            <span>User Experience <span style="opacity: .2; padding: 0 5px;"> | </span> UI <span style="opacity: .2; padding: 0 5px;"> | </span> Visual Design</span>
                                         </div>
 
                                 </li>

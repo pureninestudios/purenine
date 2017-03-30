@@ -60,12 +60,12 @@
                                         <h4>Epicured.com</h4>
                                     </a>
                                     <p>
-                                        Worked with the team at Epicured on a brand new user experience.
+                                       Excited to partner with #epicured on an enhanced user experience. #comingsoon #ux #design #agency
                                     </p>
                                 </article><!-- .post-body end -->
                                 <div class="post-footer">
                                     <ul class="post-meta">
-                                        <li class="post-tags">Visual Design, UX</li>
+                                        <li class="post-tags">UX, Visual Design</li>
                                     </ul>
                                 </div>
                             </div>
