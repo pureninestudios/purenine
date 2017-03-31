@@ -13585,7 +13585,58 @@ table tbody {
 }
 
 /* ==========================================================================
-    22. Footer
+    22. Available
+    ========================================================================= */
+
+.available {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .available {
+        padding: 100px 20px 50px;
+    }
+}
+
+.available h3 {
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -2px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 640px) {
+    .available h3 br{
+        display: none;
+    }
+}
+
+.available .button {
+    background: #bcd325;
+    color: #fff;
+    display: inline-block;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px 40px;
+    line-height: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50px;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+.available .button:hover {
+    background: #333;
+}
+
+/* ==========================================================================
+    23. Footer
     ========================================================================= */
 
     footer {
