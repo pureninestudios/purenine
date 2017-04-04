@@ -8,7 +8,7 @@
                         <div class="hero-content-inner">
                             <h1 class="hero-title">Product Design. UX/UI. Advisor. Investor through Design.</h1>
                             <h2 class="hero-subtitle">PURENINE is a digital design studio.</h2>
-                            <a class="p9-button p9-button-pill" href="#">Drop us a line</a>
+                            <a class="p9-button p9-button-pill" href="mailto:hello@purenine.com">Drop us a line</a>
                         </div>
                     </div><!-- .hero-content -->
                     <div class="hero-image">
@@ -418,14 +418,14 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="#"><img src="thumbs/thumbs-1d.jpg"></a>
+                                    <a href="https://www.behance.net/gallery/43388563/One-Direction-Tour"><img src="thumbs/thumbs-1d.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
                                     <div class="post-date">
                                         <span>Livenation</span>
                                     </div><!-- .post-meta end -->
-                                    <a href="#">
+                                    <a href="https://www.behance.net/gallery/43388563/One-Direction-Tour" target="_blank">
                                         <h4>One Direction Tour</h4>
                                     </a>
                                     <p>
@@ -453,12 +453,8 @@
         <script type="text/javascript" src="js/jquery.fatNav.js"></script><!-- hamburger menu js -->
         <script src="js/isotope.pkgd.min.js"></script> <!-- jQuery isotope -->
         <script src="js/imagesloaded.pkgd.min.js"></script> <!-- jQuery isotope -->
-        <script src='owl-carousel/owl.carousel.min.js'></script><!-- Carousels script -->
-        <script src="js/jquery.magnific-popup.min.js"></script> <!-- Magnific pop up lightbox -->
-        <script src="js/jplayer/jquery.jplayer.min.js"></script> <!-- jQuery audio player -->
         <script src="masterslider/masterslider.min.js"></script><!-- Master slider main js -->
         <script src="masterslider/jquery.easing.min.js"></script><!-- Master slider easing js -->
-        <script src="js/jquery.nivo.slider.pack.js"></script><!-- Nivo Slider script -->
         <script src="js/jquery-retina.js"></script><!-- retina -->
         <script src="js/volcanno.include.js"></script><!-- custom js functions -->
 
@@ -466,25 +462,6 @@
             /* <![CDATA[ */
             jQuery(document).ready(function ($) {
                 'use strict';
-
-                // MASTER SLIDER START
-                var slider = new MasterSlider();
-                slider.setup('featured-blog-masterslider', {
-                    width: 1920, // slider standard width
-                    height: 1080, // slider standard height
-                    space: 0,
-                    view: "stack",
-                    layout: "fillwidth",
-                    speed: 15,
-                    centerControls: false,
-                    loop: true,
-                    instantStartLayers: true,
-                    autoplay: false
-                            // more slider options goes here...
-                            // check slider options section in documentation for more options.
-                });
-                // adds Arrows navigation control to the slider.
-                slider.control('arrows', {autohide: false});
 
 
                 // HAMBURGER MENU
@@ -525,19 +502,6 @@
                     });
                 });
 
-                // VIDEO POST
-                $('.video-post-trigger').magnificPopup({
-                    type: 'iframe',
-                    iframe: {
-                        markup: '<div class="mfp-iframe-scaler">' +
-                                '<div class="mfp-close"></div>' +
-                                '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>' +
-                                '</div>'
-                    }
-                });
-
-            });
-            /* ]]> */
         </script>
 
     </body>
