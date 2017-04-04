@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 
         <!-- .page-content start -->
-        <div class="page-content custom-background color-background blog-title page-title page-title-centered dark h-serif-font mb-30" style="background-color: #523589">
+        <div class="page-content custom-background color-background blog-title page-title page-title-centered dark h-serif-font mb-30" style="background-color: #152541">
             <div class="container">
                 <!-- .row start -->
                 <div class="row mb-0">
@@ -9,17 +9,17 @@
                     <div class="col-md-12 blog-post blog-details">
                         <div class="post-body">
                             <ul class="post-meta mb-0">
-                                <li class="post-date"><span>EA Sports</span></li>
+                                <li class="post-date"><span></span></li>
                             </ul>
 
-                            <h1 class="hero-title">Madden Live Challenge</h1>
+                            <h1 class="hero-title">DJBooth.net</h1>
 
                             <ul class="post-meta">
                                 <li>
 
                                         <div class="post-tags">
 
-                                            <span>User Experience <span style="opacity: .2; padding: 0 5px;"> | </span> UI <span style="opacity: .2; padding: 0 5px;"> | </span> Visual Design</span>
+                                            <span>User Experience <span style="opacity: .2; padding: 0 5px;"> | </span> Branding <span style="opacity: .2; padding: 0 5px;"> | </span> Visual Design</span>
                                         </div>
 
                                 </li>
@@ -38,7 +38,7 @@
                     <!-- .col-md-12 start -->
                     <div class="col-md-12 blog-details mb-0">
                         <div class="post-media">
-                            <img src="portfolio/details-twitch.jpg" alt=""/>
+                            <img src="portfolio/details-djbooth-3.jpg" alt=""/>
                         </div>
                     </div><!-- .col-md-12 end -->
                 </div>
@@ -51,8 +51,6 @@
                     <!-- .col-md-8 start -->
                     <div class="col-md-8 blog-details">
 
-                        
-
                     <div class="col-md-2 hidden-xs hidden-sm">
 
                     </div><!-- .col-md-2 end -->
@@ -62,7 +60,7 @@
                     <!-- .col-md-12 start -->
                     <div class="col-md-12 blog-details mb-0">
                         <div class="post-media">
-                            <img src="portfolio/details-twitch-2.jpg" alt=""/>
+                            <img src="portfolio/details-djbooth-2.jpg" alt=""/>
                         </div>
                     </div><!-- .col-md-12 end -->
                 </div>
@@ -71,7 +69,25 @@
                     <!-- .col-md-12 start -->
                     <div class="col-md-12 blog-details mb-0">
                         <div class="post-media">
-                            <img src="portfolio/details-twitch-3.jpg" alt=""/>
+                            <img src="portfolio/details-djbooth-4.jpg" alt=""/>
+                        </div>
+                    </div><!-- .col-md-12 end -->
+                </div>
+
+                <div class="row mb-0">
+                    <!-- .col-md-12 start -->
+                    <div class="col-md-12 blog-details mb-0">
+                        <div class="post-media">
+                            <img src="portfolio/details-djbooth-5.jpg" alt=""/>
+                        </div>
+                    </div><!-- .col-md-12 end -->
+                </div>
+
+                <div class="row mb-0">
+                    <!-- .col-md-12 start -->
+                    <div class="col-md-12 blog-details mb-0">
+                        <div class="post-media">
+                            <img src="portfolio/details-djbooth-6.jpg" alt=""/>
                         </div>
                     </div><!-- .col-md-12 end -->
                 </div>

@@ -52,11 +52,11 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="#"><img src="thumbs/thumbs-epicured.jpg"></a>
+                                    <a href="epicured.php"><img src="thumbs/thumbs-epicured.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
-                                    <a href="#">
+                                    <a href="epicured.php">
                                         <h4>Epicured.com</h4>
                                     </a>
                                     <p>
@@ -96,14 +96,14 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux mobile">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="#"><img src="thumbs/thumbs-natgeo.jpg"></a>
+                                    <a href="explorer.php"><img src="thumbs/thumbs-natgeo.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
                                     <div class="post-date">
                                         <span>Neo-Pangea</span>
                                     </div><!-- .post-meta end -->
-                                    <a href="#">
+                                    <a href="explorer.php">
                                         <h4>National Geographic - Explorer Minisite</h4>
                                     </a>
                                     <p>
@@ -121,14 +121,14 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design mobile">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="#"><img src="thumbs/thumbs-playerstribune.jpg"></a>
+                                    <a href="playerstribune.php"><img src="thumbs/thumbs-playerstribune.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
                                     <div class="post-date">
                                         <span>HYFN</span>
                                     </div><!-- .post-meta end -->
-                                    <a href="#">
+                                    <a href="playerstribune.php">
                                         <h4>The Players Tribune</h4>
                                     </a>
                                     <p>
@@ -173,14 +173,14 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design mobile">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="#"><img src="thumbs/thumbs-pga-ipad.jpg"></a>
+                                    <a href="pgatour.php"><img src="thumbs/thumbs-pga-ipad.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
                                     <div class="post-date">
                                         <span>Omnigon</span>
                                     </div><!-- .post-meta end -->
-                                    <a href="#">
+                                    <a href="pgatour.php">
                                         <h4>PGA Tour iPad App</h4>
                                     </a>
                                     <p>
@@ -199,12 +199,12 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 image-post isotope-item design ux mobile">
                             <div class="blog-post-item-inner">
                                 <article class="post-body">
-                                    <a href="#">
+                                    <a href="theplug.php">
                                         <h4>The Plug by DJBooth</h4>
                                     </a>
                                 </article><!-- .post-body end -->
                                 <div class="post-media">
-                                    <a href="#"><img src="thumbs/thumbs-theplug.jpg" alt=""></a>
+                                    <a href="theplug.php"><img src="thumbs/thumbs-theplug.jpg" alt=""></a>
                                 </div><!-- .post-media end -->
                             </div>
                         </li>
@@ -227,14 +227,14 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="#"><img src="thumbs/thumbs-pga-desktop.jpg"></a>
+                                    <a href="pgatour.php"><img src="thumbs/thumbs-pga-desktop.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
                                     <div class="post-date">
                                         <span>Omnigon</span>
                                     </div><!-- .post-meta end -->
-                                    <a href="#">
+                                    <a href="pgatour.php">
                                         <h4>PGATour.com</h4>
                                     </a>
                                     <p>
@@ -252,11 +252,11 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="#"><img src="thumbs/thumbs-omnigon.jpg"></a>
+                                    <a href="omnigon.php"><img src="thumbs/thumbs-omnigon.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
-                                    <a href="#">
+                                    <a href="omnigon.php">
                                         <h4>Omnigon.com</h4>
                                     </a>
                                     <p>
@@ -296,11 +296,11 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux dev">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="#"><img src="thumbs/thumbs-djbooth.jpg"></a>
+                                    <a href="djbooth.php"><img src="thumbs/thumbs-djbooth.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
-                                    <a href="#">
+                                    <a href="djbooth.php">
                                         <h4>The new DJBooth.net</h4>
                                     </a>
                                     <p>
@@ -339,14 +339,14 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="#"><img src="thumbs/thumbs-activision.jpg"></a>
+                                    <a href="https://www.behance.net/gallery/14938307/Activision" target="_blank"><img src="thumbs/thumbs-activision.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
                                     <div class="post-date">
                                         <span>Haven Agency</span>
                                     </div><!-- .post-meta end -->
-                                    <a href="#">
+                                    <a href="https://www.behance.net/gallery/14938307/Activision" target="_blank">
                                         <h4>Shop Activision.com</h4>
                                     </a>
                                     <p>
@@ -366,14 +366,14 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="#"><img src="thumbs/thumbs-proactiv.jpg"></a>
+                                    <a href="proactiv.php"><img src="thumbs/thumbs-proactiv.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
                                     <div class="post-date">
                                         <span>Haven Agency</span>
                                     </div><!-- .post-meta end -->
-                                    <a href="#">
+                                    <a href="proactiv.php">
                                         <h4>Proactiv.com</h4>
                                     </a>
                                     <p>
@@ -392,14 +392,14 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="#"><img src="thumbs/thumbs-pennzoil.jpg"></a>
+                                    <a href="https://www.behance.net/gallery/43388481/Pennzoil-Sweepstakes" target="_blank"><img src="thumbs/thumbs-pennzoil.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
                                     <div class="post-date">
                                         <span>Livenation</span>
                                     </div><!-- .post-meta end -->
-                                    <a href="#">
+                                    <a href="https://www.behance.net/gallery/43388481/Pennzoil-Sweepstakes" target="_blank">
                                         <h4>Pennzoil Sweepstakes</h4>
                                     </a>
                                     <p>
@@ -418,7 +418,7 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="https://www.behance.net/gallery/43388563/One-Direction-Tour"><img src="thumbs/thumbs-1d.jpg"></a>
+                                    <a href="https://www.behance.net/gallery/43388563/One-Direction-Tour" target="_blank"><img src="thumbs/thumbs-1d.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
