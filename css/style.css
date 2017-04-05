@@ -9422,6 +9422,7 @@ div.parallax-container div.parallax {
 }
 .blog-post .post-media:hover {
     opacity: 0.8;
+    background-color: #000;
 }
 .post-author a {
     display: table;
@@ -13081,13 +13082,15 @@ table tbody {
 @media screen and (max-width: 1300px) {
 
     .hero-title {
-        font-size: 45px;
-        line-height: 45px;
+        font-size: 35px;
+        line-height: 40px;
         padding: 0 40px;
     }
     .hero-image {
         flex: 0 0 400px;
     }
+
+    
 
 }
 
@@ -13099,12 +13102,16 @@ table tbody {
     background: #BCD325;
     color: #fff;
     display: inline-block;
-    padding: 15px 40px;
-    border-radius: 35px;
-    font-size: 15px;
-    font-weight: 600;
-    letter-spacing: -0.3px;
-    line-height: 19px;
+    padding: 20px 40px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50px;
+
 }
 
 .p9-button:hover {

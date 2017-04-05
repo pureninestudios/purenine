@@ -7,7 +7,7 @@
                     <div class="hero-content">
                         <div class="hero-content-inner">
                             <h1 class="hero-title">Product Design. UX/UI. Advisor. Investor through Design.</h1>
-                            <h2 class="hero-subtitle">PURENINE is a digital design studio.</h2>
+                            <h2 class="hero-subtitle">PURENINE is a digital design studio of Thomas Klinger.</h2>
                             <a class="p9-button p9-button-pill" href="mailto:hello@purenine.com">Drop us a line</a>
                         </div>
                     </div><!-- .hero-content -->
@@ -37,7 +37,7 @@
                     <!-- .col-md-12 start -->
                     <div class="col-md-12 mb-0">
                         <ul id="filters" class="button-group filters-button-group mb-40 triggerAnimation animated" data-animate="fadeInUp">
-                            <li class="filter-text">Filter:</li>
+                            <li class="filter-text">Filter Projects:</li>
                             <li class="filter-button is-checked" data-filter="*">All</li>
                             <li class="filter-button" data-filter=".design">Visual Design</li>
                             <li class="filter-button" data-filter=".ux">UX / UI</li>
@@ -60,7 +60,7 @@
                         <li class="grid-sizer col-lg-3 col-md-4 col-sm-6 col-xs-12"></li>
 
                          <!-- piece -->
-                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux wip">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
                                     <a href="https://www.instagram.com/p/BSM1zBthXDR/?taken-by=purenine" target="_blank"><img src="thumbs/thumbs-epicured.jpg"></a>
