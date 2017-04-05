@@ -1291,19 +1291,10 @@ $(document).ready(function() {
     }).scroll();
 });
 
-/*
- * Load random image on page load
- */
-
-function randomHero() {
-    var images = ['top-image-twitch.jpg', 'top-image-pga.jpg', 'top-image-natgeo.jpg', 'top-image-epicured.jpg'];
-    $('.hero-image img').attr('src', 'hero/' + images[Math.floor(Math.random() * images.length)] + '').addClass('u-fade-in');
-}
-
 $( window ).load(function() {
     $('body').addClass('all-loaded');
 
-    randomHero();
+    $('.hero-image img').addClass('u-fade-in');
     $('.hero-wrap').addClass('active');
 
     var _start = {property: 0};

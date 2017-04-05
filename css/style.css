@@ -9417,6 +9417,12 @@ div.parallax-container div.parallax {
 .blog-post .post-author {
     width: 73%;
 }
+.blog-post .post-media {
+    transition: 0.2s ease-in-out;
+}
+.blog-post .post-media:hover {
+    opacity: 0.8;
+}
 .post-author a {
     display: table;
 }
@@ -9707,9 +9713,7 @@ div.parallax-container div.parallax {
     margin-right: 0;
     padding-left: 10px;
 }
-.page-title.blog-title .post-tags:hover span {
-    text-decoration: underline;
-}
+
 .page-title.blog-title ul.post-meta .post-author p{
     padding-top: 9px;
 }

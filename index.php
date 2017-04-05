@@ -11,8 +11,19 @@
                             <a class="p9-button p9-button-pill" href="mailto:hello@purenine.com">Drop us a line</a>
                         </div>
                     </div><!-- .hero-content -->
+                    <?php
+                        $heroImages = array(
+                            array('top-image-twitch.jpg', 'http://www.google.com'),
+                            array('top-image-pga.jpg', 'http://www.facebook.com'),
+                            array('top-image-natgeo.jpg', 'http://www.twitter.com'),
+                            array('top-image-epicured.jpg', 'http://www.youtube.com'),
+                        );
+                        shuffle($heroImages);
+                    ?>
                     <div class="hero-image">
-                        <img src="hero/top-image-twitch.jpg" alt="" />
+                        <a href="<?php echo $heroImages[0][1]; ?>">
+                            <img src="hero/<?php echo $heroImages[0][0]; ?>" alt="" />
+                        </a>
                     </div><!-- .hero-image -->
                 </div><!--/.hero-wrap-->
             </div><!-- .container-fluid end -->
