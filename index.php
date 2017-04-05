@@ -13,10 +13,10 @@
                     </div><!-- .hero-content -->
                     <?php
                         $heroImages = array(
-                            array('top-image-twitch.jpg', 'http://www.google.com'),
-                            array('top-image-pga.jpg', 'http://www.facebook.com'),
-                            array('top-image-natgeo.jpg', 'http://www.twitter.com'),
-                            array('top-image-epicured.jpg', 'http://www.youtube.com'),
+                            array('top-image-twitch.jpg', 'twitch.php'),
+                            array('top-image-pga.jpg', 'pgatour.php'),
+                            array('top-image-natgeo.jpg', 'explorer.php'),
+                            array('top-image-epicured.jpg', 'https://www.instagram.com/p/BSM1zBthXDR'),
                         );
                         shuffle($heroImages);
                     ?>
@@ -63,11 +63,11 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="epicured.php"><img src="thumbs/thumbs-epicured.jpg"></a>
+                                    <a href="https://www.instagram.com/p/BSM1zBthXDR/?taken-by=purenine" target="_blank"><img src="thumbs/thumbs-epicured.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
-                                    <a href="epicured.php">
+                                    <a href="https://www.instagram.com/p/BSM1zBthXDR/?taken-by=purenine" target="_blank">
                                         <h4>Epicured.com</h4>
                                     </a>
                                     <p>
