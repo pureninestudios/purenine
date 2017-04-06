@@ -1,22 +1,25 @@
 <?php include('header.php'); ?>
 
         <!-- .page-content start -->
-        <div class="page-content custom-background color-background blog-title page-title page-title-centered dark h-serif-font mb-30" style="background-color: #000">
+        <div class="page-content custom-background color-background blog-title page-title page-title-centered dark h-serif-font mb-30" style="background-color: #222">
             <div class="container">
                 <!-- .row start -->
                 <div class="row mb-0">
                     <!-- .col-md-12 start -->
                     <div class="col-md-12 blog-post blog-details">
                         <div class="post-body">
+                            <ul class="post-meta mb-0">
+                                <li class="post-date"><span></span></li>
+                            </ul>
 
-                            <h1 class="hero-title">Omnigon.com</h1>
+                            <h1 class="hero-title">Audiomack.com</h1>
 
                             <ul class="post-meta">
                                 <li>
 
                                         <div class="post-tags">
 
-                                            <span>User Experience <span style="opacity: .2; padding: 0 5px;"> | </span> Art Direction <span style="opacity: .2; padding: 0 5px;"> | </span> Visual Design</span>
+                                            <span>User Experience <span style="opacity: .2; padding: 0 5px;"> | </span> UI <span style="opacity: .2; padding: 0 5px;"> | </span> Visual Design</span>
                                         </div>
 
                                 </li>
@@ -35,7 +38,7 @@
                     <!-- .col-md-12 start -->
                     <div class="col-md-12 blog-details mb-0">
                         <div class="post-media">
-                            <img src="portfolio/details-omnigon-1.jpg" alt=""/>
+                            <img src="portfolio/details-am-1.jpg" alt=""/>
                         </div>
                     </div><!-- .col-md-12 end -->
                 </div>
@@ -48,7 +51,6 @@
                     <!-- .col-md-8 start -->
                     <div class="col-md-8 blog-details">
 
-                       
                     <div class="col-md-2 hidden-xs hidden-sm">
 
                     </div><!-- .col-md-2 end -->
@@ -58,10 +60,31 @@
                     <!-- .col-md-12 start -->
                     <div class="col-md-12 blog-details mb-0">
                         <div class="post-media">
-                            <img src="portfolio/details-omnigon-2.jpg" alt=""/>
+                            <img src="portfolio/details-am-2.jpg" alt=""/>
                         </div>
                     </div><!-- .col-md-12 end -->
                 </div>
+
+                <div class="row mb-0">
+                    <!-- .col-md-12 start -->
+                    <div class="col-md-12 blog-details mb-0">
+                        <div class="post-media">
+                            <img src="portfolio/details-am-3.jpg" alt=""/>
+                        </div>
+                    </div><!-- .col-md-12 end -->
+                </div>
+
+                <div class="row mb-0">
+                    <!-- .col-md-12 start -->
+                    <div class="col-md-12 blog-details mb-0">
+                        <div class="post-media">
+                            <img src="portfolio/details-am-4.jpg" alt=""/>
+                        </div>
+                    </div><!-- .col-md-12 end -->
+                </div>
+
+                
+
 
             </div><!-- .container end -->
         </div><!-- .page-content end -->
