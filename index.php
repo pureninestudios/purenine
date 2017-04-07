@@ -60,6 +60,30 @@
                     <ul id="blog-masonry" class="blog-posts">
                         <li class="grid-sizer col-lg-3 col-md-4 col-sm-6 col-xs-12"></li>
 
+
+                        <!-- piece -->
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux wip">
+                            <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="#" target="_blank"><img src="thumbs/thumbs-prosuite.jpg"></a>
+                                </div><!-- .post-media end -->
+
+                                <article class="post-body">
+                                    <a href="#" target="_blank">
+                                        <h4>Prosuite by Omnigon</h4>
+                                    </a>
+                                    <p>
+                                       Working with #Omnigon to design #Prosuite, a set of fan engagement tools to help partners deliver unique, compelling experiences.
+                                    </p>
+                                </article><!-- .post-body end -->
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">Visual Design, UX, UI, Mobile</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
                          <!-- piece -->
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux wip">
                             <div class="blog-post-item-inner">
