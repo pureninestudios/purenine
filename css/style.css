@@ -9418,11 +9418,14 @@ div.parallax-container div.parallax {
     width: 73%;
 }
 .blog-post .post-media {
+    background: #000;
     transition: 0.2s ease-in-out;
 }
-.blog-post .post-media:hover {
-    opacity: 0.8;
-    background-color: #000;
+.blog-post .post-media img {
+    transition: 0.2s ease-in-out;
+}
+.blog-post .post-media:hover img{
+    opacity: 0.65;
 }
 .post-author a {
     display: table;
@@ -10361,6 +10364,9 @@ ul#filters {
     -ms-transition: all 0.2s ease 0s;
     transition: all 0.2s ease 0s;
     letter-spacing: -0.7px
+}
+.blog-post:hover .post-body h4 {
+    color: #C5D33B;
 }
 .blog-details.standard-post .post-body h4 {
     margin-bottom: 25px;
@@ -12915,6 +12921,11 @@ table tbody {
     17. Hero
     ========================================================================= */
 
+.inner-hero {
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
 @-webkkt-keyframes heroImageIn {
     0% {
         opacity: 0;
@@ -13090,7 +13101,7 @@ table tbody {
         flex: 0 0 400px;
     }
 
-    
+
 
 }
 
@@ -13415,7 +13426,6 @@ table tbody {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    opacity: 1;
 }
 
 .loader-bg-text {
@@ -13432,6 +13442,7 @@ table tbody {
     width: 100%;
     text-align: center;
     height: 500px;
+    opacity: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -13441,9 +13452,14 @@ table tbody {
     }
 }
 
+.all-loaded .loader-bg-text {
+    animation: p9-loader-reverse 0.3s ease-in-out forwards;
+}
+
+
 .all-loaded .p9-loader__inner {
     animation: p9-loader__inner 0.3s ease-in-out forwards;
-    animation-delay: 1s;
+    animation-delay: 1.5s;
 }
 
 .p9-loader__inner > div {
@@ -13553,7 +13569,17 @@ table tbody {
     to {
         background: #fff;
 		opacity: 0;
-		z-index: -1
+		visibility: hidden;
+    }
+}
+
+@keyframes p9-loader-reverse {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
     }
 }
 

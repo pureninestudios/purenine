@@ -1259,7 +1259,6 @@ $(document).ready(function() {
     $('.burger').on('click', function() {
         $(this).toggleClass('burger--active');
         $('.menu-overlay').toggleClass('is-active');
-        $('html').toggleClass('lock-scroll');
     });
 
     $('.scrolltotop').on('click', function() {
@@ -1292,11 +1291,6 @@ $(document).ready(function() {
 });
 
 $( window ).load(function() {
-    $('body').addClass('all-loaded');
-
-    $('.hero-image img').addClass('u-fade-in');
-    $('.hero-wrap').addClass('active');
-
     var _start = {property: 0};
 	var _end = {property: 100};
 	$(_start).animate(_end, {
@@ -1305,4 +1299,9 @@ $( window ).load(function() {
 	    $('.loader-bg-text').text(Math.round(this.property));
 	    }
 	});
+
+    $('body').addClass('all-loaded');
+
+    $('.hero-image img').addClass('u-fade-in');
+    $('.hero-wrap').addClass('active');
 });

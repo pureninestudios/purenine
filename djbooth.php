@@ -4,7 +4,7 @@
         <div class="page-content custom-background color-background blog-title page-title page-title-centered dark h-serif-font mb-30" style="background-color: #152541">
             <div class="container">
                 <!-- .row start -->
-                <div class="row mb-0">
+                <div class="row mb-0 inner-hero">
                     <!-- .col-md-12 start -->
                     <div class="col-md-12 blog-post blog-details">
                         <div class="post-body">
