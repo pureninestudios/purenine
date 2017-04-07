@@ -9425,7 +9425,7 @@ div.parallax-container div.parallax {
     transition: 0.2s ease-in-out;
 }
 .blog-post .post-media:hover img{
-    opacity: 0.65;
+    opacity: 0.4;
 }
 .post-author a {
     display: table;

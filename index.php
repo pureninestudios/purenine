@@ -255,6 +255,29 @@
                             </div>
                         </li>
 
+                        <!-- piece -->
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design">
+                            <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="#"><img src="thumbs/thumbs-abaris.jpg"></a>
+                                </div><!-- .post-media end -->
+
+                                <article class="post-body">
+                                    
+                                    <a href="#">
+                                        <h4>Abaris - The Online Platform For Longevity Annuities</h4>
+                                    </a>
+                                    <p>
+                                        Helped Abaris design a product landing page for desktop and mobile.
+                                    </p>
+                                </article><!-- .post-body end -->
+                                <div class="post-footer">
+                                    <ul class="post-meta">Art Directon, Visual Design, UX, Mobile</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
                        <!-- piece -->
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 image-post isotope-item design ux mobile">
                             <div class="blog-post-item-inner">
