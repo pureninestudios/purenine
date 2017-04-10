@@ -9792,6 +9792,8 @@ ul#filters {
     display: inline-block;
     margin-bottom: 110px;
     padding-left: 0;
+    position: relative;
+    z-index: 10;
 }
 #filters li {
     float: left;
