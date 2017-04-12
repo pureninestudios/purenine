@@ -259,12 +259,12 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="#"><img src="thumbs/thumbs-abaris.jpg"></a>
+                                    <a href="abaris.php"><img src="thumbs/thumbs-abaris.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
                                     
-                                    <a href="#">
+                                    <a href="abaris.php">
                                         <h4>Abaris - The Online Platform For Longevity Annuities</h4>
                                     </a>
                                     <p>
