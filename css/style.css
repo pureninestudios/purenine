@@ -9423,7 +9423,7 @@ div.parallax-container div.parallax {
     overflow: hidden;
     position: relative;
 }
-.blog-post .post-media:after {
+.blog-post .post-media a:after {
     content: "";
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
@@ -9441,7 +9441,7 @@ div.parallax-container div.parallax {
 .blog-post .post-media:hover img{
     transform: scale(1.1)
 }
-.blog-post .post-media:hover:after {
+.blog-post .post-media:hover a:after {
     opacity: 1;
 }
 .post-author a {
