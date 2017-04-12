@@ -65,11 +65,11 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux wip">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="#" target="_blank"><img src="thumbs/thumbs-prosuite.jpg"></a>
+                                    <a href="http://www.bracket-pro.com/" target="_blank"><img src="thumbs/thumbs-prosuite.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
-                                    <a href="#" target="_blank">
+                                    <a href="http://www.bracket-pro.com/" target="_blank">
                                         <h4>Prosuite by Omnigon</h4>
                                     </a>
                                     <p>
