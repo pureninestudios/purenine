@@ -1,6 +1,14 @@
 <?php include('header.php'); ?>
+    <?php
+        $current = basename($_SERVER['REQUEST_URI']);
+        $klass = '';
+        // If is empty assume it's homepage
+        if ($current == '' || $current == 'index.php') {
+            $klass = 'homepage';
+        }
+    ?>
         <!-- .page-content start -->
-        <div class="page-content container-no-padding column-no-padding">
+        <div class="page-content container-no-padding column-no-padding <?php echo $klass; ?>">
             <div class="container-fluid">
                 <div class="hero-wrap">
                     <p class="hero__mega-title">Pure</p>
@@ -213,7 +221,7 @@
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
-                                    
+
                                     <a href="audiomack-app.php">
                                         <h4>Audiomack App</h4>
                                     </a>
@@ -263,7 +271,7 @@
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
-                                    
+
                                     <a href="abaris.php">
                                         <h4>Abaris - The Online Platform For Longevity Annuities</h4>
                                     </a>

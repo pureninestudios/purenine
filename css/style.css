@@ -9811,6 +9811,12 @@ ul#filters {
     padding-left: 0;
     position: relative;
     z-index: 10;
+    display: none;
+}
+@media screen and (min-width: 1024px) {
+    ul#filters {
+        display: block;
+    }
 }
 #filters li {
     float: left;
@@ -13073,6 +13079,15 @@ table tbody {
     animation-delay: 0.3s;
 }
 
+.hero-image img {
+    transition: 0.2s ease-in-out;
+    transform: scale(1);
+}
+
+.hero-image:hover img {
+    transform: scale(1.02);
+}
+
 @media screen and (max-width: 899px) {
     .hero-content {
         margin-bottom: 30px;
@@ -14167,3 +14182,8 @@ table tbody {
 	.socials-text li a:hover:after {
 		width:100%;
 	}
+    @media screen and (min-width: 768px) {
+        .page-content.homepage {
+            margin-top: 174px !important
+        }
+    }
