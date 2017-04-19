@@ -308,7 +308,7 @@
                                         <span>Inspiration</span>
                                     </div><!-- .post-meta end -->
                                     <blockquote class="blockquote">
-                                        <p>"If you're romantic about doing thigns how they've always been done... Your going to lose."</p>
+                                        <p>"If you're romantic about doing things how they've always been done... Your going to lose."</p>
                                         <p class="cite">Gary Vaynerchuck</p>
                                     </blockquote>
                                 </article><!-- .post-body end -->
