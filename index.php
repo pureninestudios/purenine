@@ -101,7 +101,7 @@
 
                                 <article class="post-body">
                                     <a href="https://www.instagram.com/p/BSM1zBthXDR/?taken-by=purenine" target="_blank">
-                                        <h4>Epicured.com</h4>
+                                        <h4>GetEpicured.com</h4>
                                     </a>
                                     <p>
                                        Excited to partner with #epicured on an enhanced user experience. #comingsoon #ux #design #agency
