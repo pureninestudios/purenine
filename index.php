@@ -267,13 +267,13 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="abaris.php"><img src="thumbs/thumbs-abaris.jpg"></a>
+                                    <a href="https://www.behance.net/gallery/52512915/Abaris" target="_blank"><img src="thumbs/thumbs-abaris.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
 
-                                    <a href="abaris.php">
-                                        <h4>Abaris - The Online Platform For Longevity Annuities</h4>
+                                    <a href="https://www.behance.net/gallery/52512915/Abaris" target="_blank">
+                                        <h4>Abaris</h4>
                                     </a>
                                     <p>
                                         Helped Abaris design a product landing page for desktop and mobile.
@@ -343,11 +343,11 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="omnigon.php"><img src="thumbs/thumbs-omnigon.jpg"></a>
+                                    <a href="https://www.behance.net/gallery/52512785/Omnigon-Website-Concepts" target="_blank"><img src="thumbs/thumbs-omnigon.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
-                                    <a href="omnigon.php">
+                                    <a href="https://www.behance.net/gallery/52512785/Omnigon-Website-Concepts" target="_blank">
                                         <h4>Omnigon.com</h4>
                                     </a>
                                     <p>
@@ -457,14 +457,14 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="proactiv.php"><img src="thumbs/thumbs-proactiv.jpg"></a>
+                                    <a href="https://www.behance.net/gallery/52512685/Proactiv" target="_blank"><img src="thumbs/thumbs-proactiv.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
                                     <div class="post-date">
                                         <span>Haven Agency</span>
                                     </div><!-- .post-meta end -->
-                                    <a href="proactiv.php">
+                                    <a href="https://www.behance.net/gallery/52512685/Proactiv" target="_blank">
                                         <h4>Proactiv.com</h4>
                                     </a>
                                     <p>
