@@ -73,15 +73,15 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux wip">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="http://www.bracket-pro.com/" target="_blank"><img src="thumbs/thumbs-prosuite.jpg"></a>
+                                    <a href="https://www.instagram.com/p/BT5EpikheE8" target="_blank"><img src="thumbs/thumbs-prosuite.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
-                                    <a href="http://www.bracket-pro.com/" target="_blank">
-                                        <h4>Prosuite by Omnigon</h4>
+                                    <a href="https://www.instagram.com/p/BT5EpikheE8" target="_blank">
+                                        <h4>ProSuite by Omnigon</h4>
                                     </a>
                                     <p>
-                                       Working with #Omnigon to design #Prosuite, a set of fan engagement tools to help partners deliver unique, compelling experiences.
+                                       Working with #Omnigon to design #ProSuite, a set of fan engagement tools to help partners deliver unique, compelling experiences.
                                     </p>
                                 </article><!-- .post-body end -->
                                 <div class="post-footer">
