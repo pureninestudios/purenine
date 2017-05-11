@@ -13105,9 +13105,6 @@ table tbody {
     transform: scale(1.02);
 }
 
-.pt-40 {
-    display: none; }
-
 ..urger__text {}
 
 
@@ -13707,12 +13704,12 @@ table tbody {
 }
 
 .available h3 {
-    font-size: 30px;
-    line-height: 33px;
-    letter-spacing: -1px;
+    font-size: 55px;
+    line-height: 54px;
+    letter-spacing: -2.5px;
     color: #000;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 640px) {

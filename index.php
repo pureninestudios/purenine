@@ -25,7 +25,7 @@
                             array('top-image-pga.jpg', 'pgatour.php'),
                             array('top-image-natgeo.jpg', 'explorer.php'),
                             array('top-image-epicured.jpg', 'https://www.instagram.com/p/BSM1zBthXDR'),
-                            array('top-image-audiomack.jpg', 'audiomack.php'),
+                            array('top-image-nba.jpg', 'http://www.adweek.com/agencies/ready-set-rocket-is-helping-brands-find-their-place-in-the-digital-space/'),
                         );
                         shuffle($heroImages);
                     ?>
