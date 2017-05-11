@@ -13037,11 +13037,21 @@ table tbody {
     transform: translateY(30px);
 }
 
-.active .hero-content {
-    -webkit-animation: heroContentIn 0s ease-in-out forwards;
-    animation: heroContentIn 0s ease-in-out forwards;
-    -webkit-animation-delay: 0s;
-    animation-delay: 0s;
+@media screen and (max-width: 768px) {
+    .active .hero-content {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .active .hero-content {
+        -webkit-animation: heroContentIn 0s ease-in-out forwards;
+        animation: heroContentIn 0s ease-in-out forwards;
+        -webkit-animation-delay: 0s;
+        animation-delay: 0s;
+    }
 }
 
 .hero__mega-title {
