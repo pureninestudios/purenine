@@ -432,7 +432,10 @@ iframe.video {
     padding-top: 20px !important;
 }
 .pt-40 {
-    padding-top: 40px !important;
+    padding-top: 60px !important;
+    padding-bottom: 40px !important;
+    margin: 0 auto;
+    max-width: 1060px;
 }
 .pt-50 {
     padding-top: 50px !important;
@@ -9866,9 +9869,9 @@ ul#filters {
     margin-right: 15px;
     margin-left: 15px;
     background: #fff;
-    -webkit-box-shadow: 0 5px 25px 0px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0 5px 25px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 5px 25px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0px 25px 0px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 0px 25px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0px 25px 0px rgba(0, 0, 0, 0.05);
 }
 
 
