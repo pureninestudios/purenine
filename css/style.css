@@ -9350,6 +9350,7 @@ div.parallax-container div.parallax {
     margin-bottom: 0;
 }
 .blog-posts .blog-post .post-body {
+    margin-top: 20px;
     padding: 0 35px 0 35px;
     overflow: hidden;
 }
@@ -9528,7 +9529,6 @@ div.parallax-container div.parallax {
     position: relative;
     width: 100%;
     max-width: 100%;
-    margin-bottom: 20px;
     display: block;
 }
 .post-media img {
@@ -10396,11 +10396,12 @@ ul#filters {
     transition: all 0.2s ease 0s;
     letter-spacing: -0.7px
 }
-.blog-post:hover .post-body h4 {
-    color: #C5D33B;
-}
 .blog-details.standard-post .post-body h4 {
     margin-bottom: 25px;
+}
+
+.post-body h4:hover {
+    text-decoration: underline;
 }
 .blog-details .post-body h1 {
     font-weight: 700;
