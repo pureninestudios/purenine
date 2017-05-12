@@ -15,7 +15,7 @@
                     <div class="hero-content">
                         <div class="hero-content-inner">
                             <h1 class="hero-title">Product Design. UX/UI. Advisor. Investor through Design.</h1>
-                            <h2 class="hero-subtitle">PURENINE is a digital design studio of Thomas Klinger.</h2>
+                            <h2 class="hero-subtitle">PURENINE is the design collective of Thomas Klinger.</h2>
                             <a class="p9-button p9-button-pill" href="mailto:hello@purenine.com">Drop us a line</a>
                         </div>
                     </div><!-- .hero-content -->
@@ -187,6 +187,29 @@
                             </div>
                         </li>
 
+                        <!-- piece -->
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design dev ">
+                            <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="http://newleafliterary.com/"><img src="thumbs/thumbs-newleaf.jpg"></a>
+                                </div><!-- .post-media end -->
+
+                                <article class="post-body">
+                                    <a href="http://newleafliterary.com/">
+                                        <h4>New Leaf Literary</h4>
+                                    </a>
+                                    <p>
+                                        Designed a new digital experience and built a complete CMS platform.
+                                    </p>
+                                </article><!-- .post-body end -->
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">Visual Design, UX, Mobile App</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
                        <!-- piece -->
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux dev">
                             <div class="blog-post-item-inner">
@@ -263,15 +286,14 @@
                             </div>
                         </li>
 
-                        <!-- piece -->
-                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design">
+                         <!-- piece -->
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
                                     <a href="https://www.behance.net/gallery/52512915/Abaris" target="_blank"><img src="thumbs/thumbs-abaris.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
-
                                     <a href="https://www.behance.net/gallery/52512915/Abaris" target="_blank">
                                         <h4>Abaris</h4>
                                     </a>
@@ -280,23 +302,33 @@
                                     </p>
                                 </article><!-- .post-body end -->
                                 <div class="post-footer">
-                                    <ul class="post-meta">Art Directon, Visual Design, UX, Mobile</li>
+                                    <ul class="post-meta">
+                                        <li class="post-tags">Art Directon, Visual Design, UX, Mobile</li>
                                     </ul>
                                 </div>
                             </div>
                         </li>
 
                        <!-- piece -->
-                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 image-post isotope-item design ux mobile">
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux mobile">
                             <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="theplug.php"><img src="thumbs/thumbs-theplug.jpg"></a>
+                                </div><!-- .post-media end -->
+
                                 <article class="post-body">
                                     <a href="theplug.php">
                                         <h4>The Plug by DJBooth</h4>
                                     </a>
+                                    <p>
+                                        Designed an app that highlights all things related to current hip-hop news.
+                                    </p>
                                 </article><!-- .post-body end -->
-                                <div class="post-media">
-                                    <a href="theplug.php"><img src="thumbs/thumbs-theplug.jpg" alt=""></a>
-                                </div><!-- .post-media end -->
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">Art Directon, Visual Design, UX, Mobile</li>
+                                    </ul>
+                                </div>
                             </div>
                         </li>
 
