@@ -45,7 +45,7 @@
                 <div class="row mb-0">
                     <!-- .col-md-12 start -->
                     <div class="col-md-12 mb-0">
-                        <ul id="filters" class="button-group filters-button-group mb-40 triggerAnimation animated" data-animate="fadeInUp">
+                        <ul id="filters" class="button-group filters-button-group mb-40 triggerAnimation " data-animate="fadeInUp">
                             <li class="filter-text">Filter Projects:</li>
                             <li class="filter-button is-checked" data-filter="*">All</li>
                             <li class="filter-button" data-filter=".design">Visual Design</li>
