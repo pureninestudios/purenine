@@ -114,27 +114,29 @@
                                 </div>
                             </div>
                         </li>
-
-                        <!-- piece -->
-                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item motion wip">
+                         <!-- piece -->
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux mobile">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="https://www.instagram.com/p/BRrHaEQDqqc/" target="_blank"><img src="thumbs/thumbs-video-djb.jpg" alt=""/>
-                                        <span class="video-button"><img src="images/play-arrow.svg" alt=""/></span>
-                                    </a>
-                                    <div class="post-meta">
-                                        <div class="post-author">
-                                            <a href="https://www.instagram.com/purenine/">
-                                                <div class="post-author-thumbnail">
-                                                    <img src="https://scontent-ort2-1.cdninstagram.com/t51.2885-19/s320x320/15306595_563354530456041_750007397048647680_a.jpg" alt="">
-                                                </div>
-                                                <p>purenine</p>
-                                            </a>
-                                        </div>
-                                    </div>
+                                    <a href="theplug.php"><img src="thumbs/thumbs-theplug.jpg"></a>
                                 </div><!-- .post-media end -->
+
+                                <article class="post-body">
+                                    <a href="theplug.php">
+                                        <h4>The Plug by DJBooth</h4>
+                                    </a>
+                                    <p>
+                                        Designed an app that highlights all things related to current hip-hop news.
+                                    </p>
+                                </article><!-- .post-body end -->
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">Art Directon, Visual Design, UX, Mobile</li>
+                                    </ul>
+                                </div>
                             </div>
                         </li>
+                        
 
                         <!-- piece -->
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux mobile">
@@ -309,26 +311,24 @@
                             </div>
                         </li>
 
-                       <!-- piece -->
-                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux mobile">
+                        <!-- piece -->
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item motion wip">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="theplug.php"><img src="thumbs/thumbs-theplug.jpg"></a>
-                                </div><!-- .post-media end -->
-
-                                <article class="post-body">
-                                    <a href="theplug.php">
-                                        <h4>The Plug by DJBooth</h4>
+                                    <a href="https://www.instagram.com/p/BRrHaEQDqqc/" target="_blank"><img src="thumbs/thumbs-video-djb.jpg" alt=""/>
+                                        <span class="video-button"><img src="images/play-arrow.svg" alt=""/></span>
                                     </a>
-                                    <p>
-                                        Designed an app that highlights all things related to current hip-hop news.
-                                    </p>
-                                </article><!-- .post-body end -->
-                                <div class="post-footer">
-                                    <ul class="post-meta">
-                                        <li class="post-tags">Art Directon, Visual Design, UX, Mobile</li>
-                                    </ul>
-                                </div>
+                                    <div class="post-meta">
+                                        <div class="post-author">
+                                            <a href="https://www.instagram.com/purenine/">
+                                                <div class="post-author-thumbnail">
+                                                    <img src="https://scontent-ort2-1.cdninstagram.com/t51.2885-19/s320x320/15306595_563354530456041_750007397048647680_a.jpg" alt="">
+                                                </div>
+                                                <p>purenine</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div><!-- .post-media end -->
                             </div>
                         </li>
 
