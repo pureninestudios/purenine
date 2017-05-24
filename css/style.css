@@ -14220,3 +14220,113 @@ table tbody {
             margin-top: 174px !important
         }
     }
+
+/*
+details
+*/
+
+.c-tag {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    color: #BCD325;
+    text-transform: uppercase;
+}
+
+.half-hero {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.half-hero__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    line-height: 64px;
+    letter-spacing: -3.18px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.half-hero__subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    color: #B2B2B2;
+    margin-top: 20px
+}
+
+.detail-content {
+    margin-top: -80px;
+}
+
+.detail-content__image img{
+    margin: 0 auto;
+}
+
+.detail-content__info {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.15px;
+    color: #222;
+    text-align: center;
+}
+
+.detail-content__info p {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+    padding: 0;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.17px;
+    color: #222;
+}
+
+.detail-content__info-tags {
+    list-style: none;
+    margin: 0 0 30px
+    padding: 0;
+    text-align: center;
+}
+
+.detail-content__info-tags li {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    color: #222;
+    padding: 0 10px;
+}
+
+.detail-content__info-tags li:not(:first-child) {
+    border-left: #9E9E9E 2px solid;
+}
+
+.detail-content__info-link {
+    color: #B23813;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.4px;
+    text-decoration: underline;
+}
+
+.detail-images {
+    margin-top: 55px;
+}
+
+.detail-images img {
+    margin: 0 auto;
+}
