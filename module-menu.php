@@ -5,7 +5,7 @@
             <nav class="menu-main-menu-container">
                 <div class="inner-content">
                     <h1>PURENINE is a design studio comprised of a talented team of professionals, founded by <span><a href="https://www.linkedin.com/in/thomasklinger" target="_blank">Thomas Klinger.</a></span></h1>
-                    <h3>Our studio offers a variety of solutions in<span> design, development </span>&amp;<span> mobile applications.</span> We have worked with brands such as <span>Audiomack, NBA </span>and<span> Time Warner</span>  - among others. In addition, Thomas has partnered with <span>@havenagency, @hyfn, @neopangea, @omnigon </span>and<span> @readysetrocket.</span></h3>
+                    <h3>Our studio offers a variety of solutions in<span> design, development </span>&amp;<span> mobile applications.</span> We have worked with brands such as <span>Audiomack, NBA </span>and<span> Time Warner</span>  - among others. In addition, Thomas has partnered with <span>@havenagency, @hyfn, @metajive, @neopangea, @omnigon </span>and<span> @readysetrocket.</span></h3>
                     <h3>Available for new business &amp; freelance projects. Drop us a line at  <a href="mailto:hello@purenine.com">hello@purenine.com</a></h3>
                 </div>
             </nav>
