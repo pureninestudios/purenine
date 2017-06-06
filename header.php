@@ -22,7 +22,7 @@
 
         <!-- Google Web fonts -->
         <link href='https://fonts.googleapis.com/css?family=Poppins:300,400,500,700%7CPlayfair+Display:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800|Open+Sans:400,700" rel="stylesheet">
 
         <!-- Main stylesheet -->
         <link rel="stylesheet" href="css/style.css"/><!-- template styles -->

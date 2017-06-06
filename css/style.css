@@ -10404,7 +10404,7 @@ ul#filters {
     text-decoration: underline;
 }
 .blog-details .post-body h1 {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 90px;
     line-height: 90px;
     margin-bottom: 15px;
@@ -13058,14 +13058,14 @@ table tbody {
     font-size: 34vw;
     color: #f2f2f2;
     position: absolute;
-    font-weight: 800;
+    font-weight: 600;
     text-transform: uppercase;
     z-index: 1;
 }
 
 .hero-title {
     font-size: 42px;
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: -2.5px;
     line-height: 43px;
     margin: 0 0 25px;
@@ -13505,7 +13505,7 @@ table tbody {
     transform: translateY(-50%);
     margin: 0;
     line-height: 500px;
-    font-weight: 800;
+    font-weight: 600;
     width: 100%;
     text-align: center;
     height: 500px;
@@ -13708,7 +13708,7 @@ table tbody {
     line-height: 54px;
     letter-spacing: -2.5px;
     color: #000;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 30px;
 }
 
@@ -14253,7 +14253,7 @@ details
     font-size: 70px;
     line-height: 64px;
     letter-spacing: -3.18px;
-    font-weight: 700;
+    font-weight: 600;
     color: #fff;
     margin-top: 20px;
 }
