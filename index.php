@@ -21,10 +21,10 @@
                     </div><!-- .hero-content -->
                     <?php
                         $heroImages = array(  
-                            array('top-image-twitch.jpg', 'twitch.php'),
-                            array('top-image-pga.jpg', 'pgatour.php'),
-                            array('top-image-natgeo.jpg', 'explorer.php'),
-                            array('top-image-epicured.jpg', 'https://www.instagram.com/p/BSM1zBthXDR'),
+                            array('top-image-twitch.jpg', 'twitch'),
+                            array('top-image-pga.jpg', 'pgatour'),
+                            array('top-image-natgeo.jpg', 'explorer'),
+                            array('top-image-epicured.jpg', 'epicured'),
                             array('top-image-metajive.jpg', 'http://metajive.com/insights/company/clean-partnership'),
                             array('top-image-nba.jpg', 'http://www.adweek.com/agencies/ready-set-rocket-is-helping-brands-find-their-place-in-the-digital-space/'),
                         );
@@ -94,18 +94,18 @@
                         </li>
 
                          <!-- piece -->
-                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux wip">
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
                                     <a href="https://www.instagram.com/p/BSM1zBthXDR/?taken-by=purenine" target="_blank"><img src="thumbs/thumbs-epicured.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
-                                    <a href="https://www.instagram.com/p/BSM1zBthXDR/?taken-by=purenine" target="_blank">
+                                    <a href="epicured" target="_blank">
                                         <h4>GetEpicured.com</h4>
                                     </a>
                                     <p>
-                                       Excited to partner with #epicured on an enhanced user experience. #comingsoon #ux #design #agency
+                                       Partnered with #epicured on an enhanced user experience. #ux #design #agency
                                     </p>
                                 </article><!-- .post-body end -->
                                 <div class="post-footer">
@@ -140,7 +140,7 @@
                         
 
                         <!-- piece -->
-                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux mobile">
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design mobile">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
                                     <a href="explorer.php"><img src="thumbs/thumbs-natgeo.jpg"></a>

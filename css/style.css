@@ -14289,7 +14289,7 @@ details
     font-family: 'Playfair Display', serif;
     margin-bottom: 40px;
     padding: 0;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 32px;
     letter-spacing: -0.17px;
     color: #222;
@@ -14304,7 +14304,7 @@ details
 
 .detail-content__info-tags li {
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.5px;
     color: #222;
@@ -14312,7 +14312,7 @@ details
 }
 
 .detail-content__info-tags li:not(:first-child) {
-    border-left: #9E9E9E 2px solid;
+    border-left: #eaeaea 1px solid;
 }
 
 .detail-content__info-link {
