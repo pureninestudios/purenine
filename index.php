@@ -69,6 +69,29 @@
                     <ul id="blog-masonry" class="blog-posts">
                         <li class="grid-sizer col-lg-3 col-md-4 col-sm-6 col-xs-12"></li>
 
+                        <!-- piece -->
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design mobile">
+                            <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="http://www.adweek.com/agencies/ready-set-rocket-is-helping-brands-find-their-place-in-the-digital-space/" target="_blank"><img src="thumbs/thumbs-nba.jpg"></a>
+                                </div><!-- .post-media end -->
+
+                                <article class="post-body">
+                                    <a href="http://www.adweek.com/agencies/ready-set-rocket-is-helping-brands-find-their-place-in-the-digital-space/" target="_blank">
+                                        <h4>NBA.com</h4>
+                                    </a>
+                                    <p>
+                                       Worked with the team at Ready Set Rocket and the #NBA on a variety of digital products. Contact for us for details.
+                                    </p>
+                                </article><!-- .post-body end -->.
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">UX, Visual Design, Mobile, App</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
 
                         <!-- piece -->
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux wip">
@@ -101,7 +124,7 @@
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
-                                    <a href="epicured" target="_blank">
+                                    <a href="epicured">
                                         <h4>GetEpicured.com</h4>
                                     </a>
                                     <p>
