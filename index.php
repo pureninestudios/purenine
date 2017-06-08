@@ -81,7 +81,7 @@
                                         <h4>NBA.com</h4>
                                     </a>
                                     <p>
-                                       Worked with the team at Ready Set Rocket and the #NBA on a variety of digital products. Contact for us for details.
+                                       Worked with the team at Ready Set Rocket and the #NBA on a variety of digital products. Contact us for details.
                                     </p>
                                 </article><!-- .post-body end -->.
                                 <div class="post-footer">
