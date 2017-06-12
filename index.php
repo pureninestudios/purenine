@@ -22,6 +22,7 @@
                     <?php
                         $heroImages = array(  
                             array('top-image-twitch.jpg', 'twitch'),
+                            array('top-image-ultracast.jpg', 'http://www.ultracast.com'),
                             array('top-image-pga.jpg', 'pgatour'),
                             array('top-image-natgeo.jpg', 'explorer'),
                             array('top-image-epicured.jpg', 'epicured'),
