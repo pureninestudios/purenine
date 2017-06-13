@@ -22,7 +22,7 @@
                     <?php
                         $heroImages = array(  
                             array('top-image-twitch.jpg', 'twitch'),
-                            array('top-image-ultracast.jpg', 'http://www.ultracast.com'),
+                            array('top-image-ultracast.jpg', 'https://www.instagram.com/p/BVQodWzh-cX/?taken-by=purenine'),
                             array('top-image-pga.jpg', 'pgatour'),
                             array('top-image-natgeo.jpg', 'explorer'),
                             array('top-image-epicured.jpg', 'epicured'),
@@ -71,6 +71,29 @@
                         <li class="grid-sizer col-lg-3 col-md-4 col-sm-6 col-xs-12"></li>
 
                         <!-- piece -->
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design wip ux">
+                            <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="https://www.instagram.com/p/BVQodWzh-cX/?taken-by=purenine" target="_blank"><img src="thumbs/thumbs-ultracast.jpg"></a>
+                                </div><!-- .post-media end -->
+
+                                <article class="post-body">
+                                    <a href="https://www.instagram.com/p/BVQodWzh-cX/?taken-by=purenine">
+                                        <h4>Ultracast</h4>
+                                    </a>
+                                    <p>
+                                       Creating an interactive experience from desktop to mobile with #Omnigon for #Ultracast.
+                                    </p>
+                                </article><!-- .post-body end -->
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">UX, UI, Visual Design,</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- piece -->
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design mobile">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
@@ -84,7 +107,7 @@
                                     <p>
                                        Partnered with #readysetrocket to design digital products for the NBA. Contact us for details.
                                     </p>
-                                </article><!-- .post-body end -->.
+                                </article><!-- .post-body end -->
                                 <div class="post-footer">
                                     <ul class="post-meta">
                                         <li class="post-tags">UX, Visual Design, Mobile, App</li>
