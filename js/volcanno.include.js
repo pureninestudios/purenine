@@ -1285,7 +1285,7 @@ $(document).ready(function() {
 
     }
 
-    if (navigator.userAgent.search("Safari")) {
+    if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) {
         $('body').addClass('safari');
     }
 
