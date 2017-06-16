@@ -36,6 +36,19 @@
                 <img src="portfolio/details-epicured-2.jpg" alt="" />
             </div>
         </div>
+        <div class="detail__screenshots">
+            <div class="container">
+                <img src="portfolio/details-epicured-3.jpg" alt="" />
+            </div>
+        </div>
+        <div class="detail__screenshots">
+            <div class="container">
+                <img src="portfolio/details-epicured-4.jpg" alt="" />
+            </div>
+        </div>
+        <div class="detail__images">
+            <img src="portfolio/details-epicured-5.jpg" alt="" />
+        </div>
     </div>
 
 <?php include('footer.php'); ?>
