@@ -13037,6 +13037,12 @@ table tbody {
     transform: translateY(30px);
 }
 
+.safari .hero-content {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
 @media screen and (max-width: 768px) {
     .active .hero-content {
         opacity: 1;

@@ -1285,6 +1285,10 @@ $(document).ready(function() {
 
     }
 
+    if (navigator.userAgent.search("Safari")) {
+        $('body').addClass('safari');
+    }
+
     $(window).on('scroll', function() {
         changeHeader();
     }).scroll();
@@ -1299,6 +1303,7 @@ $( window ).load(function() {
 	    $('.loader-bg-text').text(Math.round(this.property));
 	    }
 	});
+
 
     $('body').addClass('all-loaded');
 
