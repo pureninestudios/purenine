@@ -144,7 +144,7 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="https://www.instagram.com/p/BSM1zBthXDR/?taken-by=purenine" target="_blank"><img src="thumbs/thumbs-epicured.jpg"></a>
+                                    <a href="epicured"><img src="thumbs/thumbs-epicured.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
