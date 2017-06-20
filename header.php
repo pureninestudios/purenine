@@ -32,7 +32,7 @@
 <?php
     $current = basename($_SERVER['REQUEST_URI']);
     // If is empty assume it's homepage
-    if ($current == '' || $current == 'index.php' || $current == 'details2.php') {
+    if ($current == '' || $current == 'index.php' || $current == 'epicured.php') {
         $klass = 'header-wrapper header-wrapper--home hamburger-menu hamburger-menu-dark';
     } else {
         $klass = 'header-wrapper header-wrapper--inner hamburger-menu hamburger-menu-dark header-transparent';
@@ -60,7 +60,7 @@
                                         <div class="logo">
                                             <a href="http://www.purenine.com">
                                                 <span class="icon-container logo-dark">
-                                                    <?php if ($current == '' || $current == 'index.php' || $current = 'details2.php') : ?>
+                                                    <?php if ($current == '' || $current == 'index.php' || $current = 'epicured.php') : ?>
                                                         <img class="svg-black" src="images/logo-dark.svg" alt=""/>
                                                     <?php else : ?>
                                                         <img class="svg-black" src="images/logo-white.svg" alt=""/>
