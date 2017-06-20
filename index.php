@@ -16,7 +16,7 @@
                         <div class="hero-content-inner">
                             <h1 class="hero-title">Product Design. UX/UI. Advisor. Investor through Design.</h1>
                             <h2 class="hero-subtitle">PURENINE is the design collective of Thomas Klinger.</h2>
-                            <a class="p9-button p9-button-pill" href="mailto:hello@purenine.com">Drop us a line</a>
+                            <a class="p9-button p9-button-pill" href="mailto:hello@purenine.com">Let's work together</a>
                         </div>
                     </div><!-- .hero-content -->
                     <?php

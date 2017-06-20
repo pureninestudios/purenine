@@ -1,7 +1,7 @@
 <div class="available">
     <div class="available__inner">
         <h3>Available for new business <br/>&amp; freelance projects.</h3>
-        <a class="button button--pill" href="mailto:hello@purenine.com">Drop us a line</a>
+        <a class="button button--pill" href="mailto:hello@purenine.com">Let's work together</a>
     </div>
 </div>
 
