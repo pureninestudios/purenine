@@ -139,7 +139,29 @@
                                 </div>
                             </div>
                         </li>
+                          <!-- piece -->
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design mobile">
+                            <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="audiomack.php"><img src="thumbs/thumbs-am-app.jpg"></a>
+                                </div><!-- .post-media end -->
 
+                                <article class="post-body">
+
+                                    <a href="audiomack.php">
+                                        <h4>Audiomack</h4>
+                                    </a>
+                                    <p>
+                                        Created the new Audiomack.com, as well as the iOS and Android apps.
+                                    </p>
+                                </article><!-- .post-body end -->
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">Visual Design, UX, Mobile App</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
                          <!-- piece -->
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
@@ -281,30 +303,6 @@
                                 <div class="post-footer">
                                     <ul class="post-meta">
                                         <li class="post-tags">Visual Design, UX</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-
-                        <!-- piece -->
-                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design mobile">
-                            <div class="blog-post-item-inner">
-                                <div class="post-media">
-                                    <a href="audiomack-app.php"><img src="thumbs/thumbs-am-app.jpg"></a>
-                                </div><!-- .post-media end -->
-
-                                <article class="post-body">
-
-                                    <a href="audiomack-app.php">
-                                        <h4>Audiomack App</h4>
-                                    </a>
-                                    <p>
-                                        Designed an app that provides athletes with a platform to connect directly with their fans.
-                                    </p>
-                                </article><!-- .post-body end -->
-                                <div class="post-footer">
-                                    <ul class="post-meta">
-                                        <li class="post-tags">Visual Design, UX, Mobile App</li>
                                     </ul>
                                 </div>
                             </div>

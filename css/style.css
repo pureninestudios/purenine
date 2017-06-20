@@ -14374,7 +14374,7 @@ Details 2
 .detail__content-title {
     font-family: 'Playfair Display', serif;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 45px;
     letter-spacing: -0.25px;
 }
 
@@ -14398,7 +14398,7 @@ Details 2
     color: #BCD325;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 24px;
     text-transform: uppercase;
 }
@@ -14407,7 +14407,7 @@ Details 2
     font-size: 15px;
     line-height: 28px;
     letter-spacing: -0.4px;
-    color: #9B9B9B;
+    color: #777;
 }
 
 .detail__images img {
