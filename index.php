@@ -379,21 +379,6 @@
                                 </div><!-- .post-media end -->
                             </div>
                         </li>
-
-                        <!-- piece -->
-                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 quote-post isotope-item">
-                            <div class="blog-post-item-inner">
-                                <article class="post-body">
-                                    <div class="post-date">
-                                        <span>Inspiration</span>
-                                    </div><!-- .post-meta end -->
-                                    <blockquote class="blockquote">
-                                        <p>"If you're romantic about doing things how they've always been done... Your going to lose."</p>
-                                        <p class="cite">Gary Vaynerchuck</p>
-                                    </blockquote>
-                                </article><!-- .post-body end -->
-                            </div>
-                        </li>
                                                 <!-- piece -->
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
@@ -467,11 +452,11 @@
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux dev">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="djbooth.php"><img src="thumbs/thumbs-djbooth.jpg"></a>
+                                    <a href="https://www.behance.net/gallery/53990335/DJBoothnet" target="_blank"><img src="thumbs/thumbs-djbooth.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
-                                    <a href="djbooth.php">
+                                    <a href="https://www.behance.net/gallery/53990335/DJBoothnet" target="_blank">
                                         <h4>The new DJBooth.net</h4>
                                     </a>
                                     <p>
