@@ -1,4 +1,7 @@
-<?php include('header.php'); ?>
+<?php
+    $template = 'details2';
+    include('header.php');
+?>
 
     <div class="page-content detail">
         <div class="detail__content">
@@ -49,7 +52,7 @@
                 <img src="portfolio/details-epicured-4.jpg" alt="" />
             </div>
         </div>
-        
+
     </div>
 
 <?php include('footer.php'); ?>
