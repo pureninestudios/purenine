@@ -1271,18 +1271,19 @@ $(document).ready(function() {
 
         $header = $('.header-wrapper');
         $content = $('.page-content--main');
-        contentOffset = $content.offset().top;
-        scrollPos = $(window).scrollTop();
-        switchClass = 'header-wrapper--switch';
+        if ($content.length > 0) {
+            contentOffset = $content.offset().top;
+            scrollPos = $(window).scrollTop();
+            switchClass = 'header-wrapper--switch';
 
-        if (scrollPos >= contentOffset + 100) {
-            $header.addClass(switchClass);
-        } else {
-            $header.removeClass(switchClass);
+            if (scrollPos >= contentOffset + 100) {
+                $header.addClass(switchClass);
+            } else {
+                $header.removeClass(switchClass);
+            }
+
+            console.log(scrollPos);
         }
-
-        console.log(scrollPos);
-
     }
 
     function stickyNav() {
@@ -1305,15 +1306,14 @@ $(document).ready(function() {
     }
 
     $(window).on('scroll', function() {
-        //changeHeader();
+        changeHeader();
     }).scroll();
 
+    // Sticky filter
     var el = $('#slide-to-next-section');
     var elOffset = el.offset().top;
     $(window).on('scroll', function() {
         var scrollPos = $(window).scrollTop();
-
-
         console.log(scrollPos, elOffset)
 
         if (scrollPos >= elOffset) {

@@ -1,4 +1,6 @@
-<?php include('header.php'); ?>
+<?php
+$template = 'homepage';
+include('header.php'); ?>
     <?php
         $current = basename($_SERVER['REQUEST_URI']);
         $klass = '';
@@ -20,7 +22,7 @@
                         </div>
                     </div><!-- .hero-content -->
                     <?php
-                        $heroImages = array(  
+                        $heroImages = array(
                             array('top-image-twitch.jpg', 'twitch'),
                             array('top-image-ultracast.jpg', 'https://www.instagram.com/p/BVQodWzh-cX/?taken-by=purenine'),
                             array('top-image-pga.jpg', 'pgatour'),
@@ -206,7 +208,7 @@
                                 </div>
                             </div>
                         </li>
-                        
+
 
                         <!-- piece -->
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design mobile">

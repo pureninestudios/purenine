@@ -31,9 +31,6 @@
 
 <?php
     $current = basename($_SERVER['REQUEST_URI']);
-    if (empty($template)) {
-        $template = '';
-    }
     $template = $template;
     // If is empty assume it's homepage
     if ($current == '' || $current == 'index.php' || $template == 'details2') {
