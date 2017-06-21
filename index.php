@@ -1,5 +1,6 @@
 <?php
 $template = 'homepage';
+$root = '';
 include('header.php'); ?>
     <?php
         $current = basename($_SERVER['REQUEST_URI']);

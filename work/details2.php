@@ -1,4 +1,8 @@
-<?php include('../header.php'); ?>
+<?php
+    $template = 'details2';
+    $root = '../';
+    include('../header.php');
+?>
 
     <div class="page-content detail">
         <div class="detail__content">
@@ -29,25 +33,25 @@
             </div>
         </div>
         <div class="detail__images">
-            <img src="portfolio/details-epicured-1.jpg" alt="epicured" />
+            <img src="../portfolio/details-epicured-1.jpg" alt="epicured" />
         </div>
         <div class="detail__screenshots">
             <div class="container">
-                <img src="portfolio/details-epicured-2.jpg" alt="" />
+                <img src="../portfolio/details-epicured-2.jpg" alt="" />
             </div>
         </div>
         <div class="detail__screenshots">
             <div class="container">
-                <img src="portfolio/details-epicured-3.jpg" alt="" />
+                <img src="../portfolio/details-epicured-3.jpg" alt="" />
             </div>
         </div>
         <div class="detail__screenshots">
             <div class="container">
-                <img src="portfolio/details-epicured-4.jpg" alt="" />
+                <img src="../portfolio/details-epicured-4.jpg" alt="" />
             </div>
         </div>
         <div class="detail__images">
-            <img src="portfolio/details-epicured-5.jpg" alt="" />
+            <img src="../portfolio/details-epicured-5.jpg" alt="" />
         </div>
     </div>
 
@@ -60,8 +64,8 @@
 
 <script src="../sharrre/jquery.sharrre-1.3.4.min.js"></script><!-- Sharrre post plugin -->
 <script type="text/javascript" src="../js/jquery.fatNav.js"></script><!-- hamburger menu js -->
-<script src="js/jquery-retina.js"></script><!-- retina -->
-<script src="js/volcanno.include.js"></script><!-- custom js functions -->
+<script src="../js/jquery-retina.js"></script><!-- retina -->
+<script src="../js/volcanno.include.js"></script><!-- custom js functions -->
 
 </body>
 </html>

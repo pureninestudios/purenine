@@ -1,5 +1,6 @@
 <?php
-    $template = '../details2';
+    $template = 'details2';
+    $root = '../';
     include('../header.php');
 ?>
 
@@ -32,47 +33,47 @@
             </div>
         </div>
         <div class="detail__images">
-            <img src="portfolio/details-pga-6.jpg" alt="" />
+            <img src="../portfolio/details-pga-6.jpg" alt="" />
         </div>
         <div class="detail__screenshots">
             <div class="container">
-                <img src="portfolio/details-pga-1.jpg" alt="" />
+                <img src="../portfolio/details-pga-1.jpg" alt="" />
             </div>
         </div>
         <div class="detail__screenshots">
             <div class="container">
-                <img src="portfolio/details-pga-2.jpg" alt="" />
+                <img src="../portfolio/details-pga-2.jpg" alt="" />
             </div>
         </div>
         <div class="detail__screenshots">
             <div class="container">
-                <img src="portfolio/details-pga-3.jpg" alt="" />
+                <img src="../portfolio/details-pga-3.jpg" alt="" />
             </div>
         </div>
         <div class="detail__screenshots">
             <div class="container">
-                <img src="portfolio/details-pga-4.jpg" alt="" />
+                <img src="../portfolio/details-pga-4.jpg" alt="" />
             </div>
         </div>
         <div class="detail__screenshots">
             <div class="container">
-                <img src="portfolio/details-pga-5.jpg" alt="" />
+                <img src="../portfolio/details-pga-5.jpg" alt="" />
             </div>
         </div>
     </div>
 
 <?php include('../footer.php'); ?>
 
-<script src="js/jquery-2.1.4.min.js"></script><!-- jQuery library -->
-<script src="bootstrap/js/bootstrap.min.js"></script><!-- .bootstrap script -->
-<script src="js/jquery.scripts.min.js"></script><!-- modernizr -->
+<script src="../js/jquery-2.1.4.min.js"></script><!-- jQuery library -->
+<script src="../bootstrap/js/bootstrap.min.js"></script><!-- .bootstrap script -->
+<script src="../js/jquery.scripts.min.js"></script><!-- modernizr -->
 
 
-<script src="sharrre/jquery.sharrre-1.3.4.min.js"></script><!-- Sharrre post plugin -->
-<script type="text/javascript" src="js/jquery.fatNav.js"></script><!-- hamburger menu js -->
+<script src="../sharrre/jquery.sharrre-1.3.4.min.js"></script><!-- Sharrre post plugin -->
+<script type="text/javascript" src="../js/jquery.fatNav.js"></script><!-- hamburger menu js -->
 <script src='https://www.google.com/recaptcha/api.js'></script> <!-- Contact form recaptcha -->
-<script src="js/jquery-retina.js"></script><!-- retina -->
-<script src="js/volcanno.include.js"></script><!-- custom js functions -->
+<script src="../js/jquery-retina.js"></script><!-- retina -->
+<script src="../js/volcanno.include.js"></script><!-- custom js functions -->
 
 </body>
 </html>

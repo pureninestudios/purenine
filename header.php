@@ -1,3 +1,7 @@
+<?php
+    $root = $root;
+?>
+
 <!DOCTYPE html>
 
 <html>
@@ -10,12 +14,12 @@
         <link rel="shortcut icon" href="images/fav-icon.jpg"/>
 
         <!-- Stylesheets -->
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/><!-- bootstrap grid -->
-        <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css"/><!-- bootstrap theme -->
-        <link rel="stylesheet" href="css/font-awesome.min.css"/><!-- retina ready styles -->
-        <link rel="stylesheet" href="css/retina.css"/><!-- retina ready styles -->
-        <link rel="stylesheet" href="css/animate.css"/><!-- animation for content -->
-        <link rel="stylesheet" href="css/colors-header.css"/><!-- header styles -->
+        <link rel="stylesheet" href="<?php echo $root; ?>bootstrap/css/bootstrap.min.css"/><!-- bootstrap grid -->
+        <link rel="stylesheet" href="<?php echo $root; ?>bootstrap/css/bootstrap-theme.min.css"/><!-- bootstrap theme -->
+        <link rel="stylesheet" href="<?php echo $root; ?>css/font-awesome.min.css"/><!-- retina ready styles -->
+        <link rel="stylesheet" href="<?php echo $root; ?>css/retina.css"/><!-- retina ready styles -->
+        <link rel="stylesheet" href="<?php echo $root; ?>css/animate.css"/><!-- animation for content -->
+        <link rel="stylesheet" href="<?php echo $root; ?>css/colors-header.css"/><!-- header styles -->
 
 
         <!-- Google Web fonts -->
@@ -23,8 +27,8 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800|Open+Sans:400,700" rel="stylesheet">
 
         <!-- Main stylesheet -->
-        <link rel="stylesheet" href="css/style.css"/><!-- template styles -->
-        <link rel="stylesheet" href="css/responsive.css"/><!-- responsive styles -->
+        <link rel="stylesheet" href="<?php echo $root; ?>css/style.css"/><!-- template styles -->
+        <link rel="stylesheet" href="<?php echo $root; ?>css/responsive.css"/><!-- responsive styles -->
     </head>
 
 <?php
@@ -60,9 +64,9 @@
                                             <a href="http://www.purenine.com">
                                                 <span class="icon-container logo-dark">
                                                     <?php if ($current == '' || $current == 'index.php' || $template = 'details2') : ?>
-                                                        <img class="svg-black" src="images/logo-dark.svg" alt=""/>
+                                                        <img class="svg-black" src="<?php echo $root; ?>images/logo-dark.svg" alt=""/>
                                                     <?php else : ?>
-                                                        <img class="svg-black" src="images/logo-white.svg" alt=""/>
+                                                        <img class="svg-black" src="<?php echo $root; ?>images/logo-white.svg" alt=""/>
                                                     <?php endif; ?>
                                                 </span>
                                             </a>
