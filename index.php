@@ -146,12 +146,12 @@ include('header.php'); ?>
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design mobile">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="/work/audiomack.php"><img src="thumbs/thumbs-am-app.jpg"></a>
+                                    <a href="/work/audiomack"><img src="thumbs/thumbs-am-app.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
 
-                                    <a href="/work/audiomack.php">
+                                    <a href="/work/audiomack">
                                         <h4>Audiomack</h4>
                                     </a>
                                     <p>
@@ -169,11 +169,11 @@ include('header.php'); ?>
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="/work/epicured.php"><img src="thumbs/thumbs-epicured.jpg"></a>
+                                    <a href="epicured"><img src="thumbs/thumbs-epicured.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
-                                    <a href="/work/epicured.php">
+                                    <a href="epicured">
                                         <h4>GetEpicured.com</h4>
                                     </a>
                                     <p>
@@ -191,11 +191,11 @@ include('header.php'); ?>
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux mobile">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="/work/theplug.php"><img src="thumbs/thumbs-theplug.jpg"></a>
+                                    <a href="theplug.php"><img src="thumbs/thumbs-theplug.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
-                                    <a href="/work/theplug.php">
+                                    <a href="theplug.php">
                                         <h4>The Plug by DJBooth</h4>
                                     </a>
                                     <p>
@@ -215,14 +215,14 @@ include('header.php'); ?>
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design mobile">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="/work/explorer.php"><img src="thumbs/thumbs-natgeo.jpg"></a>
+                                    <a href="explorer.php"><img src="thumbs/thumbs-natgeo.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
                                     <div class="post-date">
                                         <span>Neo-Pangea</span>
                                     </div><!-- .post-meta end -->
-                                    <a href="/work/explorer.php">
+                                    <a href="explorer.php">
                                         <h4>National Geographic - Explorer Minisite</h4>
                                     </a>
                                     <p>
@@ -240,14 +240,14 @@ include('header.php'); ?>
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design mobile">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="/work/playerstribune.php"><img src="thumbs/thumbs-playerstribune.jpg"></a>
+                                    <a href="playerstribune.php"><img src="thumbs/thumbs-playerstribune.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
                                     <div class="post-date">
                                         <span>HYFN</span>
                                     </div><!-- .post-meta end -->
-                                    <a href="/work/playerstribune.php">
+                                    <a href="playerstribune.php">
                                         <h4>The Players Tribune</h4>
                                     </a>
                                     <p>
@@ -289,14 +289,14 @@ include('header.php'); ?>
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux dev">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="/work/twitch.php"><img src="thumbs/thumbs-twitch.jpg"></a>
+                                    <a href="twitch.php"><img src="thumbs/thumbs-twitch.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
                                     <div class="post-date">
                                         <span>EA Sports</span>
                                     </div><!-- .post-meta end -->
-                                    <a href="/work/twitch.php">
+                                    <a href="twitch.php">
                                         <h4>Madden Live Challenge</h4>
                                     </a>
                                     <p>
@@ -315,14 +315,14 @@ include('header.php'); ?>
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design mobile">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="/work/pgatour.php"><img src="thumbs/thumbs-pga-ipad.jpg"></a>
+                                    <a href="pgatour.php"><img src="thumbs/thumbs-pga-ipad.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
                                     <div class="post-date">
                                         <span>Omnigon</span>
                                     </div><!-- .post-meta end -->
-                                    <a href="/work/pgatour.php">
+                                    <a href="pgatour.php">
                                         <h4>PGA Tour iPad App</h4>
                                     </a>
                                     <p>
@@ -384,14 +384,14 @@ include('header.php'); ?>
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="/work/pgatour.php"><img src="thumbs/thumbs-pga-desktop.jpg"></a>
+                                    <a href="pgatour.php"><img src="thumbs/thumbs-pga-desktop.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
                                     <div class="post-date">
                                         <span>Omnigon</span>
                                     </div><!-- .post-meta end -->
-                                    <a href="/work/pgatour.php">
+                                    <a href="pgatour.php">
                                         <h4>PGATour.com</h4>
                                     </a>
                                     <p>
