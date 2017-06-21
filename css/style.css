@@ -14433,3 +14433,34 @@ Details 2
 .detail__screenshots .container {
     max-width: 1030px;
 }
+
+#slide-to-next-section {
+    background: #fff;
+    width: 100%;
+    max-width: 100%;
+    height: 70px;
+    margin: 60px auto 40px;
+    padding: 25px!important;
+    text-align: center;
+    z-index: 100;
+}
+
+#slide-to-next-section.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 0!important;
+}
+
+#slide-to-next-section.fixed + .page-content {
+    padding-top: 190px !important;
+}
+
+#slide-to-next-section #filters {
+    margin: 0!important;
+}
+
+#slide-to-next-section #filters li {
+    float: none;
+    display: inline-block;
+}

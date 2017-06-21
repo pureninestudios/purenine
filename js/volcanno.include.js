@@ -1285,13 +1285,43 @@ $(document).ready(function() {
 
     }
 
+    function stickyNav() {
+        var el = $('#slide-to-next-section');
+        var elOffset = el.offset().top;
+        var scrollPos = $(window).scrollTop();
+
+
+        console.log(scrollPos, elOffset)
+
+        if (scrollPos >= elOffset) {
+            el.addClass('fixed');
+        } else {
+            el.removeClass('fixed');
+        }
+    }
+
     if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) {
         $('body').addClass('safari');
     }
 
     $(window).on('scroll', function() {
-        changeHeader();
+        //changeHeader();
     }).scroll();
+
+    var el = $('#slide-to-next-section');
+    var elOffset = el.offset().top;
+    $(window).on('scroll', function() {
+        var scrollPos = $(window).scrollTop();
+
+
+        console.log(scrollPos, elOffset)
+
+        if (scrollPos >= elOffset) {
+            el.addClass('fixed');
+        } else {
+            el.removeClass('fixed');
+        }
+    });
 });
 
 $( window ).load(function() {
