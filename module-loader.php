@@ -5,7 +5,7 @@
         <span class="loader-bg-text">0</span>
 
         <div class="p9-loader__logo">
-            <img src="img/p9-logo-green.png" alt="purenine">
+            <img src="images/p9-logo-green.png" alt="purenine">
         </div>
 
     </div>

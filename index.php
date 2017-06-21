@@ -145,12 +145,12 @@ include('header.php'); ?>
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design mobile">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="audiomack.php"><img src="thumbs/thumbs-am-app.jpg"></a>
+                                    <a href="/work/audiomack"><img src="thumbs/thumbs-am-app.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
 
-                                    <a href="audiomack.php">
+                                    <a href="/work/audiomack">
                                         <h4>Audiomack</h4>
                                     </a>
                                     <p>

@@ -5,7 +5,6 @@
         <meta charset="utf-8">
         <title>PURENINE | The design studio of Thomas Klinger</title>
         <meta name="description" content="PURENINE | The design studio of Thomas Klinger">
-        <meta name="author" content="pixel-industry">
         <meta name="keywords" content="PURENINE | The design studio of Thomas Klinger">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="images/fav-icon.jpg"/>
@@ -14,7 +13,6 @@
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/><!-- bootstrap grid -->
         <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css"/><!-- bootstrap theme -->
         <link rel="stylesheet" href="css/font-awesome.min.css"/><!-- retina ready styles -->
-        <link rel="stylesheet" href="css/color-blue.css"/><!-- blue template color styles -->
         <link rel="stylesheet" href="css/retina.css"/><!-- retina ready styles -->
         <link rel="stylesheet" href="css/animate.css"/><!-- animation for content -->
         <link rel="stylesheet" href="css/colors-header.css"/><!-- header styles -->
