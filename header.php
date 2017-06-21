@@ -44,7 +44,7 @@
 
     <body>
 
-        <?php include('module-loader.php'); ?>
+        <?php //include('module-loader.php'); ?>
         <?php include('module-menu.php'); ?>
 
         <div class="<?php echo $klass; ?>">
