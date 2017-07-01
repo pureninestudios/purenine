@@ -19,7 +19,7 @@
         <link rel="stylesheet" href="<?php echo $root; ?>css/font-awesome.min.css"/><!-- retina ready styles -->
         <link rel="stylesheet" href="<?php echo $root; ?>css/retina.css"/><!-- retina ready styles -->
         <link rel="stylesheet" href="<?php echo $root; ?>css/animate.css"/><!-- animation for content -->
-        <link rel="stylesheet" href="<?php echo $root; ?>css/colors-header.css"/><!-- header styles -->
+
 
 
         <!-- Google Web fonts -->
@@ -44,7 +44,7 @@
 
     <body>
 
-        <?php //include('module-loader.php'); ?>
+        <?php include('module-loader.php'); ?>
         <?php include('module-menu.php'); ?>
 
         <div class="<?php echo $klass; ?>">
