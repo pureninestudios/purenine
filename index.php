@@ -29,7 +29,7 @@ include('header.php'); ?>
                             array('top-image-pga.jpg', '/work/pgatour'),
                             array('top-image-natgeo.jpg', '/work/explorer'),
                             array('top-image-epicured.jpg', '/work/epicured'),
-                            array('top-image-mars.jpg', 'http://www.neo-pangea.com/portfolio/national-geographic-channel/make-mars-home.html'),
+                            array('top-image-mars.jpg', '/work/mars'),
                             array('top-image-nba.jpg', 'http://www.adweek.com/agencies/ready-set-rocket-is-helping-brands-find-their-place-in-the-digital-space/'),
                         );
                         shuffle($heroImages);
@@ -95,7 +95,29 @@ include('header.php'); ?>
                                 </div>
                             </div>
                         </li>
+                         <!-- piece -->
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design">
+                            <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="/work/mars"><img src="thumbs/thumbs-mars.jpg"></a>
+                                </div><!-- .post-media end -->
 
+                                <article class="post-body">
+
+                                    <a href="/work/mars">
+                                        <h4>Make Mars Home</h4>
+                                    </a>
+                                    <p>
+                                        Designed multiple UI screens and backgrounds - in collaboration with Neo-Pangea.
+                                    </p>
+                                </article><!-- .post-body end -->
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">Visual Design, UI, Production</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
                         <!-- piece -->
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design mobile">
                             <div class="blog-post-item-inner">
