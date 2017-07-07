@@ -108,7 +108,7 @@ include('header.php'); ?>
                                         <h4>NBA.com</h4>
                                     </a>
                                     <p>
-                                       Partnered with #readysetrocket to design digital products for the NBA. Contact us for details.
+                                       Partnered with #readysetrocket to design digital products for the NBA. Contact for more details.
                                     </p>
                                 </article><!-- .post-body end -->
                                 <div class="post-footer">
