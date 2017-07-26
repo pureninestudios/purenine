@@ -81,6 +81,9 @@ include('header.php'); ?>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
+                                    <div class="post-date">
+                                        <span>Omnigon</span>
+                                    </div><!-- .post-meta end -->
                                     <a href="https://www.instagram.com/p/BVQodWzh-cX/?taken-by=purenine">
                                         <h4>Ultracast</h4>
                                     </a>
@@ -103,7 +106,9 @@ include('header.php'); ?>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
-
+                                    <div class="post-date">
+                                        <span>Neo-Pangea</span>
+                                    </div><!-- .post-meta end -->
                                     <a href="/work/mars">
                                         <h4>Make Mars Home</h4>
                                     </a>
@@ -126,6 +131,9 @@ include('header.php'); ?>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
+                                <div class="post-date">
+                                        <span>ReadySetRocket</span>
+                                    </div><!-- .post-meta end -->
                                     <a href="http://www.adweek.com/agencies/ready-set-rocket-is-helping-brands-find-their-place-in-the-digital-space/" target="_blank">
                                         <h4>NBA.com</h4>
                                     </a>
@@ -150,6 +158,9 @@ include('header.php'); ?>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
+                                <div class="post-date">
+                                        <span>Omnigon</span>
+                                    </div><!-- .post-meta end -->
                                     <a href="https://www.instagram.com/p/BT5EpikheE8" target="_blank">
                                         <h4>ProSuite by Omnigon</h4>
                                     </a>
