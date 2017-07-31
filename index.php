@@ -24,11 +24,7 @@ include('header.php'); ?>
                     </div><!-- .hero-content -->
                     <?php
                         $heroImages = array(
-                            array('top-image-twitch.jpg', '/work/twitch'),
-                            array('top-image-ultracast.jpg', 'https://www.instagram.com/p/BVQodWzh-cX/?taken-by=purenine'),
-                            array('top-image-pga.jpg', '/work/pgatour'),
-                            array('top-image-natgeo.jpg', '/work/explorer'),
-                            array('top-image-epicured.jpg', '/work/epicured'),
+                            array('top-image-ultracast.jpg', '/work/ultracast'),
                             array('top-image-mars.jpg', '/work/mars'),
                             array('top-image-nba.jpg', 'http://www.adweek.com/agencies/ready-set-rocket-is-helping-brands-find-their-place-in-the-digital-space/'),
                         );
@@ -77,14 +73,14 @@ include('header.php'); ?>
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design wip ux">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="https://www.instagram.com/p/BVQodWzh-cX/?taken-by=purenine" target="_blank"><img src="thumbs/thumbs-ultracast.jpg"></a>
+                                    <a href="/work/ultracast"><img src="thumbs/thumbs-ultracast.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
                                     <div class="post-date">
                                         <span>Omnigon</span>
                                     </div><!-- .post-meta end -->
-                                    <a href="https://www.instagram.com/p/BVQodWzh-cX/?taken-by=purenine">
+                                    <a href="/work/ultracast">
                                         <h4>Ultracast</h4>
                                     </a>
                                     <p>
