@@ -400,7 +400,7 @@ include('header.php'); ?>
                                         <div class="post-author">
                                             <a href="https://www.instagram.com/purenine/">
                                                 <div class="post-author-thumbnail">
-                                                    <img src="https://scontent-ort2-1.cdninstagram.com/t51.2885-19/s320x320/15306595_563354530456041_750007397048647680_a.jpg" alt="">
+                                                    <img src="https://scontent-lga3-1.cdninstagram.com/t51.2885-19/s320x320/20398657_1492463810807317_8912591746664235008_a.jpg" alt="">
                                                 </div>
                                                 <p>purenine</p>
                                             </a>
@@ -468,7 +468,7 @@ include('header.php'); ?>
                                         <div class="post-author">
                                             <a href="https://www.instagram.com/purenine/">
                                                 <div class="post-author-thumbnail">
-                                                    <img src="https://scontent-ort2-1.cdninstagram.com/t51.2885-19/s320x320/15306595_563354530456041_750007397048647680_a.jpg" alt="">
+                                                    <img src="https://scontent-lga3-1.cdninstagram.com/t51.2885-19/s320x320/20398657_1492463810807317_8912591746664235008_a.jpg" alt="">
                                                 </div>
                                                 <p>purenine</p>
                                             </a>
@@ -512,7 +512,7 @@ include('header.php'); ?>
                                         <div class="post-author">
                                             <a href="https://www.instagram.com/purenine/">
                                                 <div class="post-author-thumbnail">
-                                                    <img src="https://scontent-ort2-1.cdninstagram.com/t51.2885-19/s320x320/15306595_563354530456041_750007397048647680_a.jpg" alt="">
+                                                    <img src="https://scontent-lga3-1.cdninstagram.com/t51.2885-19/s320x320/20398657_1492463810807317_8912591746664235008_a.jpg" alt="">
                                                 </div>
                                                 <p>purenine</p>
                                             </a>
