@@ -53,8 +53,8 @@ include('header.php'); ?>
                             <li class="filter-button" data-filter=".ux">UX / UI</li>
                             <li class="filter-button" data-filter=".mobile">Mobile Apps</li>
                             <li class="filter-button" data-filter=".dev">Development</li>
-                            <li class="filter-button" data-filter=".wip">Work In Progress</li>
                             <li class="filter-button" data-filter=".motion">Motion / Video</li>
+                            <li class="filter-button" data-filter=".wip">Work In Progress</li>
                         </ul>
                     </div><!-- .col-md-12 end -->
                 </div><!-- .row end -->
@@ -70,7 +70,7 @@ include('header.php'); ?>
                         <li class="grid-sizer col-lg-3 col-md-4 col-sm-6 col-xs-12"></li>
 
                         <!-- piece -->
-                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design wip ux">
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
                                     <a href="/work/ultracast"><img src="thumbs/thumbs-ultracast.jpg"></a>
@@ -147,7 +147,7 @@ include('header.php'); ?>
 
 
                         <!-- piece -->
-                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux wip">
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
                                     <a href="https://www.instagram.com/p/BT5EpikheE8" target="_blank"><img src="thumbs/thumbs-prosuite.jpg"></a>
@@ -216,6 +216,31 @@ include('header.php'); ?>
                                 </div>
                             </div>
                         </li>
+                        <!-- piece -->
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux mobile wip">
+                            <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="https://www.instagram.com/p/BXjT3mLBR2-/?taken-by=purenine" target="_blank"><img src="thumbs/thumbs-steveharvey.jpg"></a>
+                                </div><!-- .post-media end -->
+
+                                <article class="post-body">
+                                    <div class="post-date">
+                                        <span>Quantasy</span>
+                                    </div><!-- .post-meta end -->
+                                    <a href="https://www.instagram.com/p/BXjT3mLBR2-/?taken-by=purenine" target="_blank">
+                                        <h4>Steve Harvey TV</h4>
+                                    </a>
+                                    <p>
+                                       Explored app ideas for Steve Harvey’s new TV show - in collaboration with #Quantasy #ux #ui #freelance #design #app #portfolio
+                                    </p>
+                                </article><!-- .post-body end -->
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">UX, UI, Visual Design,</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
                          <!-- piece -->
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux mobile">
                             <div class="blog-post-item-inner">
@@ -252,7 +277,7 @@ include('header.php'); ?>
                                         <span>Neo-Pangea</span>
                                     </div><!-- .post-meta end -->
                                     <a href="/work/explorer.php">
-                                        <h4>National Geographic - Explorer Minisite</h4>
+                                        <h4>National Geographic - Explorer</h4>
                                     </a>
                                     <p>
                                         Partnered with Neo-Pangea to design the minisite for Explorer, the longest-running documentary series in television history.
@@ -390,7 +415,7 @@ include('header.php'); ?>
                         </li>
 
                         <!-- piece -->
-                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item motion wip">
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item motion">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
                                     <a href="https://www.instagram.com/p/BRrHaEQDqqc/" target="_blank"><img src="thumbs/thumbs-video-djb.jpg" alt=""/>
@@ -400,7 +425,7 @@ include('header.php'); ?>
                                         <div class="post-author">
                                             <a href="https://www.instagram.com/purenine/">
                                                 <div class="post-author-thumbnail">
-                                                    <img src="https://scontent-lga3-1.cdninstagram.com/t51.2885-19/s320x320/20398657_1492463810807317_8912591746664235008_a.jpg" alt="">
+                                                    <img src="img/p9-social-thumb.jpg" alt="">
                                                 </div>
                                                 <p>purenine</p>
                                             </a>
@@ -468,7 +493,7 @@ include('header.php'); ?>
                                         <div class="post-author">
                                             <a href="https://www.instagram.com/purenine/">
                                                 <div class="post-author-thumbnail">
-                                                    <img src="https://scontent-lga3-1.cdninstagram.com/t51.2885-19/s320x320/20398657_1492463810807317_8912591746664235008_a.jpg" alt="">
+                                                    <img src="img/p9-social-thumb.jpg" alt="">
                                                 </div>
                                                 <p>purenine</p>
                                             </a>
@@ -512,7 +537,7 @@ include('header.php'); ?>
                                         <div class="post-author">
                                             <a href="https://www.instagram.com/purenine/">
                                                 <div class="post-author-thumbnail">
-                                                    <img src="https://scontent-lga3-1.cdninstagram.com/t51.2885-19/s320x320/20398657_1492463810807317_8912591746664235008_a.jpg" alt="">
+                                                    <img src="img/p9-social-thumb.jpg" alt="">
                                                 </div>
                                                 <p>purenine</p>
                                             </a>
