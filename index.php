@@ -73,6 +73,31 @@ include('header.php'); ?>
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
+                                    <a href="http://www.cleanprogram.com" target="_blank"><img src="thumbs/thumbs-clean.jpg"></a>
+                                </div><!-- .post-media end -->
+
+                                <article class="post-body">
+                                    <div class="post-date">
+                                        <span>Metajive</span>
+                                    </div><!-- .post-meta end -->
+                                    <a href="http://www.cleanprogram.com" target="_blank">
+                                        <h4>The Clean Program</h4>
+                                    </a>
+                                    <p>
+                                       Partnered with #Metajive to produce the website for Clean, a powerful and transformative tool for your health. Full case study coming soon.
+                                    </p>
+                                </article><!-- .post-body end -->
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">UX, UI, Visual Design</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- piece -->
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
+                            <div class="blog-post-item-inner">
+                                <div class="post-media">
                                     <a href="/work/ultracast"><img src="thumbs/thumbs-ultracast.jpg"></a>
                                 </div><!-- .post-media end -->
 
