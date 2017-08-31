@@ -70,7 +70,33 @@ include('header.php'); ?>
                         <li class="grid-sizer col-lg-3 col-md-4 col-sm-6 col-xs-12"></li>
 
                         <!-- piece -->
-                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design">
+                            <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="http://www.omnigon.com" target="_blank"><img src="thumbs/thumbs-omnigon-2017.jpg"></a>
+                                </div><!-- .post-media end -->
+
+                                <article class="post-body">
+                                    <div class="post-date">
+                                    <span>Omnigon</span>
+                                    </div><!-- .post-meta end -->
+                                    <a href="http://www.omnigon.com" target="_blank">
+                                        <h4>Omnigon.com</h4>
+                                    </a>
+                                    <p>
+                                       Worked with #Omnigon to help design and produce their new agency website.
+                                    </p>
+                                </article><!-- .post-body end -->
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">Production, Visual Design</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- piece -->
+                        <!-- piece -->
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item ux">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
                                     <a href="http://www.cleanprogram.com" target="_blank"><img src="thumbs/thumbs-clean.jpg"></a>
