@@ -69,6 +69,31 @@ include('header.php'); ?>
                     <ul id="blog-masonry" class="blog-posts">
                         <li class="grid-sizer col-lg-3 col-md-4 col-sm-6 col-xs-12"></li>
 
+                         <!-- piece -->
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design wip">
+                            <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="https://www.instagram.com/p/BYuGhASBHqE/" target="_blank"><img src="thumbs/thumbs-djbproaudio.jpg"></a>
+                                </div><!-- .post-media end -->
+
+                                <article class="post-body">
+                                    <div class="post-date">
+                                    </div><!-- .post-meta end -->
+                                    <a href="https://www.instagram.com/p/BYuGhASBHqE/" target="_blank">
+                                        <h4>DJBooth Pro Audio</h4>
+                                    </a>
+                                    <p>
+                                       Launched the new YouTube channel for @djboothproaudio to include new branding and creative assets.
+                                    </p>
+                                </article><!-- .post-body end -->
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">Visual design, Branding, Social</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- piece -->
                         <!-- piece -->
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design">
                             <div class="blog-post-item-inner">
