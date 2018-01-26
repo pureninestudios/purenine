@@ -10,7 +10,7 @@
         <div class="outer">
             <div class="inner">
 
-                <p class="copyright">2017 © PURENINE Studios Inc.</p>
+                <p class="copyright">2018 © PURENINE Studios Inc.</p>
                 <div class="scrolltotop"><span class="holder"></span></div>
                 <div class="icon-scroll-line"></div>
 

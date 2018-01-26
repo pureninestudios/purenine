@@ -27,6 +27,10 @@ include('header.php'); ?>
                             array('top-image-ultracast.jpg', '/work/ultracast'),
                             array('top-image-mars.jpg', '/work/mars'),
                             array('top-image-nba.jpg', 'http://www.adweek.com/agencies/ready-set-rocket-is-helping-brands-find-their-place-in-the-digital-space/'),
+                            array('top-image-natgeo.jpg', '/work/explorer.php'),
+                            array('top-image-pga.jpg', '/work/pgatour.php'),
+                            array('top-image-twitch.jpg', '/work/twitch.php'),
+                            
                         );
                         shuffle($heroImages);
                     ?>
@@ -69,8 +73,105 @@ include('header.php'); ?>
                     <ul id="blog-masonry" class="blog-posts">
                         <li class="grid-sizer col-lg-3 col-md-4 col-sm-6 col-xs-12"></li>
 
-                         <!-- piece -->
+
+
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
+                            <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="/work/rapzilla"><img src="thumbs/thumbs-rapzilla.jpg"></a></div>
+                                
+                                <article class="post-body">
+
+                                    <a href="/work/rapzilla">
+                                        <h4>Rapzilla</h4>
+                                    </a>
+                                    <p>
+                                        Designed the new Rapzilla.com website for desktop and mobile.
+                                    </p>
+                                </article><!-- .post-body end -->
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">Visual Design, UX, UI</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+
+                    
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux mobile wip">
+                            <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="/work/melodyapp"><img src="thumbs/thumbs-melody.jpg"></a>
+                                </div>
+
+                                <article class="post-body">
+                                    <a href="/work/melodyapp">
+                                        <h4>Melody App</h4>
+                                    </a>
+                                    <p>
+                                       Helped with multiple UX and UI enhancements for a more polished experience on the app.
+                                    </p>
+                                </article>
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">UX, UI, Visual Design, App</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design wip">
+                            <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="https://www.youtube.com/user/asalomondrin" target="_blank"><img src="thumbs/thumbs-salomondrin.jpg"></a>
+                                </div>
+                                <article class="post-body">
+                                    <div class="post-date">
+                                    </div>
+                                    <a href="https://www.youtube.com/user/asalomondrin" target="_blank">
+                                        <h4>Salomondrin</h4>
+                                    </a>
+                                    <p>
+                                       Excited to team up with @Salomondrin to help with UX / UI projects.
+                                    </p>
+                                </article>
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">Visual design, Social, Art Direction</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- piece -->
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item motion">
+                            <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="https://www.instagram.com/p/BaNRuMShbtA" target="_blank"><img src="thumbs/thumbs-btb.jpg"></a>
+                                </div><!-- .post-media end -->
+
+                                <article class="post-body">
+                                    <div class="post-date">
+                                        <span>DJBooth</span>
+                                    </div><!-- .post-meta end -->
+                                    <a href="https://www.instagram.com/p/BaNRuMShbtA">
+                                        <h4>Bless the Booth</h4>
+                                    </a>
+                                    <p>
+                                        So proud of our @djbooth team for partnering with @tidal to bring you the #blessthebooth freestyle series. We created motion graphics for the videos. 
+                                    </p>
+                                </article><!-- .post-body end -->
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">#motion #aftereffects #animation</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                         <!-- piece -->
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
                                     <a href="https://www.instagram.com/p/BZpJ3yKhP3d/" target="_blank"><img src="thumbs/thumbs-audiosnap.jpg"></a>
@@ -135,7 +236,7 @@ include('header.php'); ?>
                                         <h4>The Clean Program</h4>
                                     </a>
                                     <p>
-                                       Partnered with #Metajive to produce the website for Clean, a powerful and transformative tool for your health. Full case study coming soon.
+                                       Partnered with #Metajive to produce the website for Clean, a powerful and transformative tool for your health.
                                     </p>
                                 </article><!-- .post-body end -->
                                 <div class="post-footer">
@@ -176,6 +277,32 @@ include('header.php'); ?>
                         <li class="grid-sizer col-lg-3 col-md-4 col-sm-6 col-xs-12"></li>
 
                          <!-- piece -->
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design">
+                            <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="/work/mars"><img src="thumbs/thumbs-mars.jpg"></a>
+                                </div><!-- .post-media end -->
+
+                                <article class="post-body">
+                                    <div class="post-date">
+                                        <span>Neo-Pangea</span>
+                                    </div><!-- .post-meta end -->
+                                    <a href="/work/mars">
+                                        <h4>Make Mars Home</h4>
+                                    </a>
+                                    <p>
+                                        Designed multiple UI screens and backgrounds - in collaboration with Neo-Pangea.
+                                    </p>
+                                </article><!-- .post-body end -->
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">Visual Design, UI, Production</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <!-- piece -->
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design wip">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
@@ -200,27 +327,24 @@ include('header.php'); ?>
                             </div>
                         </li>
                         <!-- piece -->
-                         <!-- piece -->
-                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design">
+                        <!-- piece -->
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux mobile">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="/work/mars"><img src="thumbs/thumbs-mars.jpg"></a>
+                                    <a href="/work/theplug.php"><img src="thumbs/thumbs-theplug.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
-                                    <div class="post-date">
-                                        <span>Neo-Pangea</span>
-                                    </div><!-- .post-meta end -->
-                                    <a href="/work/mars">
-                                        <h4>Make Mars Home</h4>
+                                    <a href="/work/theplug.php">
+                                        <h4>The Plug by DJBooth</h4>
                                     </a>
                                     <p>
-                                        Designed multiple UI screens and backgrounds - in collaboration with Neo-Pangea.
+                                        Designed an app that highlights all things related to current hip-hop news.
                                     </p>
                                 </article><!-- .post-body end -->
                                 <div class="post-footer">
                                     <ul class="post-meta">
-                                        <li class="post-tags">Visual Design, UI, Production</li>
+                                        <li class="post-tags">Art Directon, Visual Design, UX, Mobile</li>
                                     </ul>
                                 </div>
                             </div>
@@ -281,7 +405,7 @@ include('header.php'); ?>
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design mobile">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="/work/audiomack.php"><img src="thumbs/thumbs-am-app.jpg"></a>
+                                    <a href="/work/audiomack.php"><img src="thumbs/thumbs-am-desktop.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
@@ -323,7 +447,7 @@ include('header.php'); ?>
                             </div>
                         </li>
                         <!-- piece -->
-                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux mobile wip">
+                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux mobile">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
                                     <a href="https://www.instagram.com/p/BXjT3mLBR2-/?taken-by=purenine" target="_blank"><img src="thumbs/thumbs-steveharvey.jpg"></a>
@@ -343,28 +467,6 @@ include('header.php'); ?>
                                 <div class="post-footer">
                                     <ul class="post-meta">
                                         <li class="post-tags">UX, UI, Visual Design,</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                         <!-- piece -->
-                        <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux mobile">
-                            <div class="blog-post-item-inner">
-                                <div class="post-media">
-                                    <a href="/work/theplug.php"><img src="thumbs/thumbs-theplug.jpg"></a>
-                                </div><!-- .post-media end -->
-
-                                <article class="post-body">
-                                    <a href="/work/theplug.php">
-                                        <h4>The Plug by DJBooth</h4>
-                                    </a>
-                                    <p>
-                                        Designed an app that highlights all things related to current hip-hop news.
-                                    </p>
-                                </article><!-- .post-body end -->
-                                <div class="post-footer">
-                                    <ul class="post-meta">
-                                        <li class="post-tags">Art Directon, Visual Design, UX, Mobile</li>
                                     </ul>
                                 </div>
                             </div>
@@ -820,7 +922,6 @@ include('header.php'); ?>
                 });
 
         </script>
-
 
 
     </body>

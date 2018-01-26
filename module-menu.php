@@ -10,7 +10,7 @@
                 </div>
             </nav>
             <div class="menu-footer">
-                <p class="copyright">2017 © PURENINE Studios Inc.</p>
+                <p class="copyright">2018 © PURENINE Studios Inc.</p>
                 <ul class="socials"><li><a href="https://twitter.com/PURENINE" target="_blank"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="https://www.facebook.com/pureninestudios" target="_blank"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="https://www.instagram.com/purenine/" target="_blank"><i class="fa fa-instagram"></i></a></li>
