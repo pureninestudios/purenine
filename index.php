@@ -353,18 +353,18 @@ include('header.php'); ?>
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design mobile">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="http://www.adweek.com/agencies/ready-set-rocket-is-helping-brands-find-their-place-in-the-digital-space/" target="_blank"><img src="thumbs/thumbs-nba.jpg"></a>
+                                    <a href="/work/nba"><img src="thumbs/thumbs-nba.jpg"></a>
                                 </div><!-- .post-media end -->
 
                                 <article class="post-body">
                                 <div class="post-date">
                                         <span>ReadySetRocket</span>
                                     </div><!-- .post-meta end -->
-                                    <a href="http://www.adweek.com/agencies/ready-set-rocket-is-helping-brands-find-their-place-in-the-digital-space/" target="_blank">
+                                    <a href="/work/nba">
                                         <h4>NBA.com</h4>
                                     </a>
                                     <p>
-                                       Partnered with #readysetrocket to design digital products for the NBA. Contact for more details.
+                                       Partnered with #readysetrocket to design digital products for the NBA. 
                                     </p>
                                 </article><!-- .post-body end -->
                                 <div class="post-footer">
