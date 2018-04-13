@@ -73,7 +73,28 @@ include('header.php'); ?>
                     <ul id="blog-masonry" class="blog-posts">
                         <li class="grid-sizer col-lg-3 col-md-4 col-sm-6 col-xs-12"></li>
 
-
+                            <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design wip">
+                                <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="https://www.instagram.com/p/BhMrrjEhF72/" target="_blank"><img src="thumbs/thumbs-100ftdrop-logo.jpg"></a>
+                                </div>
+                                <article class="post-body">
+                                    <div class="post-date">
+                                    </div>
+                                    <a href="hhttps://www.instagram.com/p/BhMrrjEhF72/" target="_blank">
+                                        <h4>100FtDrop</h4>
+                                    </a>
+                                    <p>
+                                       Seeing the world from above... Created by @yankees1019 & @purenine
+                                    </p>
+                                </article>
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">Visual design, Social, Art Direction</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
 
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
