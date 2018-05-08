@@ -29,6 +29,7 @@ include('header.php'); ?>
                             array('top-image-nba.jpg', 'http://www.adweek.com/agencies/ready-set-rocket-is-helping-brands-find-their-place-in-the-digital-space/'),
                             array('top-image-natgeo.jpg', '/work/explorer.php'),
                             array('top-image-pga.jpg', '/work/pgatour.php'),
+                            array('top-image-usga.jpg', 'http://www.usga.com'),
                             array('top-image-twitch.jpg', '/work/twitch.php'),
                             
                         );
@@ -73,6 +74,31 @@ include('header.php'); ?>
                     <ul id="blog-masonry" class="blog-posts">
                         <li class="grid-sizer col-lg-3 col-md-4 col-sm-6 col-xs-12"></li>
 
+                            <!-- piece -->
+                            <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design UX">
+                                <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="http://www.usga.com" target="_blank"><img src="thumbs/thumbs-USOpen.jpg"></a>
+                                </div>
+                                <article class="post-body">
+                                    <div class="post-date">
+                                    </div>
+                                    <a href="http://www.usga.com" target="_blank">
+                                        <h4>USGA - US Open</h4>
+                                    </a>
+                                    <p>
+                                       Partnered with Omnigon to design the new USGA.com & US Open.com 
+                                    </p>
+                                </article>
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">Visual design, UX, UI</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                            <!-- piece -->
                             <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design wip">
                                 <div class="blog-post-item-inner">
                                 <div class="post-media">
@@ -81,7 +107,7 @@ include('header.php'); ?>
                                 <article class="post-body">
                                     <div class="post-date">
                                     </div>
-                                    <a href="hhttps://www.instagram.com/p/BhMrrjEhF72/" target="_blank">
+                                    <a href="https://www.instagram.com/p/BhMrrjEhF72/" target="_blank">
                                         <h4>100FtDrop</h4>
                                     </a>
                                     <p>
@@ -96,6 +122,7 @@ include('header.php'); ?>
                             </div>
                         </li>
 
+                        <!-- piece -->
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
@@ -119,7 +146,7 @@ include('header.php'); ?>
                         </li>
 
 
-                    
+                        <!-- piece -->
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux mobile wip">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
@@ -142,7 +169,7 @@ include('header.php'); ?>
                             </div>
                         </li>
 
-                        
+                        <!-- piece -->
                         <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design wip">
                             <div class="blog-post-item-inner">
                                 <div class="post-media">
