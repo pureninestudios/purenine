@@ -27,9 +27,8 @@ include('header.php'); ?>
                             array('top-image-ultracast.jpg', '/work/ultracast'),
                             array('top-image-mars.jpg', '/work/mars'),
                             array('top-image-nba.jpg', 'http://www.adweek.com/agencies/ready-set-rocket-is-helping-brands-find-their-place-in-the-digital-space/'),
-                            array('top-image-natgeo.jpg', '/work/explorer.php'),
+                            array('top-image-h1z1.jpg', 'http://www.h1z1.com'),
                             array('top-image-pga.jpg', '/work/pgatour.php'),
-                            array('top-image-usga.jpg', 'http://www.usga.com'),
                             array('top-image-twitch.jpg', '/work/twitch.php'),
                             
                         );
@@ -73,6 +72,30 @@ include('header.php'); ?>
                 <div class="row mb-30">
                     <ul id="blog-masonry" class="blog-posts">
                         <li class="grid-sizer col-lg-3 col-md-4 col-sm-6 col-xs-12"></li>
+
+                            <!-- piece -->
+                            <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item motion">
+                                <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="https://www.youtube.com/watch?v=RxuvwItmjsc&t" target="_blank"><img src="thumbs/thumbs-20_20.jpg"></a>
+                                </div>
+                                <article class="post-body">
+                                    <div class="post-date">
+                                    </div>
+                                    <a href="https://www.youtube.com/watch?v=RxuvwItmjsc&t" target="_blank">
+                                        <h4>Audiomack - 20/20</h4>
+                                    </a>
+                                    <p>
+                                       Watch as Gucci Mane and Travis Scott producer Honorable C.N.O.T.E makes a trap beat in 20 minutes using 20 Splice samples from the likes of Virtual Riot, SOPHIE, Lex Luger and more. 
+                                    </p>
+                                </article>
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">Motion Design, Graphic Design, Animation</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
 
                             <!-- piece -->
                             <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design UX">
