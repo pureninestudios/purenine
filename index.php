@@ -27,7 +27,7 @@ include('header.php'); ?>
                             array('top-image-ultracast.jpg', '/work/ultracast'),
                             array('top-image-mars.jpg', '/work/mars'),
                             array('top-image-nba.jpg', 'http://www.adweek.com/agencies/ready-set-rocket-is-helping-brands-find-their-place-in-the-digital-space/'),
-                            array('top-image-h1z1.jpg', 'http://www.h1z1.com'),
+                            array('top-image-h1z1.jpg', 'https://versustheworld.gg/'),
                             array('top-image-pga.jpg', '/work/pgatour.php'),
                             array('top-image-twitch.jpg', '/work/twitch.php'),
                             
@@ -74,6 +74,31 @@ include('header.php'); ?>
                         <li class="grid-sizer col-lg-3 col-md-4 col-sm-6 col-xs-12"></li>
 
                             <!-- piece -->
+                            <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design ux">
+                                <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="https://versustheworld.gg/" target="_blank"><img src="thumbs/thumbs-h1z1.jpg"></a>
+                                </div>
+                                <article class="post-body">
+                                    <div class="post-date">
+                                        <span>Loaded.gg</span>
+                                    </div><!-- .post-meta end -->
+                                    <a href="https://versustheworld.gg/" target="_blank">
+                                        <h4>H1Z1 - Versus The World</h4>
+                                    </a>
+                                    <p>
+                                       Four captains battle it out for five weeks to determine who is the best in H1Z1.
+                                    </p>
+                                </article>
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">Visual design, Art Direction</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                            <!-- piece -->
                             <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item motion">
                                 <div class="blog-post-item-inner">
                                 <div class="post-media">
@@ -105,7 +130,8 @@ include('header.php'); ?>
                                 </div>
                                 <article class="post-body">
                                     <div class="post-date">
-                                    </div>
+                                        <span>Omnigon</span>
+                                    </div><!-- .post-meta end -->
                                     <a href="http://www.usga.com" target="_blank">
                                         <h4>USGA - US Open</h4>
                                     </a>
