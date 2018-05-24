@@ -126,17 +126,17 @@ include('header.php'); ?>
                             <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design UX">
                                 <div class="blog-post-item-inner">
                                 <div class="post-media">
-                                    <a href="http://www.usga.com" target="_blank"><img src="thumbs/thumbs-USOpen.jpg"></a>
+                                    <a href="http://www.usopen.com/history-landing/timeline.html#865d084d16a7" target="_blank"><img src="thumbs/thumbs-USOpen.jpg"></a>
                                 </div>
                                 <article class="post-body">
                                     <div class="post-date">
                                         <span>Omnigon</span>
                                     </div><!-- .post-meta end -->
-                                    <a href="http://www.usga.com" target="_blank">
+                                    <a href="http://www.usopen.com/history-landing/timeline.html#865d084d16a7" target="_blank">
                                         <h4>USGA - US Open</h4>
                                     </a>
                                     <p>
-                                       Partnered with Omnigon to design the new USGA.com & US Open.com 
+                                       Partnered with Omnigon to design the new USGA.com & USOpen.com 
                                     </p>
                                 </article>
                                 <div class="post-footer">
