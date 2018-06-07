@@ -170,6 +170,31 @@ include('header.php'); ?>
                             </div>
                         </li>
 
+                        <!-- piece -->
+                            <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design UX">
+                                <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="https://www.schoolofrock.com/" target="_blank"><img src="thumbs/thumbs-SOR.jpg"></a>
+                                </div>
+                                <article class="post-body">
+                                    <div class="post-date">
+                                        <span>Metajive</span>
+                                    </div><!-- .post-meta end -->
+                                    <a href="https://www.schoolofrock.com/" target="_blank">
+                                        <h4>School of Rock</h4>
+                                    </a>
+                                    <p>
+                                       Helped Metajive redesign the website for School of Rock. Art direction by <a href="http://www.honeydesign.com/" target="_blank">@honeydesign</a>
+                                    </p>
+                                </article>
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">Visual design, Production, UX</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
                             <!-- piece -->
                             <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design wip">
                                 <div class="blog-post-item-inner">
