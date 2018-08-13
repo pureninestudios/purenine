@@ -98,7 +98,6 @@ include('header.php'); ?>
                             </div>
                         </li>
 
-
                         	<!-- piece -->
                             <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design mobile">
                                 <div class="blog-post-item-inner">
@@ -185,6 +184,31 @@ include('header.php'); ?>
                                     </a>
                                     <p>
                                        Partnered with Omnigon to design the new USGA.com & USOpen.com 
+                                    </p>
+                                </article>
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">Visual design, UX, UI</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                         <!-- piece -->
+                            <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design UX">
+                                <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="http://www.westminsterkennelclub.com"><img src="thumbs/thumbs-wkc.jpg"></a>
+                                </div>
+                                <article class="post-body">
+                                    <div class="post-date">
+                                        <span>Omnigon</span>
+                                    </div><!-- .post-meta end -->
+                                    <a href="http://www.westminsterkennelclub.com" target="_blank">
+                                        <h4>Westminster Kennel Club</h4>
+                                    </a>
+                                    <p>
+                                       Partnered with Omnigon to design the new website and ipad app.
                                     </p>
                                 </article>
                                 <div class="post-footer">
