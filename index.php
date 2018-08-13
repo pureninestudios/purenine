@@ -74,6 +74,31 @@ include('header.php'); ?>
                     <ul id="blog-masonry" class="blog-posts">
                         <li class="grid-sizer col-lg-3 col-md-4 col-sm-6 col-xs-12"></li>
 
+                        	 <!-- piece -->
+                            <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item mobile">
+                                <div class="blog-post-item-inner">
+                                <div class="post-media">
+                                    <a href="https://itunes.apple.com/us/app/audiomack-music-mixtape-app/id921765888?mt=8" target="_blank"><img src="thumbs/thumbs-am-1million.jpg"></a>
+                                </div>
+                                <article class="post-body">
+                                    <div class="post-date">
+                                    </div>
+                                    <a href="https://itunes.apple.com/us/app/audiomack-music-mixtape-app/id921765888?mt=8" target="_blank">
+                                        <h4>Audiomack</h4>
+                                    </a>
+                                    <p>
+                                       Audiomack hits 1 MILLOIN daily active users.
+                                    </p>
+                                </article>
+                                <div class="post-footer">
+                                    <ul class="post-meta">
+                                        <li class="post-tags">Visual design, Social, Art Direction</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+
                         	<!-- piece -->
                             <li class="blog-post col-lg-3 col-md-4 col-sm-6 col-xs-12 single-image-post isotope-item design mobile">
                                 <div class="blog-post-item-inner">
