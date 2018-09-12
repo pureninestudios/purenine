@@ -17,7 +17,7 @@ include('header.php'); ?>
                     <p class="hero__mega-title">Pure</p>
                     <div class="hero-content">
                         <div class="hero-content-inner">
-                            <h1 class="hero-title">Product Design. UX/UI. Advisor. Investor through Design.</h1>
+                            <h1 class="hero-title">Visual Design. UX/UI. <br>Art Direction. Investor.</h1>
                             <h2 class="hero-subtitle">PURENINE is the design collective of Thomas Klinger.</h2>
                             <a class="p9-button p9-button-pill" href="mailto:hello@purenine.com">Let's work together</a>
                         </div>
